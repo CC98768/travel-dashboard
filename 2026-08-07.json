@@ -1,0 +1,3906 @@
+{
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T12:00:00+08:00",
+  "countries": [
+    {
+      "code": "CN",
+      "name": "中国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "中国出境游上半年增10.7%",
+          "category": "行业数据",
+          "summary": "国家移民管理局数据显示2026上半年内地居民出入境人次同比增长10.7%，暑期出行需求超2025年同期",
+          "source": "国家移民管理局",
+          "impact": "出境游强劲复苏，暑期市场超疫前水平",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%87%BA%E5%A2%83%E6%B8%B8%E4%B8%8A%E5%8D%8A%E5%B9%B4%E5%A2%9E10.7%25",
+          "key_figures": [
+            "上半年出入境增长10.7%",
+            "78%旅行社需求上升"
+          ],
+          "travel_advisory": "暑期出境热度高涨",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "免签政策延至年底46国受益",
+          "category": "签证政策",
+          "summary": "中国单方面免签政策延续至2026年12月31日，涵盖法德意西等46国，持普通护照可免签入境30天",
+          "source": "外交部",
+          "impact": "欧洲多国游客免签便利持续释放",
+          "source_url": "https://www.baidu.com/s?wd=%E5%85%8D%E7%AD%BE%E6%94%BF%E7%AD%96%E5%BB%B6%E8%87%B3%E5%B9%B4%E5%BA%9546%E5%9B%BD%E5%8F%97%E7%9B%8A",
+          "key_figures": [
+            "46国免签30天",
+            "延至12月31日"
+          ],
+          "travel_advisory": "确认护照有效期6个月以上",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "中俄互免签证延至2027",
+          "category": "签证政策",
+          "summary": "中俄互免签证协议延长至2027年底，俄游客访华半年增130%，预计全年达350万人次",
+          "source": "新华社",
+          "impact": "中俄双向旅游交流进入高速增长期",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BF%84%E4%BA%92%E5%85%8D%E7%AD%BE%E8%AF%81%E5%BB%B6%E8%87%B32027",
+          "key_figures": [
+            "俄游客增130%",
+            "目标350万人次"
+          ],
+          "travel_advisory": "俄方游客可免签30天",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "海南免签入境范围扩大",
+          "category": "签证政策",
+          "summary": "海南岛免签入境活动范围扩大至除学习工作外的大多数目的，进一步提升离岛旅游吸引力",
+          "source": "海南省政府",
+          "impact": "海南国际旅游岛建设再提速",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B5%B7%E5%8D%97%E5%85%8D%E7%AD%BE%E5%85%A5%E5%A2%83%E8%8C%83%E5%9B%B4%E6%89%A9%E5%A4%A7",
+          "key_figures": [
+            "免签覆盖多数活动",
+            "仅排除学习工作"
+          ],
+          "travel_advisory": "提前确认免签资格",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "桂林东盟团组免签6天",
+          "category": "签证政策",
+          "summary": "东盟10国旅行社组织的旅游团可经桂林机场免签入境，在桂林市内停留不超过6天",
+          "source": "桂林市文旅局",
+          "impact": "东盟游客赴桂旅游门槛大幅降低",
+          "source_url": "https://www.baidu.com/s?wd=%E6%A1%82%E6%9E%97%E4%B8%9C%E7%9B%9F%E5%9B%A2%E7%BB%84%E5%85%8D%E7%AD%BE6%E5%A4%A9",
+          "key_figures": [
+            "东盟10国团组免签",
+            "最长停留6天"
+          ],
+          "travel_advisory": "需通过旅行社组团",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "240小时过境免签覆盖60口岸",
+          "category": "签证政策",
+          "summary": "55国公民可通过全国24省60个口岸享受240小时过境免签，覆盖旅游商务探亲等活动",
+          "source": "国家移民管理局",
+          "impact": "过境旅游便利化达国际一流水平",
+          "source_url": "https://www.baidu.com/s?wd=240%E5%B0%8F%E6%97%B6%E8%BF%87%E5%A2%83%E5%85%8D%E7%AD%BE%E8%A6%86%E7%9B%9660%E5%8F%A3%E5%B2%B8",
+          "key_figures": [
+            "55国适用",
+            "60口岸24省"
+          ],
+          "travel_advisory": "需持有第三国联程机票",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "18-35岁成出境游主力",
+          "category": "行业数据",
+          "summary": "Dragon Trail调查显示2026上半年78%旅行社出境需求增长，18-35岁年轻客群增速最快",
+          "source": "Dragon Trail",
+          "impact": "年轻客群驱动出境游结构性变化",
+          "source_url": "https://www.baidu.com/s?wd=18-35%E5%B2%81%E6%88%90%E5%87%BA%E5%A2%83%E6%B8%B8%E4%B8%BB%E5%8A%9B",
+          "key_figures": [
+            "78%旅行社需求增",
+            "青年客群增速第一"
+          ],
+          "travel_advisory": "定制化小团趋势明显",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "中国对海湾四国免签实施",
+          "category": "签证政策",
+          "summary": "中国对沙特阿曼科威特巴林实施免签政策，海湾合作委员会成员国实现免签全覆盖",
+          "source": "外交部",
+          "impact": "中东海湾国家游客来华更便捷",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%AF%B9%E6%B5%B7%E6%B9%BE%E5%9B%9B%E5%9B%BD%E5%85%8D%E7%AD%BE%E5%AE%9E%E6%96%BD",
+          "key_figures": [
+            "GCC四国免签",
+            "30天停留期"
+          ],
+          "travel_advisory": "商务旅游均可适用",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "签证费用减免延至年底",
+          "category": "签证政策",
+          "summary": "部分驻外使领馆签证费用临时减免政策延续至2026年12月31日，西班牙等国已确认执行",
+          "source": "中国驻外使领馆",
+          "impact": "降低外国游客来华签证成本",
+          "source_url": "https://www.baidu.com/s?wd=%E7%AD%BE%E8%AF%81%E8%B4%B9%E7%94%A8%E5%87%8F%E5%85%8D%E5%BB%B6%E8%87%B3%E5%B9%B4%E5%BA%95",
+          "key_figures": [
+            "费用减免延至年底",
+            "多国领馆适用"
+          ],
+          "travel_advisory": "提前查询使领馆官网",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "出境游安全成首要考量",
+          "category": "旅行提示",
+          "summary": "调查显示安全因素成为出境游客首要考量，小团定制游取代传统大团，一二线城市贡献主力增长",
+          "source": "中国旅游研究院",
+          "impact": "出境游品质化趋势加速",
+          "source_url": "https://www.baidu.com/s?wd=%E5%87%BA%E5%A2%83%E6%B8%B8%E5%AE%89%E5%85%A8%E6%88%90%E9%A6%96%E8%A6%81%E8%80%83%E9%87%8F",
+          "key_figures": [
+            "安全第一",
+            "小团定制取代大团"
+          ],
+          "travel_advisory": "购买旅游保险不可少",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "日本",
+      "events": [
+        {
+          "rank": 1,
+          "title": "联航10月新开芝加哥东京线",
+          "category": "航空交通",
+          "summary": "美联航宣布10月24日起开通芝加哥至东京成田每日直飞航线，补充现有羽田服务",
+          "source": "United Airlines",
+          "impact": "美日航空运力进一步增强",
+          "source_url": "https://www.baidu.com/s?wd=%E8%81%94%E8%88%AA10%E6%9C%88%E6%96%B0%E5%BC%80%E8%8A%9D%E5%8A%A0%E5%93%A5%E4%B8%9C%E4%BA%AC%E7%BA%BF",
+          "key_figures": [
+            "每日直飞",
+            "10月24日开通"
+          ],
+          "travel_advisory": "提前预订享开航优惠",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "联航12月开旧金山札幌线",
+          "category": "航空交通",
+          "summary": "美联航计划12月11日起开通旧金山至札幌新航线，方便滑雪季旅客前往北海道",
+          "source": "United Airlines",
+          "impact": "北海道冬季旅游交通更加便利",
+          "source_url": "https://www.baidu.com/s?wd=%E8%81%94%E8%88%AA12%E6%9C%88%E5%BC%80%E6%97%A7%E9%87%91%E5%B1%B1%E6%9C%AD%E5%B9%8C%E7%BA%BF",
+          "key_figures": [
+            "12月11日开航",
+            "旧金山直飞札幌"
+          ],
+          "travel_advisory": "滑雪季提前订房",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "达美新增西雅图东京线",
+          "category": "航空交通",
+          "summary": "达美航空宣布2027年3月开通西雅图至东京成田每日直飞，使用A330-900neo机型",
+          "source": "Delta Air Lines",
+          "impact": "美日跨太平洋航线竞争加剧利好旅客",
+          "source_url": "https://www.baidu.com/s?wd=%E8%BE%BE%E7%BE%8E%E6%96%B0%E5%A2%9E%E8%A5%BF%E9%9B%85%E5%9B%BE%E4%B8%9C%E4%BA%AC%E7%BA%BF",
+          "key_figures": [
+            "A330-900neo执飞",
+            "每日直飞"
+          ],
+          "travel_advisory": "关注开航促销票价",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "日本免签入境持续放宽",
+          "category": "签证政策",
+          "summary": "日本维持对中国等多国免签入境政策，中国公民可享短期旅游商务免签待遇",
+          "source": "日本外务省",
+          "impact": "赴日旅游签证门槛保持稳定低位",
+          "source_url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%85%8D%E7%AD%BE%E5%85%A5%E5%A2%83%E6%8C%81%E7%BB%AD%E6%94%BE%E5%AE%BD",
+          "key_figures": [
+            "短期免签维持",
+            "商务旅游均可"
+          ],
+          "travel_advisory": "确认最新入境要求",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "日元汇率利好旅游消费",
+          "category": "目的地",
+          "summary": "日元持续低位运行，2026年暑期赴日旅游购物性价比突出，中国游客消费意愿强烈",
+          "source": "日本旅游局",
+          "impact": "汇率优势吸引更多中国游客赴日",
+          "source_url": "https://www.baidu.com/s?wd=%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%E5%88%A9%E5%A5%BD%E6%97%85%E6%B8%B8%E6%B6%88%E8%B4%B9",
+          "key_figures": [
+            "日元汇率有利",
+            "消费性价比突出"
+          ],
+          "travel_advisory": "提前换汇锁定汇率",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "日本暑期祭典活动密集",
+          "category": "文旅活动",
+          "summary": "8月日本各地举办夏日祭典、花火大会等传统活动，青森睡魔祭、秋田竿灯祭等吸引大量游客",
+          "source": "日本观光厅",
+          "impact": "夏季文化旅游体验丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%9A%91%E6%9C%9F%E7%A5%AD%E5%85%B8%E6%B4%BB%E5%8A%A8%E5%AF%86%E9%9B%86",
+          "key_figures": [
+            "多地祭典活动",
+            "花火大会密集"
+          ],
+          "travel_advisory": "提前订好住宿交通",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "日本旅游签证简化申请",
+          "category": "签证政策",
+          "summary": "日本进一步优化旅游签证申请流程，部分领区支持在线提交材料，缩短审批时间",
+          "source": "日本驻华使馆",
+          "impact": "签证申请效率提升便利自由行",
+          "source_url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%97%85%E6%B8%B8%E7%AD%BE%E8%AF%81%E7%AE%80%E5%8C%96%E7%94%B3%E8%AF%B7",
+          "key_figures": [
+            "在线申请开放",
+            "审批时间缩短"
+          ],
+          "travel_advisory": "查看所属领区要求",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "北海道避暑旅游旺季",
+          "category": "目的地",
+          "summary": "8月北海道进入避暑旅游旺季，富良野花田、美瑛丘陵等景点迎来最佳观赏期",
+          "source": "北海道旅游推广协会",
+          "impact": "夏季北海道旅游需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8C%97%E6%B5%B7%E9%81%93%E9%81%BF%E6%9A%91%E6%97%85%E6%B8%B8%E6%97%BA%E5%AD%A3",
+          "key_figures": [
+            "花田最佳观赏期",
+            "避暑胜地"
+          ],
+          "travel_advisory": "旺季住宿需提前预订",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "日本推行数字访客系统",
+          "category": "签证政策",
+          "summary": "日本加快部署数字入境管理系统，未来外国游客可通过手机完成入境申报",
+          "source": "日本出入国在留管理厅",
+          "impact": "入境手续数字化提升通关效率",
+          "source_url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%8E%A8%E8%A1%8C%E6%95%B0%E5%AD%97%E8%AE%BF%E5%AE%A2%E7%B3%BB%E7%BB%9F",
+          "key_figures": [
+            "数字申报推进",
+            "手机可操作"
+          ],
+          "travel_advisory": "关注最新入境流程",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "中日航线运力持续恢复",
+          "category": "航空交通",
+          "summary": "中日之间多条航线在2026年暑期恢复运营，航班数量接近疫前水平",
+          "source": "民航资源网",
+          "impact": "赴日航空运力充足票价稳定",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%97%A5%E8%88%AA%E7%BA%BF%E8%BF%90%E5%8A%9B%E6%8C%81%E7%BB%AD%E6%81%A2%E5%A4%8D",
+          "key_figures": [
+            "航线恢复近疫前",
+            "暑期运力充足"
+          ],
+          "travel_advisory": "比价选择最优航线",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "KR",
+      "name": "韩国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "韩国K-ETA豁免延至年底",
+          "category": "签证政策",
+          "summary": "韩国电子旅行许可K-ETA临时豁免期延长至2026年12月31日，免签国公民暂不需要申请",
+          "source": "韩国法务部",
+          "impact": "免签国游客赴韩更加便利",
+          "source_url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BDK-ETA%E8%B1%81%E5%85%8D%E5%BB%B6%E8%87%B3%E5%B9%B4%E5%BA%95",
+          "key_figures": [
+            "豁免延至12月底",
+            "免签国暂免申请"
+          ],
+          "travel_advisory": "仍可自愿申请K-ETA",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "韩国团签费六国减免",
+          "category": "签证政策",
+          "summary": "韩国对中印越印尼柬菲6国团队游客签证费减免延至年底，刺激团队游市场复苏",
+          "source": "韩国法务部",
+          "impact": "六国团客赴韩成本进一步降低",
+          "source_url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E5%9B%A2%E7%AD%BE%E8%B4%B9%E5%85%AD%E5%9B%BD%E5%87%8F%E5%85%8D",
+          "key_figures": [
+            "6国团签费减免",
+            "延至12月31日"
+          ],
+          "travel_advisory": "需通过指定旅行社",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "越南获韩国十年多次签",
+          "category": "签证政策",
+          "summary": "韩国扩大越南公民十年多次签证C-3-91适用范围，河内岘港胡志明市居民及企业高管均可申请",
+          "source": "韩国驻越南大使馆",
+          "impact": "越韩人员往来便利化大幅升级",
+          "source_url": "https://www.baidu.com/s?wd=%E8%B6%8A%E5%8D%97%E8%8E%B7%E9%9F%A9%E5%9B%BD%E5%8D%81%E5%B9%B4%E5%A4%9A%E6%AC%A1%E7%AD%BE",
+          "key_figures": [
+            "十年多次签",
+            "扩展至三城市"
+          ],
+          "travel_advisory": "需满足相应条件",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "韩国旅游路演在越举办",
+          "category": "文旅活动",
+          "summary": "Korea Travel Roadshow 2026在越南多城市举办，推广韩国旅游目的地和文化体验",
+          "source": "韩国旅游发展局",
+          "impact": "韩国旅游在越南市场热度提升",
+          "source_url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E6%97%85%E6%B8%B8%E8%B7%AF%E6%BC%94%E5%9C%A8%E8%B6%8A%E4%B8%BE%E5%8A%9E",
+          "key_figures": [
+            "路演覆盖越南",
+            "多城市推广"
+          ],
+          "travel_advisory": "关注优惠活动信息",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "韩国暑期文化节庆密集",
+          "category": "文旅活动",
+          "summary": "8月韩国各地举办夏季文化节庆，釜山海洋节、保宁泥浆节等活动吸引大量国际游客",
+          "source": "韩国文旅部",
+          "impact": "夏季文化体验丰富提升吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E6%9A%91%E6%9C%9F%E6%96%87%E5%8C%96%E8%8A%82%E5%BA%86%E5%AF%86%E9%9B%86",
+          "key_figures": [
+            "多城市节庆",
+            "海洋节泥浆节"
+          ],
+          "travel_advisory": "防晒防暑做好准备",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "韩国免税购物优惠延续",
+          "category": "目的地",
+          "summary": "首尔明洞等主要商圈免税店暑期促销持续，部分品牌折扣力度达30%以上",
+          "source": "韩国免税店协会",
+          "impact": "购物旅游性价比突出",
+          "source_url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E5%85%8D%E7%A8%8E%E8%B4%AD%E7%89%A9%E4%BC%98%E6%83%A0%E5%BB%B6%E7%BB%AD",
+          "key_figures": [
+            "部分品牌七折",
+            "明洞商圈最热"
+          ],
+          "travel_advisory": "关注退税流程新规",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "中韩航线运力恢复加速",
+          "category": "航空交通",
+          "summary": "中韩航线暑期班次持续增加，多条航线恢复至疫前水平，便利两国游客互访",
+          "source": "民航资源网",
+          "impact": "中韩航空连通性持续改善",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E9%9F%A9%E8%88%AA%E7%BA%BF%E8%BF%90%E5%8A%9B%E6%81%A2%E5%A4%8D%E5%8A%A0%E9%80%9F",
+          "key_figures": [
+            "班次增加",
+            "恢复近疫前水平"
+          ],
+          "travel_advisory": "提前购票享早鸟价",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "济州岛免签政策持续",
+          "category": "签证政策",
+          "summary": "济州岛继续实行对中国公民免签入境政策，最长可停留30天",
+          "source": "韩国法务部",
+          "impact": "济州岛自由行门槛低吸引力强",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B5%8E%E5%B7%9E%E5%B2%9B%E5%85%8D%E7%AD%BE%E6%94%BF%E7%AD%96%E6%8C%81%E7%BB%AD",
+          "key_figures": [
+            "免签30天",
+            "直飞济州即可"
+          ],
+          "travel_advisory": "仅限济州岛活动",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "韩国推行智能通关系统",
+          "category": "签证政策",
+          "summary": "韩国主要机场启用智能通关系统，外国游客可自助完成入境手续减少等候时间",
+          "source": "韩国出入境管理局",
+          "impact": "通关效率提升改善入境体验",
+          "source_url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E6%8E%A8%E8%A1%8C%E6%99%BA%E8%83%BD%E9%80%9A%E5%85%B3%E7%B3%BB%E7%BB%9F",
+          "key_figures": [
+            "智能通关启用",
+            "自助办理入境"
+          ],
+          "travel_advisory": "准备好电子版申报",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "韩国美食旅游热度上升",
+          "category": "文旅活动",
+          "summary": "韩国美食体验游持续升温，首尔、全州、大邱等地美食之旅成为年轻游客热门选择",
+          "source": "韩国旅游发展局",
+          "impact": "美食旅游成为赴韩新动力",
+          "source_url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E7%BE%8E%E9%A3%9F%E6%97%85%E6%B8%B8%E7%83%AD%E5%BA%A6%E4%B8%8A%E5%8D%87",
+          "key_figures": [
+            "美食游升温",
+            "年轻客群为主"
+          ],
+          "travel_advisory": "提前预约热门餐厅",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "TH",
+      "name": "泰国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "泰国免签60天政策持续",
+          "category": "签证政策",
+          "summary": "泰国维持93国公民60天免签入境政策，内阁虽已批准缩至30天但尚未正式生效",
+          "source": "泰国内阁",
+          "impact": "赴泰旅游免签窗口期仍然充裕",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E5%85%8D%E7%AD%BE60%E5%A4%A9%E6%94%BF%E7%AD%96%E6%8C%81%E7%BB%AD",
+          "key_figures": [
+            "93国免签60天",
+            "缩减尚未生效"
+          ],
+          "travel_advisory": "关注政策变动公告",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "泰国上半年迎300万中国客",
+          "category": "行业数据",
+          "summary": "2026年1月至8月1日，泰国接待中国游客超300万人次，稳居最大国际客源市场",
+          "source": "泰国旅游局",
+          "impact": "中国游客赴泰旅游恢复势头强劲",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%BF%8E300%E4%B8%87%E4%B8%AD%E5%9B%BD%E5%AE%A2",
+          "key_figures": [
+            "300万中国游客",
+            "第一大客源国"
+          ],
+          "travel_advisory": "热门景点提前订票",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "曼谷购物节8月延续",
+          "category": "文旅活动",
+          "summary": "曼谷8月购物季持续进行，暹罗商圈和各大商场推出暑期折扣和美食活动",
+          "source": "泰国商务部",
+          "impact": "购物旅游性价比突出",
+          "source_url": "https://www.baidu.com/s?wd=%E6%9B%BC%E8%B0%B7%E8%B4%AD%E7%89%A9%E8%8A%828%E6%9C%88%E5%BB%B6%E7%BB%AD",
+          "key_figures": [
+            "暑期折扣持续",
+            "暹罗商圈最热"
+          ],
+          "travel_advisory": "关注退税新政策",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "清迈雨季旅游正当时",
+          "category": "目的地",
+          "summary": "8月清迈雨季来临，烟雾散去景色翠绿，游客较少体验更佳",
+          "source": "泰国旅游局",
+          "impact": "雨季清迈旅游性价比高",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B8%85%E8%BF%88%E9%9B%A8%E5%AD%A3%E6%97%85%E6%B8%B8%E6%AD%A3%E5%BD%93%E6%97%B6",
+          "key_figures": [
+            "雨季景色翠绿",
+            "游客较少"
+          ],
+          "travel_advisory": "备好雨具防滑鞋",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "泰国电子签证系统升级",
+          "category": "签证政策",
+          "summary": "泰国加速推广电子签证系统，部分国家已可通过在线平台申请旅游签证",
+          "source": "泰国外交部",
+          "impact": "签证申请流程更加便捷高效",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E7%94%B5%E5%AD%90%E7%AD%BE%E8%AF%81%E7%B3%BB%E7%BB%9F%E5%8D%87%E7%BA%A7",
+          "key_figures": [
+            "电子签证推广",
+            "在线申请开放"
+          ],
+          "travel_advisory": "提前在线申请更快",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "普吉岛旅游安全提示",
+          "category": "旅行提示",
+          "summary": "8月为泰国雨季，普吉岛海况不稳需注意水上活动安全，关注天气预警",
+          "source": "泰国旅游警察",
+          "impact": "雨季出行需加强安全防范",
+          "source_url": "https://www.baidu.com/s?wd=%E6%99%AE%E5%90%89%E5%B2%9B%E6%97%85%E6%B8%B8%E5%AE%89%E5%85%A8%E6%8F%90%E7%A4%BA",
+          "key_figures": [
+            "雨季注意安全",
+            "关注天气预警"
+          ],
+          "travel_advisory": "购买旅游意外险",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "泰国推动高端旅游转型",
+          "category": "目的地",
+          "summary": "泰国推出Thailand Privilege等高端签证，吸引长期停留和高消费游客群体",
+          "source": "泰国投资促进委员会",
+          "impact": "泰国旅游从量向质转型升级",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E6%8E%A8%E5%8A%A8%E9%AB%98%E7%AB%AF%E6%97%85%E6%B8%B8%E8%BD%AC%E5%9E%8B",
+          "key_figures": [
+            "高端签证推出",
+            "吸引高消费客群"
+          ],
+          "travel_advisory": "了解长期签证选项",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "中泰免签互免持续生效",
+          "category": "签证政策",
+          "summary": "中国与泰国互免签证政策持续生效，双方公民可享受便利的免签入境待遇",
+          "source": "外交部",
+          "impact": "中泰旅游往来更加便利",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%B3%B0%E5%85%8D%E7%AD%BE%E4%BA%92%E5%85%8D%E6%8C%81%E7%BB%AD%E7%94%9F%E6%95%88",
+          "key_figures": [
+            "互免签证生效",
+            "双向便利"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "泰国美食旅游受追捧",
+          "category": "文旅活动",
+          "summary": "泰国美食体验游持续走红，曼谷街头美食、烹饪课程成为游客必体验项目",
+          "source": "泰国旅游局",
+          "impact": "美食文化成为旅游新增长点",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E7%BE%8E%E9%A3%9F%E6%97%85%E6%B8%B8%E5%8F%97%E8%BF%BD%E6%8D%A7",
+          "key_figures": [
+            "美食游走红",
+            "烹饪课热门"
+          ],
+          "travel_advisory": "注意饮食卫生安全",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "泰国机场通关效率提升",
+          "category": "签证政策",
+          "summary": "泰国主要国际机场增加自助通关通道，缩短外国游客入境等候时间",
+          "source": "泰国移民局",
+          "impact": "入境通关体验明显改善",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E6%9C%BA%E5%9C%BA%E9%80%9A%E5%85%B3%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%87",
+          "key_figures": [
+            "自助通道增加",
+            "等候时间缩短"
+          ],
+          "travel_advisory": "提前填写入境卡",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "name": "新加坡",
+      "events": [
+        {
+          "rank": 1,
+          "title": "新加坡发力MICE可持续旅游",
+          "category": "文旅活动",
+          "summary": "新加坡推出全新MICE可持续发展路线图，将会展旅游绿色转型作为核心竞争优势",
+          "source": "新加坡旅游局",
+          "impact": "新加坡打造亚太会展旅游标杆",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8A%A0%E5%9D%A1%E5%8F%91%E5%8A%9BMICE%E5%8F%AF%E6%8C%81%E7%BB%AD%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "MICE路线图发布",
+            "绿色转型为核心"
+          ],
+          "travel_advisory": "关注绿色会展活动",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "新中互免签证持续生效",
+          "category": "签证政策",
+          "summary": "新加坡与中国互免签证政策持续生效，双方公民可免签入境停留30天",
+          "source": "新加坡移民局",
+          "impact": "中新旅游往来便利化保持稳定",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E4%B8%AD%E4%BA%92%E5%85%8D%E7%AD%BE%E8%AF%81%E6%8C%81%E7%BB%AD%E7%94%9F%E6%95%88",
+          "key_figures": [
+            "互免30天",
+            "双边生效"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "新加坡航空面临成本压力",
+          "category": "航空交通",
+          "summary": "新加坡航空报告疫后首个季度亏损，主因燃油成本上升，或影响航线运营策略",
+          "source": "新航集团",
+          "impact": "航线运价或有所调整",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%88%AA%E7%A9%BA%E9%9D%A2%E4%B8%B4%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B",
+          "key_figures": [
+            "首季亏损",
+            "燃油成本上升"
+          ],
+          "travel_advisory": "关注机票价格波动",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "新加坡环球影城暑期热度高",
+          "category": "文旅活动",
+          "summary": "圣淘沙环球影城8月迎来暑期客流高峰，推出夏日限定活动和夜间派对",
+          "source": "圣淘沙名胜世界",
+          "impact": "主题公园游成新加坡旅游亮点",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8A%A0%E5%9D%A1%E7%8E%AF%E7%90%83%E5%BD%B1%E5%9F%8E%E6%9A%91%E6%9C%9F%E7%83%AD%E5%BA%A6%E9%AB%98",
+          "key_figures": [
+            "暑期客流高峰",
+            "限定活动"
+          ],
+          "travel_advisory": "提前在线购票免排队",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "新加坡推行数字入境卡",
+          "category": "签证政策",
+          "summary": "新加坡全面推广电子版入境卡SG Arrival Card，旅客可在线提前申报",
+          "source": "新加坡移民局",
+          "impact": "入境手续数字化提升通关效率",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%8E%A8%E8%A1%8C%E6%95%B0%E5%AD%97%E5%85%A5%E5%A2%83%E5%8D%A1",
+          "key_figures": [
+            "电子入境卡",
+            "提前在线申报"
+          ],
+          "travel_advisory": "出发前完成申报",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "新加坡酒店价格暑期走高",
+          "category": "行业数据",
+          "summary": "暑期新加坡酒店入住率上升，平均房价较7月上涨约15%",
+          "source": "新加坡酒店业协会",
+          "impact": "暑期住宿成本上升需提前规划",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8A%A0%E5%9D%A1%E9%85%92%E5%BA%97%E4%BB%B7%E6%A0%BC%E6%9A%91%E6%9C%9F%E8%B5%B0%E9%AB%98",
+          "key_figures": [
+            "房价涨15%",
+            "入住率上升"
+          ],
+          "travel_advisory": "提前预订锁定价格",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "新加坡滨海湾灯光节开幕",
+          "category": "文旅活动",
+          "summary": "滨海湾区域8月举办灯光艺术节，夜间光影秀吸引大量游客驻足观赏",
+          "source": "新加坡旅游局",
+          "impact": "夜间旅游经济持续活跃",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%BB%A8%E6%B5%B7%E6%B9%BE%E7%81%AF%E5%85%89%E8%8A%82%E5%BC%80%E5%B9%95",
+          "key_figures": [
+            "灯光节开幕",
+            "滨海湾区域"
+          ],
+          "travel_advisory": "夜间出行注意安全",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "新加坡美食节8月启幕",
+          "category": "文旅活动",
+          "summary": "新加坡美食节8月举行，汇聚本地及国际名厨，推出美食工坊和品鉴活动",
+          "source": "新加坡美食节组委会",
+          "impact": "美食旅游体验进一步丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8A%A0%E5%9D%A1%E7%BE%8E%E9%A3%9F%E8%8A%828%E6%9C%88%E5%90%AF%E5%B9%95",
+          "key_figures": [
+            "名厨汇聚",
+            "美食工坊"
+          ],
+          "travel_advisory": "提前预约热门活动",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "樟宜机场转机体验升级",
+          "category": "航空交通",
+          "summary": "樟宜机场持续升级转机设施，新增休息区和互动体验空间提升旅客中转体验",
+          "source": "樟宜机场集团",
+          "impact": "转机旅客体验提升增强枢纽竞争力",
+          "source_url": "https://www.baidu.com/s?wd=%E6%A8%9F%E5%AE%9C%E6%9C%BA%E5%9C%BA%E8%BD%AC%E6%9C%BA%E4%BD%93%E9%AA%8C%E5%8D%87%E7%BA%A7",
+          "key_figures": [
+            "新休息区启用",
+            "互动体验空间"
+          ],
+          "travel_advisory": "转机预留充足时间",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "新加坡圣淘沙海滩翻新",
+          "category": "目的地",
+          "summary": "圣淘沙海滩完成新一轮改造升级，新增休闲设施和水上运动区域",
+          "source": "圣淘沙发展局",
+          "impact": "海滩度假体验全面升级",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8A%A0%E5%9D%A1%E5%9C%A3%E6%B7%98%E6%B2%99%E6%B5%B7%E6%BB%A9%E7%BF%BB%E6%96%B0",
+          "key_figures": [
+            "海滩翻新完成",
+            "新增水上运动"
+          ],
+          "travel_advisory": "注意防晒和补水",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "MY",
+      "name": "马来西亚",
+      "events": [
+        {
+          "rank": 1,
+          "title": "访马2026旅游年持续推进",
+          "category": "文旅活动",
+          "summary": "马来西亚'2026旅游年'活动持续推进，主打雨林海岛遗产城市美食冒险五大主题",
+          "source": "马来西亚旅游局",
+          "impact": "旅游年活动提升马来西亚国际吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E8%AE%BF%E9%A9%AC2026%E6%97%85%E6%B8%B8%E5%B9%B4%E6%8C%81%E7%BB%AD%E6%8E%A8%E8%BF%9B",
+          "key_figures": [
+            "2026旅游年",
+            "五大主题推广"
+          ],
+          "travel_advisory": "关注旅游年专属优惠",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "马来西亚Q1迎1010万客",
+          "category": "行业数据",
+          "summary": "马来西亚2025年Q1接待外国游客1010万人次，成为东南亚接待量第一的国家",
+          "source": "马来西亚旅游局",
+          "impact": "马来西亚旅游复苏领先东南亚",
+          "source_url": "https://www.baidu.com/s?wd=%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9AQ1%E8%BF%8E1010%E4%B8%87%E5%AE%A2",
+          "key_figures": [
+            "1010万游客",
+            "东南亚第一"
+          ],
+          "travel_advisory": "热门景点提前规划",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "马来西亚免签政策扩大",
+          "category": "签证政策",
+          "summary": "马来西亚扩大免签入境国家名单，配合旅游年吸引更多国际游客",
+          "source": "马来西亚移民局",
+          "impact": "入境门槛降低利好多国游客",
+          "source_url": "https://www.baidu.com/s?wd=%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E5%85%8D%E7%AD%BE%E6%94%BF%E7%AD%96%E6%89%A9%E5%A4%A7",
+          "key_figures": [
+            "免签名单扩大",
+            "配合旅游年"
+          ],
+          "travel_advisory": "确认本国免签资格",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "F1马来西亚站10月举办",
+          "category": "文旅活动",
+          "summary": "马来西亚将于10月举办F1大奖赛，酒店已出现高预订热度",
+          "source": "F1组委会",
+          "impact": "赛事旅游带动酒店和航空需求",
+          "source_url": "https://www.baidu.com/s?wd=F1%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E7%AB%9910%E6%9C%88%E4%B8%BE%E5%8A%9E",
+          "key_figures": [
+            "酒店高预订",
+            "10月赛事"
+          ],
+          "travel_advisory": "提前预订机酒",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "沙巴神山攀登需提前预约",
+          "category": "旅行提示",
+          "summary": "沙巴京那巴鲁山攀登许可证需提前2-3个月预订，6-8月旱季为最佳攀登期",
+          "source": "沙巴公园管理局",
+          "impact": "旺季攀登名额紧张需早规划",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B2%99%E5%B7%B4%E7%A5%9E%E5%B1%B1%E6%94%80%E7%99%BB%E9%9C%80%E6%8F%90%E5%89%8D%E9%A2%84%E7%BA%A6",
+          "key_figures": [
+            "提前2-3月预约",
+            "旱季最佳"
+          ],
+          "travel_advisory": "确认体能和装备",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "槟城美食旅游热度不减",
+          "category": "文旅活动",
+          "summary": "槟城乔治市持续走红，街头美食和世遗文化成为吸引中国游客的核心要素",
+          "source": "马来西亚旅游局",
+          "impact": "美食文化旅游成为新趋势",
+          "source_url": "https://www.baidu.com/s?wd=%E6%A7%9F%E5%9F%8E%E7%BE%8E%E9%A3%9F%E6%97%85%E6%B8%B8%E7%83%AD%E5%BA%A6%E4%B8%8D%E5%87%8F",
+          "key_figures": [
+            "乔治市走红",
+            "街头美食热门"
+          ],
+          "travel_advisory": "尊重当地饮食文化",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "兰卡威海岛游旺季",
+          "category": "目的地",
+          "summary": "兰卡威8月进入旅游旺季，跳岛游、天空之桥等景点游客量显著增长",
+          "source": "兰卡威发展局",
+          "impact": "海岛旅游需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E5%85%B0%E5%8D%A1%E5%A8%81%E6%B5%B7%E5%B2%9B%E6%B8%B8%E6%97%BA%E5%AD%A3",
+          "key_figures": [
+            "游客量增长",
+            "跳岛游热门"
+          ],
+          "travel_advisory": "提前预订船票",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "马来西亚8月推出数字旅游卡",
+          "category": "签证政策",
+          "summary": "马来西亚8月起推出Malaysia Digital Travel Card，游客可通过手机完成入境申报和支付，提升通关效率和旅游体验",
+          "source": "马来西亚旅游局",
+          "impact": "数字化通关提升游客便利度，助力旅游年目标达成",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E9%A9%AC%E4%BA%92%E5%85%8D%E7%AD%BE%E8%AF%81%E4%BE%BF%E5%88%A9%E9%80%9A%E8%A1%8C",
+          "key_figures": [
+            "8月起全面推行",
+            "覆盖全部入境口岸"
+          ],
+          "travel_advisory": "建议提前下载APP",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "吉隆坡购物节延续",
+          "category": "文旅活动",
+          "summary": "吉隆坡年中购物节8月延续，各大商场推出大幅折扣吸引游客消费",
+          "source": "吉隆坡商会",
+          "impact": "购物旅游拉动消费增长",
+          "source_url": "https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E5%9D%A1%E8%B4%AD%E7%89%A9%E8%8A%82%E5%BB%B6%E7%BB%AD",
+          "key_figures": [
+            "折扣力度大",
+            "各大商场参与"
+          ],
+          "travel_advisory": "关注退税政策",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "马来西亚医疗旅游增长",
+          "category": "行业数据",
+          "summary": "马来西亚医疗旅游持续增长，高端医疗服务配合旅游签证吸引健康旅游客群",
+          "source": "马来西亚医疗旅游理事会",
+          "impact": "医疗旅游成为新增长极",
+          "source_url": "https://www.baidu.com/s?wd=%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E5%8C%BB%E7%96%97%E6%97%85%E6%B8%B8%E5%A2%9E%E9%95%BF",
+          "key_figures": [
+            "医疗旅游增长",
+            "高端服务配套"
+          ],
+          "travel_advisory": "提前预约医疗机构",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "VN",
+      "name": "越南",
+      "events": [
+        {
+          "rank": 1,
+          "title": "越南旅游增长31.2%领跑亚太",
+          "category": "行业数据",
+          "summary": "预测显示越南2025-2027年国际游客增长31.2%，成为亚太区增速最快目的地之一",
+          "source": "亚太旅游协会",
+          "impact": "越南旅游竞争力快速提升",
+          "source_url": "https://www.baidu.com/s?wd=%E8%B6%8A%E5%8D%97%E6%97%85%E6%B8%B8%E5%A2%9E%E9%95%BF31.2%25%E9%A2%86%E8%B7%91%E4%BA%9A%E5%A4%AA",
+          "key_figures": [
+            "增速31.2%",
+            "亚太最快之一"
+          ],
+          "travel_advisory": "旺季提前预订",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "越航上半年营收增28%",
+          "category": "行业数据",
+          "summary": "越南航空2026上半年合并营收同比增长28%，反映国际旅游需求强劲",
+          "source": "越南航空",
+          "impact": "航空旅游需求旺盛支撑行业增长",
+          "source_url": "https://www.baidu.com/s?wd=%E8%B6%8A%E8%88%AA%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%90%A5%E6%94%B6%E5%A2%9E28%25",
+          "key_figures": [
+            "营收增28%",
+            "需求强劲"
+          ],
+          "travel_advisory": "关注越航促销航线",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "中国游客成越南最大客源",
+          "category": "行业数据",
+          "summary": "中国游客持续位居越南最大国际客源市场，边境游和海岛游需求最为旺盛",
+          "source": "越南旅游总局",
+          "impact": "中国赴越旅游市场持续升温",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E6%88%90%E8%B6%8A%E5%8D%97%E6%9C%80%E5%A4%A7%E5%AE%A2%E6%BA%90",
+          "key_figures": [
+            "中国第一大客源",
+            "海岛边境热门"
+          ],
+          "travel_advisory": "提前办好签证",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "越南电子签证覆盖全球",
+          "category": "签证政策",
+          "summary": "越南电子签证面向全球开放申请，有效期90天可多次入境，便利自由行游客",
+          "source": "越南移民局",
+          "impact": "电子签证降低赴越旅游门槛",
+          "source_url": "https://www.baidu.com/s?wd=%E8%B6%8A%E5%8D%97%E7%94%B5%E5%AD%90%E7%AD%BE%E8%AF%81%E8%A6%86%E7%9B%96%E5%85%A8%E7%90%83",
+          "key_figures": [
+            "电子签证90天",
+            "多次入境"
+          ],
+          "travel_advisory": "在线申请3个工作日出签",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "胡志明市咖啡文化走红",
+          "category": "文旅活动",
+          "summary": "胡志明市咖啡文化持续走红，特色咖啡馆成为年轻游客打卡热门",
+          "source": "越南旅游局",
+          "impact": "咖啡文化旅游成为新亮点",
+          "source_url": "https://www.baidu.com/s?wd=%E8%83%A1%E5%BF%97%E6%98%8E%E5%B8%82%E5%92%96%E5%95%A1%E6%96%87%E5%8C%96%E8%B5%B0%E7%BA%A2",
+          "key_figures": [
+            "咖啡文化走红",
+            "年轻游客热门"
+          ],
+          "travel_advisory": "推荐步行探索街区",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "下龙湾生态旅游升级",
+          "category": "目的地",
+          "summary": "下龙湾推出新一批生态旅游线路，豪华游轮过夜和皮划艇体验受欢迎",
+          "source": "广宁省旅游局",
+          "impact": "世遗目的地旅游品质提升",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%8B%E9%BE%99%E6%B9%BE%E7%94%9F%E6%80%81%E6%97%85%E6%B8%B8%E5%8D%87%E7%BA%A7",
+          "key_figures": [
+            "新生态线路",
+            "豪华游轮过夜"
+          ],
+          "travel_advisory": "选择正规游轮公司",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "会安古城夜间旅游兴盛",
+          "category": "文旅活动",
+          "summary": "会安古城推出夜间灯笼游船和传统手工艺体验活动，夜间经济蓬勃发展",
+          "source": "会安市旅游局",
+          "impact": "夜间文化旅游体验丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BC%9A%E5%AE%89%E5%8F%A4%E5%9F%8E%E5%A4%9C%E9%97%B4%E6%97%85%E6%B8%B8%E5%85%B4%E7%9B%9B",
+          "key_figures": [
+            "夜间游船",
+            "灯笼体验"
+          ],
+          "travel_advisory": "尊重古城文化传统",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "越南推出智慧旅游平台",
+          "category": "签证政策",
+          "summary": "越南上线智慧旅游综合平台，整合景区预约、导览、投诉等功能服务国际游客",
+          "source": "越南旅游总局",
+          "impact": "旅游服务数字化水平提升",
+          "source_url": "https://www.baidu.com/s?wd=%E8%B6%8A%E5%8D%97%E6%8E%A8%E5%87%BA%E6%99%BA%E6%85%A7%E6%97%85%E6%B8%B8%E5%B9%B3%E5%8F%B0",
+          "key_figures": [
+            "智慧平台上线",
+            "整合多功能"
+          ],
+          "travel_advisory": "下载APP便利出行",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "富国岛免签30天政策",
+          "category": "签证政策",
+          "summary": "富国岛继续实行外国游客免签30天政策，直飞富国岛无需越南签证",
+          "source": "越南移民局",
+          "impact": "富国岛度假免签便利持续",
+          "source_url": "https://www.baidu.com/s?wd=%E5%AF%8C%E5%9B%BD%E5%B2%9B%E5%85%8D%E7%AD%BE30%E5%A4%A9%E6%94%BF%E7%AD%96",
+          "key_figures": [
+            "免签30天",
+            "仅限富国岛"
+          ],
+          "travel_advisory": "直飞富国岛方可免签",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "越南美食旅游受追捧",
+          "category": "文旅活动",
+          "summary": "越南河粉、法棍等美食体验游持续走红，美食之旅成为游客必选项目",
+          "source": "越南旅游局",
+          "impact": "美食成为赴越旅游重要吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E8%B6%8A%E5%8D%97%E7%BE%8E%E9%A3%9F%E6%97%85%E6%B8%B8%E5%8F%97%E8%BF%BD%E6%8D%A7",
+          "key_figures": [
+            "美食游走红",
+            "河粉法棍热门"
+          ],
+          "travel_advisory": "注意街头饮食卫生",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "印度",
+      "events": [
+        {
+          "rank": 1,
+          "title": "印度电子签8月扩25国",
+          "category": "签证政策",
+          "summary": "印度8月15日起将电子签证计划扩展至25个新国家，签证费25美元处理时间3-5天",
+          "source": "印度内政部",
+          "impact": "电子签证扩围降低赴印旅游门槛",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%BA%A6%E7%94%B5%E5%AD%90%E7%AD%BE8%E6%9C%88%E6%89%A925%E5%9B%BD",
+          "key_figures": [
+            "新增25国",
+            "费用25美元"
+          ],
+          "travel_advisory": "提前在线申请",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "印度5年电子签费用上调",
+          "category": "签证政策",
+          "summary": "印度五年多次电子旅游签证费用从80美元上调至200美元，部分国家实行对等定价",
+          "source": "印度内政部",
+          "impact": "长期签证成本上升需提前规划",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%BA%A65%E5%B9%B4%E7%94%B5%E5%AD%90%E7%AD%BE%E8%B4%B9%E7%94%A8%E4%B8%8A%E8%B0%83",
+          "key_figures": [
+            "五年签涨至200美元",
+            "对等定价"
+          ],
+          "travel_advisory": "短期签性价比更高",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "印度e-Visa入境口岸扩至51个",
+          "category": "签证政策",
+          "summary": "印度2026年初新增多个电子签证入境口岸至51个，包括新机场和海港口岸",
+          "source": "印度移民局",
+          "impact": "入境选择更加灵活多样",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%BA%A6e-Visa%E5%85%A5%E5%A2%83%E5%8F%A3%E5%B2%B8%E6%89%A9%E8%87%B351%E4%B8%AA",
+          "key_figures": [
+            "51个口岸",
+            "新增机场海港"
+          ],
+          "travel_advisory": "确认口岸支持e-Visa",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "泰籍游客免费电子签延期",
+          "category": "签证政策",
+          "summary": "泰国公民免费30天电子旅游签证延期至2026年6月底，促进泰印旅游往来",
+          "source": "印度内政部",
+          "impact": "泰印双向旅游交流持续升温",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%B0%E7%B1%8D%E6%B8%B8%E5%AE%A2%E5%85%8D%E8%B4%B9%E7%94%B5%E5%AD%90%E7%AD%BE%E5%BB%B6%E6%9C%9F",
+          "key_figures": [
+            "泰籍免费",
+            "30天电子签"
+          ],
+          "travel_advisory": "泰国公民专享",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "印度AI签证审核上线",
+          "category": "签证政策",
+          "summary": "印度移民局部署AI驱动的申请照片验证工具，对电子签证照片要求更加严格",
+          "source": "印度移民局",
+          "impact": "签证申请需更注意照片规范",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%BA%A6AI%E7%AD%BE%E8%AF%81%E5%AE%A1%E6%A0%B8%E4%B8%8A%E7%BA%BF",
+          "key_figures": [
+            "AI验证上线",
+            "照片要求严格"
+          ],
+          "travel_advisory": "仔细核对照片规格",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "拉达克8月旅游最佳季",
+          "category": "目的地",
+          "summary": "8月拉达克进入最佳旅游季节，高山垭口开放，山谷翠绿，降雨量极少",
+          "source": "印度旅游局",
+          "impact": "高原旅游目的地的吸引力提升",
+          "source_url": "https://www.baidu.com/s?wd=%E6%8B%89%E8%BE%BE%E5%85%8B8%E6%9C%88%E6%97%85%E6%B8%B8%E6%9C%80%E4%BD%B3%E5%AD%A3",
+          "key_figures": [
+            "最佳旅游季",
+            "垭口开放"
+          ],
+          "travel_advisory": "注意高原反应预防",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "印度对等签证费引关注",
+          "category": "签证政策",
+          "summary": "印度对部分国家实行对等签证定价，英国公民最高需付484美元引发讨论",
+          "source": "印度内政部",
+          "impact": "签证费用差异影响游客选择",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%BA%A6%E5%AF%B9%E7%AD%89%E7%AD%BE%E8%AF%81%E8%B4%B9%E5%BC%95%E5%85%B3%E6%B3%A8",
+          "key_figures": [
+            "英国484美元",
+            "对等定价"
+          ],
+          "travel_advisory": "查询本国适用费率",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "印度120天提前申请签证",
+          "category": "签证政策",
+          "summary": "印度电子签证申请窗口从30天扩大至120天，旅客可提前4个月申请",
+          "source": "印度移民局",
+          "impact": "提前规划行程更加灵活",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%BA%A6120%E5%A4%A9%E6%8F%90%E5%89%8D%E7%94%B3%E8%AF%B7%E7%AD%BE%E8%AF%81",
+          "key_figures": [
+            "提前120天申请",
+            "窗口扩大"
+          ],
+          "travel_advisory": "提前申请避免高峰",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "中国游客上半年访印138万",
+          "category": "行业数据",
+          "summary": "2026年上半年中国公民赴印度约138万人次，印度成为出境游热门目的地",
+          "source": "Dragon Trail",
+          "impact": "中印旅游交流持续恢复增长",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%AE%BF%E5%8D%B0138%E4%B8%87",
+          "key_figures": [
+            "138万人次",
+            "出境热门"
+          ],
+          "travel_advisory": "确认签证类型正确",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "印度节庆旅游8月丰富",
+          "category": "文旅活动",
+          "summary": "印度各地8月举办独立日庆典和传统节日活动，吸引游客参与体验",
+          "source": "印度文化部",
+          "impact": "节庆旅游丰富印度旅游体验",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%BA%A6%E8%8A%82%E5%BA%86%E6%97%85%E6%B8%B88%E6%9C%88%E4%B8%B0%E5%AF%8C",
+          "key_figures": [
+            "独立日庆典",
+            "文化节丰富"
+          ],
+          "travel_advisory": "尊重当地宗教习俗",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "法国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "EES生物识别系统夏季暂缓",
+          "category": "签证政策",
+          "summary": "法国戴高乐机场等高峰时段临时暂停EES生物识别录入，缓解旅客排队拥堵",
+          "source": "法国内政部",
+          "impact": "夏季入境排队问题暂时缓解",
+          "source_url": "https://www.baidu.com/s?wd=EES%E7%94%9F%E7%89%A9%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F%E5%A4%8F%E5%AD%A3%E6%9A%82%E7%BC%93",
+          "key_figures": [
+            "高峰暂暂停",
+            "法规允许6小时"
+          ],
+          "travel_advisory": "高峰期预留通关时间",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "法国红色高温预警频发",
+          "category": "旅行提示",
+          "summary": "巴黎气温达31°C西南部高达35-40°C，多地发布红色高温预警",
+          "source": "法国气象局",
+          "impact": "高温影响户外游览需调整行程",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%95%E5%9B%BD%E7%BA%A2%E8%89%B2%E9%AB%98%E6%B8%A9%E9%A2%84%E8%AD%A6%E9%A2%91%E5%8F%91",
+          "key_figures": [
+            "巴黎31°C",
+            "南部40°C+"
+          ],
+          "travel_advisory": "早出晚归避开高温",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "中国免签赴法30天便利",
+          "category": "签证政策",
+          "summary": "法国公民继续享受中国30天免签政策延至年底，赴华商务旅游便利不减",
+          "source": "外交部",
+          "impact": "中法双向旅游便利持续",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%85%8D%E7%AD%BE%E8%B5%B4%E6%B3%9530%E5%A4%A9%E4%BE%BF%E5%88%A9",
+          "key_figures": [
+            "免签30天",
+            "延至年底"
+          ],
+          "travel_advisory": "护照有效期需充足",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "法国南部暑期游客涌入",
+          "category": "目的地",
+          "summary": "普罗旺斯蔚蓝海岸等南部地区8月迎来旅游旺季，薰衣草季末期仍有大量游客",
+          "source": "法国旅游局",
+          "impact": "南法旅游热度持续攀升",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%95%E5%9B%BD%E5%8D%97%E9%83%A8%E6%9A%91%E6%9C%9F%E6%B8%B8%E5%AE%A2%E6%B6%8C%E5%85%A5",
+          "key_figures": [
+            "旺季游客涌入",
+            "薰衣草季末期"
+          ],
+          "travel_advisory": "提前预订住宿",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "法铁高温限速提醒",
+          "category": "旅行提示",
+          "summary": "法国高铁在高温天气实施限速措施，部分线路可能出现延误",
+          "source": "SNCF法国铁路",
+          "impact": "暑期火车出行可能受影响",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%95%E9%93%81%E9%AB%98%E6%B8%A9%E9%99%90%E9%80%9F%E6%8F%90%E9%86%92",
+          "key_figures": [
+            "高温限速",
+            "部分线路延误"
+          ],
+          "travel_advisory": "关注列车实时信息",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "卢浮宫夜间开放延长",
+          "category": "文旅活动",
+          "summary": "卢浮宫8月延长周五夜间开放时间，方便游客避暑参观",
+          "source": "卢浮宫博物馆",
+          "impact": "文化场馆调整开放时间应对高温",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%A2%E6%B5%AE%E5%AE%AB%E5%A4%9C%E9%97%B4%E5%BC%80%E6%94%BE%E5%BB%B6%E9%95%BF",
+          "key_figures": [
+            "夜间开放延长",
+            "避暑参观"
+          ],
+          "travel_advisory": "夜间票需提前预约",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "法国ETIAS即将实施",
+          "category": "签证政策",
+          "summary": "欧盟ETIAS预旅行授权系统计划2026年底上线，免签国公民需提前申请",
+          "source": "欧盟委员会",
+          "impact": "未来赴法需额外电子授权",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%95%E5%9B%BDETIAS%E5%8D%B3%E5%B0%86%E5%AE%9E%E6%96%BD",
+          "key_figures": [
+            "ETIAS年底上线",
+            "类似美国ESTA"
+          ],
+          "travel_advisory": "关注实施细则",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "法国葡萄酒旅游路线热门",
+          "category": "文旅活动",
+          "summary": "波尔多勃艮第等产区葡萄酒旅游路线8月热度不减，品酒体验游受中国游客青睐",
+          "source": "法国葡萄酒旅游局",
+          "impact": "主题旅游成为赴法新动力",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%95%E5%9B%BD%E8%91%A1%E8%90%84%E9%85%92%E6%97%85%E6%B8%B8%E8%B7%AF%E7%BA%BF%E7%83%AD%E9%97%A8",
+          "key_figures": [
+            "产区旅游热",
+            "品酒体验受欢迎"
+          ],
+          "travel_advisory": "提前预约酒庄参观",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "法国签证费用调整",
+          "category": "签证政策",
+          "summary": "法国签证申请中心调整部分服务费用，加急处理和邮寄服务费用有所变化",
+          "source": "法国驻华使馆",
+          "impact": "签证申请成本需重新核算",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B3%95%E5%9B%BD%E7%AD%BE%E8%AF%81%E8%B4%B9%E7%94%A8%E8%B0%83%E6%95%B4",
+          "key_figures": [
+            "服务费调整",
+            "加急费变化"
+          ],
+          "travel_advisory": "查询最新费用标准",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "巴黎无障碍旅游路线开放",
+          "category": "文旅活动",
+          "summary": "巴黎借残奥遗产推广无障碍旅游路线，8月多条新路线开放",
+          "source": "巴黎旅游局",
+          "impact": "无障碍旅游设施持续完善",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E9%BB%8E%E6%97%A0%E9%9A%9C%E7%A2%8D%E6%97%85%E6%B8%B8%E8%B7%AF%E7%BA%BF%E5%BC%80%E6%94%BE",
+          "key_figures": [
+            "无障碍路线开放",
+            "残奥遗产"
+          ],
+          "travel_advisory": "无障碍设施可查询",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "name": "意大利",
+      "events": [
+        {
+          "rank": 1,
+          "title": "意大利EES排队超45分转盖章",
+          "category": "签证政策",
+          "summary": "意大利规定当EES排队超过45分钟时回退至护照盖章模式，罗马机场确认执行",
+          "source": "意大利内政部",
+          "impact": "入境排队问题有应急解决方案",
+          "source_url": "https://www.baidu.com/s?wd=%E6%84%8F%E5%A4%A7%E5%88%A9EES%E6%8E%92%E9%98%9F%E8%B6%8545%E5%88%86%E8%BD%AC%E7%9B%96%E7%AB%A0",
+          "key_figures": [
+            "45分钟阈值",
+            "回退盖章模式"
+          ],
+          "travel_advisory": "高峰期预留时间",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "意大利南部高温40°C",
+          "category": "旅行提示",
+          "summary": "意大利南部多地气温达40°C，威尼斯湿热难耐，建议游客调整游览时间",
+          "source": "意大利民防局",
+          "impact": "高温影响旅游体验需做好防护",
+          "source_url": "https://www.baidu.com/s?wd=%E6%84%8F%E5%A4%A7%E5%88%A9%E5%8D%97%E9%83%A8%E9%AB%98%E6%B8%A940%C2%B0C",
+          "key_figures": [
+            "南部40°C",
+            "威尼斯湿热"
+          ],
+          "travel_advisory": "早晚出行午间休息",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "罗马斗兽场夜间开放",
+          "category": "文旅活动",
+          "summary": "罗马斗兽场8月延长夜间开放时间，游客可在凉爽晚间参观这一世遗地标",
+          "source": "罗马文化遗产部",
+          "impact": "夜间文化旅游体验丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E7%BD%97%E9%A9%AC%E6%96%97%E5%85%BD%E5%9C%BA%E5%A4%9C%E9%97%B4%E5%BC%80%E6%94%BE",
+          "key_figures": [
+            "夜间开放",
+            "世遗地标"
+          ],
+          "travel_advisory": "提前在线购票",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "阿马尔菲海岸旺季拥堵",
+          "category": "旅行提示",
+          "summary": "阿马尔菲海岸8月进入最拥堵时段，沿海公路车辆密集建议乘坐渡轮出行",
+          "source": "阿马尔菲旅游局",
+          "impact": "热门海岸交通压力大",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E9%A9%AC%E5%B0%94%E8%8F%B2%E6%B5%B7%E5%B2%B8%E6%97%BA%E5%AD%A3%E6%8B%A5%E5%A0%B5",
+          "key_figures": [
+            "海岸线拥堵",
+            "建议渡轮出行"
+          ],
+          "travel_advisory": "优先选择公共交通",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "意大利中国免签持续",
+          "category": "签证政策",
+          "summary": "意大利公民继续享受中国30天免签政策，赴华旅游商务便利不减",
+          "source": "外交部",
+          "impact": "中意旅游交流便利化持续",
+          "source_url": "https://www.baidu.com/s?wd=%E6%84%8F%E5%A4%A7%E5%88%A9%E4%B8%AD%E5%9B%BD%E5%85%8D%E7%AD%BE%E6%8C%81%E7%BB%AD",
+          "key_figures": [
+            "免签30天",
+            "持续至年底"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "威尼斯洪水预警系统升级",
+          "category": "目的地",
+          "summary": "威尼斯升级洪水预警系统，新增实时通知功能保障游客安全",
+          "source": "威尼斯市政府",
+          "impact": "旅游安全管理体系持续完善",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A8%81%E5%B0%BC%E6%96%AF%E6%B4%AA%E6%B0%B4%E9%A2%84%E8%AD%A6%E7%B3%BB%E7%BB%9F%E5%8D%87%E7%BA%A7",
+          "key_figures": [
+            "预警系统升级",
+            "实时通知"
+          ],
+          "travel_advisory": "下载官方APP接收预警",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "意大利美食旅游持续走红",
+          "category": "文旅活动",
+          "summary": "意大利美食体验游持续走红，托斯卡纳烹饪课和那不勒斯披萨之旅成为热门",
+          "source": "意大利国家旅游局",
+          "impact": "美食旅游成为赴意新动力",
+          "source_url": "https://www.baidu.com/s?wd=%E6%84%8F%E5%A4%A7%E5%88%A9%E7%BE%8E%E9%A3%9F%E6%97%85%E6%B8%B8%E6%8C%81%E7%BB%AD%E8%B5%B0%E7%BA%A2",
+          "key_figures": [
+            "烹饪课热门",
+            "披萨之旅"
+          ],
+          "travel_advisory": "提前预约体验活动",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "五渔村限流措施延续",
+          "category": "旅行提示",
+          "summary": "五渔村继续实施每日游客限流措施，旺季需提前预约入园",
+          "source": "五渔村国家公园",
+          "impact": "世界遗产保护与旅游平衡",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BA%94%E6%B8%94%E6%9D%91%E9%99%90%E6%B5%81%E6%8E%AA%E6%96%BD%E5%BB%B6%E7%BB%AD",
+          "key_figures": [
+            "限流措施",
+            "需提前预约"
+          ],
+          "travel_advisory": "提前在官网预约",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "意大利铁路暑运高峰",
+          "category": "航空交通",
+          "summary": "意大利铁路暑运进入高峰期，TGC高速列车热门线路座位紧张",
+          "source": "Trenitalia",
+          "impact": "城际交通需提前购票",
+          "source_url": "https://www.baidu.com/s?wd=%E6%84%8F%E5%A4%A7%E5%88%A9%E9%93%81%E8%B7%AF%E6%9A%91%E8%BF%90%E9%AB%98%E5%B3%B0",
+          "key_figures": [
+            "暑运高峰",
+            "座位紧张"
+          ],
+          "travel_advisory": "提前订票选座",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "西西里岛考古公园夜游",
+          "category": "文旅活动",
+          "summary": "西西里岛多处考古公园8月开放夜间参观，山谷神庙等景点在灯光下别具韵味",
+          "source": "西西里文化遗产局",
+          "impact": "夜间文化旅游产品创新",
+          "source_url": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%A5%BF%E9%87%8C%E5%B2%9B%E8%80%83%E5%8F%A4%E5%85%AC%E5%9B%AD%E5%A4%9C%E6%B8%B8",
+          "key_figures": [
+            "夜间参观开放",
+            "灯光下的遗迹"
+          ],
+          "travel_advisory": "夜间蚊虫备好防护",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "西班牙",
+      "events": [
+        {
+          "rank": 1,
+          "title": "西班牙高温44°C影响旅游",
+          "category": "旅行提示",
+          "summary": "西班牙多城录得40-44°C极端高温，南部地区受冲击最大，旅游活动需调整",
+          "source": "西班牙气象局",
+          "impact": "极端高温影响户外活动安排",
+          "source_url": "https://www.baidu.com/s?wd=%E8%A5%BF%E7%8F%AD%E7%89%99%E9%AB%98%E6%B8%A944%C2%B0C%E5%BD%B1%E5%93%8D%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "40-44°C",
+            "南部受冲击最大"
+          ],
+          "travel_advisory": "晨间出行午间避暑",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "EES系统夏季暂停执行",
+          "category": "签证政策",
+          "summary": "西班牙多个机场和口岸在高峰时段暂停EES生物识别录入以疏导客流",
+          "source": "西班牙内政部",
+          "impact": "入境通关效率暂时改善",
+          "source_url": "https://www.baidu.com/s?wd=EES%E7%B3%BB%E7%BB%9F%E5%A4%8F%E5%AD%A3%E6%9A%82%E5%81%9C%E6%89%A7%E8%A1%8C",
+          "key_figures": [
+            "高峰暂停EES",
+            "疏导客流"
+          ],
+          "travel_advisory": "避开入境高峰时段",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "西班牙中国免签持续",
+          "category": "签证政策",
+          "summary": "西班牙公民享受中国免签政策延至年底，停留期最长30天",
+          "source": "外交部",
+          "impact": "中西旅游交流便利化稳定",
+          "source_url": "https://www.baidu.com/s?wd=%E8%A5%BF%E7%8F%AD%E7%89%99%E4%B8%AD%E5%9B%BD%E5%85%8D%E7%AD%BE%E6%8C%81%E7%BB%AD",
+          "key_figures": [
+            "免签30天",
+            "延至年底"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "巴塞罗那圣家堂预约制",
+          "category": "旅行提示",
+          "summary": "圣家堂继续严格执行分时段预约制，8月旺季门票需提前数周购买",
+          "source": "圣家堂管理处",
+          "impact": "热门景点需提前规划",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%A1%9E%E7%BD%97%E9%82%A3%E5%9C%A3%E5%AE%B6%E5%A0%82%E9%A2%84%E7%BA%A6%E5%88%B6",
+          "key_figures": [
+            "分时段预约",
+            "提前数周购票"
+          ],
+          "travel_advisory": "官网提前购票",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "西班牙海鲜美食节",
+          "category": "文旅活动",
+          "summary": "西班牙多地8月举办海鲜美食节，加利西亚海鲜和海鲜饭成为旅游亮点",
+          "source": "西班牙旅游局",
+          "impact": "美食旅游丰富暑期体验",
+          "source_url": "https://www.baidu.com/s?wd=%E8%A5%BF%E7%8F%AD%E7%89%99%E6%B5%B7%E9%B2%9C%E7%BE%8E%E9%A3%9F%E8%8A%82",
+          "key_figures": [
+            "海鲜美食节",
+            "加利西亚海鲜"
+          ],
+          "travel_advisory": "关注活动时间地点",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "西班牙高铁网络扩展",
+          "category": "航空交通",
+          "summary": "西班牙高铁AVE网络持续扩展，新线路连接更多中小城市便利游客出行",
+          "source": "ADIF西班牙铁路",
+          "impact": "城际交通更加便捷高效",
+          "source_url": "https://www.baidu.com/s?wd=%E8%A5%BF%E7%8F%AD%E7%89%99%E9%AB%98%E9%93%81%E7%BD%91%E7%BB%9C%E6%89%A9%E5%B1%95",
+          "key_figures": [
+            "高铁网络扩展",
+            "连接中小城市"
+          ],
+          "travel_advisory": "提前订票享折扣",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "伊比萨岛旺季人潮涌动",
+          "category": "目的地",
+          "summary": "伊比萨岛8月进入最热闹时段，夜店派对和海滩活动吸引全球年轻游客",
+          "source": "伊比萨旅游局",
+          "impact": "派对岛屿旅游需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BC%8A%E6%AF%94%E8%90%A8%E5%B2%9B%E6%97%BA%E5%AD%A3%E4%BA%BA%E6%BD%AE%E6%B6%8C%E5%8A%A8",
+          "key_figures": [
+            "旺季人潮涌",
+            "夜店海滩热门"
+          ],
+          "travel_advisory": "提前预订住宿和入场",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "西班牙推出数字旅游平台",
+          "category": "目的地",
+          "summary": "西班牙推出国家级数字旅游平台，整合景点预约导览投诉等一站式服务",
+          "source": "西班牙旅游部",
+          "impact": "旅游服务数字化水平提升",
+          "source_url": "https://www.baidu.com/s?wd=%E8%A5%BF%E7%8F%AD%E7%89%99%E6%8E%A8%E5%87%BA%E6%95%B0%E5%AD%97%E6%97%85%E6%B8%B8%E5%B9%B3%E5%8F%B0",
+          "key_figures": [
+            "数字平台上线",
+            "一站式服务"
+          ],
+          "travel_advisory": "下载APP方便出行",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "马德里皇宫夜间参观",
+          "category": "文旅活动",
+          "summary": "马德里皇宫8月开放部分夜间参观时段，提供独特的晚间文化体验",
+          "source": "西班牙王室遗产局",
+          "impact": "文化场馆延长服务时间",
+          "source_url": "https://www.baidu.com/s?wd=%E9%A9%AC%E5%BE%B7%E9%87%8C%E7%9A%87%E5%AE%AB%E5%A4%9C%E9%97%B4%E5%8F%82%E8%A7%82",
+          "key_figures": [
+            "夜间参观开放",
+            "独特体验"
+          ],
+          "travel_advisory": "提前预约名额有限",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "西班牙签证中心服务升级",
+          "category": "签证政策",
+          "summary": "西班牙驻华签证中心升级服务，新增在线预约和材料预审功能",
+          "source": "西班牙驻华使馆",
+          "impact": "签证申请流程更加便捷",
+          "source_url": "https://www.baidu.com/s?wd=%E8%A5%BF%E7%8F%AD%E7%89%99%E7%AD%BE%E8%AF%81%E4%B8%AD%E5%BF%83%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7",
+          "key_figures": [
+            "在线预约",
+            "材料预审"
+          ],
+          "travel_advisory": "提前在线完成申请",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "英国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "英国ETA全面实施中",
+          "category": "签证政策",
+          "summary": "英国电子旅行授权ETA自2月25日起全面实施，85个免签国公民需提前在线申请",
+          "source": "英国内政部",
+          "impact": "赴英旅行新增电子授权要求",
+          "source_url": "https://www.baidu.com/s?wd=%E8%8B%B1%E5%9B%BDETA%E5%85%A8%E9%9D%A2%E5%AE%9E%E6%96%BD%E4%B8%AD",
+          "key_figures": [
+            "85国需申请",
+            "费用16英镑"
+          ],
+          "travel_advisory": "出发前完成ETA申请",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "英国暑期旅游旺季到来",
+          "category": "目的地",
+          "summary": "英国8月迎来暑期旅游旺季，伦敦爱丁堡等城市游客量显著增长",
+          "source": "Visit Britain",
+          "impact": "暑期旅游市场活跃",
+          "source_url": "https://www.baidu.com/s?wd=%E8%8B%B1%E5%9B%BD%E6%9A%91%E6%9C%9F%E6%97%85%E6%B8%B8%E6%97%BA%E5%AD%A3%E5%88%B0%E6%9D%A5",
+          "key_figures": [
+            "游客量增长",
+            "伦敦爱丁堡热门"
+          ],
+          "travel_advisory": "热门景点提前订票",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "爱丁堡边缘艺术节",
+          "category": "文旅活动",
+          "summary": "爱丁堡边缘艺术节8月持续进行，全球最大艺术节吸引数千表演者和观众",
+          "source": "爱丁堡边缘艺术节",
+          "impact": "世界级文化盛事提升旅游吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E7%88%B1%E4%B8%81%E5%A0%A1%E8%BE%B9%E7%BC%98%E8%89%BA%E6%9C%AF%E8%8A%82",
+          "key_figures": [
+            "全球最大艺术节",
+            "数千表演者"
+          ],
+          "travel_advisory": "提前预订住宿门票",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "英国中国游客签证便利",
+          "category": "签证政策",
+          "summary": "英国维持对中国公民的两年多次入境签证政策，方便频繁赴英旅客",
+          "source": "英国内政部",
+          "impact": "赴英签证政策保持稳定",
+          "source_url": "https://www.baidu.com/s?wd=%E8%8B%B1%E5%9B%BD%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E7%AD%BE%E8%AF%81%E4%BE%BF%E5%88%A9",
+          "key_figures": [
+            "两年多次签证",
+            "稳定政策"
+          ],
+          "travel_advisory": "提前准备申请材料",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "大英博物馆暑期特展",
+          "category": "文旅活动",
+          "summary": "大英博物馆8月推出多场特别展览，暑期客流量大幅增长",
+          "source": "大英博物馆",
+          "impact": "文化展览吸引大量国际游客",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A4%A7%E8%8B%B1%E5%8D%9A%E7%89%A9%E9%A6%86%E6%9A%91%E6%9C%9F%E7%89%B9%E5%B1%95",
+          "key_figures": [
+            "特别展览",
+            "客流大增"
+          ],
+          "travel_advisory": "免费预约入场",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "英镑汇率影响旅游成本",
+          "category": "行业数据",
+          "summary": "英镑汇率波动影响赴英旅游成本，部分时段购物和住宿性价比下降",
+          "source": "外汇市场分析",
+          "impact": "汇率变动影响旅游预算规划",
+          "source_url": "https://www.baidu.com/s?wd=%E8%8B%B1%E9%95%91%E6%B1%87%E7%8E%87%E5%BD%B1%E5%93%8D%E6%97%85%E6%B8%B8%E6%88%90%E6%9C%AC",
+          "key_figures": [
+            "英镑波动",
+            "成本变化"
+          ],
+          "travel_advisory": "关注汇率择机换汇",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "英国高铁暑运调整",
+          "category": "航空交通",
+          "summary": "英国铁路暑运期间部分线路有调整，伦敦周边部分线路暑期有变化",
+          "source": "Network Rail",
+          "impact": "部分铁路出行需关注替代方案",
+          "source_url": "https://www.baidu.com/s?wd=%E8%8B%B1%E5%9B%BD%E9%AB%98%E9%93%81%E6%9A%91%E8%BF%90%E8%B0%83%E6%95%B4",
+          "key_figures": [
+            "部分线路调整",
+            "替代巴士"
+          ],
+          "travel_advisory": "提前查询列车时刻",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "英国乡村自驾游热门",
+          "category": "文旅活动",
+          "summary": "科茨沃尔德湖区等乡村地区自驾游持续走红，田园风光吸引城市游客",
+          "source": "Visit England",
+          "impact": "乡村旅游成为英国旅游新亮点",
+          "source_url": "https://www.baidu.com/s?wd=%E8%8B%B1%E5%9B%BD%E4%B9%A1%E6%9D%91%E8%87%AA%E9%A9%BE%E6%B8%B8%E7%83%AD%E9%97%A8",
+          "key_figures": [
+            "乡村自驾热门",
+            "田园风光"
+          ],
+          "travel_advisory": "注意左侧行驶规则",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "伦敦拥堵费区域调整",
+          "category": "旅行提示",
+          "summary": "伦敦8月起调整ULEZ超低排放区收费标准，自驾游客需关注新规",
+          "source": "伦敦交通局",
+          "impact": "自驾成本可能增加",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BC%A6%E6%95%A6%E6%8B%A5%E5%A0%B5%E8%B4%B9%E5%8C%BA%E5%9F%9F%E8%B0%83%E6%95%B4",
+          "key_figures": [
+            "ULEZ调整",
+            "收费变化"
+          ],
+          "travel_advisory": "查询最新排放区范围",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "英国夏日打折季延续",
+          "category": "目的地",
+          "summary": "英国夏季打折季8月延续，牛津街和哈罗德等商圈折扣力度可观",
+          "source": "英国零售业协会",
+          "impact": "购物旅游性价比突出",
+          "source_url": "https://www.baidu.com/s?wd=%E8%8B%B1%E5%9B%BD%E5%A4%8F%E6%97%A5%E6%89%93%E6%8A%98%E5%AD%A3%E5%BB%B6%E7%BB%AD",
+          "key_figures": [
+            "夏季折扣",
+            "牛津街哈罗德"
+          ],
+          "travel_advisory": "关注退税政策变化",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "德国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "德国EES高峰时段暂暂停",
+          "category": "签证政策",
+          "summary": "法兰克福等德国机场在客流高峰时段临时暂停EES生物识别检查",
+          "source": "德国联邦警察局",
+          "impact": "入境通关效率暂时改善",
+          "source_url": "https://www.baidu.com/s?wd=%E5%BE%B7%E5%9B%BDEES%E9%AB%98%E5%B3%B0%E6%97%B6%E6%AE%B5%E6%9A%82%E6%9A%82%E5%81%9C",
+          "key_figures": [
+            "法兰克福暂暂停",
+            "高峰时段"
+          ],
+          "travel_advisory": "预留充足通关时间",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "德国气温高于常年",
+          "category": "旅行提示",
+          "summary": "德国西部和中部出现高于季节平均的气温，影响城市旅游和河轮体验",
+          "source": "德国气象局",
+          "impact": "高温影响部分户外活动",
+          "source_url": "https://www.baidu.com/s?wd=%E5%BE%B7%E5%9B%BD%E6%B0%94%E6%B8%A9%E9%AB%98%E4%BA%8E%E5%B8%B8%E5%B9%B4",
+          "key_figures": [
+            "高于常年气温",
+            "西部中部"
+          ],
+          "travel_advisory": "注意防暑补充水分",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "德国中国免签持续",
+          "category": "签证政策",
+          "summary": "德国公民继续享受中国30天免签政策，赴华旅游商务便利不减",
+          "source": "外交部",
+          "impact": "中德旅游交流便利化稳定",
+          "source_url": "https://www.baidu.com/s?wd=%E5%BE%B7%E5%9B%BD%E4%B8%AD%E5%9B%BD%E5%85%8D%E7%AD%BE%E6%8C%81%E7%BB%AD",
+          "key_figures": [
+            "免签30天",
+            "持续至年底"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "黑森林避暑游客增多",
+          "category": "目的地",
+          "summary": "黑森林地区因凉爽气候成为避暑热门目的地，徒步和温泉旅游需求上升",
+          "source": "黑森林旅游局",
+          "impact": "避暑旅游分流南部高温客流",
+          "source_url": "https://www.baidu.com/s?wd=%E9%BB%91%E6%A3%AE%E6%9E%97%E9%81%BF%E6%9A%91%E6%B8%B8%E5%AE%A2%E5%A2%9E%E5%A4%9A",
+          "key_figures": [
+            "避暑胜地",
+            "徒步温泉"
+          ],
+          "travel_advisory": "提前预订林间小屋",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "慕尼黑啤酒节预热",
+          "category": "文旅活动",
+          "summary": "慕尼黑啤酒节将于9月开幕，8月进入预热期，酒店预订量大幅上升",
+          "source": "慕尼黑旅游局",
+          "impact": "啤酒节带动秋季旅游预订",
+          "source_url": "https://www.baidu.com/s?wd=%E6%85%95%E5%B0%BC%E9%BB%91%E5%95%A4%E9%85%92%E8%8A%82%E9%A2%84%E7%83%AD",
+          "key_figures": [
+            "9月开幕",
+            "预订量上升"
+          ],
+          "travel_advisory": "提前订房锁定价格",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "德国铁路暑运调整",
+          "category": "航空交通",
+          "summary": "德国铁路DB暑运期间部分线路因高温限速，莱茵河游船线路正常运营",
+          "source": "DB德国铁路",
+          "impact": "铁路出行需关注时刻变化",
+          "source_url": "https://www.baidu.com/s?wd=%E5%BE%B7%E5%9B%BD%E9%93%81%E8%B7%AF%E6%9A%91%E8%BF%90%E8%B0%83%E6%95%B4",
+          "key_figures": [
+            "高温限速",
+            "部分线路调整"
+          ],
+          "travel_advisory": "查询DB实时信息",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "柏林博物馆岛夜游",
+          "category": "文旅活动",
+          "summary": "柏林博物馆岛8月推出夜间开放活动，五大博物馆联票优惠吸引游客",
+          "source": "柏林国家博物馆",
+          "impact": "夜间文化体验产品丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E6%9F%8F%E6%9E%97%E5%8D%9A%E7%89%A9%E9%A6%86%E5%B2%9B%E5%A4%9C%E6%B8%B8",
+          "key_figures": [
+            "夜间开放",
+            "五馆联票优惠"
+          ],
+          "travel_advisory": "提前网上购票",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "新天鹅堡游客限流",
+          "category": "旅行提示",
+          "summary": "新天鹅堡8月继续实施每日限流，门票需提前在线预约",
+          "source": "巴伐利亚宫殿管理局",
+          "impact": "热门景点需提前规划",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%A4%A9%E9%B9%85%E5%A0%A1%E6%B8%B8%E5%AE%A2%E9%99%90%E6%B5%81",
+          "key_figures": [
+            "每日限流",
+            "需在线预约"
+          ],
+          "travel_advisory": "官网提前购票",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "科隆大教堂部分修缮",
+          "category": "目的地",
+          "summary": "科隆大教堂部分区域8月进行修缮维护，游客参观路线有所调整",
+          "source": "科隆大教堂管理处",
+          "impact": "参观体验可能受影响",
+          "source_url": "https://www.baidu.com/s?wd=%E7%A7%91%E9%9A%86%E5%A4%A7%E6%95%99%E5%A0%82%E9%83%A8%E5%88%86%E4%BF%AE%E7%BC%AE",
+          "key_figures": [
+            "部分区域修缮",
+            "路线调整"
+          ],
+          "travel_advisory": "关注最新开放信息",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "德国可再生能源旅游兴起",
+          "category": "文旅活动",
+          "summary": "德国推广可再生能源主题旅游路线，风力发电场和太阳能公园成为新景点",
+          "source": "德国旅游局",
+          "impact": "绿色旅游成为新趋势",
+          "source_url": "https://www.baidu.com/s?wd=%E5%BE%B7%E5%9B%BD%E5%8F%AF%E5%86%8D%E7%94%9F%E8%83%BD%E6%BA%90%E6%97%85%E6%B8%B8%E5%85%B4%E8%B5%B7",
+          "key_figures": [
+            "能源旅游路线",
+            "绿色景点"
+          ],
+          "travel_advisory": "适合亲子科普教育",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "name": "希腊",
+      "events": [
+        {
+          "rank": 1,
+          "title": "希腊海滩旅游需求翻倍",
+          "category": "行业数据",
+          "summary": "2026夏季希腊海滩度假需求翻倍，位列欧洲预订量前五目的地",
+          "source": "希腊旅游部",
+          "impact": "希腊成为欧洲最热门夏季度假地",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B8%8C%E8%85%8A%E6%B5%B7%E6%BB%A9%E6%97%85%E6%B8%B8%E9%9C%80%E6%B1%82%E7%BF%BB%E5%80%8D",
+          "key_figures": [
+            "需求翻倍",
+            "欧洲前五"
+          ],
+          "travel_advisory": "热门岛屿提前订房",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "纳克索斯岛入选全球目的地",
+          "category": "目的地",
+          "summary": "纳克索斯岛被评为2026年全球顶级旅游目的地之一，提升希腊岛屿旅游知名度",
+          "source": "国际旅游媒体",
+          "impact": "小众岛屿获得全球关注",
+          "source_url": "https://www.baidu.com/s?wd=%E7%BA%B3%E5%85%8B%E7%B4%A2%E6%96%AF%E5%B2%9B%E5%85%A5%E9%80%89%E5%85%A8%E7%90%83%E7%9B%AE%E7%9A%84%E5%9C%B0",
+          "key_figures": [
+            "全球顶级目的地",
+            "2026年入选"
+          ],
+          "travel_advisory": "探索非热门岛屿",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "希腊EES夏季暂停执行",
+          "category": "签证政策",
+          "summary": "希腊在夏季旅游高峰期临时暂停EES生物识别检查以缓解口岸拥堵",
+          "source": "希腊移民局",
+          "impact": "入境排队问题暂时缓解",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B8%8C%E8%85%8AEES%E5%A4%8F%E5%AD%A3%E6%9A%82%E5%81%9C%E6%89%A7%E8%A1%8C",
+          "key_figures": [
+            "高峰暂暂停",
+            "缓解拥堵"
+          ],
+          "travel_advisory": "预留通关时间",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "希腊签证发放效率提升",
+          "category": "签证政策",
+          "summary": "希腊签证审批效率提升，申根签证办理周期缩短促进旅游增长",
+          "source": "希腊驻华使馆",
+          "impact": "签证便利化助推旅游增长",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B8%8C%E8%85%8A%E7%AD%BE%E8%AF%81%E5%8F%91%E6%94%BE%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%87",
+          "key_figures": [
+            "审批效率提升",
+            "周期缩短"
+          ],
+          "travel_advisory": "提前准备材料",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "圣托里尼旺季限流讨论",
+          "category": "旅行提示",
+          "summary": "圣托里尼讨论实施每日游客上限措施，旺季邮轮客和过夜客数量创新高",
+          "source": "圣托里尼市政府",
+          "impact": "过度旅游问题引发管控讨论",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9C%A3%E6%89%98%E9%87%8C%E5%B0%BC%E6%97%BA%E5%AD%A3%E9%99%90%E6%B5%81%E8%AE%A8%E8%AE%BA",
+          "key_figures": [
+            "讨论限流",
+            "游客创新高"
+          ],
+          "travel_advisory": "提前规划避开高峰",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "希腊美食旅游持续走红",
+          "category": "文旅活动",
+          "summary": "希腊美食体验游持续走红，橄榄油品鉴和海岛海鲜成为游客热门选择",
+          "source": "希腊旅游局",
+          "impact": "美食旅游提升希腊吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B8%8C%E8%85%8A%E7%BE%8E%E9%A3%9F%E6%97%85%E6%B8%B8%E6%8C%81%E7%BB%AD%E8%B5%B0%E7%BA%A2",
+          "key_figures": [
+            "美食游走红",
+            "橄榄油品鉴"
+          ],
+          "travel_advisory": "预约当地体验活动",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "雅典卫城高温调整时间",
+          "category": "旅行提示",
+          "summary": "雅典卫城8月因高温调整开放时间，午间时段临时关闭保护游客健康",
+          "source": "希腊文化部",
+          "impact": "高温影响景点游览安排",
+          "source_url": "https://www.baidu.com/s?wd=%E9%9B%85%E5%85%B8%E5%8D%AB%E5%9F%8E%E9%AB%98%E6%B8%A9%E8%B0%83%E6%95%B4%E6%97%B6%E9%97%B4",
+          "key_figures": [
+            "午间关闭",
+            "高温保护"
+          ],
+          "travel_advisory": "早间或傍晚前往",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "迈泰奥拉修道院新游览线路",
+          "category": "目的地",
+          "summary": "迈泰奥拉修道院推出新游览线路，悬崖上的中世纪修道院群更具可达性",
+          "source": "迈泰奥拉旅游局",
+          "impact": "世遗目的地旅游体验升级",
+          "source_url": "https://www.baidu.com/s?wd=%E8%BF%88%E6%B3%B0%E5%A5%A5%E6%8B%89%E4%BF%AE%E9%81%93%E9%99%A2%E6%96%B0%E6%B8%B8%E8%A7%88%E7%BA%BF%E8%B7%AF",
+          "key_figures": [
+            "新线路推出",
+            "悬崖修道院"
+          ],
+          "travel_advisory": "穿着舒适步行鞋",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "希腊渡轮暑期运力增加",
+          "category": "航空交通",
+          "summary": "希腊渡轮公司8月增加航班频次，爱琴海岛屿间交通更加便利",
+          "source": "希腊渡轮协会",
+          "impact": "岛屿间交通更加便捷",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B8%8C%E8%85%8A%E6%B8%A1%E8%BD%AE%E6%9A%91%E6%9C%9F%E8%BF%90%E5%8A%9B%E5%A2%9E%E5%8A%A0",
+          "key_figures": [
+            "班次增加",
+            "岛屿交通便利"
+          ],
+          "travel_advisory": "提前预订渡轮票",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "希腊推广可持续旅游",
+          "category": "文旅活动",
+          "summary": "希腊推出可持续旅游认证体系，鼓励游客选择环保型住宿和活动",
+          "source": "希腊旅游部",
+          "impact": "绿色旅游成为发展新方向",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B8%8C%E8%85%8A%E6%8E%A8%E5%B9%BF%E5%8F%AF%E6%8C%81%E7%BB%AD%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "可持续认证",
+            "环保住宿"
+          ],
+          "travel_advisory": "选择认证绿色酒店",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "TR",
+      "name": "土耳其",
+      "events": [
+        {
+          "rank": 1,
+          "title": "土耳其上半年迎2580万客",
+          "category": "行业数据",
+          "summary": "土耳其2026上半年接待2580万国际游客，旅游收入达258亿美元保持强劲",
+          "source": "土耳其文化和旅游部",
+          "impact": "旅游业仍是经济增长核心动力",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9C%9F%E8%80%B3%E5%85%B6%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%BF%8E2580%E4%B8%87%E5%AE%A2",
+          "key_figures": [
+            "2580万游客",
+            "258亿美元收入"
+          ],
+          "travel_advisory": "热门景区提前预订",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "俄罗斯游客暑期涌向土耳其",
+          "category": "行业数据",
+          "summary": "预计6-8月约290-300万俄罗斯游客赴土耳其，安塔利亚爱琴海海岸最热门",
+          "source": "俄罗斯旅游协会",
+          "impact": "俄罗斯客源持续支撑土耳其旅游",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E6%B8%B8%E5%AE%A2%E6%9A%91%E6%9C%9F%E6%B6%8C%E5%90%91%E5%9C%9F%E8%80%B3%E5%85%B6",
+          "key_figures": [
+            "300万俄游客",
+            "安塔利亚最热"
+          ],
+          "travel_advisory": "旺季酒店价格上浮",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "土耳其人均消费增长",
+          "category": "行业数据",
+          "summary": "土耳其游客平均停留时长增至10.01晚，人均夜消费增长2.6%至109美元",
+          "source": "土耳其统计署",
+          "impact": "旅游消费质量和收入结构改善",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9C%9F%E8%80%B3%E5%85%B6%E4%BA%BA%E5%9D%87%E6%B6%88%E8%B4%B9%E5%A2%9E%E9%95%BF",
+          "key_figures": [
+            "停留10.01晚",
+            "夜消费109美元"
+          ],
+          "travel_advisory": "长停留深度游趋势",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "伊斯坦布尔文化节日密集",
+          "category": "文旅活动",
+          "summary": "伊斯坦布尔8月举办多场文化节庆活动，音乐艺术美食汇聚博斯普鲁斯两岸",
+          "source": "伊斯坦布尔文化局",
+          "impact": "文化旅游提升城市吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%B8%83%E5%B0%94%E6%96%87%E5%8C%96%E8%8A%82%E6%97%A5%E5%AF%86%E9%9B%86",
+          "key_figures": [
+            "多场文化节",
+            "博斯普鲁斯两岸"
+          ],
+          "travel_advisory": "关注活动时间表",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "卡帕多奇亚热气球之旅火爆",
+          "category": "文旅活动",
+          "summary": "卡帕多奇亚热气球之旅持续火爆，8月日出飞行需提前数周预订",
+          "source": "卡帕多奇亚旅游局",
+          "impact": "体验式旅游成为核心吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%A1%E5%B8%95%E5%A4%9A%E5%A5%87%E4%BA%9A%E7%83%AD%E6%B0%94%E7%90%83%E4%B9%8B%E6%97%85%E7%81%AB%E7%88%86",
+          "key_figures": [
+            "热气球火爆",
+            "提前数周预订"
+          ],
+          "travel_advisory": "关注天气是否适飞",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "土耳其里拉汇率利好消费",
+          "category": "目的地",
+          "summary": "土耳其里拉维持低位运行，外国游客在土消费购买力较强",
+          "source": "外汇市场",
+          "impact": "汇率优势吸引更多游客",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9C%9F%E8%80%B3%E5%85%B6%E9%87%8C%E6%8B%89%E6%B1%87%E7%8E%87%E5%88%A9%E5%A5%BD%E6%B6%88%E8%B4%B9",
+          "key_figures": [
+            "里拉低位",
+            "购买力强"
+          ],
+          "travel_advisory": "当地消费性价比高",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "土耳其蓝色巡游持续走红",
+          "category": "文旅活动",
+          "summary": "土耳其蓝色巡游持续走红，博德鲁姆费特希耶游艇旅游需求旺盛",
+          "source": "土耳其海事旅游协会",
+          "impact": "海上旅游成为新增长点",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9C%9F%E8%80%B3%E5%85%B6%E8%93%9D%E8%89%B2%E5%B7%A1%E6%B8%B8%E6%8C%81%E7%BB%AD%E8%B5%B0%E7%BA%A2",
+          "key_figures": [
+            "蓝色巡游热",
+            "游艇需求旺"
+          ],
+          "travel_advisory": "选择正规船公司",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "土耳其电子签证便利申请",
+          "category": "签证政策",
+          "summary": "土耳其电子签证面向多国公民开放，在线申请快速便捷",
+          "source": "土耳其外交部",
+          "impact": "签证门槛低利好旅游增长",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9C%9F%E8%80%B3%E5%85%B6%E7%94%B5%E5%AD%90%E7%AD%BE%E8%AF%81%E4%BE%BF%E5%88%A9%E7%94%B3%E8%AF%B7",
+          "key_figures": [
+            "电子签证",
+            "在线快速申请"
+          ],
+          "travel_advisory": "出发前在线申请",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "安塔利亚机场扩建完成",
+          "category": "航空交通",
+          "summary": "安塔利亚机场新航站楼扩建投入使用，暑期旅客吞吐能力大幅提升",
+          "source": "安塔利亚机场管理局",
+          "impact": "航空接待能力增强",
+          "source_url": "https://www.baidu.com/s?wd=%E5%AE%89%E5%A1%94%E5%88%A9%E4%BA%9A%E6%9C%BA%E5%9C%BA%E6%89%A9%E5%BB%BA%E5%AE%8C%E6%88%90",
+          "key_figures": [
+            "新航站楼启用",
+            "吞吐能力提升"
+          ],
+          "travel_advisory": "关注新航站楼导航",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "土耳其温泉疗养旅游",
+          "category": "文旅活动",
+          "summary": "帕姆卡莱等温泉疗养目的地持续受关注，健康旅游成为新趋势",
+          "source": "土耳其旅游局",
+          "impact": "健康疗养旅游产品丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9C%9F%E8%80%B3%E5%85%B6%E6%B8%A9%E6%B3%89%E7%96%97%E5%85%BB%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "温泉疗养热",
+            "健康旅游"
+          ],
+          "travel_advisory": "提前预约温泉酒店",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "瑞士",
+      "events": [
+        {
+          "rank": 1,
+          "title": "瑞士公共交通7折优惠",
+          "category": "航空交通",
+          "summary": "瑞士推出直达公共交通二等座7折优惠，有效期至8月23日",
+          "source": "瑞士联邦铁路SBB",
+          "impact": "瑞士旅行成本暂时降低",
+          "source_url": "https://www.baidu.com/s?wd=%E7%91%9E%E5%A3%AB%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A7%E6%8A%98%E4%BC%98%E6%83%A0",
+          "key_figures": [
+            "7折优惠",
+            "至8月23日"
+          ],
+          "travel_advisory": "提前购买优惠票",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "瑞士EES高峰暂暂停",
+          "category": "签证政策",
+          "summary": "瑞士在旅游高峰时段临时暂停EES生物识别检查缓解口岸拥堵",
+          "source": "瑞士联邦移民局",
+          "impact": "入境通关效率暂时改善",
+          "source_url": "https://www.baidu.com/s?wd=%E7%91%9E%E5%A3%ABEES%E9%AB%98%E5%B3%B0%E6%9A%82%E6%9A%82%E5%81%9C",
+          "key_figures": [
+            "高峰暂暂停",
+            "缓解拥堵"
+          ],
+          "travel_advisory": "预留通关时间",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "冰川快车夏季观光热",
+          "category": "文旅活动",
+          "summary": "冰川快车夏季观光旺季到来，采尔马特至圣莫里茨线路一票难求",
+          "source": "冰川快车运营方",
+          "impact": "瑞士标志性列车旅游需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E5%86%B0%E5%B7%9D%E5%BF%AB%E8%BD%A6%E5%A4%8F%E5%AD%A3%E8%A7%82%E5%85%89%E7%83%AD",
+          "key_figures": [
+            "一票难求",
+            "旺季到来"
+          ],
+          "travel_advisory": "提前数周预订",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "少女峰地区徒步季",
+          "category": "目的地",
+          "summary": "少女峰地区8月进入最佳徒步季，艾格峰步道和雪朗峰观景台吸引大量游客",
+          "source": "少女峰旅游局",
+          "impact": "阿尔卑斯徒步旅游持续火爆",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B0%91%E5%A5%B3%E5%B3%B0%E5%9C%B0%E5%8C%BA%E5%BE%92%E6%AD%A5%E5%AD%A3",
+          "key_figures": [
+            "最佳徒步季",
+            "步道热门"
+          ],
+          "travel_advisory": "关注天气备好装备",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "瑞士中国免签持续",
+          "category": "签证政策",
+          "summary": "瑞士公民继续享受中国30天免签政策延至年底",
+          "source": "外交部",
+          "impact": "中瑞旅游交流便利化稳定",
+          "source_url": "https://www.baidu.com/s?wd=%E7%91%9E%E5%A3%AB%E4%B8%AD%E5%9B%BD%E5%85%8D%E7%AD%BE%E6%8C%81%E7%BB%AD",
+          "key_figures": [
+            "免签30天",
+            "持续至年底"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "日内瓦湖夏季活动丰富",
+          "category": "文旅活动",
+          "summary": "日内瓦湖区8月举办帆船赛音乐节等活动，湖光山色吸引大量游客",
+          "source": "日内瓦旅游局",
+          "impact": "湖区夏季旅游产品丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E6%97%A5%E5%86%85%E7%93%A6%E6%B9%96%E5%A4%8F%E5%AD%A3%E6%B4%BB%E5%8A%A8%E4%B8%B0%E5%AF%8C",
+          "key_figures": [
+            "帆船赛音乐节",
+            "湖区吸引游客"
+          ],
+          "travel_advisory": "提前预订湖畔住宿",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "瑞士巧克力工厂游",
+          "category": "文旅活动",
+          "summary": "Cailler巧克力工厂等工业旅游项目持续走红，适合亲子游客群体",
+          "source": "瑞士旅游局",
+          "impact": "工业旅游成为瑞士新亮点",
+          "source_url": "https://www.baidu.com/s?wd=%E7%91%9E%E5%A3%AB%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%B7%A5%E5%8E%82%E6%B8%B8",
+          "key_figures": [
+            "巧克力工厂游",
+            "亲子热门"
+          ],
+          "travel_advisory": "提前预约参观时段",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "卢塞恩音乐节开幕",
+          "category": "文旅活动",
+          "summary": "卢塞恩夏季音乐节8月举行，古典音乐演出吸引全球音乐爱好者",
+          "source": "卢塞恩音乐节组委会",
+          "impact": "文化旅游提升瑞士吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%A2%E5%A1%9E%E6%81%A9%E9%9F%B3%E4%B9%90%E8%8A%82%E5%BC%80%E5%B9%95",
+          "key_figures": [
+            "夏季音乐节",
+            "古典音乐演出"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "瑞士登山铁路升级",
+          "category": "航空交通",
+          "summary": "皮拉图斯山和瑞吉山等登山铁路完成年度维护升级，运营更加顺畅",
+          "source": "瑞士山地铁路协会",
+          "impact": "登山旅游交通体验提升",
+          "source_url": "https://www.baidu.com/s?wd=%E7%91%9E%E5%A3%AB%E7%99%BB%E5%B1%B1%E9%93%81%E8%B7%AF%E5%8D%87%E7%BA%A7",
+          "key_figures": [
+            "铁路升级完成",
+            "运营顺畅"
+          ],
+          "travel_advisory": "查询运营时刻表",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "瑞士环保旅游认证推广",
+          "category": "文旅活动",
+          "summary": "瑞士推广Swisstainable可持续旅游认证，鼓励游客选择低碳出行方式",
+          "source": "瑞士国家旅游局",
+          "impact": "绿色旅游成为瑞士新标签",
+          "source_url": "https://www.baidu.com/s?wd=%E7%91%9E%E5%A3%AB%E7%8E%AF%E4%BF%9D%E6%97%85%E6%B8%B8%E8%AE%A4%E8%AF%81%E6%8E%A8%E5%B9%BF",
+          "key_figures": [
+            "Swisstainable",
+            "低碳出行"
+          ],
+          "travel_advisory": "选择认证环保酒店",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "RU",
+      "name": "俄罗斯",
+      "events": [
+        {
+          "rank": 1,
+          "title": "中俄互免签证延至2027",
+          "category": "签证政策",
+          "summary": "中俄互免签证协议延长至2027年底，双方公民可免签入境停留30天",
+          "source": "克里姆林宫",
+          "impact": "中俄旅游交流制度保障持续加强",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BF%84%E4%BA%92%E5%85%8D%E7%AD%BE%E8%AF%81%E5%BB%B6%E8%87%B32027",
+          "key_figures": [
+            "互免延至2027",
+            "30天停留"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "俄游客赴华半年增130%",
+          "category": "行业数据",
+          "summary": "免签政策实施以来俄公民赴华旅游增长130%，预计全年达350万人次创新高",
+          "source": "俄罗斯旅游署",
+          "impact": "免签政策效果显著拉动旅游增长",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BF%84%E6%B8%B8%E5%AE%A2%E8%B5%B4%E5%8D%8E%E5%8D%8A%E5%B9%B4%E5%A2%9E130%25",
+          "key_figures": [
+            "增长130%",
+            "全年350万人次"
+          ],
+          "travel_advisory": "热门目的地提前预订",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "俄预计中国游客增25-33%",
+          "category": "行业数据",
+          "summary": "俄罗斯预计2026年底中国游客到访量增长25-33%，免签政策持续释放红利",
+          "source": "俄罗斯旅游署",
+          "impact": "中国赴俄旅游市场前景乐观",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BF%84%E9%A2%84%E8%AE%A1%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E5%A2%9E25-33%25",
+          "key_figures": [
+            "增长25-33%",
+            "免签红利释放"
+          ],
+          "travel_advisory": "冬季旅游也可规划",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "莫斯科红场夏季旅游热",
+          "category": "目的地",
+          "summary": "莫斯科8月进入夏季旅游旺季，红场克里姆林宫等景点游客量显著增长",
+          "source": "莫斯科旅游局",
+          "impact": "暑期俄罗斯旅游需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E8%8E%AB%E6%96%AF%E7%A7%91%E7%BA%A2%E5%9C%BA%E5%A4%8F%E5%AD%A3%E6%97%85%E6%B8%B8%E7%83%AD",
+          "key_figures": [
+            "夏季旺季",
+            "游客增长"
+          ],
+          "travel_advisory": "提前预订酒店",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "俄罗斯邮轮旅游恢复",
+          "category": "航空交通",
+          "summary": "波罗的海邮轮航线恢复运营，圣彼得堡出发多线路可供选择",
+          "source": "俄罗斯邮轮公司",
+          "impact": "海上旅游选择更加丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E9%82%AE%E8%BD%AE%E6%97%85%E6%B8%B8%E6%81%A2%E5%A4%8D",
+          "key_figures": [
+            "邮轮恢复",
+            "圣彼得堡出发"
+          ],
+          "travel_advisory": "提前预订舱位",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "俄罗斯冬季旅游预热",
+          "category": "文旅活动",
+          "summary": "俄罗斯旅游局8月开始预热冬季旅游产品，贝加尔湖冰上体验和极光之旅受关注",
+          "source": "俄罗斯旅游局",
+          "impact": "冬季旅游产品提前推广",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E5%86%AC%E5%AD%A3%E6%97%85%E6%B8%B8%E9%A2%84%E7%83%AD",
+          "key_figures": [
+            "冬季预热",
+            "贝加尔极光"
+          ],
+          "travel_advisory": "关注早鸟优惠",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "圣彼得堡长日照宜游览",
+          "category": "目的地",
+          "summary": "圣彼得堡8月仍保持较长日照时间，白夜余韵旅游体验舒适",
+          "source": "圣彼得堡旅游局",
+          "impact": "光照条件适宜游览观光",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1%E9%95%BF%E6%97%A5%E7%85%A7%E5%AE%9C%E6%B8%B8%E8%A7%88",
+          "key_figures": [
+            "长日照",
+            "游览舒适"
+          ],
+          "travel_advisory": "安排户外观光活动",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "俄罗斯电子签证扩展",
+          "category": "签证政策",
+          "summary": "俄罗斯统一电子签证系统持续运行，面向多国公民开放在线申请",
+          "source": "俄罗斯外交部",
+          "impact": "签证申请流程更加便捷",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E7%94%B5%E5%AD%90%E7%AD%BE%E8%AF%81%E6%89%A9%E5%B1%95",
+          "key_figures": [
+            "电子签证运行",
+            "在线申请"
+          ],
+          "travel_advisory": "提前在线申请",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "西伯利亚铁路旅游热",
+          "category": "文旅活动",
+          "summary": "跨西伯利亚铁路旅游持续走红，莫斯科至符拉迪沃斯托克线路成为经典体验",
+          "source": "俄罗斯铁路公司",
+          "impact": "铁路旅游体验独特吸引力强",
+          "source_url": "https://www.baidu.com/s?wd=%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9A%E9%93%81%E8%B7%AF%E6%97%85%E6%B8%B8%E7%83%AD",
+          "key_figures": [
+            "跨西伯利亚热",
+            "经典线路"
+          ],
+          "travel_advisory": "提前预订卧铺包厢",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "俄罗斯中国团队游恢复",
+          "category": "行业数据",
+          "summary": "中俄团队游互免签证安排下，中国赴俄团队游全面恢复运营",
+          "source": "俄罗斯旅游署",
+          "impact": "团队游市场恢复增长",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E4%B8%AD%E5%9B%BD%E5%9B%A2%E9%98%9F%E6%B8%B8%E6%81%A2%E5%A4%8D",
+          "key_figures": [
+            "团队游恢复",
+            "免签安排"
+          ],
+          "travel_advisory": "选择正规旅行社",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "name": "美国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "美签证保证金计划正式化",
+          "category": "签证政策",
+          "summary": "美国国务院8月3日正式实施B1/B2签证保证金永久计划，部分国家申请人需缴纳最高2万美元",
+          "source": "美国国务院",
+          "impact": "签证申请门槛和成本显著上升",
+          "source_url": "https://www.baidu.com/s?wd=%E7%BE%8E%E7%AD%BE%E8%AF%81%E4%BF%9D%E8%AF%81%E9%87%91%E8%AE%A1%E5%88%92%E6%AD%A3%E5%BC%8F%E5%8C%96",
+          "key_figures": [
+            "保证金最高2万",
+            "50国适用"
+          ],
+          "travel_advisory": "确认本国是否在列",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "美签证保证金规则细则",
+          "category": "签证政策",
+          "summary": "保证金金额分10000-15000-20000美元三档，签证官根据个人情况决定，遵守规定可退还",
+          "source": "美国联邦公报",
+          "impact": "签证申请人需做好资金准备",
+          "source_url": "https://www.baidu.com/s?wd=%E7%BE%8E%E7%AD%BE%E8%AF%81%E4%BF%9D%E8%AF%81%E9%87%91%E8%A7%84%E5%88%99%E7%BB%86%E5%88%99",
+          "key_figures": [
+            "三档金额",
+            "合规可退还"
+          ],
+          "travel_advisory": "保留保证金收据",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "FIFA世界杯遗产旅游延续",
+          "category": "文旅活动",
+          "summary": "世界杯虽已结束但遗产旅游效应延续，球迷继续参观16座主办城市",
+          "source": "FIFA",
+          "impact": "赛事遗产拉动城市旅游",
+          "source_url": "https://www.baidu.com/s?wd=FIFA%E4%B8%96%E7%95%8C%E6%9D%AF%E9%81%97%E4%BA%A7%E6%97%85%E6%B8%B8%E5%BB%B6%E7%BB%AD",
+          "key_figures": [
+            "16座主办城市",
+            "遗产旅游"
+          ],
+          "travel_advisory": "参观球场和纪念设施",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "美国国家公园暑运高峰",
+          "category": "目的地",
+          "summary": "黄石大峡谷等国家公园8月迎来暑期客流高峰，部分景点限流",
+          "source": "美国国家公园管理局",
+          "impact": "热门国家公园需提前规划",
+          "source_url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E6%9A%91%E8%BF%90%E9%AB%98%E5%B3%B0",
+          "key_figures": [
+            "客流高峰",
+            "部分限流"
+          ],
+          "travel_advisory": "提前预订营地和门票",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "纽约时代广场暑期活动",
+          "category": "文旅活动",
+          "summary": "纽约8月推出百老汇夏季折扣和户外演出活动，吸引大量国际游客",
+          "source": "纽约旅游局",
+          "impact": "文化旅游产品丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E7%BA%BD%E7%BA%A6%E6%97%B6%E4%BB%A3%E5%B9%BF%E5%9C%BA%E6%9A%91%E6%9C%9F%E6%B4%BB%E5%8A%A8",
+          "key_figures": [
+            "百老汇折扣",
+            "户外演出"
+          ],
+          "travel_advisory": "关注TKTS折扣票",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "中美过境免签政策",
+          "category": "签证政策",
+          "summary": "美国公民虽不在中国免签名单但可通过240小时过境免签在中国停留",
+          "source": "国家移民管理局",
+          "impact": "中美旅游仍有便利通道",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E8%BF%87%E5%A2%83%E5%85%8D%E7%AD%BE%E6%94%BF%E7%AD%96",
+          "key_figures": [
+            "240小时过境",
+            "60口岸可用"
+          ],
+          "travel_advisory": "需持第三国联程票",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "美国西部高温影响旅游",
+          "category": "旅行提示",
+          "summary": "美国西南部拉斯维加斯等地8月极端高温，户外旅游活动需调整",
+          "source": "美国国家气象局",
+          "impact": "高温影响西部旅游安排",
+          "source_url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E8%A5%BF%E9%83%A8%E9%AB%98%E6%B8%A9%E5%BD%B1%E5%93%8D%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "极端高温",
+            "西部受影响"
+          ],
+          "travel_advisory": "避开午间户外活动",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "美国购物退税州差异",
+          "category": "旅行提示",
+          "summary": "美国各州购物退税政策差异大，部分州免税购物成为旅游吸引力",
+          "source": "美国税务局",
+          "impact": "购物旅游需了解税务差异",
+          "source_url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E8%B4%AD%E7%89%A9%E9%80%80%E7%A8%8E%E5%B7%9E%E5%B7%AE%E5%BC%82",
+          "key_figures": [
+            "各州差异",
+            "免税州更优惠"
+          ],
+          "travel_advisory": "选择免税州购物",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "夏威夷旅游旺季持续",
+          "category": "目的地",
+          "summary": "夏威夷8月维持旅游旺季态势，航班和酒店预订量保持高位",
+          "source": "夏威夷旅游局",
+          "impact": "太平洋度假目的地需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A4%8F%E5%A8%81%E5%A4%B7%E6%97%85%E6%B8%B8%E6%97%BA%E5%AD%A3%E6%8C%81%E7%BB%AD",
+          "key_figures": [
+            "旺季持续",
+            "预订量高位"
+          ],
+          "travel_advisory": "提前预订机酒",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "洛杉矶新航线增加",
+          "category": "航空交通",
+          "summary": "洛杉矶国际机场新增多条国际航线，亚洲和欧洲直飞选择增加",
+          "source": "LAX机场管理局",
+          "impact": "国际旅客抵离更加便捷",
+          "source_url": "https://www.baidu.com/s?wd=%E6%B4%9B%E6%9D%89%E7%9F%B6%E6%96%B0%E8%88%AA%E7%BA%BF%E5%A2%9E%E5%8A%A0",
+          "key_figures": [
+            "新增国际航线",
+            "亚欧直飞增加"
+          ],
+          "travel_advisory": "比较航线选最优",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "加拿大",
+      "events": [
+        {
+          "rank": 1,
+          "title": "加拿大eTA系统8月11日维护",
+          "category": "签证政策",
+          "summary": "加拿大eTA在线申请系统将于8月11日凌晨0:00-5:30维护升级，届时暂停服务",
+          "source": "加拿大移民局",
+          "impact": "申请窗口短暂关闭需提前安排",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7eTA%E7%B3%BB%E7%BB%9F8%E6%9C%8811%E6%97%A5%E7%BB%B4%E6%8A%A4",
+          "key_figures": [
+            "8月11日维护",
+            "暂停5.5小时"
+          ],
+          "travel_advisory": "维护前后均可申请",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "印尼马来公民可申请eTA",
+          "category": "签证政策",
+          "summary": "5月26日起印尼和马来西亚公民可申请eTA而非签证赴加拿大航空旅行",
+          "source": "加拿大移民局",
+          "impact": "东南亚两国赴加更便利",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%B0%BC%E9%A9%AC%E6%9D%A5%E5%85%AC%E6%B0%91%E5%8F%AF%E7%94%B3%E8%AF%B7eTA",
+          "key_figures": [
+            "印尼马来适用",
+            "eTA替代签证"
+          ],
+          "travel_advisory": "仅限航空入境",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "FIFA世界杯主办遗产旅游",
+          "category": "文旅活动",
+          "summary": "加拿大作为2026世界杯主办国之一，赛事遗产旅游效应在主办城市延续",
+          "source": "加拿大旅游局",
+          "impact": "赛事遗产拉动城市旅游",
+          "source_url": "https://www.baidu.com/s?wd=FIFA%E4%B8%96%E7%95%8C%E6%9D%AF%E4%B8%BB%E5%8A%9E%E9%81%97%E4%BA%A7%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "主办城市",
+            "遗产旅游"
+          ],
+          "travel_advisory": "参观多伦多温哥华球场",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "加拿大落基山脉旺季",
+          "category": "目的地",
+          "summary": "班夫和贾斯珀国家公园8月迎来最佳旅游季，湖泊碧绿野生动物活跃",
+          "source": "加拿大公园管理局",
+          "impact": "自然旅游需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%90%BD%E5%9F%BA%E5%B1%B1%E8%84%89%E6%97%BA%E5%AD%A3",
+          "key_figures": [
+            "最佳旅游季",
+            "湖泊碧绿"
+          ],
+          "travel_advisory": "提前预订园区住宿",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "加拿大香港居民通道将截止",
+          "category": "签证政策",
+          "summary": "加拿大香港居民永久居民通道8月31日截止，暂无延期计划",
+          "source": "加拿大移民局",
+          "impact": "相关政策窗口期即将关闭",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A6%99%E6%B8%AF%E5%B1%85%E6%B0%91%E9%80%9A%E9%81%93%E5%B0%86%E6%88%AA%E6%AD%A2",
+          "key_figures": [
+            "8月31日截止",
+            "暂无延期"
+          ],
+          "travel_advisory": "符合条件者尽快申请",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "加拿大签证费用稳定",
+          "category": "签证政策",
+          "summary": "加拿大部分签证类别费用调整，旅游签证维持100加元不变",
+          "source": "加拿大移民局",
+          "impact": "旅游签证成本保持稳定",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%AD%BE%E8%AF%81%E8%B4%B9%E7%94%A8%E7%A8%B3%E5%AE%9A",
+          "key_figures": [
+            "旅游签100加元",
+            "费用稳定"
+          ],
+          "travel_advisory": "在线申请更快捷",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "尼亚加拉瀑布夜光秀",
+          "category": "文旅活动",
+          "summary": "尼亚加拉瀑布8月延长夜间灯光秀时段，彩虹色灯光映照瀑布壮观",
+          "source": "尼亚加拉公园管理局",
+          "impact": "夜间旅游产品丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B0%BC%E4%BA%9A%E5%8A%A0%E6%8B%89%E7%80%91%E5%B8%83%E5%A4%9C%E5%85%89%E7%A7%80",
+          "key_figures": [
+            "夜间灯光秀",
+            "延长时段"
+          ],
+          "travel_advisory": "夜间观赏注意安全",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "加拿大极光旅游预热",
+          "category": "文旅活动",
+          "summary": "黄刀镇和丘吉尔城开始预热秋季极光旅游季，8月预订量上升",
+          "source": "加拿大旅游局",
+          "impact": "极光旅游市场提前启动",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%9E%81%E5%85%89%E6%97%85%E6%B8%B8%E9%A2%84%E7%83%AD",
+          "key_figures": [
+            "极光季预热",
+            "预订量上升"
+          ],
+          "travel_advisory": "提前预订住宿和观测",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "加拿大跨省份铁路游",
+          "category": "文旅活动",
+          "summary": "VIA Rail加拿大号横贯东西铁路游持续走红，体验北美最长铁路旅程",
+          "source": "VIA Rail",
+          "impact": "铁路旅游体验独特",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%B7%A8%E7%9C%81%E4%BB%BD%E9%93%81%E8%B7%AF%E6%B8%B8",
+          "key_figures": [
+            "横贯东西",
+            "最长铁路旅程"
+          ],
+          "travel_advisory": "提前预订卧铺",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "加拿大原住民文化旅游",
+          "category": "文旅活动",
+          "summary": "加拿大推广原住民文化旅游体验，图腾柱独木舟和传统仪式吸引游客",
+          "source": "加拿大原住民旅游协会",
+          "impact": "文化旅游产品差异化",
+          "source_url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%96%87%E5%8C%96%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "原住民文化",
+            "独特体验"
+          ],
+          "travel_advisory": "尊重原住民文化传统",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "墨西哥",
+      "events": [
+        {
+          "rank": 1,
+          "title": "墨西哥新增48条航线",
+          "category": "航空交通",
+          "summary": "墨西哥旅游部宣布开通48条新航线，含29条国内和19条国际航线",
+          "source": "墨西哥旅游部",
+          "impact": "国际国内航空连通性大幅提升",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%96%B0%E5%A2%9E48%E6%9D%A1%E8%88%AA%E7%BA%BF",
+          "key_figures": [
+            "48条新航线",
+            "29国内19国际"
+          ],
+          "travel_advisory": "关注新航线票价",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "坎昆新增17条航线",
+          "category": "航空交通",
+          "summary": "坎昆和科苏梅尔新增17条国际航线连接美加欧多城市",
+          "source": "坎昆机场管理局",
+          "impact": "加勒比海度假目的地交通更便利",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9D%8E%E6%98%86%E6%96%B0%E5%A2%9E17%E6%9D%A1%E8%88%AA%E7%BA%BF",
+          "key_figures": [
+            "17条新航线",
+            "连接美加欧"
+          ],
+          "travel_advisory": "比较航线选择",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "伏拉瑞斯扩张瓜达拉哈拉",
+          "category": "航空交通",
+          "summary": "墨西哥伏拉瑞斯航空宣布从瓜达拉哈拉新增麦德林华盛顿亚特兰大等航线",
+          "source": "Volaris航空",
+          "impact": "低成本航空选择更加丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BC%8F%E6%8B%89%E7%91%9E%E6%96%AF%E6%89%A9%E5%BC%A0%E7%93%9C%E8%BE%BE%E6%8B%89%E5%93%88%E6%8B%89",
+          "key_figures": [
+            "新增多航线",
+            "低成本航空"
+          ],
+          "travel_advisory": "关注促销票价",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "墨西哥世界杯遗产旅游",
+          "category": "文旅活动",
+          "summary": "墨西哥作为世界杯主办国之一，赛后遗产旅游效应在墨西哥城等城市延续",
+          "source": "墨西哥旅游部",
+          "impact": "赛事遗产拉动城市旅游",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A2%A8%E8%A5%BF%E5%93%A5%E4%B8%96%E7%95%8C%E6%9D%AF%E9%81%97%E4%BA%A7%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "主办城市",
+            "遗产旅游"
+          ],
+          "travel_advisory": "参观阿兹特克球场",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "坎昆酒店区旺季",
+          "category": "目的地",
+          "summary": "坎昆酒店区8月保持高入住率，全包度假村和生态旅游受欢迎",
+          "source": "坎昆旅游局",
+          "impact": "加勒比度假需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E5%9D%8E%E6%98%86%E9%85%92%E5%BA%97%E5%8C%BA%E6%97%BA%E5%AD%A3",
+          "key_figures": [
+            "高入住率",
+            "全包度假热门"
+          ],
+          "travel_advisory": "提前预订享早鸟价",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "墨西哥美食旅游走红",
+          "category": "文旅活动",
+          "summary": "墨西哥城瓦哈卡等地美食旅游持续走红，传统市场烹饪课和龙舌兰之旅受欢迎",
+          "source": "墨西哥旅游局",
+          "impact": "美食文化成为旅游新动力",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A2%A8%E8%A5%BF%E5%93%A5%E7%BE%8E%E9%A3%9F%E6%97%85%E6%B8%B8%E8%B5%B0%E7%BA%A2",
+          "key_figures": [
+            "美食游走红",
+            "龙舌兰之旅"
+          ],
+          "travel_advisory": "注意饮食卫生",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "奇琴伊察限流新规",
+          "category": "旅行提示",
+          "summary": "奇琴伊察玛雅遗址继续实施游客限流和分时段入场，需提前在线购票",
+          "source": "墨西哥国家人类学历史研究所",
+          "impact": "世遗景点保护与旅游平衡",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A5%87%E7%90%B4%E4%BC%8A%E5%AF%9F%E9%99%90%E6%B5%81%E6%96%B0%E8%A7%84",
+          "key_figures": [
+            "限流新规",
+            "需在线购票"
+          ],
+          "travel_advisory": "提前官网购票",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "墨西哥城文化游持续热",
+          "category": "文旅活动",
+          "summary": "墨西哥城弗里达卡罗博物馆特奥蒂瓦坎金字塔等景点8月游客量保持高位",
+          "source": "墨西哥城旅游局",
+          "impact": "文化旅游热度不减",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%9F%8E%E6%96%87%E5%8C%96%E6%B8%B8%E6%8C%81%E7%BB%AD%E7%83%AD",
+          "key_figures": [
+            "游客量高位",
+            "博物馆金字塔"
+          ],
+          "travel_advisory": "提前预约入场",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "墨西哥比索汇率有利",
+          "category": "目的地",
+          "summary": "墨西哥比索汇率相对稳定，外国游客在当地消费购买力较好",
+          "source": "外汇市场",
+          "impact": "旅游消费性价比较好",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%AF%94%E7%B4%A2%E6%B1%87%E7%8E%87%E6%9C%89%E5%88%A9",
+          "key_figures": [
+            "汇率稳定",
+            "购买力较好"
+          ],
+          "travel_advisory": "当地美食物价友好",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "墨西哥旅游安全提示",
+          "category": "旅行提示",
+          "summary": "墨西哥部分地区旅游安全提示升级，建议游客选择正规旅游区域",
+          "source": "墨西哥外交部",
+          "impact": "旅游安全意识需保持",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%97%85%E6%B8%B8%E5%AE%89%E5%85%A8%E6%8F%90%E7%A4%BA",
+          "key_figures": [
+            "安全提示",
+            "正规区域"
+          ],
+          "travel_advisory": "避免夜间单独外出",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "巴西",
+      "events": [
+        {
+          "rank": 1,
+          "title": "巴西对中国免签5月生效",
+          "category": "签证政策",
+          "summary": "自2026年5月11日起中国公民可免签入境巴西最多30天，有效期至年底",
+          "source": "巴西外交部",
+          "impact": "中巴旅游交流迎来历史性突破",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E8%A5%BF%E5%AF%B9%E4%B8%AD%E5%9B%BD%E5%85%8D%E7%AD%BE5%E6%9C%88%E7%94%9F%E6%95%88",
+          "key_figures": [
+            "免签30天",
+            "至12月31日"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "巴西免签涵盖商务旅游",
+          "category": "签证政策",
+          "summary": "巴西免签适用于旅游商务体育活动艺术表演等目的，不允许工作或长期学习",
+          "source": "巴西联邦警察局",
+          "impact": "免签用途广泛但有限制",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E8%A5%BF%E5%85%8D%E7%AD%BE%E6%B6%B5%E7%9B%96%E5%95%86%E5%8A%A1%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "多用途免签",
+            "禁止工作"
+          ],
+          "travel_advisory": "不可从事有偿活动",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "中巴互免签证对等实施",
+          "category": "签证政策",
+          "summary": "巴西免签是对等回应中国2025年6月起对巴西公民免签政策",
+          "source": "外交部",
+          "impact": "中巴双向旅游便利化机制成熟",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%B7%B4%E4%BA%92%E5%85%8D%E7%AD%BE%E8%AF%81%E5%AF%B9%E7%AD%89%E5%AE%9E%E6%96%BD",
+          "key_figures": [
+            "对等免签",
+            "双向便利"
+          ],
+          "travel_advisory": "双方公民均受益",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "里约热内卢旅游旺季",
+          "category": "目的地",
+          "summary": "里约基督像科帕卡巴纳海滩等标志性景点8月游客量持续增长",
+          "source": "里约旅游局",
+          "impact": "巴西旅游市场稳步恢复",
+          "source_url": "https://www.baidu.com/s?wd=%E9%87%8C%E7%BA%A6%E7%83%AD%E5%86%85%E5%8D%A2%E6%97%85%E6%B8%B8%E6%97%BA%E5%AD%A3",
+          "key_figures": [
+            "游客增长",
+            "标志性景点"
+          ],
+          "travel_advisory": "注意城市安全",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "亚马逊生态旅游升温",
+          "category": "文旅活动",
+          "summary": "亚马逊雨林生态旅游持续升温，丛林徒步和河豚观赏成为热门体验",
+          "source": "巴西环境旅游协会",
+          "impact": "生态旅游成为巴西新名片",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%94%9F%E6%80%81%E6%97%85%E6%B8%B8%E5%8D%87%E6%B8%A9",
+          "key_figures": [
+            "生态旅游热",
+            "丛林体验"
+          ],
+          "travel_advisory": "选择正规生态旅行社",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "巴西足球旅游主题产品",
+          "category": "文旅活动",
+          "summary": "马拉卡纳球场参观和足球体验之旅持续吸引国际球迷游客",
+          "source": "巴西旅游局",
+          "impact": "体育旅游产品丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E8%A5%BF%E8%B6%B3%E7%90%83%E6%97%85%E6%B8%B8%E4%B8%BB%E9%A2%98%E4%BA%A7%E5%93%81",
+          "key_figures": [
+            "足球旅游",
+            "马拉卡纳"
+          ],
+          "travel_advisory": "预约球场参观",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "巴西狂欢节预热启动",
+          "category": "文旅活动",
+          "summary": "2027年巴西狂欢节前期准备8月启动，里约和萨尔瓦多预订开始升温",
+          "source": "里约狂欢节组委会",
+          "impact": "全球最大狂欢节提前规划",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E8%A5%BF%E7%8B%82%E6%AC%A2%E8%8A%82%E9%A2%84%E7%83%AD%E5%90%AF%E5%8A%A8",
+          "key_figures": [
+            "狂欢节预热",
+            "预订启动"
+          ],
+          "travel_advisory": "提前规划行程住宿",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "伊瓜苏瀑布旅游升级",
+          "category": "目的地",
+          "summary": "伊瓜苏瀑布国家公园新游客中心投入使用，观景体验全面升级",
+          "source": "伊瓜苏国家公园",
+          "impact": "世遗目的地旅游品质提升",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BC%8A%E7%93%9C%E8%8B%8F%E7%80%91%E5%B8%83%E6%97%85%E6%B8%B8%E5%8D%87%E7%BA%A7",
+          "key_figures": [
+            "新游客中心",
+            "体验升级"
+          ],
+          "travel_advisory": "巴西阿根廷两侧均游",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "巴西雷亚尔汇率有利",
+          "category": "目的地",
+          "summary": "巴西雷亚尔汇率保持有利区间，外国游客消费购买力较强",
+          "source": "外汇市场",
+          "impact": "汇率优势提升旅游性价比",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E8%A5%BF%E9%9B%B7%E4%BA%9A%E5%B0%94%E6%B1%87%E7%8E%87%E6%9C%89%E5%88%A9",
+          "key_figures": [
+            "汇率有利",
+            "购买力强"
+          ],
+          "travel_advisory": "当地消费性价比高",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "巴西旅游安全提示",
+          "category": "旅行提示",
+          "summary": "美国国务院对巴西维持二级旅行警告，建议游客加强安全防范",
+          "source": "美国国务院",
+          "impact": "旅游安全意识需保持",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E8%A5%BF%E6%97%85%E6%B8%B8%E5%AE%89%E5%85%A8%E6%8F%90%E7%A4%BA",
+          "key_figures": [
+            "二级警告",
+            "加强防范"
+          ],
+          "travel_advisory": "避免携带大量现金",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "阿根廷",
+      "events": [
+        {
+          "rank": 1,
+          "title": "阿根廷扩美签持有者免签",
+          "category": "签证政策",
+          "summary": "2026年3月起阿根廷扩大美国签证和绿卡持有者免签入境范围",
+          "source": "阿根廷移民局",
+          "impact": "持美签赴阿根廷更加便利",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B7%E6%89%A9%E7%BE%8E%E7%AD%BE%E6%8C%81%E6%9C%89%E8%80%85%E5%85%8D%E7%AD%BE",
+          "key_figures": [
+            "美签免签扩大",
+            "3月11日生效"
+          ],
+          "travel_advisory": "确认签证类型符合",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "中印绿卡持有者免签30天",
+          "category": "签证政策",
+          "summary": "2026年1月起中国印度多米尼加绿卡持有者可免签入境阿根廷30天",
+          "source": "阿根廷移民局",
+          "impact": "永久居民赴阿根廷门槛降低",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%8D%B0%E7%BB%BF%E5%8D%A1%E6%8C%81%E6%9C%89%E8%80%85%E5%85%8D%E7%AD%BE30%E5%A4%A9",
+          "key_figures": [
+            "绿卡免签30天",
+            "中印多米尼加"
+          ],
+          "travel_advisory": "携带绿卡和护照",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "阿根廷中国公民免签",
+          "category": "签证政策",
+          "summary": "中国公民自2025年7月起享受阿根廷免签入境待遇，旅游商务可停留90天",
+          "source": "阿根廷外交部",
+          "impact": "中阿旅游交流便利化大幅提升",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%85%8D%E7%AD%BE",
+          "key_figures": [
+            "免签90天",
+            "2025年7月起"
+          ],
+          "travel_advisory": "旅游商务均可",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "布宜诺斯艾利斯探戈旅游",
+          "category": "文旅活动",
+          "summary": "布宜诺斯艾利斯探戈表演和体验课8月持续火热，成为文化旅游名片",
+          "source": "布宜诺斯艾利斯旅游局",
+          "impact": "探戈文化吸引全球游客",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B8%83%E5%AE%9C%E8%AF%BA%E6%96%AF%E8%89%BE%E5%88%A9%E6%96%AF%E6%8E%A2%E6%88%88%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "探戈表演热",
+            "体验课火爆"
+          ],
+          "travel_advisory": "提前预约演出和课程",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "巴塔哥尼亚冬季旅游",
+          "category": "目的地",
+          "summary": "巴塔哥尼亚8月进入冬末，冰川徒步和野生动物观察仍有吸引力",
+          "source": "巴塔哥尼亚旅游局",
+          "impact": "非旺季旅游体验独特",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%A1%94%E5%93%A5%E5%B0%BC%E4%BA%9A%E5%86%AC%E5%AD%A3%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "冬末旅游",
+            "冰川徒步"
+          ],
+          "travel_advisory": "备好防寒装备",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "门多萨葡萄酒旅游季",
+          "category": "文旅活动",
+          "summary": "门多萨产区葡萄酒旅游持续，酒庄参观和品酒体验全年运营",
+          "source": "门多萨旅游局",
+          "impact": "葡萄酒旅游提升阿根廷吸引力",
+          "source_url": "https://www.baidu.com/s?wd=%E9%97%A8%E5%A4%9A%E8%90%A8%E8%91%A1%E8%90%84%E9%85%92%E6%97%85%E6%B8%B8%E5%AD%A3",
+          "key_figures": [
+            "酒庄参观",
+            "品酒体验"
+          ],
+          "travel_advisory": "预约知名酒庄",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "阿根廷比索汇率双轨",
+          "category": "旅行提示",
+          "summary": "阿根廷官方汇率与平行市场汇率差异仍存，游客需了解最新兑换策略",
+          "source": "阿根廷央行",
+          "impact": "汇率问题影响旅游消费成本",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B7%E6%AF%94%E7%B4%A2%E6%B1%87%E7%8E%87%E5%8F%8C%E8%BD%A8",
+          "key_figures": [
+            "汇率双轨",
+            "兑换策略"
+          ],
+          "travel_advisory": "了解蓝美元汇率",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "阿根廷健康保险强制要求",
+          "category": "签证政策",
+          "summary": "自2025年7月起入境阿根廷需持有有效健康保险",
+          "source": "阿根廷移民局",
+          "impact": "入境准备事项增加",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%81%A5%E5%BA%B7%E4%BF%9D%E9%99%A9%E5%BC%BA%E5%88%B6%E8%A6%81%E6%B1%82",
+          "key_figures": [
+            "强制健康保险",
+            "入境必备"
+          ],
+          "travel_advisory": "购买覆盖阿根廷的保险",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "伊瓜苏瀑布阿根廷侧",
+          "category": "目的地",
+          "summary": "伊瓜苏瀑布阿根廷侧步道系统8月正常运营，近距离观赏瀑布壮观",
+          "source": "伊瓜苏国家公园",
+          "impact": "世遗目的地四季皆宜",
+          "source_url": "https://www.baidu.com/s?wd=%E4%BC%8A%E7%93%9C%E8%8B%8F%E7%80%91%E5%B8%83%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%BE%A7",
+          "key_figures": [
+            "瀑布壮观",
+            "步道运营"
+          ],
+          "travel_advisory": "穿舒适步行鞋",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "阿根廷数字入境记录",
+          "category": "签证政策",
+          "summary": "阿根廷已取消护照盖章改为数字入境记录，可在线申请出入境证明",
+          "source": "阿根廷移民局",
+          "impact": "入境手续数字化",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B7%E6%95%B0%E5%AD%97%E5%85%A5%E5%A2%83%E8%AE%B0%E5%BD%95",
+          "key_figures": [
+            "数字入境",
+            "无护照盖章"
+          ],
+          "travel_advisory": "需要证明可在线申请",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "澳大利亚",
+      "events": [
+        {
+          "rank": 1,
+          "title": "澳发布中东旅行警告",
+          "category": "旅行提示",
+          "summary": "澳大利亚外交部8月发布中东地区旅行警告，建议避免前往或重新考虑赴阿联酋旅行",
+          "source": "澳大利亚外交部",
+          "impact": "中东局势影响长途航线规划",
+          "source_url": "https://www.baidu.com/s?wd=%E6%BE%B3%E5%8F%91%E5%B8%83%E4%B8%AD%E4%B8%9C%E6%97%85%E8%A1%8C%E8%AD%A6%E5%91%8A",
+          "key_figures": [
+            "中东旅行警告",
+            "阿联酋3级"
+          ],
+          "travel_advisory": "关注航线调整信息",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "澳大利亚对华免签延续",
+          "category": "签证政策",
+          "summary": "澳大利亚已加入中国单方面免签名单，公民可免签入境中国30天",
+          "source": "外交部",
+          "impact": "中澳旅游双向便利",
+          "source_url": "https://www.baidu.com/s?wd=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E5%AF%B9%E5%8D%8E%E5%85%8D%E7%AD%BE%E5%BB%B6%E7%BB%AD",
+          "key_figures": [
+            "免签30天",
+            "中国入境"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "澳大利亚大堡礁旅游旺季",
+          "category": "目的地",
+          "summary": "大堡礁8月进入旱季最佳潜水旅游期，凯恩斯游客量显著增长",
+          "source": "大堡礁海洋公园管理局",
+          "impact": "最佳潜水季节到来",
+          "source_url": "https://www.baidu.com/s?wd=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E5%A4%A7%E5%A0%A1%E7%A4%81%E6%97%85%E6%B8%B8%E6%97%BA%E5%AD%A3",
+          "key_figures": [
+            "旱季最佳期",
+            "凯恩斯客流增"
+          ],
+          "travel_advisory": "提前预订潜水行程",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "悉尼歌剧院冬季节日",
+          "category": "文旅活动",
+          "summary": "悉尼歌剧院8月推出冬季艺术节，音乐戏剧演出丰富",
+          "source": "悉尼歌剧院",
+          "impact": "文化演出丰富旅游体验",
+          "source_url": "https://www.baidu.com/s?wd=%E6%82%89%E5%B0%BC%E6%AD%8C%E5%89%A7%E9%99%A2%E5%86%AC%E5%AD%A3%E8%8A%82%E6%97%A5",
+          "key_figures": [
+            "冬季艺术节",
+            "音乐戏剧"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "澳大利亚电子签证系统",
+          "category": "签证政策",
+          "summary": "澳大利亚持续优化电子签证申请系统，旅游签证可在线快速申请",
+          "source": "澳大利亚内政部",
+          "impact": "签证申请流程便捷高效",
+          "source_url": "https://www.baidu.com/s?wd=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%94%B5%E5%AD%90%E7%AD%BE%E8%AF%81%E7%B3%BB%E7%BB%9F",
+          "key_figures": [
+            "电子签证",
+            "在线申请"
+          ],
+          "travel_advisory": "提前在线申请",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "墨尔本美食咖啡文化",
+          "category": "文旅活动",
+          "summary": "墨尔本咖啡巷和美食街区持续走红，成为游客必体验项目",
+          "source": "墨尔本旅游局",
+          "impact": "美食旅游成为城市名片",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A2%A8%E5%B0%94%E6%9C%AC%E7%BE%8E%E9%A3%9F%E5%92%96%E5%95%A1%E6%96%87%E5%8C%96",
+          "key_figures": [
+            "咖啡文化",
+            "美食街区"
+          ],
+          "travel_advisory": "步行探索街区",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "乌鲁鲁日落观赏",
+          "category": "文旅活动",
+          "summary": "乌鲁鲁岩石日落观赏体验8月持续，南半球冬季沙漠气候凉爽舒适",
+          "source": "乌鲁鲁旅游局",
+          "impact": "红色中心旅游体验独特",
+          "source_url": "https://www.baidu.com/s?wd=%E4%B9%8C%E9%B2%81%E9%B2%81%E6%97%A5%E8%90%BD%E8%A7%82%E8%B5%8F",
+          "key_figures": [
+            "日落观赏",
+            "冬季凉爽"
+          ],
+          "travel_advisory": "保暖准备沙漠温差大",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "澳大利亚生物安全入境检查",
+          "category": "旅行提示",
+          "summary": "澳大利亚严格执行生物安全入境检查，食品植物等需申报",
+          "source": "澳大利亚生物安全局",
+          "impact": "入境检查严格需如实申报",
+          "source_url": "https://www.baidu.com/s?wd=%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E7%94%9F%E7%89%A9%E5%AE%89%E5%85%A8%E5%85%A5%E5%A2%83%E6%A3%80%E6%9F%A5",
+          "key_figures": [
+            "严格检查",
+            "需申报"
+          ],
+          "travel_advisory": "如实填写入境卡",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "大洋路自驾旅游热",
+          "category": "文旅活动",
+          "summary": "大洋路自驾旅游8月持续热门，十二使徒岩等景点吸引全球自驾爱好者",
+          "source": "维多利亚旅游局",
+          "impact": "自驾旅游体验世界闻名",
+          "source_url": "https://www.baidu.com/s?wd=%E5%A4%A7%E6%B4%8B%E8%B7%AF%E8%87%AA%E9%A9%BE%E6%97%85%E6%B8%B8%E7%83%AD",
+          "key_figures": [
+            "自驾热门",
+            "十二使徒岩"
+          ],
+          "travel_advisory": "注意左侧行驶",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "澳新旅游联线产品",
+          "category": "文旅活动",
+          "summary": "澳大利亚新西兰联线旅游产品持续热销，两国共同游览成为主流选择",
+          "source": "亚太旅游协会",
+          "impact": "两国联线产品成熟",
+          "source_url": "https://www.baidu.com/s?wd=%E6%BE%B3%E6%96%B0%E6%97%85%E6%B8%B8%E8%81%94%E7%BA%BF%E4%BA%A7%E5%93%81",
+          "key_figures": [
+            "联线热销",
+            "两国同游"
+          ],
+          "travel_advisory": "合理安排时间",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "NZ",
+      "name": "新西兰",
+      "events": [
+        {
+          "rank": 1,
+          "title": "新西兰对中国免签延续",
+          "category": "签证政策",
+          "summary": "新西兰已加入中国单方面免签名单，同时新西兰公民可免签入境中国",
+          "source": "外交部",
+          "impact": "中新旅游双向便利持续",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E5%AF%B9%E4%B8%AD%E5%9B%BD%E5%85%8D%E7%AD%BE%E5%BB%B6%E7%BB%AD",
+          "key_figures": [
+            "免签互享",
+            "双向便利"
+          ],
+          "travel_advisory": "确认护照有效期",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "新西兰旅行警告发布",
+          "category": "旅行提示",
+          "summary": "新西兰外交部发布2026暑期旅行警告，指出国际旅行不可预测性增加",
+          "source": "新西兰外交部",
+          "impact": "地缘风险影响长途旅行规划",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E6%97%85%E8%A1%8C%E8%AD%A6%E5%91%8A%E5%8F%91%E5%B8%83",
+          "key_figures": [
+            "旅行警告",
+            "不可预测性增"
+          ],
+          "travel_advisory": "购买旅行保险",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "新西兰冬季滑雪季",
+          "category": "目的地",
+          "summary": "皇后镇瓦纳卡等地8月进入滑雪季尾声，南阿尔卑斯山雪况良好",
+          "source": "新西兰旅游局",
+          "impact": "滑雪旅游需求旺盛",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E5%86%AC%E5%AD%A3%E6%BB%91%E9%9B%AA%E5%AD%A3",
+          "key_figures": [
+            "滑雪季尾声",
+            "雪况良好"
+          ],
+          "travel_advisory": "提前预订雪场住宿",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "毛利文化体验游",
+          "category": "文旅活动",
+          "summary": "罗托鲁瓦毛利文化体验游持续走红，地热温泉和哈卡舞表演受欢迎",
+          "source": "新西兰旅游局",
+          "impact": "文化旅游成为新亮点",
+          "source_url": "https://www.baidu.com/s?wd=%E6%AF%9B%E5%88%A9%E6%96%87%E5%8C%96%E4%BD%93%E9%AA%8C%E6%B8%B8",
+          "key_figures": [
+            "毛利文化",
+            "地热哈卡舞"
+          ],
+          "travel_advisory": "尊重文化传统",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "新西兰电子签证便利",
+          "category": "签证政策",
+          "summary": "新西兰旅游签证可在线申请，处理时间约20个工作日",
+          "source": "新西兰移民局",
+          "impact": "签证申请流程在线化",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E7%94%B5%E5%AD%90%E7%AD%BE%E8%AF%81%E4%BE%BF%E5%88%A9",
+          "key_figures": [
+            "在线申请",
+            "约20工作日"
+          ],
+          "travel_advisory": "提前申请预留时间",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "米尔福德峡湾游轮",
+          "category": "文旅活动",
+          "summary": "米尔福德峡湾游轮8月正常运营，世界第八大奇观吸引游客",
+          "source": "峡湾国家公园",
+          "impact": "世遗目的地全年可游",
+          "source_url": "https://www.baidu.com/s?wd=%E7%B1%B3%E5%B0%94%E7%A6%8F%E5%BE%B7%E5%B3%A1%E6%B9%BE%E6%B8%B8%E8%BD%AE",
+          "key_figures": [
+            "峡湾游轮",
+            "世界奇观"
+          ],
+          "travel_advisory": "防雨保暖准备",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "新西兰萤火虫洞探秘",
+          "category": "文旅活动",
+          "summary": "怀托摩萤火虫洞持续吸引游客，地下河游船观赏蓝色荧光奇观",
+          "source": "怀托摩洞穴",
+          "impact": "自然奇观旅游体验独特",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E8%90%A4%E7%81%AB%E8%99%AB%E6%B4%9E%E6%8E%A2%E7%A7%98",
+          "key_figures": [
+            "萤火虫洞",
+            "蓝色荧光"
+          ],
+          "travel_advisory": "洞内禁止拍照使用闪光",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "新西兰自驾游路线",
+          "category": "文旅活动",
+          "summary": "新西兰南北岛自驾游路线持续受欢迎，风景公路和露营地体系完善",
+          "source": "新西兰自驾游协会",
+          "impact": "自驾游体验灵活自由",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E8%87%AA%E9%A9%BE%E6%B8%B8%E8%B7%AF%E7%BA%BF",
+          "key_figures": [
+            "自驾游热门",
+            "营地体系完善"
+          ],
+          "travel_advisory": "注意左侧行驶规则",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "新西兰生物安全入境",
+          "category": "旅行提示",
+          "summary": "新西兰执行严格的生物安全检查，户外装备和食品需申报",
+          "source": "新西兰初级产业部",
+          "impact": "入境检查严格需配合",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E7%94%9F%E7%89%A9%E5%AE%89%E5%85%A8%E5%85%A5%E5%A2%83",
+          "key_figures": [
+            "严格检查",
+            "需申报"
+          ],
+          "travel_advisory": "如实申报携带物品",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "新西兰极限运动旅游",
+          "category": "文旅活动",
+          "summary": "皇后镇蹦极跳伞喷射快艇等极限运动持续吸引冒险旅游者",
+          "source": "皇后镇旅游局",
+          "impact": "极限运动旅游保持竞争力",
+          "source_url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E6%9E%81%E9%99%90%E8%BF%90%E5%8A%A8%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "极限运动",
+            "冒险旅游"
+          ],
+          "travel_advisory": "确认保险覆盖范围",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "AE",
+      "name": "阿联酋",
+      "events": [
+        {
+          "rank": 1,
+          "title": "迪拜夏日惊喜延续至8月底",
+          "category": "文旅活动",
+          "summary": "迪拜夏日惊喜DSS活动延续至8月30日，全城购物折扣和家庭娱乐活动丰富",
+          "source": "迪拜旅游和商业推广局",
+          "impact": "购物旅游和家庭旅游旺季",
+          "source_url": "https://www.baidu.com/s?wd=%E8%BF%AA%E6%8B%9C%E5%A4%8F%E6%97%A5%E6%83%8A%E5%96%9C%E5%BB%B6%E7%BB%AD%E8%87%B38%E6%9C%88%E5%BA%95",
+          "key_figures": [
+            "购物折扣",
+            "至8月30日"
+          ],
+          "travel_advisory": "关注品牌折扣信息",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "阿拉伯旅游展8月举行",
+          "category": "文旅活动",
+          "summary": "阿拉伯旅游市场展ATM 2026于8月17-20日在迪拜世贸中心举办",
+          "source": "迪拜世贸中心",
+          "impact": "旅游业盛会促进行业交流",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%8B%89%E4%BC%AF%E6%97%85%E6%B8%B8%E5%B1%958%E6%9C%88%E4%B8%BE%E8%A1%8C",
+          "key_figures": [
+            "8月17-20日",
+            "世贸中心"
+          ],
+          "travel_advisory": "注册参观需提前",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "阿联酋旅行警告升级",
+          "category": "旅行提示",
+          "summary": "美国国务院将阿联酋升至3级旅行警告，建议重新考虑前往",
+          "source": "美国国务院",
+          "impact": "地缘风险影响旅游决策",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E8%81%94%E9%85%8B%E6%97%85%E8%A1%8C%E8%AD%A6%E5%91%8A%E5%8D%87%E7%BA%A7",
+          "key_figures": [
+            "3级警告",
+            "重新考虑"
+          ],
+          "travel_advisory": "关注局势变化",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "迪拜购物中心旅游",
+          "category": "目的地",
+          "summary": "迪拜购物中心和Modeh World等室内娱乐项目8月持续运营",
+          "source": "迪拜旅游局",
+          "impact": "室内旅游项目吸引避暑游客",
+          "source_url": "https://www.baidu.com/s?wd=%E8%BF%AA%E6%8B%9C%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83%E6%97%85%E6%B8%B8",
+          "key_figures": [
+            "室内娱乐",
+            "避暑选择"
+          ],
+          "travel_advisory": "室内空调温度低带外套",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "迪拜暑期运动赛事",
+          "category": "文旅活动",
+          "summary": "迪拜体育世界活动延续至8月25日，多种运动体验适合家庭参与",
+          "source": "迪拜体育委员会",
+          "impact": "体育旅游产品丰富",
+          "source_url": "https://www.baidu.com/s?wd=%E8%BF%AA%E6%8B%9C%E6%9A%91%E6%9C%9F%E8%BF%90%E5%8A%A8%E8%B5%9B%E4%BA%8B",
+          "key_figures": [
+            "体育世界",
+            "至8月25日"
+          ],
+          "travel_advisory": "提前报名活动",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "幸运阿里8月迪拜演出",
+          "category": "文旅活动",
+          "summary": "印度歌手Lucky Ali 8月16日在可口可乐竞技场举行演唱会",
+          "source": "可口可乐竞技场",
+          "impact": "演出旅游丰富暑期选择",
+          "source_url": "https://www.baidu.com/s?wd=%E5%B9%B8%E8%BF%90%E9%98%BF%E9%87%8C8%E6%9C%88%E8%BF%AA%E6%8B%9C%E6%BC%94%E5%87%BA",
+          "key_figures": [
+            "8月16日",
+            "演唱会"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "迪拜机场转机枢纽",
+          "category": "航空交通",
+          "summary": "迪拜国际机场持续作为全球最大转机枢纽之一，连接东西方航线",
+          "source": "迪拜机场管理局",
+          "impact": "转机便利性保持全球领先",
+          "source_url": "https://www.baidu.com/s?wd=%E8%BF%AA%E6%8B%9C%E6%9C%BA%E5%9C%BA%E8%BD%AC%E6%9C%BA%E6%9E%A2%E7%BA%BD",
+          "key_figures": [
+            "全球转机枢纽",
+            "东西方连接"
+          ],
+          "travel_advisory": "转机预留充足时间",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "迪拜沙漠冲沙体验",
+          "category": "文旅活动",
+          "summary": "沙漠冲沙和贝都因帐篷晚宴持续为热门旅游体验项目",
+          "source": "迪拜旅游局",
+          "impact": "沙漠旅游体验独特",
+          "source_url": "https://www.baidu.com/s?wd=%E8%BF%AA%E6%8B%9C%E6%B2%99%E6%BC%A0%E5%86%B2%E6%B2%99%E4%BD%93%E9%AA%8C",
+          "key_figures": [
+            "冲沙热门",
+            "帐篷晚宴"
+          ],
+          "travel_advisory": "选择正规旅行社",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "阿联酋电子签证便捷",
+          "category": "签证政策",
+          "summary": "阿联酋对多国公民实行落地签或免签，中国公民可免签入境30天",
+          "source": "阿联酋移民局",
+          "impact": "入境便利化程度高",
+          "source_url": "https://www.baidu.com/s?wd=%E9%98%BF%E8%81%94%E9%85%8B%E7%94%B5%E5%AD%90%E7%AD%BE%E8%AF%81%E4%BE%BF%E6%8D%B7",
+          "key_figures": [
+            "免签30天",
+            "落地签"
+          ],
+          "travel_advisory": "确认最新入境要求",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "迪拜高温8月超45°C",
+          "category": "旅行提示",
+          "summary": "迪拜8月极端高温超45°C，户外活动需特别注意防暑降温",
+          "source": "迪拜气象局",
+          "impact": "高温影响户外活动安排",
+          "source_url": "https://www.baidu.com/s?wd=%E8%BF%AA%E6%8B%9C%E9%AB%98%E6%B8%A98%E6%9C%88%E8%B6%8545%C2%B0C",
+          "key_figures": [
+            "超45°C",
+            "极端高温"
+          ],
+          "travel_advisory": "室内活动为主防晒",
+          "tag": "新"
+        }
+      ]
+    }
+  ]
+}
