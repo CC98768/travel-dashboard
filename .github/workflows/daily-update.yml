@@ -24,11 +24,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: pip install anthropic duckduckgo-search requests
+        run: pip install duckduckgo-search
 
       - name: Collect news
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python3 scripts/collect_news.py
 
       - name: Generate dashboard
