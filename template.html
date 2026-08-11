@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>每日全球旅游热点 · __DATE__</title>
+<style>
+:root{--p:#2563eb;--pl:#dbeafe;--bg:#f1f5f9;--c:#fff;--t:#0f172a;--t2:#475569;--t3:#94a3b8;--b:#e2e8f0;--r:10px;--s:0 1px 3px rgba(0,0,0,.06);--sm:0 4px 12px rgba(0,0,0,.08)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--t);line-height:1.6;padding:20px}
+.w{max-width:1000px;margin:0 auto}
+.hd{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+.hd h1{font-size:20px;font-weight:700}.sub{font-size:12px;color:var(--t2);margin-top:2px}
+.bg{display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:#d1fae5;color:#065f46}
+.bg .dot{width:6px;height:6px;border-radius:50%;background:#10b981}
+.sg{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}
+.st{background:var(--c);border-radius:var(--r);padding:14px;text-align:center;box-shadow:var(--s);border:1px solid var(--b)}
+.st .v{font-size:24px;font-weight:700;color:var(--p)}.st .l{font-size:11px;color:var(--t2);margin-top:2px}
+.si{width:100%;padding:8px 12px;border:1px solid var(--b);border-radius:8px;font-size:13px;outline:none;margin-bottom:10px}
+.si:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
+.ch{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.cp{padding:5px 12px;border-radius:20px;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:12px;transition:.15s;user-select:none}
+.cp:hover{border-color:var(--p)}.cp.on{background:var(--pl);border-color:var(--p);color:var(--p);font-weight:600}
+.cl{display:flex;flex-direction:column;gap:8px}
+.cc{background:var(--c);border-radius:var(--r);border:1px solid var(--b);box-shadow:var(--s);overflow:hidden;transition:.2s}
+.cc:hover{box-shadow:var(--sm)}
+.chd{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;cursor:pointer;user-select:none;transition:.15s}
+.chd:hover{background:#f8fafc}.chd .left{display:flex;align-items:center;gap:10px}
+.cf{font-size:22px;line-height:1}.cn{font-size:14px;font-weight:600}
+.ct{font-size:11px;color:var(--t2);background:var(--bg);padding:2px 8px;border-radius:10px}.ct.z{color:var(--t3)}
+.ar{font-size:12px;color:var(--t3);transition:transform .2s}.cc.open .ar{transform:rotate(180deg)}
+.cb{max-height:0;overflow:hidden;transition:max-height .3s ease}.cc.open .cb{max-height:10000px}
+.ev{padding:12px 16px;border-top:1px solid #f1f5f9;display:flex;gap:12px;cursor:pointer;transition:.15s}
+.ev:first-child{border-top:none}.ev:hover{background:#f8fafc}
+.er{width:28px;height:28px;min-width:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;flex-shrink:0;margin-top:2px}
+.r1{background:linear-gradient(135deg,#f59e0b,#f97316)}.r2{background:linear-gradient(135deg,#94a3b8,#64748b)}.r3{background:linear-gradient(135deg,#d97706,#b45309)}.rn{background:var(--p)}
+.eb{flex:1;min-width:0}.et{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:4px}
+.tg{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:6px}
+.tc{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;background:#ede9fe;color:#5b21b6}
+.es{font-size:12px;color:var(--t2);line-height:1.7;margin-bottom:6px}
+.ei{font-size:11px;color:var(--p);background:var(--pl);padding:5px 10px;border-radius:6px;margin-bottom:6px;display:inline-block}
+.esr{font-size:10px;color:var(--t3)}.eh{font-size:10px;color:var(--t3);opacity:0;transition:opacity .2s}.ev:hover .eh{opacity:1}
+.ec{padding:20px 16px;text-align:center;color:var(--t3);font-size:12px;border-top:1px solid #f1f5f9}
+.mo{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(15,23,42,.5);z-index:1000;justify-content:center;align-items:flex-start;padding:40px 16px;overflow-y:auto;backdrop-filter:blur(4px)}.mo.show{display:flex}
+.mc{background:var(--c);border-radius:14px;max-width:640px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.15);overflow:hidden;animation:su .2s ease}
+@keyframes su{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.mt{padding:20px 24px 16px;border-bottom:1px solid var(--b);position:relative}
+.mx{position:absolute;top:14px;right:16px;width:30px;height:30px;border-radius:50%;border:none;background:var(--bg);cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;color:var(--t2)}.mx:hover{background:var(--b)}
+.mrr{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.mr{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff}
+.mct{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:14px;font-size:12px;font-weight:500;background:var(--pl);color:#1e40af}
+.mct2{padding:3px 10px;border-radius:14px;font-size:11px;font-weight:500;background:#ede9fe;color:#5b21b6}
+.mtl{font-size:18px;font-weight:700;line-height:1.4}
+.mb{padding:20px 24px}.ms{margin-bottom:18px}.ms:last-child{margin-bottom:0}
+.msl{font-size:12px;font-weight:600;color:var(--t3);margin-bottom:8px}
+.msc{font-size:14px;color:var(--t);line-height:1.8}
+.kf{padding:8px 12px;background:var(--pl);border-radius:8px;font-size:13px;color:#1e40af;font-weight:500;margin-bottom:6px}
+.mib{padding:12px 14px;background:#f0fdf4;border-radius:8px;border-left:3px solid #10b981;font-size:13px;line-height:1.7;color:#166534}
+.ma{padding:10px 14px;border-radius:8px;font-size:13px;display:flex;align-items:center;gap:8px}
+.ma.warning{background:#fef2f2;color:#991b1b;border:1px solid #fecaca}.ma.info{background:#eff6ff;color:#1e40af;border:1px solid #bfdbfe}.ma.tip{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0}
+.mf{padding:14px 24px;border-top:1px solid var(--b);display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:11px;color:var(--t3);flex-wrap:wrap}
+.sl{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;background:var(--bg);border-radius:8px;font-size:12px;color:var(--p);text-decoration:none;border:1px solid var(--b);transition:.15s;white-space:nowrap}
+.sl{cursor:pointer}
+.sl:hover{background:var(--pl);border-color:var(--p)}
+.sl.baidu{color:#2932e1}.sl.baidu:hover{background:#eef0ff;border-color:#2932e1}
+.sl.google{color:#4285f4}.sl.google:hover{background:#eef4ff;border-color:#4285f4}
+.ft{text-align:center;padding:14px;font-size:11px;color:var(--t3);border-top:1px solid var(--b);margin-top:8px}
+.hid{display:none!important}
+@media(max-width:600px){.sg{grid-template-columns:repeat(2,1fr)}}
+
+/* Event tags */
+.ev-tag{position:absolute;top:0;left:0;padding:2px 8px;font-size:10px;font-weight:700;color:#fff;border-radius:0 0 8px 0;z-index:1;line-height:1.4}
+.ev-tag.boom{background:linear-gradient(135deg,#ef4444,#dc2626)}
+.ev-tag.hot{background:linear-gradient(135deg,#f97316,#ea580c)}
+.ev-tag.new{background:linear-gradient(135deg,#10b981,#059669)}
+.ev{position:relative}
+
+.date-nav{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.date-nav input[type="date"]{padding:6px 12px;border:1px solid var(--b);border-radius:8px;font-size:13px;outline:none;cursor:pointer}
+.date-nav input[type="date"]:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
+.date-nav button{padding:6px 14px;border-radius:8px;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:12px;transition:.15s}
+.date-nav button:hover{border-color:var(--p);color:var(--p)}
+.date-nav button:disabled{opacity:.4;cursor:not-allowed}
+.date-status{font-size:11px;color:var(--t3)}
+.date-status.loading{color:var(--p)}
+.date-status.error{color:#ef4444}
+
+/* Calendar widget */
+.cal-wrap{background:var(--c);border-radius:var(--r);border:1px solid var(--b);box-shadow:var(--s);padding:16px;margin-bottom:16px}
+.cal-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.cal-hdr .cal-title{font-size:15px;font-weight:700}
+.cal-hdr button{width:32px;height:32px;border-radius:50%;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:.15s}
+.cal-hdr button:hover{background:var(--pl);border-color:var(--p)}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.cal-dow{text-align:center;font-size:11px;color:var(--t3);font-weight:600;padding:4px 0}
+.cal-day{text-align:center;padding:8px 4px;border-radius:8px;font-size:13px;cursor:pointer;transition:.15s;position:relative;min-height:36px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.cal-day:hover{background:var(--pl)}
+.cal-day.empty{cursor:default;pointer-events:none}
+.cal-day.today{font-weight:700;color:var(--p)}
+.cal-day.today::after{content:'';position:absolute;bottom:2px;width:4px;height:4px;border-radius:50%;background:var(--p)}
+.cal-day.has-data{background:#f0fdf4;color:#166534;font-weight:600}
+.cal-day.has-data:hover{background:#dcfce7}
+.cal-day.has-data::after{content:'';position:absolute;bottom:2px;width:6px;height:6px;border-radius:50%;background:#10b981}
+.cal-day.selected{background:var(--p);color:#fff!important;font-weight:700}
+.cal-day.selected::after{background:#fff}
+.cal-day.selected.has-data::after{background:#fff}
+.cal-legend{display:flex;gap:16px;margin-top:10px;font-size:11px;color:var(--t3);justify-content:center}
+.cal-legend span{display:flex;align-items:center;gap:4px}
+.cal-legend .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.cal-legend .dot-green{background:#10b981}
+.cal-legend .dot-blue{background:var(--p)}
+.date-nav-btn{padding:6px 14px;border-radius:8px;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:12px;transition:.15s}
+.date-nav-btn:hover{border-color:var(--p);color:var(--p)}
+
+/* Calendar bar (compact) */
+.cal-bar{display:flex;align-items:center;gap:10px;padding:10px 16px;background:var(--c);border-radius:var(--r);border:1px solid var(--b);box-shadow:var(--s);margin-bottom:16px;cursor:pointer;transition:.15s}
+.cal-bar:hover{border-color:var(--p);box-shadow:var(--sm)}
+.cal-bar-icon{font-size:18px}
+.cal-bar-text{font-size:13px;font-weight:600;flex:1}
+.cal-bar-hint{font-size:11px;color:var(--t3)}
+
+/* Calendar modal */
+.cal-modal-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(15,23,42,.5);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(4px)}
+.cal-modal-overlay.show{display:flex}
+.cal-modal{background:var(--c);border-radius:14px;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,.2);max-width:400px;width:90%;animation:su .2s ease}
+.cal-modal-hdr{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.cal-modal-hdr button{width:32px;height:32px;border-radius:50%;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:.15s}
+.cal-modal-hdr button:hover{background:var(--pl);border-color:var(--p)}
+.cal-close{margin-left:auto!important;font-size:16px!important}
+.today-btn{padding:5px 12px;border-radius:8px;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:11px;transition:.15s}
+.today-btn:hover{border-color:var(--p);color:var(--p)}
+</style>
+</head>
+<body>
+<div class="w">
+  <div class="hd">
+    <div>
+      <h1>🌍 每日全球旅游热点 · 各国 Top 10</h1>
+      <div class="sub" id="ds"></div>
+    </div>
+    <div><span class="bg"><span class="dot"></span>数据已就绪</span></div>
+  </div>
+  <div class="sg" id="sb"></div>
+
+  <div class="cal-bar" id="calBar" onclick="openCalModal()">
+    <span class="cal-bar-icon">📅</span>
+    <span class="cal-bar-text" id="calBarText">加载中...</span>
+    <span class="cal-bar-hint">点击展开日历 ▾</span>
+  </div>
+
+  <!-- Calendar modal -->
+  <div class="cal-modal-overlay" id="calModal" onclick="if(event.target===this)closeCalModal()">
+    <div class="cal-modal">
+      <div class="cal-modal-hdr">
+        <button onclick="calNav(-1)">◀</button>
+        <span class="cal-title" id="calTitle"></span>
+        <button onclick="calNav(1)">▶</button>
+        <button class="cal-close" onclick="closeCalModal()">✕</button>
+      </div>
+      <div class="cal-grid" id="calGrid"></div>
+      <div class="cal-legend">
+        <span><span class="dot dot-green"></span> 有数据</span>
+        <span><span class="dot dot-blue"></span> 今天</span>
+        <span style="margin-left:auto"><button class="today-btn" onclick="loadToday();closeCalModal()">📅 回到今天</button></span>
+      </div>
+    </div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:12px;align-items:center">
+    <span class="date-status" id="dateStatus"></span>
+  </div>
+  <input type="text" class="si" id="si" placeholder="🔍 搜索国家名称或事件关键词…">
+  <div class="ch" id="rc"></div>
+  <div class="cl" id="cl"></div>
+  <div class="ft">数据由 AI 自动采集 · 每日 09:00 更新 · 覆盖 25 个主要旅游国家</div>
+</div>
+
+<!-- Modal -->
+<div class="mo" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="mc">
+    <div class="mt">
+      <button class="mx" onclick="closeModal()">✕</button>
+      <div class="mrr">
+        <div class="mr" id="mR"></div>
+        <span class="mct" id="mC"></span>
+        <span class="mct2" id="mCt"></span>
+      </div>
+      <div class="mtl" id="mT"></div>
+    </div>
+    <div class="mb" id="mB"></div>
+    <div class="mf">
+      <span id="mSr"></span>
+      <div id="mLinks" style="display:flex;gap:6px;flex-wrap:wrap;"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+// ── 国旗/名称/地区映射表 ──
+var COUNTRY_META = {
+  'CN':{n:'中国',f:'\u{1f1e8}\u{1f1f3}',r:'亚洲'},'JP':{n:'日本',f:'\u{1f1ef}\u{1f1f5}',r:'亚洲'},
+  'KR':{n:'韩国',f:'\u{1f1f0}\u{1f1f7}',r:'亚洲'},'TH':{n:'泰国',f:'\u{1f1f9}\u{1f1ed}',r:'亚洲'},
+  'SG':{n:'新加坡',f:'\u{1f1f8}\u{1f1ec}',r:'亚洲'},'MY':{n:'马来西亚',f:'\u{1f1f2}\u{1f1fe}',r:'亚洲'},
+  'VN':{n:'越南',f:'\u{1f1fb}\u{1f1f3}',r:'亚洲'},'IN':{n:'印度',f:'\u{1f1ee}\u{1f1f3}',r:'亚洲'},
+  'FR':{n:'法国',f:'\u{1f1eb}\u{1f1f7}',r:'欧洲'},'IT':{n:'意大利',f:'\u{1f1ee}\u{1f1f9}',r:'欧洲'},
+  'ES':{n:'西班牙',f:'\u{1f1ea}\u{1f1f8}',r:'欧洲'},'GB':{n:'英国',f:'\u{1f1ec}\u{1f1e7}',r:'欧洲'},
+  'DE':{n:'德国',f:'\u{1f1e9}\u{1f1ea}',r:'欧洲'},'GR':{n:'希腊',f:'\u{1f1ec}\u{1f1f7}',r:'欧洲'},
+  'TR':{n:'土耳其',f:'\u{1f1f9}\u{1f1f7}',r:'欧洲'},'CH':{n:'瑞士',f:'\u{1f1e8}\u{1f1ed}',r:'欧洲'},
+  'RU':{n:'俄罗斯',f:'\u{1f1f7}\u{1f1fa}',r:'欧洲'},'US':{n:'美国',f:'\u{1f1fa}\u{1f1f8}',r:'美洲'},
+  'CA':{n:'加拿大',f:'\u{1f1e8}\u{1f1e6}',r:'美洲'},'MX':{n:'墨西哥',f:'\u{1f1f2}\u{1f1fd}',r:'美洲'},
+  'BR':{n:'巴西',f:'\u{1f1e7}\u{1f1f7}',r:'美洲'},'AR':{n:'阿根廷',f:'\u{1f1e6}\u{1f1f7}',r:'美洲'},
+  'AU':{n:'澳大利亚',f:'\u{1f1e6}\u{1f1fa}',r:'其他'},'NZ':{n:'新西兰',f:'\u{1f1f3}\u{1f1ff}',r:'其他'},
+  'AE':{n:'阿联酋',f:'\u{1f1e6}\u{1f1ea}',r:'其他'}
+};
+function getFlag(code) { return (COUNTRY_META[code] || {}).f || '🏳️'; }
+function getName(code) { return (COUNTRY_META[code] || {}).n || code; }
+function getRegion(code) { return (COUNTRY_META[code] || {}).r || '未知'; }
+
+var DATA = __DATA__;
+var CURRENT_DATE = DATA.date;
+var EMBEDDED_DATA = DATA;
+
+function loadToday() {
+  var picker = document.getElementById('datePicker');
+  picker.value = EMBEDDED_DATA.date;
+  loadDate(EMBEDDED_DATA.date);
+}
+
+function loadPrev() {
+  var d = new Date(CURRENT_DATE + 'T00:00:00');
+  d.setDate(d.getDate() - 1);
+  var ds = d.toISOString().split('T')[0];
+  document.getElementById('datePicker').value = ds;
+  loadDate(ds);
+}
+
+function loadNext() {
+  var d = new Date(CURRENT_DATE + 'T00:00:00');
+  d.setDate(d.getDate() + 1);
+  var ds = d.toISOString().split('T')[0];
+  var today = EMBEDDED_DATA.date;
+  if (ds > today) ds = today;
+  document.getElementById('datePicker').value = ds;
+  loadDate(ds);
+}
+
+function loadDate(dateStr) {
+  var statusEl = document.getElementById('dateStatus');
+  // 优先使用内嵌 ALL_DATA
+  if (ALL_DATA[dateStr]) {
+    DATA = ALL_DATA[dateStr];
+    CURRENT_DATE = dateStr;
+    statusEl.className = 'date-status';
+    var total = 0;
+    for (var i = 0; i < DATA.countries.length; i++) total += DATA.countries[i].events.length;
+    statusEl.textContent = '✅ ' + dateStr + ' | ' + DATA.countries.length + '国 | ' + total + '条';
+    render();
+    calRender();
+    return;
+  }
+  // 后备：fetch（仅在 GitHub Pages 上有额外日期时生效）
+  statusEl.className = 'date-status loading';
+  statusEl.textContent = '⏳ 加载中...';
+  fetch('daily/' + dateStr + '.json')
+    .then(function(r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(data) {
+      DATA = data; ALL_DATA[dateStr] = data; CURRENT_DATE = dateStr;
+      statusEl.className = 'date-status';
+      var total = 0;
+      for (var i = 0; i < data.countries.length; i++) total += data.countries[i].events.length;
+      statusEl.textContent = '✅ ' + dateStr + ' | ' + data.countries.length + '国 | ' + total + '条';
+      render(); calRender();
+    })
+    .catch(function() {
+      statusEl.className = 'date-status error';
+      statusEl.textContent = '❌ ' + dateStr + ' 无数据';
+    });
+}
+var CE = {'签证政策':'📋','目的地':'🏝️','航空交通':'✈️','行业数据':'📊','文旅活动':'🎭','旅行提示':'💡','政策公告':'📋','热门目的地':'🏝️','航空动态':'✈️','旅游数据':'📊','文化活动':'🎭','安全预警':'⚠️'};
+
+function esc(s) {
+  if (!s) return '';
+  var d = document.createElement('div');
+  d.textContent = String(s);
+  return d.innerHTML;
+}
+
+function init() {
+  var picker = document.getElementById('datePicker');
+  if (picker) {
+    picker.value = DATA.date;
+    picker.max = DATA.date;
+    picker.addEventListener('change', function() { loadDate(this.value); });
+  }
+  var ds = document.getElementById('dateStatus');
+  if (ds) ds.textContent = '✅ 内嵌数据';
+  var countries = DATA.countries;
+  var total = 0, cw = 0, rc = {}, cc = {};
+  for (var i = 0; i < countries.length; i++) {
+    var c = countries[i];
+    total += c.events.length;
+    if (c.events.length > 0) cw++;
+    for (var j = 0; j < c.events.length; j++) {
+      var r = getRegion(c.code);
+      var cat = c.events[j].category || '';
+      rc[r] = (rc[r] || 0) + 1;
+      cc[cat] = (cc[cat] || 0) + 1;
+    }
+  }
+  var tr = Object.entries(rc).sort(function(a,b){return b[1]-a[1]})[0];
+  var tc = Object.entries(cc).sort(function(a,b){return b[1]-a[1]})[0];
+
+  document.getElementById('ds').textContent = '📅 ' + DATA.date + ' · 覆盖 ' + countries.length + ' 个国家 · ' + total + ' 条热点';
+
+  document.getElementById('sb').innerHTML =
+    '<div class="st"><div class="v">' + total + '</div><div class="l">总事件数</div></div>' +
+    '<div class="st"><div class="v">' + cw + '</div><div class="l">有事件国家</div></div>' +
+    '<div class="st"><div class="v">' + (tc ? tc[0] : '-') + '</div><div class="l">最多类别</div></div>' +
+    '<div class="st"><div class="v">' + (tr ? tr[0] : '-') + '</div><div class="l">最热地区</div></div>';
+
+  var regions = ['全部', '亚洲', '欧洲', '美洲', '其他'];
+  var labels = {'全部':'🌐 全部','亚洲':'🌏 亚洲','欧洲':'🌍 欧洲','美洲':'🌎 美洲','其他':'🌐 其他'};
+  var chipsHtml = '';
+  for (var i = 0; i < regions.length; i++) {
+    var r = regions[i];
+    chipsHtml += '<span class="cp' + (r === '全部' ? ' on' : '') + '" data-region="' + r + '">' + (labels[r] || r) + '</span>';
+  }
+  document.getElementById('rc').innerHTML = chipsHtml;
+
+  var chips = document.querySelectorAll('.cp');
+  for (var i = 0; i < chips.length; i++) {
+    chips[i].addEventListener('click', function() {
+      for (var j = 0; j < chips.length; j++) chips[j].classList.remove('on');
+      this.classList.add('on');
+      curRegion = this.getAttribute('data-region');
+      render();
+    });
+  }
+
+  document.getElementById('si').addEventListener('input', function() { render(); });
+  render();
+}
+
+var curRegion = '全部';
+
+function render() {
+  var q = (document.getElementById('si').value || '').toLowerCase();
+  var html = '';
+
+  for (var ci = 0; ci < DATA.countries.length; ci++) {
+    var c = DATA.countries[ci];
+    var name = getName(c.code);
+    var code = c.code || '';
+    var flag = getFlag(c.code);
+    var region = getRegion(c.code);
+
+    if (curRegion !== '全部' && region !== curRegion) continue;
+
+    if (q) {
+      var match = name.toLowerCase().indexOf(q) !== -1 || code.toLowerCase().indexOf(q) !== -1;
+      if (!match) {
+        for (var ei = 0; ei < c.events.length; ei++) {
+          var ev = c.events[ei];
+          if ((ev.title || '').toLowerCase().indexOf(q) !== -1 ||
+              (ev.summary || '').toLowerCase().indexOf(q) !== -1) {
+            match = true; break;
+          }
+        }
+      }
+      if (!match) continue;
+    }
+
+    var n = c.events.length;
+    var evHtml = '';
+
+    if (n === 0) {
+      evHtml = '<div class="ec">暂无今日事件数据</div>';
+    } else {
+      for (var ei = 0; ei < n; ei++) {
+        var ev = c.events[ei];
+        var emoji = CE[ev.category] || '📌';
+        var rc = ev.rank === 1 ? 'r1' : ev.rank === 2 ? 'r2' : ev.rank === 3 ? 'r3' : 'rn';
+        var hasDetail = ev.impact || ev.source_url || (ev.key_figures && ev.key_figures.length > 0) || ev.travel_advisory;
+
+        var tagHtml = '';
+        if (ev.tag === '爆') tagHtml = '<span class="ev-tag boom">爆！</span>';
+        else if (ev.tag === '热') tagHtml = '<span class="ev-tag hot">热！</span>';
+        else if (ev.tag === '新') tagHtml = '<span class="ev-tag new">NEW!</span>';
+        evHtml += '<div class="ev" data-ci="' + ci + '" data-ei="' + ei + '">' + tagHtml;
+        evHtml += '<div class="er ' + rc + '">' + ev.rank + '</div>';
+        evHtml += '<div class="eb">';
+        evHtml += '<div class="et">' + esc(ev.title) + (hasDetail ? '<span class="eh"> 👦 点击查看详情</span>' : '') + '</div>';
+        evHtml += '<div class="tg"><span class="tc">' + emoji + ' ' + esc(ev.category) + '</span></div>';
+        evHtml += '<div class="es">' + esc(ev.summary) + '</div>';
+        if (ev.impact) evHtml += '<div class="ei">💡 ' + esc(ev.impact) + '</div>';
+        evHtml += '<div class="esr">📎 ' + esc(ev.source) + '</div>';
+        evHtml += '</div></div>';
+      }
+    }
+
+    html += '<div class="cc" id="cc-' + code + '">';
+    html += '<div class="chd"><div class="left">';
+    html += '<span class="cf">' + flag + '</span>';
+    html += '<span class="cn">' + name + '</span>';
+    html += '<span class="ct' + (n === 0 ? ' z' : '') + '">' + n + ' 条事件</span>';
+    html += '</div><span class="ar">▼</span></div>';
+    html += '<div class="cb">' + evHtml + '</div></div>';
+  }
+
+  document.getElementById('cl').innerHTML = html || '<div class="ec">无匹配结果</div>';
+
+  var evEls = document.querySelectorAll('.ev');
+  for (var i = 0; i < evEls.length; i++) {
+    evEls[i].addEventListener('click', function() {
+      showModal(parseInt(this.getAttribute('data-ci')), parseInt(this.getAttribute('data-ei')));
+    });
+  }
+
+  var chdEls = document.querySelectorAll('.chd');
+  for (var i = 0; i < chdEls.length; i++) {
+    chdEls[i].addEventListener('click', function() {
+      this.parentElement.classList.toggle('open');
+    });
+  }
+}
+
+function showModal(ci, ei) {
+  var c = DATA.countries[ci];
+  var ev = c.events[ei];
+  var flag = getFlag(c.code);
+  var name = getName(c.code);
+  var isForeign = c.code !== 'CN';
+
+  var bgStyle = ev.rank === 1 ? 'linear-gradient(135deg,#f59e0b,#f97316)' :
+                ev.rank === 2 ? 'linear-gradient(135deg,#94a3b8,#64748b)' :
+                ev.rank === 3 ? 'linear-gradient(135deg,#d97706,#b45309)' : 'var(--p)';
+
+  document.getElementById('mR').style.background = bgStyle;
+  document.getElementById('mR').textContent = ev.rank;
+  document.getElementById('mC').textContent = flag + ' ' + name;
+  document.getElementById('mCt').textContent = (CE[ev.category] || '📌') + ' ' + ev.category;
+  document.getElementById('mT').textContent = ev.title;
+
+  var body = '';
+
+  // Key figures
+  var kf = ev.key_figures;
+  if (kf && ((Array.isArray(kf) && kf.length > 0 && kf[0]) || (!Array.isArray(kf) && String(kf).trim()))) {
+    var items = Array.isArray(kf) ? kf : String(kf).split(/[；;,，]/);
+    var figHtml = '', hasItems = false;
+    for (var i = 0; i < items.length; i++) {
+      if (items[i] && items[i].trim()) {
+        figHtml += '<div class="kf">📊 ' + esc(items[i].trim()) + '</div>';
+        hasItems = true;
+      }
+    }
+    if (hasItems) body += '<div class="ms"><div class="msl">📊 关键数据</div>' + figHtml + '</div>';
+  }
+
+  // Summary
+  body += '<div class="ms"><div class="msl">📝 详细摘要</div><div class="msc">' + esc(ev.summary || '') + '</div></div>';
+
+  // Impact
+  if (ev.impact && String(ev.impact).trim()) {
+    body += '<div class="ms"><div class="msl">💡 影响分析</div><div class="mib">' + esc(ev.impact) + '</div></div>';
+  }
+
+  // Advisory
+  if (ev.travel_advisory && String(ev.travel_advisory).trim()) {
+    var adv = String(ev.travel_advisory).trim();
+    var cls = 'info', icon = 'ℹ️';
+    if (adv.indexOf('注意') !== -1 || adv.indexOf('安全') !== -1 || adv.indexOf('避开') !== -1 || adv.indexOf('预警') !== -1) {
+      cls = 'warning'; icon = '⚠️';
+    } else if (adv.indexOf('值得') !== -1 || adv.indexOf('预订') !== -1 || adv.indexOf('推荐') !== -1) {
+      cls = 'tip'; icon = '✅';
+    }
+    body += '<div class="ms"><div class="msl">🔔 出行提示</div><div class="ma ' + cls + '">' + icon + ' ' + esc(adv) + '</div></div>';
+  }
+
+  document.getElementById('mB').innerHTML = body;
+  document.getElementById('mSr').textContent = ev.source ? '📎 ' + ev.source : '';
+
+  // Source-to-website mapping
+  var SW = {
+    '移民局':'https://www.nia.gov.cn','文旅部':'https://www.mct.gov.cn','文化和旅游部':'https://www.mct.gov.cn',
+    '民航局':'https://www.caac.gov.cn','新华网':'https://www.xinhuanet.com','新华社':'https://www.xinhuanet.com',
+    '央视新闻':'https://news.cctv.com','央视':'https://news.cctv.com','澎湃':'https://www.thepaper.cn',
+    '界面':'https://www.jiemian.com','环球时报':'https://www.huanqiu.com','参考消息':'https://www.cankaoxiaoxi.com',
+    '旅游研究院':'https://www.ctaweb.org.cn','飞猪':'https://www.fliggy.com','携程':'https://www.ctrip.com',
+    '马蜂窝':'https://www.mafengwo.cn','穷游':'https://www.qyer.com','航信':'https://www.travelsky.com',
+    'Airbnb':'https://www.airbnb.cn','爱彼迎':'https://www.airbnb.cn','Booking':'https://www.booking.com',
+    '银联':'https://www.unionpayintl.com','北京市文旅':'https://whlyj.beijing.gov.cn',
+    '日本':'https://www.japan.travel','韩国':'https://www.visitkorea.or.kr','泰国':'https://www.tat.or.th',
+    '新加坡':'https://www.stb.gov.sg','越南':'https://www.vietnam.travel','印度':'https://www.indiatourism.gov.in',
+    '法国':'https://www.france.fr','意大利':'https://www.italia.it','西班牙':'https://www.spain.info',
+    '英国':'https://www.visitbritain.com','德国':'https://www.germany.travel','希腊':'https://www.visitgreece.gr',
+    '瑞士':'https://www.myswitzerland.com','俄罗斯':'https://www.russia.travel','美国':'https://www.travel.state.gov',
+    '加拿大':'https://www.destinationcanada.com','墨西哥':'https://www.visitmexico.com','巴西':'https://www.brazil.travel',
+    '澳大利亚':'https://www.australia.com','新西兰':'https://www.newzealand.com','阿联酋':'https://www.visitdubai.com',
+    '马来西亚':'https://www.tourism.gov.my','土耳其':'https://www.kulturport.gov.tr'
+  };
+
+  // Build links - all events get Baidu search
+  var linksHtml = '';
+  var kw = ev.title + ' ' + (ev.source || '');
+  var baiduUrl = "https://www.baidu.com/s?wd=" + encodeURIComponent(kw);
+  linksHtml += '<button type="button" class="sl baidu" data-url="' + baiduUrl + '">\ud83d\udd0d \u767e\u5ea6\u641c\u7d22</button>';
+
+  if (isForeign) {
+    var googleUrl = "https://www.google.com/search?q=" + encodeURIComponent(kw);
+    linksHtml += '<button type="button" class="sl google" data-url="' + googleUrl + '">\ud83c\udf10 Google</button>';
+  } else {
+    var src = ev.source || '';
+    var site = '';
+    for (var k in SW) { if (src.indexOf(k) !== -1) { site = SW[k]; break; } }
+    if (site) {
+      linksHtml += '<button type="button" class="sl" data-url="' + site + '">\ud83c\udfdb\ufe0f ' + esc(src) + '</button>';
+    }
+  }
+  document.getElementById('mLinks').innerHTML = linksHtml;
+
+  // Attach click handlers to link buttons
+  var linkBtns = document.getElementById('mLinks').querySelectorAll('button[data-url]');
+  for (var li = 0; li < linkBtns.length; li++) {
+    linkBtns[li].addEventListener('click', function(e) {
+      e.stopPropagation();
+      openUrl(this.getAttribute('data-url'));
+    });
+  }
+
+
+  document.getElementById('modal').classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('show');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
+function openUrl(u){window.open(u,"_blank");}
+
+// ── Calendar ──
+var calYear, calMonth, calAvailable = {};
+var DOW = ['日','一','二','三','四','五','六'];
+
+
+function openCalModal() {
+  document.getElementById('calModal').classList.add('show');
+  calRender();
+}
+function closeCalModal() {
+  document.getElementById('calModal').classList.remove('show');
+}
+
+function calInit() {
+  var today = new Date(CURRENT_DATE + 'T00:00:00');
+  calYear = today.getFullYear();
+  calMonth = today.getMonth();
+  // 使用内嵌 MANIFEST（不 fetch）
+  for (var i = 0; i < MANIFEST.available_dates.length; i++) {
+    var d = MANIFEST.available_dates[i];
+    calAvailable[d.date] = d;
+  }
+  calRender();
+  var barText = document.getElementById('calBarText');
+  if (barText) {
+    barText.textContent = calYear + '年' + (calMonth+1) + '月 | ' + Object.keys(calAvailable).length + '天有数据 | 当前: ' + CURRENT_DATE;
+  }
+  var statusEl = document.getElementById('dateStatus');
+  if (statusEl) statusEl.textContent = '✅ ' + CURRENT_DATE + ' | 内嵌 ' + Object.keys(ALL_DATA).length + ' 天数据';
+}
+
+function calNav(dir) {
+  calMonth += dir;
+  if (calMonth > 11) { calMonth = 0; calYear++; }
+  if (calMonth < 0) { calMonth = 11; calYear--; }
+  calRender();
+}
+
+function calRender() {
+  document.getElementById('calTitle').textContent = calYear + '年' + (calMonth + 1) + '月';
+  var grid = document.getElementById('calGrid');
+  var html = '';
+  // Day of week headers
+  for (var i = 0; i < 7; i++) html += '<div class="cal-dow">' + DOW[i] + '</div>';
+  // First day of month
+  var firstDay = new Date(calYear, calMonth, 1).getDay();
+  var daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+  var todayStr = EMBEDDED_DATA.date;
+  // Empty cells
+  for (var i = 0; i < firstDay; i++) html += '<div class="cal-day empty"></div>';
+  // Day cells
+  for (var d = 1; d <= daysInMonth; d++) {
+    var ds = calYear + '-' + String(calMonth + 1).padStart(2, '0') + '-' + String(d).padStart(2, '0');
+    var cls = 'cal-day';
+    if (ds === todayStr) cls += ' today';
+    if (calAvailable[ds]) cls += ' has-data';
+    if (ds === CURRENT_DATE) cls += ' selected';
+    var title = calAvailable[ds] ? calAvailable[ds].countries + '国 ' + calAvailable[ds].events + '条' : '';
+    html += '<div class="' + cls + '" onclick="calClick(\'' + ds + '\')" title="' + title + '">' + d + '</div>';
+  }
+  grid.innerHTML = html;
+  // Update compact bar
+  var barText = document.getElementById('calBarText');
+  if (barText) {
+    var availCount = Object.keys(calAvailable).length;
+    barText.textContent = calYear + '年' + (calMonth+1) + '月 | ' + availCount + '天有数据 | 当前: ' + CURRENT_DATE;
+  }
+}
+
+function calClick(ds) {
+  // Update selected state
+  var days = document.querySelectorAll('.cal-day');
+  for (var i = 0; i < days.length; i++) days[i].classList.remove('selected');
+  event.target.classList.add('selected');
+  loadDate(ds);
+}
+
+// Init calendar + main
+  calInit();
+  init();
+</script>
+</body>
+</html>
