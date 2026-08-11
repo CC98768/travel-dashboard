@@ -3,7 +3,7 @@ name: Daily Travel Dashboard Update
 on:
   schedule:
     - cron: '0 1 * * *'  # UTC 01:00 = Beijing 09:00
-  workflow_dispatch:      # 手动触发
+  workflow_dispatch:
 
 jobs:
   update-dashboard:
@@ -12,10 +12,10 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout (获取全部历史)
+      - name: Checkout (全部历史)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0          # 获取全部提交历史
+          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
@@ -24,27 +24,21 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: pip install requests beautifulsoup4
+        run: pip install anthropic duckduckgo-search requests
 
-      - name: 采集今日新闻
+      - name: 智能采集 (DuckDuckGo + Claude API)
         env:
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 scripts/collect_news.py
 
-      - name: 生成看板（嵌入所有历史数据）
-        run: |
-          TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
-          python3 generate.py -d daily/${TODAY}.json -o index.html
-          echo "✅ 看板已生成，包含所有历史数据"
+      - name: 生成看板 (嵌入所有历史)
+        run: python3 generate.py -o index.html
 
-      - name: 提交并推送（保留所有历史数据）
+      - name: 提交并推送
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
-          # 添加今日数据 + manifest + 看板
           git add daily/${TODAY}.json daily/manifest.json index.html
-          # 确保不删除任何历史文件
           git diff --cached --quiet || git commit -m "📊 Daily: ${TODAY} | $(ls daily/2*.json | wc -l) days total"
           git push
-          echo "✅ 已推送，历史数据完整保留"
