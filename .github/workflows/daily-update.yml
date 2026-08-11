@@ -1,0 +1,44 @@
+name: Daily Travel Dashboard Update
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install anthropic duckduckgo-search requests
+
+      - name: Collect news
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/collect_news.py
+
+      - name: Generate dashboard
+        run: python3 generate.py -o index.html
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+          git add daily/${TODAY}.json daily/manifest.json index.html
+          git diff --cached --quiet || git commit -m "Daily: ${TODAY}"
+          git push
