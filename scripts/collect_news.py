@@ -31,7 +31,7 @@ SEARCH_QUERIES = [
     ('KR','韩国 旅游 {date}'), ('TH','泰国 旅游 {date}'),
     ('SG','新加坡 旅游 {date}'), ('MY','马来西亚 旅游 {date}'),
     ('VN','越南 旅游 {date}'), ('IN','印度 旅游 {date}'),
-    ('FR','法国 旅游 {date}'), ('IT':'意大利 旅游 {date}'),
+    ('FR','法国 旅游 {date}'), ('IT','意大利 旅游 {date}'),
     ('ES','西班牙 旅游 {date}'), ('GB','英国 旅游 {date}'),
     ('DE','德国 旅游 {date}'), ('GR','希腊 旅游 {date}'),
     ('TR','土耳其 旅游 {date}'), ('CH','瑞士 旅游 {date}'),
