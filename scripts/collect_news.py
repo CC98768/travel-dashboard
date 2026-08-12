@@ -7,6 +7,7 @@ import json, os, sys, time, glob, re
 from datetime import datetime, timedelta
 from urllib.parse import quote
 import feedparser
+import html
 
 TODAY = datetime.utcnow() + timedelta(hours=8)
 DATE_STR = TODAY.strftime('%Y-%m-%d')
@@ -67,11 +68,19 @@ def analyze_results(all_results):
             title = re.sub(r'<[^>]+>', '', title).strip()
             desc = re.sub(r'<[^>]+>', '', desc).strip()
             
-            # 截断到合适长度
+            # 解码 HTML 实体（&nbsp; &amp; 等）
+            title = html.unescape(title)
+            desc = html.unescape(desc)
+            
+            # 清理多余空白
+            title = re.sub(r'\s+', ' ', title).strip()
+            desc = re.sub(r'\s+', ' ', desc).strip()
+            
+            # 截断
             title = title[:25]
             desc = desc[:80]
             
-            # 改进的分类逻辑
+            # 分类逻辑
             category = '目的地'
             text = (title + ' ' + desc).lower()
             
@@ -101,7 +110,6 @@ def analyze_results(all_results):
                 'tag': '爆' if i == 0 else ('热' if i < 3 else '新'),
             })
         
-        # 补满 10 条
         while len(events) < 10:
             events.append({
                 'rank': len(events) + 1,
