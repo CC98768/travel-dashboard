@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-每日全球旅游热点智能采集 v7 - Hugging Face 版
-DuckDuckGo 搜索 + Hugging Face (Qwen 2.5 72B) 智能分析
-免费 + 自动 + 质量较好
+每日全球旅游热点智能采集 v8 - NewsData.io 版
+NewsData.io API + Claude API 智能分析
+免费额度 + 高质量数据
 
 环境变量:
-  HF_TOKEN - Hugging Face API Token (必需)
+  NEWSDATA_API_KEY - NewsData.io API Key (必需)
+  ANTHROPIC_API_KEY - Claude API Key (可选，用于智能分析)
 """
 import json, os, sys, re, time, glob
 from datetime import datetime, timedelta
@@ -16,9 +17,9 @@ TODAY = datetime.utcnow() + timedelta(hours=8)
 DATE_STR = TODAY.strftime('%Y-%m-%d')
 SEVEN_DAYS_AGO = (TODAY - timedelta(days=7)).strftime('%Y-%m-%d')
 
-HF_TOKEN = os.environ.get('HF_TOKEN', '')
-if not HF_TOKEN:
-    print("❌ 未设置 HF_TOKEN")
+NEWSDATA_API_KEY = os.environ.get('NEWSDATA_API_KEY', '')
+if not NEWSDATA_API_KEY:
+    print("❌ 未设置 NEWSDATA_API_KEY")
     sys.exit(1)
 
 COUNTRIES = {
@@ -29,115 +30,149 @@ COUNTRIES = {
     'BR':'巴西','AR':'阿根廷','AU':'澳大利亚','NZ':'新西兰','AE':'阿联酋'
 }
 
-SEARCH_QUERIES = [
-    ('CN', ['中国 出入境 签证 旅游 {date}', 'China visa travel {date}']),
-    ('JP', ['日本 旅游 签证 {date}', 'Japan travel visa {date}']),
-    ('KR', ['韩国 旅游 {date}', 'Korea travel {date}']),
-    ('TH', ['泰国 旅游 {date}', 'Thailand travel {date}']),
-    ('SG', ['新加坡 旅游 {date}', 'Singapore travel {date}']),
-    ('MY', ['马来西亚 旅游 {date}', 'Malaysia travel {date}']),
-    ('VN', ['越南 旅游 {date}', 'Vietnam travel {date}']),
-    ('IN', ['印度 旅游 {date}', 'India travel {date}']),
-    ('FR', ['法国 旅游 {date}', 'France travel {date}']),
-    ('IT', ['意大利 旅游 {date}', 'Italy travel {date}']),
-    ('ES', ['西班牙 旅游 {date}', 'Spain travel {date}']),
-    ('GB', ['英国 旅游 {date}', 'UK travel {date}']),
-    ('DE', ['德国 旅游 {date}', 'Germany travel {date}']),
-    ('GR', ['希腊 旅游 {date}', 'Greece travel {date}']),
-    ('TR', ['土耳其 旅游 {date}', 'Turkey travel {date}']),
-    ('CH', ['瑞士 旅游 {date}', 'Switzerland travel {date}']),
-    ('RU', ['俄罗斯 旅游 {date}', 'Russia travel {date}']),
-    ('US', ['美国 旅游 签证 {date}', 'USA travel visa {date}']),
-    ('CA', ['加拿大 旅游 {date}', 'Canada travel {date}']),
-    ('MX', ['墨西哥 旅游 {date}', 'Mexico travel {date}']),
-    ('BR', ['巴西 旅游 {date}', 'Brazil travel {date}']),
-    ('AR', ['阿根廷 旅游 {date}', 'Argentina travel {date}']),
-    ('AU', ['澳大利亚 旅游 {date}', 'Australia travel {date}']),
-    ('NZ', ['新西兰 旅游 {date}', 'New Zealand travel {date}']),
-    ('AE', ['阿联酋 迪拜 旅游 {date}', 'UAE Dubai travel {date}']),
-]
 
-
-def search_news():
-    """搜索新闻"""
-    try:
-        from duckduckgo_search import DDGS
-    except ImportError:
-        os.system(f"{sys.executable} -m pip install ddgs -q")
-        from ddgs import DDGS
+def search_with_newsdata():
+    """使用 NewsData.io API 搜索"""
+    all_results = {}
     
-    ddgs = DDGS()
-    results = {}
+    for code, name in COUNTRIES.items():
+        # 构建搜索查询
+        query = f"{name} travel OR tourism OR visa"
+        url = f"https://newsdata.io/api/1/news?apikey={NEWSDATA_API_KEY}&q={quote(query)}&language=en,zh&from={SEVEN_DAYS_AGO}&to={DATE_STR}"
+        
+        try:
+            req = Request(url)
+            resp = urlopen(req, timeout=30)
+            data = json.loads(resp.read())
+            
+            results = []
+            for article in data.get('results', [])[:10]:
+                results.append({
+                    'title': article.get('title', ''),
+                    'body': article.get('description', ''),
+                    'url': article.get('link', ''),
+                    'source': article.get('source_id', ''),
+                    'date': article.get('pubDate', '')
+                })
+            
+            all_results[code] = results
+            print(f"  {name}: {len(results)} 条")
+            time.sleep(1)  # 避免频率限制
+            
+        except Exception as e:
+            print(f"  ⚠️ {name}: {e}")
+            all_results[code] = []
     
-    for code, queries in SEARCH_QUERIES:
-        name = COUNTRIES[code]
-        hits = []
-        for q in queries:
-            q = q.format(date=DATE_STR)
-            try:
-                hits.extend(list(ddgs.text(q, max_results=4)))
-                time.sleep(1)
-            except: pass
-        results[code] = [{'t':h.get('title',''),'b':h.get('body',''),'u':h.get('href','')} for h in hits[:10]]
-        print(f"  {name}: {len(results[code])} 条")
-    
-    return results
+    return all_results
 
 
-def analyze_with_hf(search_results):
-    """调用 Hugging Face API (Qwen 2.5 72B)"""
+def analyze_results(search_results):
+    """智能分析结果（如果有 Claude API Key）"""
+    ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
+    
+    if not ANTHROPIC_API_KEY:
+        # 简单规则分析（无 AI）
+        return simple_analyze(search_results)
+    
+    # 使用 Claude API 智能分析
+    return claude_analyze(search_results, ANTHROPIC_API_KEY)
+
+
+def simple_analyze(search_results):
+    """简单规则分析（备用方案）"""
+    countries_data = []
+    
+    for code, name in COUNTRIES.items():
+        results = search_results.get(code, [])
+        events = []
+        
+        for i, r in enumerate(results[:10]):
+            title = r.get('title', '')[:25]
+            desc = r.get('body', '')[:60]
+            
+            # 简单分类
+            category = '目的地'
+            if any(k in title+desc for k in ['visa', '签证', '免签']):
+                category = '签证政策'
+            elif any(k in title+desc for k in ['flight', '航线', '航班']):
+                category = '航空交通'
+            elif any(k in title+desc for k in ['growth', '增长', 'data', '数据']):
+                category = '行业数据'
+            
+            events.append({
+                'rank': i + 1,
+                'title': title if title else f'{name}旅游动态',
+                'category': category,
+                'summary': desc if len(desc) >= 20 else (title + ' - ' + desc),
+                'source': r.get('source', 'NewsData.io'),
+                'impact': '关注后续发展',
+                'source_url': f"https://www.baidu.com/s?wd={quote(title)}",
+                'key_figures': [title[:30]],
+                'travel_advisory': '关注最新动态',
+                'tag': '爆' if i == 0 else ('热' if i < 3 else '新'),
+            })
+        
+        # 补满 10 条
+        while len(events) < 10:
+            rank = len(events) + 1
+            events.append({
+                'rank': rank,
+                'title': f'{name}旅游动态待更新',
+                'category': '行业数据',
+                'summary': '暂无更多本周旅游热点',
+                'source': '系统',
+                'impact': '暂无',
+                'source_url': f"https://www.baidu.com/s?wd={quote(name+'旅游')}",
+                'key_figures': [],
+                'travel_advisory': '',
+                'tag': '新',
+            })
+        
+        countries_data.append({'code': code, 'name': name, 'events': events[:10]})
+    
+    return {'date': DATE_STR, 'countries': countries_data}
+
+
+def claude_analyze(search_results, api_key):
+    """使用 Claude API 智能分析"""
+    import anthropic
+    
+    client = anthropic.Anthropic(api_key=api_key)
+    
+    # 准备搜索摘要
     summary = ""
     for code, items in search_results.items():
         summary += f"\n### {COUNTRIES[code]}\n"
-        for i,r in enumerate(items,1):
-            summary += f"{i}. {r['t']}\n   {r['b'][:100]}\n"
-        if not items:
-            summary += f"(暂无搜索结果)\n"
-
-    prompt = f"""今天是{DATE_STR}，你是旅游分析师。为每个国家整理 10 条出入境旅游利好要闻。
+        for i, r in enumerate(items, 1):
+            summary += f"{i}. {r['title']}\n   {r['body'][:100]}\n"
+    
+    prompt = f"""你是旅游分析师。根据搜索结果，为每个国家整理 10 条旅游利好要闻。
 
 要求：
 - 仅收录{SEVEN_DAYS_AGO}至{DATE_STR}的事件
 - 只收录：签证放宽/新航线/旅游优惠/正向数据/文旅活动
-- 排除：政治/财报/安全/负面/过期内容
 - rank1=tag:爆，rank2-3=tag:热，rank4-10=tag:新
-- source_url 用：https://www.baidu.com/s?wd= + URL 编码 (标题)
-- 不足 10 条用"本周暂无热点"占位，但字段必须完整
+- 不足 10 条用"本周暂无热点"占位
 
-输出 JSON（只输出 JSON）：
-{{"date":"{DATE_STR}","countries":[{{"code":"CN","name":"中国","events":[{{"rank":1,"title":"标题","category":"签证政策/目的地/航空交通/行业数据/文旅活动/旅行提示","summary":"摘要","source":"来源","impact":"影响","source_url":"https://...","key_figures":["数据"],"travel_advisory":"提示","tag":"爆/热/新"}}]}}]}}
+输出 JSON：
+{{"date":"{DATE_STR}","countries":[{{"code":"CN","name":"中国","events":[{{"rank":1,"title":"标题","category":"签证政策/目的地/航空交通/行业数据/文旅活动/旅行提示","summary":"摘要","source":"来源","impact":"影响","source_url":"https://www.baidu.com/s?wd=...","key_figures":["数据"],"travel_advisory":"提示","tag":"爆/热/新"}}]}}]}}
 
 搜索结果：
 {summary}"""
-
-    print("\n 调用 Hugging Face API (Qwen 2.5 72B)...")
     
-    url = 'https://api-inference.huggingface.co/models/Qwen/Qwen2.5-72B-Instruct'
-    payload = json.dumps({
-        "inputs": prompt,
-        "parameters": {"max_new_tokens": 4000, "temperature": 0.3}
-    }).encode()
+    message = client.messages.create(
+        model="claude-sonnet-4-20250514",
+        max_tokens=16000,
+        messages=[{"role": "user", "content": prompt}]
+    )
     
-    req = Request(url, data=payload, headers={
-        'Authorization': f'Bearer {HF_TOKEN}',
-        'Content-Type': 'application/json'
-    })
-    
-    try:
-        resp = urlopen(req, timeout=180)
-        result = json.loads(resp.read())
-        text = result[0].get('generated_text', '')
-    except Exception as e:
-        print(f"  HF API 错误：{e}")
-        sys.exit(1)
-    
-    # 提取 JSON
+    text = message.content[0].text
     match = re.search(r'\{[\s\S]*\}', text)
-    if not match:
-        print("  HF 未返回 JSON")
-        sys.exit(1)
+    if match:
+        return json.loads(match.group())
     
-    return json.loads(match.group())
+    # 如果 Claude 失败，回退到简单分析
+    return simple_analyze(search_results)
 
 
 def save_data(data):
@@ -166,12 +201,12 @@ def save_data(data):
 
 
 def main():
-    print(f"📡 全球旅游热点 (Hugging Face) - {DATE_STR}")
-    print("Step 1: 搜索...")
-    results = search_news()
+    print(f" 全球旅游热点 (NewsData.io) - {DATE_STR}")
+    print("Step 1: NewsData.io 搜索...")
+    results = search_with_newsdata()
     
-    print("Step 2: HF 分析...")
-    data = analyze_with_hf(results)
+    print("Step 2: 智能分析...")
+    data = analyze_results(results)
     
     print("Step 3: 保存...")
     save_data(data)
