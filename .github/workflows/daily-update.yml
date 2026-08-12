@@ -28,7 +28,8 @@ jobs:
 
       - name: Collect news
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 scripts/collect_news.py
 
       - name: Generate dashboard
