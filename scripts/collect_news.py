@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
 """
-每日全球旅游热点采集 - NewsData.io 版
-使用 NewsData.io API 搜索 + 简单规则分析
+每日全球旅游热点采集 - Google News RSS 版
+完全免费，无需 API Key
 """
-import json, os, sys, time, glob
+import json, os, sys, time, glob, re
 from datetime import datetime, timedelta
-from urllib.request import urlopen, Request
 from urllib.parse import quote
+import feedparser
 
 TODAY = datetime.utcnow() + timedelta(hours=8)
 DATE_STR = TODAY.strftime('%Y-%m-%d')
-
-NEWSDATA_API_KEY = os.environ.get('NEWSDATA_API_KEY', '')
-if not NEWSDATA_API_KEY:
-    print("❌ 未设置 NEWSDATA_API_KEY")
-    sys.exit(1)
+SEVEN_DAYS_AGO = (TODAY - timedelta(days=7)).strftime('%Y-%m-%d')
 
 COUNTRIES = {
     'CN':'中国','JP':'日本','KR':'韩国','TH':'泰国','SG':'新加坡',
@@ -25,37 +21,27 @@ COUNTRIES = {
 }
 
 
-def search_newsdata(country_code, country_name):
-    """搜索单个国家的旅游新闻"""
-    # 使用英文搜索词，NewsData.io 对英文支持更好
-    query = f"{country_name} tourism OR travel OR visa"
-    
-    # 正确的 API 格式
-    url = (
-        f"https://newsdata.io/api/1/news"
-        f"?apikey={NEWSDATA_API_KEY}"
-        f"&q={quote(query)}"
-        f"&language=en"
-        f"&category=tourism"
-    )
+def search_google_news(country_name):
+    """使用 Google News RSS 搜索"""
+    query = f"{country_name} travel tourism visa"
+    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=en&gl=US&ceid=US:en"
     
     try:
-        req = Request(url)
-        resp = urlopen(req, timeout=30)
-        data = json.loads(resp.read())
-        
-        if data.get('status') != 'success':
-            print(f"  ⚠️ {country_name}: API 返回 {data.get('status')}")
-            return []
-        
+        feed = feedparser.parse(url)
         results = []
-        for article in data.get('results', [])[:10]:
+        
+        for entry in feed.entries[:10]:
+            # 提取标题和摘要
+            title = entry.get('title', '')
+            summary = entry.get('summary', '')
+            link = entry.get('link', '')
+            
             results.append({
-                'title': article.get('title', ''),
-                'body': article.get('description', ''),
-                'url': article.get('link', ''),
-                'source': article.get('source_id', 'NewsData.io'),
-                'date': article.get('pubDate', '')
+                'title': title,
+                'body': summary,
+                'url': link,
+                'source': 'Google News',
+                'date': entry.get('published', '')
             })
         
         return results
@@ -66,7 +52,7 @@ def search_newsdata(country_code, country_name):
 
 
 def analyze_results(all_results):
-    """分析搜索结果，生成结构化数据"""
+    """分析结果，生成结构化数据"""
     countries_data = []
     
     for code, name in COUNTRIES.items():
@@ -79,22 +65,24 @@ def analyze_results(all_results):
             
             # 简单分类
             category = '目的地'
-            title_lower = (title + ' ' + desc).lower()
-            if any(k in title_lower for k in ['visa', '签证', '免签']):
+            text = (title + ' ' + desc).lower()
+            if any(k in text for k in ['visa', '签证', '免签', 'visa-free']):
                 category = '签证政策'
-            elif any(k in title_lower for k in ['flight', '航线', '航班', 'airline']):
+            elif any(k in text for k in ['flight', '航线', '航班', 'airline']):
                 category = '航空交通'
-            elif any(k in title_lower for k in ['growth', '增长', 'data', '数据']):
+            elif any(k in text for k in ['growth', '增长', 'data', '数据', 'million']):
                 category = '行业数据'
-            elif any(k in title_lower for k in ['festival', '活动', 'event']):
+            elif any(k in text for k in ['festival', '活动', 'event']):
                 category = '文旅活动'
+            elif any(k in text for k in ['discount', '优惠', 'promotion']):
+                category = '旅行提示'
             
             events.append({
                 'rank': i + 1,
                 'title': title if title else f'{name}旅游动态',
                 'category': category,
                 'summary': desc if len(desc) >= 30 else '暂无更多详情',
-                'source': r.get('source', 'NewsData.io'),
+                'source': r.get('source', 'Google News'),
                 'impact': '关注后续发展',
                 'source_url': r.get('url', f"https://www.baidu.com/s?wd={quote(title)}"),
                 'key_figures': [title[:30]],
@@ -149,17 +137,17 @@ def save_data(data):
 
 
 def main():
-    print(f"📡 全球旅游热点 (NewsData.io) - {DATE_STR}")
+    print(f"📡 全球旅游热点 (Google News RSS) - {DATE_STR}")
     print()
     
     # 1. 搜索所有国家
-    print("Step 1: NewsData.io 搜索...")
+    print("Step 1: Google News RSS 搜索...")
     all_results = {}
     for code, name in COUNTRIES.items():
         print(f"  搜索 {name}...")
-        all_results[code] = search_newsdata(code, name)
+        all_results[code] = search_google_news(name)
         print(f"    ✅ {len(all_results[code])} 条")
-        time.sleep(1)  # 避免频率限制
+        time.sleep(0.5)
     
     # 2. 分析
     print("\nStep 2: 分析结果...")
