@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
-每日全球旅游热点智能采集 v8 - NewsData.io 版
-NewsData.io API + Claude API 智能分析
-免费额度 + 高质量数据
+每日全球旅游热点智能采集 v9 - NewsData.io 修复版
+NewsData.io API + 简单规则分析
+免费额度 + 自动运行
 
 环境变量:
   NEWSDATA_API_KEY - NewsData.io API Key (必需)
-  ANTHROPIC_API_KEY - Claude API Key (可选，用于智能分析)
 """
 import json, os, sys, re, time, glob
 from datetime import datetime, timedelta
@@ -37,8 +36,10 @@ def search_with_newsdata():
     
     for code, name in COUNTRIES.items():
         # 构建搜索查询
-        query = f"{name} travel OR tourism OR visa"
-        url = f"https://newsdata.io/api/1/news?apikey={NEWSDATA_API_KEY}&q={quote(query)}&language=en,zh&from={SEVEN_DAYS_AGO}&to={DATE_STR}"
+        query = f"{name} travel tourism visa"
+        
+        # 注意：不使用 from/to 参数，免费版可能不支持
+        url = f"https://newsdata.io/api/1/news?apikey={NEWSDATA_API_KEY}&q={quote(query)}&language=en,zh"
         
         try:
             req = Request(url)
@@ -51,13 +52,13 @@ def search_with_newsdata():
                     'title': article.get('title', ''),
                     'body': article.get('description', ''),
                     'url': article.get('link', ''),
-                    'source': article.get('source_id', ''),
+                    'source': article.get('source_id', 'NewsData.io'),
                     'date': article.get('pubDate', '')
                 })
             
             all_results[code] = results
             print(f"  {name}: {len(results)} 条")
-            time.sleep(1)  # 避免频率限制
+            time.sleep(2)  # 避免频率限制
             
         except Exception as e:
             print(f"  ⚠️ {name}: {e}")
@@ -66,20 +67,8 @@ def search_with_newsdata():
     return all_results
 
 
-def analyze_results(search_results):
-    """智能分析结果（如果有 Claude API Key）"""
-    ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
-    
-    if not ANTHROPIC_API_KEY:
-        # 简单规则分析（无 AI）
-        return simple_analyze(search_results)
-    
-    # 使用 Claude API 智能分析
-    return claude_analyze(search_results, ANTHROPIC_API_KEY)
-
-
 def simple_analyze(search_results):
-    """简单规则分析（备用方案）"""
+    """简单规则分析"""
     countries_data = []
     
     for code, name in COUNTRIES.items():
@@ -92,12 +81,16 @@ def simple_analyze(search_results):
             
             # 简单分类
             category = '目的地'
-            if any(k in title+desc for k in ['visa', '签证', '免签']):
+            if any(k in title+desc for k in ['visa', '签证', '免签', 'visa-free']):
                 category = '签证政策'
-            elif any(k in title+desc for k in ['flight', '航线', '航班']):
+            elif any(k in title+desc for k in ['flight', '航线', '航班', 'airline']):
                 category = '航空交通'
-            elif any(k in title+desc for k in ['growth', '增长', 'data', '数据']):
+            elif any(k in title+desc for k in ['growth', '增长', 'data', '数据', 'million']):
                 category = '行业数据'
+            elif any(k in title+desc for k in ['festival', '活动', 'event']):
+                category = '文旅活动'
+            elif any(k in title+desc for k in ['discount', '优惠', 'promotion']):
+                category = '旅行提示'
             
             events.append({
                 'rank': i + 1,
@@ -119,7 +112,7 @@ def simple_analyze(search_results):
                 'rank': rank,
                 'title': f'{name}旅游动态待更新',
                 'category': '行业数据',
-                'summary': '暂无更多本周旅游热点',
+                'summary': '暂无更多旅游热点',
                 'source': '系统',
                 'impact': '暂无',
                 'source_url': f"https://www.baidu.com/s?wd={quote(name+'旅游')}",
@@ -133,48 +126,6 @@ def simple_analyze(search_results):
     return {'date': DATE_STR, 'countries': countries_data}
 
 
-def claude_analyze(search_results, api_key):
-    """使用 Claude API 智能分析"""
-    import anthropic
-    
-    client = anthropic.Anthropic(api_key=api_key)
-    
-    # 准备搜索摘要
-    summary = ""
-    for code, items in search_results.items():
-        summary += f"\n### {COUNTRIES[code]}\n"
-        for i, r in enumerate(items, 1):
-            summary += f"{i}. {r['title']}\n   {r['body'][:100]}\n"
-    
-    prompt = f"""你是旅游分析师。根据搜索结果，为每个国家整理 10 条旅游利好要闻。
-
-要求：
-- 仅收录{SEVEN_DAYS_AGO}至{DATE_STR}的事件
-- 只收录：签证放宽/新航线/旅游优惠/正向数据/文旅活动
-- rank1=tag:爆，rank2-3=tag:热，rank4-10=tag:新
-- 不足 10 条用"本周暂无热点"占位
-
-输出 JSON：
-{{"date":"{DATE_STR}","countries":[{{"code":"CN","name":"中国","events":[{{"rank":1,"title":"标题","category":"签证政策/目的地/航空交通/行业数据/文旅活动/旅行提示","summary":"摘要","source":"来源","impact":"影响","source_url":"https://www.baidu.com/s?wd=...","key_figures":["数据"],"travel_advisory":"提示","tag":"爆/热/新"}}]}}]}}
-
-搜索结果：
-{summary}"""
-    
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=16000,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    
-    text = message.content[0].text
-    match = re.search(r'\{[\s\S]*\}', text)
-    if match:
-        return json.loads(match.group())
-    
-    # 如果 Claude 失败，回退到简单分析
-    return simple_analyze(search_results)
-
-
 def save_data(data):
     """保存数据"""
     sd = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -183,6 +134,7 @@ def save_data(data):
     
     with open(os.path.join(dd, f'{DATE_STR}.json'), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"\n 数据已保存：{dd}/{DATE_STR}.json")
     
     # 更新 manifest
     dates = []
@@ -196,23 +148,39 @@ def save_data(data):
     
     with open(os.path.join(dd,'manifest.json'),'w',encoding='utf-8') as f:
         json.dump({'available_dates':dates},f,ensure_ascii=False,indent=2)
-    
     print(f" manifest: {len(dates)} 天")
 
 
 def main():
-    print(f" 全球旅游热点 (NewsData.io) - {DATE_STR}")
+    print(f"📡 全球旅游热点 (NewsData.io) - {DATE_STR}")
+    print(f"   时效窗口：{SEVEN_DAYS_AGO} ~ {DATE_STR}")
+    print()
+    
+    # 1. 搜索
     print("Step 1: NewsData.io 搜索...")
     results = search_with_newsdata()
     
-    print("Step 2: 智能分析...")
-    data = analyze_results(results)
+    # 2. 分析
+    print("\nStep 2: 智能分析...")
+    data = simple_analyze(results)
     
-    print("Step 3: 保存...")
+    # 3. 保存
+    print("\nStep 3: 保存...")
     save_data(data)
     
+    # 4. 摘要
     total = sum(len(c['events']) for c in data['countries'])
-    print(f"✅ {DATE_STR} | {len(data['countries'])}国 | {total}条")
+    tags = {}
+    for c in data['countries']:
+        for e in c['events']:
+            t = e.get('tag', '')
+            tags[t] = tags.get(t, 0) + 1
+    
+    print(f"\n{'='*50}")
+    print(f"✅ 采集完成!")
+    print(f" {DATE_STR} | 🌍 {len(data['countries'])}国 | 📰 {total}条")
+    print(f"🔥 爆={tags.get('爆',0)} 热={tags.get('热',0)} 新={tags.get('新',0)}")
+    print(f"{'='*50}")
 
 
 if __name__ == '__main__':
