@@ -60,31 +60,42 @@ def analyze_results(all_results):
         events = []
         
         for i, r in enumerate(results[:10]):
-            title = r.get('title', '')[:30]
-            desc = r.get('body', '')[:80]
+            title = r.get('title', '')
+            desc = r.get('body', '')
             
-            # 简单分类
+            # 清理 HTML 标签
+            title = re.sub(r'<[^>]+>', '', title).strip()
+            desc = re.sub(r'<[^>]+>', '', desc).strip()
+            
+            # 截断到合适长度
+            title = title[:25]
+            desc = desc[:80]
+            
+            # 改进的分类逻辑
             category = '目的地'
             text = (title + ' ' + desc).lower()
-            if any(k in text for k in ['visa', '签证', '免签', 'visa-free']):
+            
+            if any(k in text for k in ['visa', '签证', '免签', 'visa-free', 'embassy']):
                 category = '签证政策'
-            elif any(k in text for k in ['flight', '航线', '航班', 'airline']):
+            elif any(k in text for k in ['flight', '航线', '航班', 'airline', 'airport', '机场']):
                 category = '航空交通'
-            elif any(k in text for k in ['growth', '增长', 'data', '数据', 'million']):
+            elif any(k in text for k in ['growth', '增长', 'data', '数据', 'million', 'tourist', '游客']):
                 category = '行业数据'
-            elif any(k in text for k in ['festival', '活动', 'event']):
+            elif any(k in text for k in ['festival', '活动', 'event', 'celebration']):
                 category = '文旅活动'
-            elif any(k in text for k in ['discount', '优惠', 'promotion']):
+            elif any(k in text for k in ['discount', '优惠', 'promotion', 'deal']):
+                category = '旅行提示'
+            elif any(k in text for k in ['travel advisory', '警告', 'warning', 'safety']):
                 category = '旅行提示'
             
             events.append({
                 'rank': i + 1,
                 'title': title if title else f'{name}旅游动态',
                 'category': category,
-                'summary': desc if len(desc) >= 30 else '暂无更多详情',
+                'summary': desc if len(desc) >= 20 else (title + ' - ' + desc),
                 'source': r.get('source', 'Google News'),
                 'impact': '关注后续发展',
-                'source_url': r.get('url', f"https://www.baidu.com/s?wd={quote(title)}"),
+                'source_url': r.get('url', f"https://www.google.com/search?q={quote(title)}"),
                 'key_figures': [title[:30]],
                 'travel_advisory': '关注最新动态',
                 'tag': '爆' if i == 0 else ('热' if i < 3 else '新'),
