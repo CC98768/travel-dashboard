@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-每日全球旅游热点采集 - Google News RSS 版
-完全免费，无需 API Key
+每日全球旅游热点采集 - Google News RSS 版 v2
+完全免费，无需 API Key，修复乱码和分类问题
 """
 import json, os, sys, time, glob, re, html
 from datetime import datetime, timedelta
@@ -22,9 +22,9 @@ COUNTRIES = {
 
 
 def search_google_news(country_name):
-    """使用 Google News RSS 搜索"""
-    query = f"{country_name} travel tourism visa"
-    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=en&gl=US&ceid=US:en"
+    """使用 Google News RSS 搜索（双语查询）"""
+    query = f"{country_name} 旅游 OR {country_name} travel OR {country_name} visa"
+    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
     
     try:
         feed = feedparser.parse(url)
@@ -66,7 +66,7 @@ def analyze_results(all_results):
             title = re.sub(r'<[^>]+>', '', title)
             desc = re.sub(r'<[^>]+>', '', desc)
             
-            # 解码 HTML 实体（&nbsp; &amp; 等）
+            # 解码 HTML 实体
             title = html.unescape(title)
             desc = html.unescape(desc)
             
@@ -74,25 +74,25 @@ def analyze_results(all_results):
             title = re.sub(r'\s+', ' ', title).strip()
             desc = re.sub(r'\s+', ' ', desc).strip()
             
-            # 截断
-            title = title[:25]
-            desc = desc[:80]
+            # 截断（增加到 50 字符）
+            title = title[:50]
+            desc = desc[:100]
             
-            # 分类逻辑
+            # 改进的分类逻辑
             category = '目的地'
             text = (title + ' ' + desc).lower()
             
-            if any(k in text for k in ['visa', '签证', '免签', 'visa-free', 'embassy']):
+            if any(k in text for k in ['visa', '签证', '免签', 'visa-free', 'embassy', 'opens door', 'relaxes', 'policy', '政策']):
                 category = '签证政策'
-            elif any(k in text for k in ['flight', '航线', '航班', 'airline', 'airport', '机场']):
+            elif any(k in text for k in ['flight', '航线', '航班', 'airline', 'airport', '机场', 'route', '直飞']):
                 category = '航空交通'
-            elif any(k in text for k in ['growth', '增长', 'data', '数据', 'million', 'tourist', '游客']):
+            elif any(k in text for k in ['growth', '增长', 'data', '数据', 'million', 'tourist', '游客', 'surge', 'record', '人次', '收入']):
                 category = '行业数据'
-            elif any(k in text for k in ['festival', '活动', 'event', 'celebration']):
+            elif any(k in text for k in ['festival', '活动', 'event', 'celebration', 'ceremony', '节', '展']):
                 category = '文旅活动'
-            elif any(k in text for k in ['discount', '优惠', 'promotion', 'deal']):
+            elif any(k in text for k in ['discount', '优惠', 'promotion', 'deal', 'free', '免费', '打折']):
                 category = '旅行提示'
-            elif any(k in text for k in ['travel advisory', '警告', 'warning', 'safety']):
+            elif any(k in text for k in ['advisory', '警告', 'warning', 'safety', 'alert', '安全']):
                 category = '旅行提示'
             
             events.append({
@@ -153,7 +153,7 @@ def save_data(data):
 
 
 def main():
-    print(f" 全球旅游热点 (Google News RSS) - {DATE_STR}")
+    print(f" 全球旅游热点 (Google News RSS v2) - {DATE_STR}")
     print()
     
     print("Step 1: Google News RSS 搜索...")
