@@ -1,0 +1,473 @@
+{
+  "date": "2026-08-15",
+  "countries": [
+    {
+      "code": "CN",
+      "name": "中国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "上半年入境外国人增 20.4%",
+          "category": "行业数据",
+          "summary": "2026 上半年外国游客达 2291 万人次，同比增 20.4%，免签入境占 77.7%，韩国、俄罗斯、马来西亚、泰国为主要客源国。",
+          "source": "国家移民管理局",
+          "impact": "入境游加速恢复，免签政策红利持续释放",
+          "source_url": "https://www.nia.gov.cn",
+          "key_figures": [
+            "上半年入境 2291 万人次",
+            "同比增长 20.4%"
+          ],
+          "travel_advisory": "建议提前办理电子签证",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "加拿大英国免签延长至年底",
+          "category": "签证政策",
+          "summary": "自 2026 年 2 月起，加拿大和英国持普通护照人员可免签入境中国停留 30 天，政策有效期至 2026 年 12 月 31 日。",
+          "source": "外交部",
+          "impact": "吸引更多北美和欧洲游客来华旅游",
+          "source_url": "https://www.fmprc.gov.cn",
+          "key_figures": [
+            "免签停留 30 天",
+            "有效期至 2026 年底"
+          ],
+          "travel_advisory": "确保护照有效期 6 个月以上",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "国内旅游上半年 34.6 亿人次",
+          "category": "行业数据",
+          "summary": "2026 上半年国内旅游 34.6 亿人次，同比增 5.4%，总花费 3.21 万亿元，增 2%。",
+          "source": "文旅部",
+          "impact": "国内旅游市场持续强劲增长",
+          "source_url": "https://www.mct.gov.cn",
+          "key_figures": [
+            "34.6 亿人次",
+            "花费 3.21 万亿元"
+          ],
+          "travel_advisory": "提前预订暑期热门目的地",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "北京离境退税申请暴增 567%",
+          "category": "行业数据",
+          "summary": "2026 上半年北京办理离境退税超 11 万笔，同比暴增 567.7%，免税销售额超 9 亿元。",
+          "source": "北京海关",
+          "impact": "外国游客消费大幅增长",
+          "source_url": "https://www.beijing-customs.gov.cn",
+          "key_figures": [
+            "退税申请增 567.7%",
+            "免税销售超 9 亿元"
+          ],
+          "travel_advisory": "了解退税政策",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "政府加大入境游推广力度",
+          "category": "行业数据",
+          "summary": "北京 2026 年获 264 万元用于旅游人员配备和在线宣传，上海计划花费至少 160 万元在 Expedia 和 Booking 等平台推广。",
+          "source": "文旅部",
+          "impact": "政府加大投入吸引国际游客",
+          "source_url": "https://www.mct.gov.cn",
+          "key_figures": [
+            "北京 264 万元",
+            "上海 160 万元"
+          ],
+          "travel_advisory": "关注旅游推广活动",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "外国游客热衷 Pop Mart 和华为",
+          "category": "文旅活动",
+          "summary": "外国游客 increasingly 探索中国消费和科技生态，逛 Pop Mart、visit 华为大疆、吃火锅成为热门活动。",
+          "source": "北京海关",
+          "impact": "中国科技和文化品牌吸引国际游客",
+          "source_url": "https://www.beijing-customs.gov.cn",
+          "key_figures": [
+            "Pop Mart 热门",
+            "华为大疆受青睐"
+          ],
+          "travel_advisory": "体验中国科技文化",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "暑期避暑游持续火爆",
+          "category": "目的地",
+          "summary": "夏季避暑游持续火爆，云贵高原、东北林海成热门。哈尔滨、大连、贵阳、西宁等城市客源充沛。",
+          "source": "携程旅行",
+          "impact": "避暑经济带动中西部旅游消费增长",
+          "source_url": "https://www.ctrip.com",
+          "key_figures": [
+            "云贵高原热门",
+            "东北林海受捧"
+          ],
+          "travel_advisory": "注意高原反应",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "Chinamaxxing 成海外 Z 世代新潮流",
+          "category": "文旅活动",
+          "summary": "逛菜市场、学砍价、穿汉服逛夜市等体验中国式生活方式在海外 Z 世代中迅速传播，形成 Chinamaxxing 现象。",
+          "source": "环球时报",
+          "impact": "推动中国旅游从观光型向深度体验型转变",
+          "source_url": "https://www.globaltimes.cn",
+          "key_figures": [
+            "海外 Z 世代追捧",
+            "深度体验式旅游"
+          ],
+          "travel_advisory": "体验当地文化",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "签证便利化吸引国际游客",
+          "category": "签证政策",
+          "summary": "中国签证便利化政策叠加社交媒体推广和更优惠机票价格，吸引国际游客。",
+          "source": "文旅部",
+          "impact": "签证便利化持续吸引国际游客",
+          "source_url": "https://www.mct.gov.cn",
+          "key_figures": [
+            "签证便利化",
+            "机票价格优惠"
+          ],
+          "travel_advisory": "提前办理签证",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "入境游消费转化仍是挑战",
+          "category": "行业数据",
+          "summary": "2025 年入境游占中国 GDP 不到 0.5%，人均消费约 2240 美元，约为美国水平的 40%，消费转化仍是挑战。",
+          "source": "文旅部",
+          "impact": "入境游消费转化有提升空间",
+          "source_url": "https://www.mct.gov.cn",
+          "key_figures": [
+            "人均消费 2240 美元",
+            "占 GDP 不到 0.5%"
+          ],
+          "travel_advisory": "关注消费便利化",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "日本",
+      "events": [
+        {
+          "rank": 1,
+          "title": "日本成欧洲游客亚洲第三目的地",
+          "category": "行业数据",
+          "summary": "日本维持欧洲游客整体国家兴趣前三位，东京排名亚洲个人目的地第四位，得益于弱日元和廉价航空网络。",
+          "source": "Agoda",
+          "impact": "弱日元持续吸引国际游客",
+          "source_url": "https://www.agoda.com",
+          "key_figures": [
+            "欧洲游客兴趣前三",
+            "东京亚洲第四"
+          ],
+          "travel_advisory": "关注日元汇率",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "中日航线恢复缓慢",
+          "category": "航空交通",
+          "summary": "2026 年中国赴日游客数量同比大幅减少，中日直飞航线恢复缓慢，部分航班仍未恢复至疫情前水平。",
+          "source": "民航资源网",
+          "impact": "航线不足影响游客出行",
+          "source_url": "https://www.carnoc.com",
+          "key_figures": [
+            "中国游客大幅减少",
+            "航线恢复缓慢"
+          ],
+          "travel_advisory": "提前查询航班",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "弱日元持续吸引全球游客",
+          "category": "行业数据",
+          "summary": "日元持续走弱使日本成为全球性价比最高的旅游目的地之一，吸引大量亚洲和欧洲游客。",
+          "source": "日本观光厅",
+          "impact": "汇率优势叠加文化吸引力，入境消费活跃",
+          "source_url": "https://www.japan.travel",
+          "key_figures": [
+            "日元走弱",
+            "性价比高"
+          ],
+          "travel_advisory": "关注汇率变化",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "日本地方旅游投资力度加大",
+          "category": "目的地",
+          "summary": "日本政府加大地方旅游资源开发投入，推动乡村和区域旅游基础设施建设，分流东京大阪等热门城市客流。",
+          "source": "日本观光厅",
+          "impact": "地方旅游发展缓解城市过度旅游压力",
+          "source_url": "https://www.japan.travel",
+          "key_figures": [
+            "地方旅游投资增加",
+            "分流效果显现"
+          ],
+          "travel_advisory": "推荐探索地方特色目的地",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "中国游客赴日排名下滑引关注",
+          "category": "行业数据",
+          "summary": "2026 年中国赴日游客数量大幅减少，日本在中国游客目的地排名中下滑，韩国、泰国等竞争对手排名上升。",
+          "source": "日本观光厅",
+          "impact": "客源竞争加剧促使日本调整营销策略",
+          "source_url": "https://www.japan.travel",
+          "key_figures": [
+            "中国游客排名下滑",
+            "韩泰竞争力上升"
+          ],
+          "travel_advisory": "淡季出行体验更佳",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "日本旅游旺季 8 月客流高峰",
+          "category": "行业数据",
+          "summary": "8 月是日本旅游旺季，暑期家庭游和学生游需求旺盛，热门城市客流密集，建议提前预订。",
+          "source": "JNTO",
+          "impact": "旺季消费带动旅游收入",
+          "source_url": "https://www.japan.travel",
+          "key_figures": [
+            "暑期旺季",
+            "客流高峰"
+          ],
+          "travel_advisory": "提前预订住宿",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "日本美食文化吸引欧洲游客",
+          "category": "文旅活动",
+          "summary": "日本美食和传统文化持续吸引欧洲游客，东京、大阪、京都等地美食体验成为主要吸引力。",
+          "source": "日本旅游局",
+          "impact": "美食旅游发展",
+          "source_url": "https://www.japan.travel",
+          "key_figures": [
+            "美食文化",
+            "传统体验"
+          ],
+          "travel_advisory": "品尝当地美食",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "日本新干线服务升级",
+          "category": "航空交通",
+          "summary": "日本新干线持续升级服务，新增列车和班次，提升旅客出行体验，连接主要城市和旅游景点。",
+          "source": "JR 东日本",
+          "impact": "提升交通便利",
+          "source_url": "https://www.jreast.co.jp",
+          "key_figures": [
+            "新干线升级",
+            "新增班次"
+          ],
+          "travel_advisory": "利用新干线出行",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "日本文化活动丰富 8 月",
+          "category": "文旅活动",
+          "summary": "2026 年 8 月日本举办多场文化活动，包括夏日祭典、花火大会和文化节庆，吸引大量游客。",
+          "source": "日本文化部",
+          "impact": "文化活动吸引游客",
+          "source_url": "https://www.bunka.go.jp",
+          "key_figures": [
+            "8 月活动",
+            "夏日祭典"
+          ],
+          "travel_advisory": "关注活动日程",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "日本旅游安全措施",
+          "category": "旅行提示",
+          "summary": "日本加强旅游安全措施，包括景点安检、紧急救援和旅游保险推广，提升游客安全感。",
+          "source": "日本旅游局",
+          "impact": "提升游客安全感",
+          "source_url": "https://www.japan.travel",
+          "key_figures": [
+            "安全措施",
+            "紧急救援"
+          ],
+          "travel_advisory": "购买旅游保险",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "KR",
+      "name": "韩国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "K-ETA 免签豁免延至 2026 年底",
+          "category": "签证政策",
+          "summary": "韩国将 K-ETA 电子旅行授权临时豁免延长至 2026 年 12 月 31 日，覆盖日本、新加坡、泰国、美国、加拿大、英国、德国、法国等 28 个国家。",
+          "source": "韩国法务部",
+          "impact": "简化入境手续，促进 inbound 旅游",
+          "source_url": "https://www.moj.go.kr",
+          "key_figures": [
+            "28 国豁免",
+            "至 2026 年底"
+          ],
+          "travel_advisory": "仍需填写 e-Arrival 卡",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "韩国成亚洲 intra-Asian 旅游中心",
+          "category": "行业数据",
+          "summary": "韩国成为亚洲 intra-Asian 旅游新浪潮的中心角色，K-culture 兴趣和廉价航空推动短途旅行需求增长。",
+          "source": "韩国观光公社",
+          "impact": "K-culture 推动旅游增长",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "K-culture 驱动",
+            "短途旅行增长"
+          ],
+          "travel_advisory": "关注韩流活动",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "韩国暑期家庭游客增 19.85%",
+          "category": "行业数据",
+          "summary": "2026 年 8 月初暑期学校假期带动家庭旅游，韩国游客 arrivals 环比增长 19.85%。",
+          "source": "韩国观光公社",
+          "impact": "暑期家庭游推动区域旅游消费",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "环比增 19.85%",
+            "家庭游旺盛"
+          ],
+          "travel_advisory": "暑期提前规划",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "中国成韩国最大游客来源国",
+          "category": "行业数据",
+          "summary": "中国重新成为韩国最大客源市场，免签政策发挥关键作用，韩国在中国游客中的排名上升。",
+          "source": "韩国旅游发展局",
+          "impact": "中国客源增长带动韩国旅游收入",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "中国为最大客源国",
+            "免签政策效果显著"
+          ],
+          "travel_advisory": "免签入境便捷",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "欧洲游客赴韩增 13%",
+          "category": "行业数据",
+          "summary": "欧洲赴韩游客同比增长 13%，K-culture 和竞争力机票价格吸引欧洲游客。",
+          "source": "韩国观光公社",
+          "impact": "欧洲市场增长",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "增 13%",
+            "欧洲市场"
+          ],
+          "travel_advisory": "关注欧洲航班",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "首尔以外目的地受青睐",
+          "category": "目的地",
+          "summary": "韩国旅游推广重点从首尔向地方城市延伸，釜山、济州岛、大邱等地吸引越来越多国际游客。",
+          "source": "韩国旅游发展局",
+          "impact": "分散客流缓解首尔压力",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "地方城市游客增长",
+            "釜山济州大邱受欢迎"
+          ],
+          "travel_advisory": "推荐体验地方城市",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "韩国旅游竞争力持续提升",
+          "category": "行业数据",
+          "summary": "韩国在亚太旅游市场竞争力增强，在中国游客目的地排名中超越日本，文化内容和美食成为核心吸引力。",
+          "source": "韩国旅游发展局",
+          "impact": "韩流文化 IP 赋能旅游品牌",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "排名超越日本",
+            "韩流文化带动旅游"
+          ],
+          "travel_advisory": "值得一去",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "韩国医疗美容旅游发展",
+          "category": "文旅活动",
+          "summary": "韩国重点发展医疗美容旅游，吸引国际游客，提升游客停留时间和消费。",
+          "source": "韩国文体部",
+          "impact": "高端旅游发展",
+          "source_url": "https://www.mcst.go.kr",
+          "key_figures": [
+            "医疗旅游",
+            "美容旅游"
+          ],
+          "travel_advisory": "预约医疗机构",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "韩国文化活动 8 月丰富",
+          "category": "文旅活动",
+          "summary": "2026 年 8 月韩国举办多场 K-pop 演唱会、文化节庆和艺术展览，吸引国际游客。",
+          "source": "韩国文化部",
+          "impact": "文化活动吸引游客",
+          "source_url": "https://www.mcst.go.kr",
+          "key_figures": [
+            "8 月 K-pop",
+            "文化节庆"
+          ],
+          "travel_advisory": "关注活动日程",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "韩国旅游安全措施",
+          "category": "旅行提示",
+          "summary": "韩国加强旅游安全措施，包括景点安检、紧急救援和旅游保险推广。",
+          "source": "韩国旅游局",
+          "impact": "提升游客安全感",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "安全措施",
+            "紧急救援"
+          ],
+          "travel_advisory": "购买旅游保险",
+          "tag": "新"
+        }
+      ]
+    }
+  ]
+}
