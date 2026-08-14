@@ -39,6 +39,11 @@
       "date": "2026-08-13",
       "countries": 25,
       "events": 250
+    },
+    {
+      "date": "2026-08-14",
+      "countries": 25,
+      "events": 250
     }
   ]
 }
