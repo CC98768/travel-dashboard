@@ -468,6 +468,2843 @@
           "tag": "新"
         }
       ]
+    },
+    {
+      "code": "TH",
+      "name": "泰国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "泰国蝉联欧洲游客亚洲第一",
+          "category": "行业数据",
+          "summary": "泰国连续第二年蝉联欧洲游客夏季亚洲第一目的地，曼谷、苏梅岛、芭提雅跻身亚洲前五。",
+          "source": "Agoda",
+          "impact": "欧洲市场持续强劲",
+          "source_url": "https://www.agoda.com",
+          "key_figures": [
+            "亚洲第一",
+            "曼谷前五"
+          ],
+          "travel_advisory": "提前预订",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "1-8月游客1850万",
+          "category": "行业数据",
+          "summary": "2026年1-8月泰国接待外国游客1850万人次，创造8960亿泰铢旅游收入。",
+          "source": "泰国国家旅游局",
+          "impact": "旅游收入稳定",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "1850万游客",
+            "8960亿泰铢"
+          ],
+          "travel_advisory": "注意边境安全",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "南部边境安全影响旅游",
+          "category": "安全预警",
+          "summary": "泰国南部边境省份安全问题影响旅游，海外游客预订量下降。",
+          "source": "泰国国家旅游局",
+          "impact": "游客安全感下降",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "预订量下降"
+          ],
+          "travel_advisory": "注意旅行安全",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "中国为最大客源国",
+          "category": "行业数据",
+          "summary": "中国以超300万人次位居泰国客源国首位。",
+          "source": "泰国国家旅游局",
+          "impact": "亚洲客源多元化",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "中国超300万"
+          ],
+          "travel_advisory": "关注安全提示",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "欧洲市场展现韧性",
+          "category": "行业数据",
+          "summary": "欧洲长途市场特别是西欧展现韧性，新直飞航线开通。",
+          "source": "泰国国家旅游局",
+          "impact": "市场多元化",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "欧洲韧性",
+            "新航线"
+          ],
+          "travel_advisory": "关注新航线",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "印度航班运力减少",
+          "category": "航空交通",
+          "summary": "印度赴泰航班运力大幅减少，影响旅游收入。",
+          "source": "泰国国家旅游局",
+          "impact": "印度市场受挫",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "航班减少"
+          ],
+          "travel_advisory": "提前查航班",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "重视中国游客体验",
+          "category": "行业数据",
+          "summary": "泰国高度重视中国游客，承诺完善旅游产品和服务。",
+          "source": "泰国国家旅游局",
+          "impact": "提升满意度",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "重视中国"
+          ],
+          "travel_advisory": "选正规旅行社",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "旅游成本上升",
+          "category": "行业数据",
+          "summary": "泰国旅游成本上升，影响游客预算。",
+          "source": "泰国旅游局",
+          "impact": "影响消费决策",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "成本上升"
+          ],
+          "travel_advisory": "规划预算",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "美食旅游推广",
+          "category": "文旅活动",
+          "summary": "泰国推广美食旅游，曼谷、清迈、普吉美食吸引游客。",
+          "source": "泰国旅游局",
+          "impact": "美食旅游发展",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "曼谷清迈"
+          ],
+          "travel_advisory": "品尝美食",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "旅游安全措施",
+          "category": "旅行提示",
+          "summary": "泰国加强旅游安全措施。",
+          "source": "泰国旅游局",
+          "impact": "提升安全感",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "安全措施"
+          ],
+          "travel_advisory": "购买保险",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "name": "新加坡",
+      "events": [
+        {
+          "rank": 1,
+          "title": "新加坡旅游持续复苏",
+          "category": "行业数据",
+          "summary": "新加坡旅游业2026年暑期游客数量稳步增长。",
+          "source": "新加坡旅游局",
+          "impact": "旅游收入增长",
+          "source_url": "https://www.visitsingapore.com",
+          "key_figures": [
+            "暑期增长"
+          ],
+          "travel_advisory": "提前预订",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "新中互免签证持续",
+          "category": "签证政策",
+          "summary": "新加坡与中国互免签证政策持续，可停留30天。",
+          "source": "新加坡移民局",
+          "impact": "便利往来",
+          "source_url": "https://www.ica.gov.sg",
+          "key_figures": [
+            "互免签证",
+            "30天"
+          ],
+          "travel_advisory": "确保护照",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "环球影城热门",
+          "category": "目的地",
+          "summary": "新加坡环球影城持续吸引大量游客。",
+          "source": "环球影城",
+          "impact": "主题乐园带动",
+          "source_url": "https://www.rwsentosa.com",
+          "key_figures": [
+            "环球影城"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "樟宜机场服务升级",
+          "category": "旅行提示",
+          "summary": "樟宜机场新增行李寄存、免费WiFi。",
+          "source": "樟宜机场",
+          "impact": "提升体验",
+          "source_url": "https://www.changiairport.com",
+          "key_figures": [
+            "服务升级"
+          ],
+          "travel_advisory": "利用设施",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "购物节持续",
+          "category": "文旅活动",
+          "summary": "新加坡购物节持续，乌节路提供折扣。",
+          "source": "新加坡旅游局",
+          "impact": "购物旅游",
+          "source_url": "https://www.visitsingapore.com",
+          "key_figures": [
+            "购物节"
+          ],
+          "travel_advisory": "关注促销",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "滨海湾花园热门",
+          "category": "目的地",
+          "summary": "花穹和云雾林最受欢迎。",
+          "source": "滨海湾花园",
+          "impact": "地标吸引",
+          "source_url": "https://www.gardensbythebay.com.sg",
+          "key_figures": [
+            "花穹",
+            "云雾林"
+          ],
+          "travel_advisory": "避开高峰",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "圣淘沙发展",
+          "category": "目的地",
+          "summary": "圣淘沙持续发展新景点。",
+          "source": "圣淘沙",
+          "impact": "岛屿旅游",
+          "source_url": "https://www.sentosa.com.sg",
+          "key_figures": [
+            "圣淘沙"
+          ],
+          "travel_advisory": "探索岛屿",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "文化活动丰富",
+          "category": "文旅活动",
+          "summary": "8月举办多场文化活动。",
+          "source": "新加坡艺术理事会",
+          "impact": "文化吸引",
+          "source_url": "https://www.nac.gov.sg",
+          "key_figures": [
+            "8月活动"
+          ],
+          "travel_advisory": "关注日程",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "美食旅游推广",
+          "category": "文旅活动",
+          "summary": "hawker centre和米其林吸引游客。",
+          "source": "新加坡旅游局",
+          "impact": "美食发展",
+          "source_url": "https://www.visitsingapore.com",
+          "key_figures": [
+            "hawker"
+          ],
+          "travel_advisory": "品尝美食",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "安全措施",
+          "category": "旅行提示",
+          "summary": "加强旅游安全措施。",
+          "source": "新加坡旅游局",
+          "impact": "提升安全感",
+          "source_url": "https://www.visitsingapore.com",
+          "key_figures": [
+            "安全"
+          ],
+          "travel_advisory": "购买保险",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "MY",
+      "name": "马来西亚",
+      "events": [
+        {
+          "rank": 1,
+          "title": "马来西亚旅游复苏",
+          "category": "行业数据",
+          "summary": "2026年暑期游客数量增长。",
+          "source": "马来西亚旅游局",
+          "impact": "收入增长",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "增长"
+          ],
+          "travel_advisory": "提前预订",
+          "tag": "爆"
+        },
+        {
+          "rank": 2,
+          "title": "中马互免签证",
+          "category": "签证政策",
+          "summary": "中马互免签证政策持续。",
+          "source": "马来西亚移民局",
+          "impact": "便利往来",
+          "source_url": "https://www.imi.gov.my",
+          "key_figures": [
+            "互免"
+          ],
+          "travel_advisory": "确保护照",
+          "tag": "热"
+        },
+        {
+          "rank": 3,
+          "title": "兰卡威热门",
+          "category": "目的地",
+          "summary": "兰卡威持续吸引国际游客。",
+          "source": "兰卡威旅游局",
+          "impact": "岛屿旅游",
+          "source_url": "https://www.langkawi.gov.my",
+          "key_figures": [
+            "兰卡威"
+          ],
+          "travel_advisory": "探索岛屿",
+          "tag": "热"
+        },
+        {
+          "rank": 4,
+          "title": "沙巴生态游",
+          "category": "目的地",
+          "summary": "沙巴热带雨林和潜水吸引游客。",
+          "source": "沙巴旅游局",
+          "impact": "生态旅游",
+          "source_url": "https://www.tourismsabah.com",
+          "key_figures": [
+            "雨林"
+          ],
+          "travel_advisory": "注意环保",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "吉隆坡购物",
+          "category": "文旅活动",
+          "summary": "双子塔等吸引游客。",
+          "source": "马来西亚旅游局",
+          "impact": "购物旅游",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "双子塔"
+          ],
+          "travel_advisory": "关注促销",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "美食推广",
+          "category": "文旅活动",
+          "summary": "多元文化美食吸引。",
+          "source": "马来西亚旅游局",
+          "impact": "美食发展",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "多元美食"
+          ],
+          "travel_advisory": "品尝",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "成本优势",
+          "category": "行业数据",
+          "summary": "旅游成本相对较低。",
+          "source": "马来西亚旅游局",
+          "impact": "成本吸引",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "成本低"
+          ],
+          "travel_advisory": "规划预算",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "推广活动",
+          "category": "文旅活动",
+          "summary": "全球推广活动。",
+          "source": "马来西亚旅游局",
+          "impact": "提升知名度",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "全球"
+          ],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "文化活动",
+          "category": "文旅活动",
+          "summary": "8月多场活动。",
+          "source": "马来西亚文化部",
+          "impact": "文化吸引",
+          "source_url": "https://www.kkk.gov.my",
+          "key_figures": [
+            "8月"
+          ],
+          "travel_advisory": "关注日程",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "安全措施",
+          "category": "旅行提示",
+          "summary": "加强安全措施。",
+          "source": "马来西亚旅游局",
+          "impact": "安全感",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "安全"
+          ],
+          "travel_advisory": "保险",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "VN",
+      "name": "越南",
+      "events": [
+        {
+          "rank": 1,
+          "title": "越南动态1",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "越南动态2",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "越南动态3",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "越南动态4",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "越南动态5",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "越南动态6",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "越南动态7",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "越南动态8",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "越南动态9",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "越南动态10",
+          "category": "行业数据",
+          "summary": "越南2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "印度",
+      "events": [
+        {
+          "rank": 1,
+          "title": "印度动态1",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "印度动态2",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "印度动态3",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "印度动态4",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "印度动态5",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "印度动态6",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "印度动态7",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "印度动态8",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "印度动态9",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "印度动态10",
+          "category": "行业数据",
+          "summary": "印度2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "法国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "法国动态1",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "法国动态2",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "法国动态3",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "法国动态4",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "法国动态5",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "法国动态6",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "法国动态7",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "法国动态8",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "法国动态9",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "法国动态10",
+          "category": "行业数据",
+          "summary": "法国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "name": "意大利",
+      "events": [
+        {
+          "rank": 1,
+          "title": "意大利动态1",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "意大利动态2",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "意大利动态3",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "意大利动态4",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "意大利动态5",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "意大利动态6",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "意大利动态7",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "意大利动态8",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "意大利动态9",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "意大利动态10",
+          "category": "行业数据",
+          "summary": "意大利2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "西班牙",
+      "events": [
+        {
+          "rank": 1,
+          "title": "西班牙动态1",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "西班牙动态2",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "西班牙动态3",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "西班牙动态4",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "西班牙动态5",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "西班牙动态6",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "西班牙动态7",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "西班牙动态8",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "西班牙动态9",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "西班牙动态10",
+          "category": "行业数据",
+          "summary": "西班牙2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "英国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "英国动态1",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "英国动态2",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "英国动态3",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "英国动态4",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "英国动态5",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "英国动态6",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "英国动态7",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "英国动态8",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "英国动态9",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "英国动态10",
+          "category": "行业数据",
+          "summary": "英国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "德国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "德国动态1",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "德国动态2",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "德国动态3",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "德国动态4",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "德国动态5",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "德国动态6",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "德国动态7",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "德国动态8",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "德国动态9",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "德国动态10",
+          "category": "行业数据",
+          "summary": "德国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "name": "希腊",
+      "events": [
+        {
+          "rank": 1,
+          "title": "希腊动态1",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "希腊动态2",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "希腊动态3",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "希腊动态4",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "希腊动态5",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "希腊动态6",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "希腊动态7",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "希腊动态8",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "希腊动态9",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "希腊动态10",
+          "category": "行业数据",
+          "summary": "希腊2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "TR",
+      "name": "土耳其",
+      "events": [
+        {
+          "rank": 1,
+          "title": "土耳其动态1",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "土耳其动态2",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "土耳其动态3",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "土耳其动态4",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "土耳其动态5",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "土耳其动态6",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "土耳其动态7",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "土耳其动态8",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "土耳其动态9",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "土耳其动态10",
+          "category": "行业数据",
+          "summary": "土耳其2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "瑞士",
+      "events": [
+        {
+          "rank": 1,
+          "title": "瑞士动态1",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "瑞士动态2",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "瑞士动态3",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "瑞士动态4",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "瑞士动态5",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "瑞士动态6",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "瑞士动态7",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "瑞士动态8",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "瑞士动态9",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "瑞士动态10",
+          "category": "行业数据",
+          "summary": "瑞士2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "RU",
+      "name": "俄罗斯",
+      "events": [
+        {
+          "rank": 1,
+          "title": "俄罗斯动态1",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "俄罗斯动态2",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "俄罗斯动态3",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "俄罗斯动态4",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "俄罗斯动态5",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "俄罗斯动态6",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "俄罗斯动态7",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "俄罗斯动态8",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "俄罗斯动态9",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "俄罗斯动态10",
+          "category": "行业数据",
+          "summary": "俄罗斯2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "name": "美国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "美国动态1",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "美国动态2",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "美国动态3",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "美国动态4",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "美国动态5",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "美国动态6",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "美国动态7",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "美国动态8",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "美国动态9",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "美国动态10",
+          "category": "行业数据",
+          "summary": "美国2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "加拿大",
+      "events": [
+        {
+          "rank": 1,
+          "title": "加拿大动态1",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "加拿大动态2",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "加拿大动态3",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "加拿大动态4",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "加拿大动态5",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "加拿大动态6",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "加拿大动态7",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "加拿大动态8",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "加拿大动态9",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "加拿大动态10",
+          "category": "行业数据",
+          "summary": "加拿大2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "墨西哥",
+      "events": [
+        {
+          "rank": 1,
+          "title": "墨西哥动态1",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "墨西哥动态2",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "墨西哥动态3",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "墨西哥动态4",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "墨西哥动态5",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "墨西哥动态6",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "墨西哥动态7",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "墨西哥动态8",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "墨西哥动态9",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "墨西哥动态10",
+          "category": "行业数据",
+          "summary": "墨西哥2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "巴西",
+      "events": [
+        {
+          "rank": 1,
+          "title": "巴西动态1",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "巴西动态2",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "巴西动态3",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "巴西动态4",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "巴西动态5",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "巴西动态6",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "巴西动态7",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "巴西动态8",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "巴西动态9",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "巴西动态10",
+          "category": "行业数据",
+          "summary": "巴西2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "阿根廷",
+      "events": [
+        {
+          "rank": 1,
+          "title": "阿根廷动态1",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "阿根廷动态2",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "阿根廷动态3",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "阿根廷动态4",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "阿根廷动态5",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "阿根廷动态6",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "阿根廷动态7",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "阿根廷动态8",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "阿根廷动态9",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "阿根廷动态10",
+          "category": "行业数据",
+          "summary": "阿根廷2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "澳大利亚",
+      "events": [
+        {
+          "rank": 1,
+          "title": "澳大利亚动态1",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "澳大利亚动态2",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "澳大利亚动态3",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "澳大利亚动态4",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "澳大利亚动态5",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "澳大利亚动态6",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "澳大利亚动态7",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "澳大利亚动态8",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "澳大利亚动态9",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "澳大利亚动态10",
+          "category": "行业数据",
+          "summary": "澳大利亚2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "NZ",
+      "name": "新西兰",
+      "events": [
+        {
+          "rank": 1,
+          "title": "新西兰动态1",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "新西兰动态2",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "新西兰动态3",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "新西兰动态4",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "新西兰动态5",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "新西兰动态6",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "新西兰动态7",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "新西兰动态8",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "新西兰动态9",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "新西兰动态10",
+          "category": "行业数据",
+          "summary": "新西兰2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
+    },
+    {
+      "code": "AE",
+      "name": "阿联酋",
+      "events": [
+        {
+          "rank": 1,
+          "title": "阿联酋动态1",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 2,
+          "title": "阿联酋动态2",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 3,
+          "title": "阿联酋动态3",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 4,
+          "title": "阿联酋动态4",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 5,
+          "title": "阿联酋动态5",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 6,
+          "title": "阿联酋动态6",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 7,
+          "title": "阿联酋动态7",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 8,
+          "title": "阿联酋动态8",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 9,
+          "title": "阿联酋动态9",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        },
+        {
+          "rank": 10,
+          "title": "阿联酋动态10",
+          "category": "行业数据",
+          "summary": "阿联酋2026年8月旅游动态。",
+          "source": "旅游局",
+          "impact": "关注发展",
+          "source_url": "https://www.example.com",
+          "key_figures": [],
+          "travel_advisory": "关注",
+          "tag": "新"
+        }
+      ]
     }
   ]
 }
