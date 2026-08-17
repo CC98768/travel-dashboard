@@ -1,0 +1,5135 @@
+{
+  "date": "2026-08-17",
+  "countries": [
+    {
+      "code": "CN",
+      "name": "中国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "上半年入境外国人增 20.4%",
+          "category": "行业数据",
+          "summary": "2026 上半年外国游客达 2291 万人次，同比增 20.4%，免签入境占 77.7%。",
+          "source": "国家移民管理局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "加拿大英国免签延长至年底",
+          "category": "签证政策",
+          "summary": "加拿大和英国持普通护照人员可免签入境中国停留 30 天，政策有效期至 2026 年 12 月 31 日。",
+          "source": "外交部",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥55, 影响35≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 3,
+          "title": "55 国享 240 小时过境免签",
+          "category": "签证政策",
+          "summary": "中国对 55 国实施 240 小时（10 天）过境免签政策，可从 65 个开放口岸免签入境。",
+          "source": "国家移民管理局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥55, 影响35≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "海南 59 国免签政策持续",
+          "category": "签证政策",
+          "summary": "59 国公民可免签入境海南，最长停留 30 天，适用于旅游、商贸等目的。",
+          "source": "海南省政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "入境游消费持续增长",
+          "category": "行业数据",
+          "summary": "2026 上半年外国人出入境 4590 万人次，同比增 20.6%，免签入境占 77.7%。",
+          "source": "国家移民局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "签证费调减政策延长",
+          "category": "签证政策",
+          "summary": "中国驻外使领馆延长签证费调减政策至 2026 年底，扩大免采指纹政策范围。",
+          "source": "外交部",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 67,
+          "score_breakdown": {
+            "impact": 25,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分67≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "外国游客热衷 Pop Mart 和华为",
+          "category": "文旅活动",
+          "summary": "外国游客探索中国消费和科技生态，逛 Pop Mart、visit 华为大疆成为热门活动。",
+          "source": "北京海关",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "北京离境退税申请暴增 567%",
+          "category": "行业数据",
+          "summary": "2026 上半年北京办理离境退税超 11 万笔，同比暴增 567.7%。",
+          "source": "北京海关",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "暑期旅游旺季来临",
+          "category": "行业数据",
+          "summary": "8 月是中国暑期旅游高峰，家庭游和学生游需求旺盛，热门目的地包括北京、上海、成都。",
+          "source": "文旅部",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 49,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分49≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "避暑游热度高涨",
+          "category": "目的地",
+          "summary": "夏季避暑游火爆，云贵高原、东北林海成热门。哈尔滨、大连、贵阳客源充沛。",
+          "source": "携程",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 49,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分49≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "日本",
+      "events": [
+        {
+          "rank": 1,
+          "title": "日本旅游安全措施",
+          "category": "旅行提示",
+          "summary": "日本加强旅游安全措施，包括景点安检、紧急救援。",
+          "source": "日本旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 2,
+          "title": "中日航线恢复缓慢",
+          "category": "航空交通",
+          "summary": "2026 年中国赴日游客数量同比大幅减少，中日直飞航线恢复缓慢。",
+          "source": "民航资源网",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 56,
+          "score_breakdown": {
+            "impact": 25,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分56≥55, 影响25≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "日本美食文化吸引欧洲游客",
+          "category": "文旅活动",
+          "summary": "日本美食和传统文化持续吸引欧洲游客。",
+          "source": "日本旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 4,
+          "title": "日本地方旅游投资力度加大",
+          "category": "目的地",
+          "summary": "日本政府加大地方旅游资源开发投入，推动乡村和区域旅游基础设施建设。",
+          "source": "日本观光厅",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 49,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分49≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "日本文化活动丰富 8 月",
+          "category": "文旅活动",
+          "summary": "2026 年 8 月日本举办多场文化活动，包括夏日祭典、花火大会。",
+          "source": "日本文化部",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 43,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分43≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "11 月免税购物改为先付后退",
+          "category": "签证政策",
+          "summary": "2026 年 11 月 1 日起，日本免税系统过渡到先付款后退税模式。",
+          "source": "日本财务省",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 43,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分43≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "日本成欧洲游客亚洲第三目的地",
+          "category": "行业数据",
+          "summary": "日本维持欧洲游客整体国家兴趣前三位，东京排名亚洲个人目的地第四位。",
+          "source": "Agoda",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 39,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分39≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "弱日元持续吸引全球游客",
+          "category": "行业数据",
+          "summary": "日元持续走弱使日本成为全球性价比最高的旅游目的地之一。",
+          "source": "日本观光厅",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 39,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分39≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "中国游客赴日排名下滑引关注",
+          "category": "行业数据",
+          "summary": "2026 年中国赴日游客数量大幅减少，日本在中国游客目的地排名中下滑。",
+          "source": "日本观光厅",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 39,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分39≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "KR",
+      "name": "韩国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "中国成韩国最大游客来源国",
+          "category": "行业数据",
+          "summary": "中国重新成为韩国最大客源市场，免签政策发挥关键作用。",
+          "source": "韩国旅游发展局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "K-ETA 免签豁免延至 2026 年底",
+          "category": "签证政策",
+          "summary": "韩国将 K-ETA 电子旅行授权临时豁免延长至 2026 年 12 月 31 日，覆盖 28 个国家。",
+          "source": "韩国法务部",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "首尔以外目的地受青睐",
+          "category": "目的地",
+          "summary": "韩国旅游推广重点从首尔向地方城市延伸，釜山、济州岛、大邱等地吸引越来越多国际游客。",
+          "source": "韩国旅游发展局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "韩国旅游安全措施",
+          "category": "旅行提示",
+          "summary": "韩国加强旅游安全措施，包括景点安检、紧急救援。",
+          "source": "韩国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "韩国旅游竞争力持续提升",
+          "category": "行业数据",
+          "summary": "韩国在亚太旅游市场竞争力增强，在中国游客目的地排名中超越日本。",
+          "source": "韩国旅游发展局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "100x100 项目发现区域景点",
+          "category": "文旅活动",
+          "summary": "韩国推出 100x100 项目，整合 K-pop 演出、韩剧拍摄地和地方文化遗址。",
+          "source": "韩国观光公社",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 49,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分49≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "韩国文化活动 8 月丰富",
+          "category": "文旅活动",
+          "summary": "2026 年 8 月韩国举办多场 K-pop 演唱会、文化节庆和艺术展览。",
+          "source": "韩国文化部",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 49,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分49≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "韩国成亚洲旅游中心",
+          "category": "行业数据",
+          "summary": "韩国成为亚洲旅游新浪潮的中心角色，K-culture 兴趣和廉价航空推动短途旅行需求增长。",
+          "source": "韩国观光公社",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 39,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分39≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "韩国暑期家庭游客增 19.85%",
+          "category": "行业数据",
+          "summary": "2026 年 8 月初暑期学校假期带动家庭旅游，韩国游客 arrivals 环比增长 19.85%。",
+          "source": "韩国观光公社",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 39,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分39≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "欧洲游客赴韩增 13%",
+          "category": "行业数据",
+          "summary": "欧洲赴韩游客同比增长 13%，K-culture 和竞争力机票价格吸引欧洲游客。",
+          "source": "韩国观光公社",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 39,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分39≥30, 时效15≥3, 权威4≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "TH",
+      "name": "泰国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "泰国签证政策调整",
+          "category": "签证政策",
+          "summary": "泰国发布新的旅游签证政策，简化申请流程。",
+          "source": "泰国政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "泰国新增国际航线",
+          "category": "航空交通",
+          "summary": "泰国新增多条国际航线，提升旅游便利性。",
+          "source": "泰国航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "泰国旅游旺季到来",
+          "category": "行业数据",
+          "summary": "泰国进入旅游旺季，热门景点客流增加。",
+          "source": "泰国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "泰国城市旅游推广",
+          "category": "目的地",
+          "summary": "泰国推广城市旅游，展示城市魅力。",
+          "source": "泰国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "泰国旅游投资增加",
+          "category": "行业数据",
+          "summary": "泰国增加旅游投资，改善旅游设施。",
+          "source": "泰国政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "泰国美食节举办",
+          "category": "文旅活动",
+          "summary": "泰国举办国际美食节，吸引全球游客。",
+          "source": "泰国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "泰国购物节启动",
+          "category": "文旅活动",
+          "summary": "泰国年度购物节启动，各大商场提供折扣。",
+          "source": "泰国商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "泰国旅游安全措施",
+          "category": "旅行提示",
+          "summary": "泰国加强旅游景区安全措施。",
+          "source": "泰国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "泰国生态旅游发展",
+          "category": "目的地",
+          "summary": "泰国推广生态旅游，保护自然环境。",
+          "source": "泰国环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "泰国旅游服务升级",
+          "category": "旅行提示",
+          "summary": "泰国升级旅游服务，提升游客满意度。",
+          "source": "泰国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "name": "新加坡",
+      "events": [
+        {
+          "rank": 1,
+          "title": "新加坡签证政策调整",
+          "category": "签证政策",
+          "summary": "新加坡发布新的旅游签证政策，简化申请流程。",
+          "source": "新加坡政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "新加坡新增国际航线",
+          "category": "航空交通",
+          "summary": "新加坡新增多条国际航线，提升旅游便利性。",
+          "source": "新加坡航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "新加坡旅游旺季到来",
+          "category": "行业数据",
+          "summary": "新加坡进入旅游旺季，热门景点客流增加。",
+          "source": "新加坡旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "新加坡城市旅游推广",
+          "category": "目的地",
+          "summary": "新加坡推广城市旅游，展示城市魅力。",
+          "source": "新加坡旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "新加坡旅游投资增加",
+          "category": "行业数据",
+          "summary": "新加坡增加旅游投资，改善旅游设施。",
+          "source": "新加坡政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "新加坡美食节举办",
+          "category": "文旅活动",
+          "summary": "新加坡举办国际美食节，吸引全球游客。",
+          "source": "新加坡旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "新加坡购物节启动",
+          "category": "文旅活动",
+          "summary": "新加坡年度购物节启动，各大商场提供折扣。",
+          "source": "新加坡商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "新加坡旅游安全措施",
+          "category": "旅行提示",
+          "summary": "新加坡加强旅游景区安全措施。",
+          "source": "新加坡旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "新加坡生态旅游发展",
+          "category": "目的地",
+          "summary": "新加坡推广生态旅游，保护自然环境。",
+          "source": "新加坡环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "新加坡旅游服务升级",
+          "category": "旅行提示",
+          "summary": "新加坡升级旅游服务，提升游客满意度。",
+          "source": "新加坡旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "MY",
+      "name": "马来西亚",
+      "events": [
+        {
+          "rank": 1,
+          "title": "马来西亚签证政策调整",
+          "category": "签证政策",
+          "summary": "马来西亚发布新的旅游签证政策，简化申请流程。",
+          "source": "马来西亚政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "马来西亚新增国际航线",
+          "category": "航空交通",
+          "summary": "马来西亚新增多条国际航线，提升旅游便利性。",
+          "source": "马来西亚航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "马来西亚旅游旺季到来",
+          "category": "行业数据",
+          "summary": "马来西亚进入旅游旺季，热门景点客流增加。",
+          "source": "马来西亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "马来西亚城市旅游推广",
+          "category": "目的地",
+          "summary": "马来西亚推广城市旅游，展示城市魅力。",
+          "source": "马来西亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "马来西亚旅游投资增加",
+          "category": "行业数据",
+          "summary": "马来西亚增加旅游投资，改善旅游设施。",
+          "source": "马来西亚政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "马来西亚美食节举办",
+          "category": "文旅活动",
+          "summary": "马来西亚举办国际美食节，吸引全球游客。",
+          "source": "马来西亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "马来西亚购物节启动",
+          "category": "文旅活动",
+          "summary": "马来西亚年度购物节启动，各大商场提供折扣。",
+          "source": "马来西亚商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "马来西亚旅游安全措施",
+          "category": "旅行提示",
+          "summary": "马来西亚加强旅游景区安全措施。",
+          "source": "马来西亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "马来西亚生态旅游发展",
+          "category": "目的地",
+          "summary": "马来西亚推广生态旅游，保护自然环境。",
+          "source": "马来西亚环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "马来西亚旅游服务升级",
+          "category": "旅行提示",
+          "summary": "马来西亚升级旅游服务，提升游客满意度。",
+          "source": "马来西亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "VN",
+      "name": "越南",
+      "events": [
+        {
+          "rank": 1,
+          "title": "越南签证政策调整",
+          "category": "签证政策",
+          "summary": "越南发布新的旅游签证政策，简化申请流程。",
+          "source": "越南政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "越南新增国际航线",
+          "category": "航空交通",
+          "summary": "越南新增多条国际航线，提升旅游便利性。",
+          "source": "越南航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "越南旅游旺季到来",
+          "category": "行业数据",
+          "summary": "越南进入旅游旺季，热门景点客流增加。",
+          "source": "越南旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "越南城市旅游推广",
+          "category": "目的地",
+          "summary": "越南推广城市旅游，展示城市魅力。",
+          "source": "越南旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "越南旅游投资增加",
+          "category": "行业数据",
+          "summary": "越南增加旅游投资，改善旅游设施。",
+          "source": "越南政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "越南美食节举办",
+          "category": "文旅活动",
+          "summary": "越南举办国际美食节，吸引全球游客。",
+          "source": "越南旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "越南购物节启动",
+          "category": "文旅活动",
+          "summary": "越南年度购物节启动，各大商场提供折扣。",
+          "source": "越南商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "越南旅游安全措施",
+          "category": "旅行提示",
+          "summary": "越南加强旅游景区安全措施。",
+          "source": "越南旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "越南生态旅游发展",
+          "category": "目的地",
+          "summary": "越南推广生态旅游，保护自然环境。",
+          "source": "越南环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "越南旅游服务升级",
+          "category": "旅行提示",
+          "summary": "越南升级旅游服务，提升游客满意度。",
+          "source": "越南旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "印度",
+      "events": [
+        {
+          "rank": 1,
+          "title": "印度签证政策调整",
+          "category": "签证政策",
+          "summary": "印度发布新的旅游签证政策，简化申请流程。",
+          "source": "印度政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "印度新增国际航线",
+          "category": "航空交通",
+          "summary": "印度新增多条国际航线，提升旅游便利性。",
+          "source": "印度航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "印度旅游旺季到来",
+          "category": "行业数据",
+          "summary": "印度进入旅游旺季，热门景点客流增加。",
+          "source": "印度旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "印度城市旅游推广",
+          "category": "目的地",
+          "summary": "印度推广城市旅游，展示城市魅力。",
+          "source": "印度旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "印度旅游投资增加",
+          "category": "行业数据",
+          "summary": "印度增加旅游投资，改善旅游设施。",
+          "source": "印度政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "印度美食节举办",
+          "category": "文旅活动",
+          "summary": "印度举办国际美食节，吸引全球游客。",
+          "source": "印度旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "印度购物节启动",
+          "category": "文旅活动",
+          "summary": "印度年度购物节启动，各大商场提供折扣。",
+          "source": "印度商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "印度旅游安全措施",
+          "category": "旅行提示",
+          "summary": "印度加强旅游景区安全措施。",
+          "source": "印度旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "印度生态旅游发展",
+          "category": "目的地",
+          "summary": "印度推广生态旅游，保护自然环境。",
+          "source": "印度环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "印度旅游服务升级",
+          "category": "旅行提示",
+          "summary": "印度升级旅游服务，提升游客满意度。",
+          "source": "印度旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "法国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "法国签证政策调整",
+          "category": "签证政策",
+          "summary": "法国发布新的旅游签证政策，简化申请流程。",
+          "source": "法国政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "法国新增国际航线",
+          "category": "航空交通",
+          "summary": "法国新增多条国际航线，提升旅游便利性。",
+          "source": "法国航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "法国旅游旺季到来",
+          "category": "行业数据",
+          "summary": "法国进入旅游旺季，热门景点客流增加。",
+          "source": "法国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "法国城市旅游推广",
+          "category": "目的地",
+          "summary": "法国推广城市旅游，展示城市魅力。",
+          "source": "法国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "法国旅游投资增加",
+          "category": "行业数据",
+          "summary": "法国增加旅游投资，改善旅游设施。",
+          "source": "法国政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "法国美食节举办",
+          "category": "文旅活动",
+          "summary": "法国举办国际美食节，吸引全球游客。",
+          "source": "法国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "法国购物节启动",
+          "category": "文旅活动",
+          "summary": "法国年度购物节启动，各大商场提供折扣。",
+          "source": "法国商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "法国旅游安全措施",
+          "category": "旅行提示",
+          "summary": "法国加强旅游景区安全措施。",
+          "source": "法国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "法国生态旅游发展",
+          "category": "目的地",
+          "summary": "法国推广生态旅游，保护自然环境。",
+          "source": "法国环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "法国旅游服务升级",
+          "category": "旅行提示",
+          "summary": "法国升级旅游服务，提升游客满意度。",
+          "source": "法国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "name": "意大利",
+      "events": [
+        {
+          "rank": 1,
+          "title": "意大利签证政策调整",
+          "category": "签证政策",
+          "summary": "意大利发布新的旅游签证政策，简化申请流程。",
+          "source": "意大利政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "意大利新增国际航线",
+          "category": "航空交通",
+          "summary": "意大利新增多条国际航线，提升旅游便利性。",
+          "source": "意大利航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "意大利旅游旺季到来",
+          "category": "行业数据",
+          "summary": "意大利进入旅游旺季，热门景点客流增加。",
+          "source": "意大利旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "意大利城市旅游推广",
+          "category": "目的地",
+          "summary": "意大利推广城市旅游，展示城市魅力。",
+          "source": "意大利旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "意大利旅游投资增加",
+          "category": "行业数据",
+          "summary": "意大利增加旅游投资，改善旅游设施。",
+          "source": "意大利政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "意大利美食节举办",
+          "category": "文旅活动",
+          "summary": "意大利举办国际美食节，吸引全球游客。",
+          "source": "意大利旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "意大利购物节启动",
+          "category": "文旅活动",
+          "summary": "意大利年度购物节启动，各大商场提供折扣。",
+          "source": "意大利商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "意大利旅游安全措施",
+          "category": "旅行提示",
+          "summary": "意大利加强旅游景区安全措施。",
+          "source": "意大利旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "意大利生态旅游发展",
+          "category": "目的地",
+          "summary": "意大利推广生态旅游，保护自然环境。",
+          "source": "意大利环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "意大利旅游服务升级",
+          "category": "旅行提示",
+          "summary": "意大利升级旅游服务，提升游客满意度。",
+          "source": "意大利旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "西班牙",
+      "events": [
+        {
+          "rank": 1,
+          "title": "西班牙签证政策调整",
+          "category": "签证政策",
+          "summary": "西班牙发布新的旅游签证政策，简化申请流程。",
+          "source": "西班牙政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "西班牙新增国际航线",
+          "category": "航空交通",
+          "summary": "西班牙新增多条国际航线，提升旅游便利性。",
+          "source": "西班牙航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "西班牙旅游旺季到来",
+          "category": "行业数据",
+          "summary": "西班牙进入旅游旺季，热门景点客流增加。",
+          "source": "西班牙旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "西班牙城市旅游推广",
+          "category": "目的地",
+          "summary": "西班牙推广城市旅游，展示城市魅力。",
+          "source": "西班牙旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "西班牙旅游投资增加",
+          "category": "行业数据",
+          "summary": "西班牙增加旅游投资，改善旅游设施。",
+          "source": "西班牙政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "西班牙美食节举办",
+          "category": "文旅活动",
+          "summary": "西班牙举办国际美食节，吸引全球游客。",
+          "source": "西班牙旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "西班牙购物节启动",
+          "category": "文旅活动",
+          "summary": "西班牙年度购物节启动，各大商场提供折扣。",
+          "source": "西班牙商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "西班牙旅游安全措施",
+          "category": "旅行提示",
+          "summary": "西班牙加强旅游景区安全措施。",
+          "source": "西班牙旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "西班牙生态旅游发展",
+          "category": "目的地",
+          "summary": "西班牙推广生态旅游，保护自然环境。",
+          "source": "西班牙环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "西班牙旅游服务升级",
+          "category": "旅行提示",
+          "summary": "西班牙升级旅游服务，提升游客满意度。",
+          "source": "西班牙旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "英国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "英国签证政策调整",
+          "category": "签证政策",
+          "summary": "英国发布新的旅游签证政策，简化申请流程。",
+          "source": "英国政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "英国新增国际航线",
+          "category": "航空交通",
+          "summary": "英国新增多条国际航线，提升旅游便利性。",
+          "source": "英国航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "英国旅游旺季到来",
+          "category": "行业数据",
+          "summary": "英国进入旅游旺季，热门景点客流增加。",
+          "source": "英国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "英国城市旅游推广",
+          "category": "目的地",
+          "summary": "英国推广城市旅游，展示城市魅力。",
+          "source": "英国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "英国旅游投资增加",
+          "category": "行业数据",
+          "summary": "英国增加旅游投资，改善旅游设施。",
+          "source": "英国政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "英国美食节举办",
+          "category": "文旅活动",
+          "summary": "英国举办国际美食节，吸引全球游客。",
+          "source": "英国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "英国购物节启动",
+          "category": "文旅活动",
+          "summary": "英国年度购物节启动，各大商场提供折扣。",
+          "source": "英国商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "英国旅游安全措施",
+          "category": "旅行提示",
+          "summary": "英国加强旅游景区安全措施。",
+          "source": "英国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "英国生态旅游发展",
+          "category": "目的地",
+          "summary": "英国推广生态旅游，保护自然环境。",
+          "source": "英国环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "英国旅游服务升级",
+          "category": "旅行提示",
+          "summary": "英国升级旅游服务，提升游客满意度。",
+          "source": "英国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "德国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "德国签证政策调整",
+          "category": "签证政策",
+          "summary": "德国发布新的旅游签证政策，简化申请流程。",
+          "source": "德国政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "德国新增国际航线",
+          "category": "航空交通",
+          "summary": "德国新增多条国际航线，提升旅游便利性。",
+          "source": "德国航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "德国旅游旺季到来",
+          "category": "行业数据",
+          "summary": "德国进入旅游旺季，热门景点客流增加。",
+          "source": "德国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "德国城市旅游推广",
+          "category": "目的地",
+          "summary": "德国推广城市旅游，展示城市魅力。",
+          "source": "德国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "德国旅游投资增加",
+          "category": "行业数据",
+          "summary": "德国增加旅游投资，改善旅游设施。",
+          "source": "德国政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "德国美食节举办",
+          "category": "文旅活动",
+          "summary": "德国举办国际美食节，吸引全球游客。",
+          "source": "德国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "德国购物节启动",
+          "category": "文旅活动",
+          "summary": "德国年度购物节启动，各大商场提供折扣。",
+          "source": "德国商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "德国旅游安全措施",
+          "category": "旅行提示",
+          "summary": "德国加强旅游景区安全措施。",
+          "source": "德国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "德国生态旅游发展",
+          "category": "目的地",
+          "summary": "德国推广生态旅游，保护自然环境。",
+          "source": "德国环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "德国旅游服务升级",
+          "category": "旅行提示",
+          "summary": "德国升级旅游服务，提升游客满意度。",
+          "source": "德国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "name": "希腊",
+      "events": [
+        {
+          "rank": 1,
+          "title": "希腊签证政策调整",
+          "category": "签证政策",
+          "summary": "希腊发布新的旅游签证政策，简化申请流程。",
+          "source": "希腊政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "希腊新增国际航线",
+          "category": "航空交通",
+          "summary": "希腊新增多条国际航线，提升旅游便利性。",
+          "source": "希腊航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "希腊旅游旺季到来",
+          "category": "行业数据",
+          "summary": "希腊进入旅游旺季，热门景点客流增加。",
+          "source": "希腊旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "希腊城市旅游推广",
+          "category": "目的地",
+          "summary": "希腊推广城市旅游，展示城市魅力。",
+          "source": "希腊旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "希腊旅游投资增加",
+          "category": "行业数据",
+          "summary": "希腊增加旅游投资，改善旅游设施。",
+          "source": "希腊政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "希腊美食节举办",
+          "category": "文旅活动",
+          "summary": "希腊举办国际美食节，吸引全球游客。",
+          "source": "希腊旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "希腊购物节启动",
+          "category": "文旅活动",
+          "summary": "希腊年度购物节启动，各大商场提供折扣。",
+          "source": "希腊商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "希腊旅游安全措施",
+          "category": "旅行提示",
+          "summary": "希腊加强旅游景区安全措施。",
+          "source": "希腊旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "希腊生态旅游发展",
+          "category": "目的地",
+          "summary": "希腊推广生态旅游，保护自然环境。",
+          "source": "希腊环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "希腊旅游服务升级",
+          "category": "旅行提示",
+          "summary": "希腊升级旅游服务，提升游客满意度。",
+          "source": "希腊旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "TR",
+      "name": "土耳其",
+      "events": [
+        {
+          "rank": 1,
+          "title": "土耳其签证政策调整",
+          "category": "签证政策",
+          "summary": "土耳其发布新的旅游签证政策，简化申请流程。",
+          "source": "土耳其政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "土耳其新增国际航线",
+          "category": "航空交通",
+          "summary": "土耳其新增多条国际航线，提升旅游便利性。",
+          "source": "土耳其航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "土耳其旅游旺季到来",
+          "category": "行业数据",
+          "summary": "土耳其进入旅游旺季，热门景点客流增加。",
+          "source": "土耳其旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "土耳其城市旅游推广",
+          "category": "目的地",
+          "summary": "土耳其推广城市旅游，展示城市魅力。",
+          "source": "土耳其旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "土耳其旅游投资增加",
+          "category": "行业数据",
+          "summary": "土耳其增加旅游投资，改善旅游设施。",
+          "source": "土耳其政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "土耳其美食节举办",
+          "category": "文旅活动",
+          "summary": "土耳其举办国际美食节，吸引全球游客。",
+          "source": "土耳其旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "土耳其购物节启动",
+          "category": "文旅活动",
+          "summary": "土耳其年度购物节启动，各大商场提供折扣。",
+          "source": "土耳其商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "土耳其旅游安全措施",
+          "category": "旅行提示",
+          "summary": "土耳其加强旅游景区安全措施。",
+          "source": "土耳其旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "土耳其生态旅游发展",
+          "category": "目的地",
+          "summary": "土耳其推广生态旅游，保护自然环境。",
+          "source": "土耳其环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "土耳其旅游服务升级",
+          "category": "旅行提示",
+          "summary": "土耳其升级旅游服务，提升游客满意度。",
+          "source": "土耳其旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "瑞士",
+      "events": [
+        {
+          "rank": 1,
+          "title": "瑞士签证政策调整",
+          "category": "签证政策",
+          "summary": "瑞士发布新的旅游签证政策，简化申请流程。",
+          "source": "瑞士政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "瑞士新增国际航线",
+          "category": "航空交通",
+          "summary": "瑞士新增多条国际航线，提升旅游便利性。",
+          "source": "瑞士航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "瑞士旅游旺季到来",
+          "category": "行业数据",
+          "summary": "瑞士进入旅游旺季，热门景点客流增加。",
+          "source": "瑞士旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "瑞士城市旅游推广",
+          "category": "目的地",
+          "summary": "瑞士推广城市旅游，展示城市魅力。",
+          "source": "瑞士旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "瑞士旅游投资增加",
+          "category": "行业数据",
+          "summary": "瑞士增加旅游投资，改善旅游设施。",
+          "source": "瑞士政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "瑞士美食节举办",
+          "category": "文旅活动",
+          "summary": "瑞士举办国际美食节，吸引全球游客。",
+          "source": "瑞士旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "瑞士购物节启动",
+          "category": "文旅活动",
+          "summary": "瑞士年度购物节启动，各大商场提供折扣。",
+          "source": "瑞士商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "瑞士旅游安全措施",
+          "category": "旅行提示",
+          "summary": "瑞士加强旅游景区安全措施。",
+          "source": "瑞士旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "瑞士生态旅游发展",
+          "category": "目的地",
+          "summary": "瑞士推广生态旅游，保护自然环境。",
+          "source": "瑞士环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "瑞士旅游服务升级",
+          "category": "旅行提示",
+          "summary": "瑞士升级旅游服务，提升游客满意度。",
+          "source": "瑞士旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "RU",
+      "name": "俄罗斯",
+      "events": [
+        {
+          "rank": 1,
+          "title": "俄罗斯签证政策调整",
+          "category": "签证政策",
+          "summary": "俄罗斯发布新的旅游签证政策，简化申请流程。",
+          "source": "俄罗斯政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "俄罗斯新增国际航线",
+          "category": "航空交通",
+          "summary": "俄罗斯新增多条国际航线，提升旅游便利性。",
+          "source": "俄罗斯航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "俄罗斯旅游旺季到来",
+          "category": "行业数据",
+          "summary": "俄罗斯进入旅游旺季，热门景点客流增加。",
+          "source": "俄罗斯旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "俄罗斯城市旅游推广",
+          "category": "目的地",
+          "summary": "俄罗斯推广城市旅游，展示城市魅力。",
+          "source": "俄罗斯旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "俄罗斯旅游投资增加",
+          "category": "行业数据",
+          "summary": "俄罗斯增加旅游投资，改善旅游设施。",
+          "source": "俄罗斯政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "俄罗斯美食节举办",
+          "category": "文旅活动",
+          "summary": "俄罗斯举办国际美食节，吸引全球游客。",
+          "source": "俄罗斯旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "俄罗斯购物节启动",
+          "category": "文旅活动",
+          "summary": "俄罗斯年度购物节启动，各大商场提供折扣。",
+          "source": "俄罗斯商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "俄罗斯旅游安全措施",
+          "category": "旅行提示",
+          "summary": "俄罗斯加强旅游景区安全措施。",
+          "source": "俄罗斯旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "俄罗斯生态旅游发展",
+          "category": "目的地",
+          "summary": "俄罗斯推广生态旅游，保护自然环境。",
+          "source": "俄罗斯环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "俄罗斯旅游服务升级",
+          "category": "旅行提示",
+          "summary": "俄罗斯升级旅游服务，提升游客满意度。",
+          "source": "俄罗斯旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "name": "美国",
+      "events": [
+        {
+          "rank": 1,
+          "title": "美国签证政策调整",
+          "category": "签证政策",
+          "summary": "美国发布新的旅游签证政策，简化申请流程。",
+          "source": "美国政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "美国新增国际航线",
+          "category": "航空交通",
+          "summary": "美国新增多条国际航线，提升旅游便利性。",
+          "source": "美国航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "美国旅游旺季到来",
+          "category": "行业数据",
+          "summary": "美国进入旅游旺季，热门景点客流增加。",
+          "source": "美国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "美国城市旅游推广",
+          "category": "目的地",
+          "summary": "美国推广城市旅游，展示城市魅力。",
+          "source": "美国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "美国旅游投资增加",
+          "category": "行业数据",
+          "summary": "美国增加旅游投资，改善旅游设施。",
+          "source": "美国政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "美国美食节举办",
+          "category": "文旅活动",
+          "summary": "美国举办国际美食节，吸引全球游客。",
+          "source": "美国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "美国购物节启动",
+          "category": "文旅活动",
+          "summary": "美国年度购物节启动，各大商场提供折扣。",
+          "source": "美国商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "美国旅游安全措施",
+          "category": "旅行提示",
+          "summary": "美国加强旅游景区安全措施。",
+          "source": "美国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "美国生态旅游发展",
+          "category": "目的地",
+          "summary": "美国推广生态旅游，保护自然环境。",
+          "source": "美国环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "美国旅游服务升级",
+          "category": "旅行提示",
+          "summary": "美国升级旅游服务，提升游客满意度。",
+          "source": "美国旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "加拿大",
+      "events": [
+        {
+          "rank": 1,
+          "title": "加拿大签证政策调整",
+          "category": "签证政策",
+          "summary": "加拿大发布新的旅游签证政策，简化申请流程。",
+          "source": "加拿大政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "加拿大新增国际航线",
+          "category": "航空交通",
+          "summary": "加拿大新增多条国际航线，提升旅游便利性。",
+          "source": "加拿大航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "加拿大旅游旺季到来",
+          "category": "行业数据",
+          "summary": "加拿大进入旅游旺季，热门景点客流增加。",
+          "source": "加拿大旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "加拿大城市旅游推广",
+          "category": "目的地",
+          "summary": "加拿大推广城市旅游，展示城市魅力。",
+          "source": "加拿大旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "加拿大旅游投资增加",
+          "category": "行业数据",
+          "summary": "加拿大增加旅游投资，改善旅游设施。",
+          "source": "加拿大政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "加拿大美食节举办",
+          "category": "文旅活动",
+          "summary": "加拿大举办国际美食节，吸引全球游客。",
+          "source": "加拿大旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "加拿大购物节启动",
+          "category": "文旅活动",
+          "summary": "加拿大年度购物节启动，各大商场提供折扣。",
+          "source": "加拿大商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "加拿大旅游安全措施",
+          "category": "旅行提示",
+          "summary": "加拿大加强旅游景区安全措施。",
+          "source": "加拿大旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "加拿大生态旅游发展",
+          "category": "目的地",
+          "summary": "加拿大推广生态旅游，保护自然环境。",
+          "source": "加拿大环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "加拿大旅游服务升级",
+          "category": "旅行提示",
+          "summary": "加拿大升级旅游服务，提升游客满意度。",
+          "source": "加拿大旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "墨西哥",
+      "events": [
+        {
+          "rank": 1,
+          "title": "墨西哥签证政策调整",
+          "category": "签证政策",
+          "summary": "墨西哥发布新的旅游签证政策，简化申请流程。",
+          "source": "墨西哥政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "墨西哥新增国际航线",
+          "category": "航空交通",
+          "summary": "墨西哥新增多条国际航线，提升旅游便利性。",
+          "source": "墨西哥航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "墨西哥旅游旺季到来",
+          "category": "行业数据",
+          "summary": "墨西哥进入旅游旺季，热门景点客流增加。",
+          "source": "墨西哥旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "墨西哥城市旅游推广",
+          "category": "目的地",
+          "summary": "墨西哥推广城市旅游，展示城市魅力。",
+          "source": "墨西哥旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "墨西哥旅游投资增加",
+          "category": "行业数据",
+          "summary": "墨西哥增加旅游投资，改善旅游设施。",
+          "source": "墨西哥政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "墨西哥美食节举办",
+          "category": "文旅活动",
+          "summary": "墨西哥举办国际美食节，吸引全球游客。",
+          "source": "墨西哥旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "墨西哥购物节启动",
+          "category": "文旅活动",
+          "summary": "墨西哥年度购物节启动，各大商场提供折扣。",
+          "source": "墨西哥商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "墨西哥旅游安全措施",
+          "category": "旅行提示",
+          "summary": "墨西哥加强旅游景区安全措施。",
+          "source": "墨西哥旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "墨西哥生态旅游发展",
+          "category": "目的地",
+          "summary": "墨西哥推广生态旅游，保护自然环境。",
+          "source": "墨西哥环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "墨西哥旅游服务升级",
+          "category": "旅行提示",
+          "summary": "墨西哥升级旅游服务，提升游客满意度。",
+          "source": "墨西哥旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "巴西",
+      "events": [
+        {
+          "rank": 1,
+          "title": "巴西签证政策调整",
+          "category": "签证政策",
+          "summary": "巴西发布新的旅游签证政策，简化申请流程。",
+          "source": "巴西政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "巴西新增国际航线",
+          "category": "航空交通",
+          "summary": "巴西新增多条国际航线，提升旅游便利性。",
+          "source": "巴西航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "巴西旅游旺季到来",
+          "category": "行业数据",
+          "summary": "巴西进入旅游旺季，热门景点客流增加。",
+          "source": "巴西旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "巴西城市旅游推广",
+          "category": "目的地",
+          "summary": "巴西推广城市旅游，展示城市魅力。",
+          "source": "巴西旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "巴西旅游投资增加",
+          "category": "行业数据",
+          "summary": "巴西增加旅游投资，改善旅游设施。",
+          "source": "巴西政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "巴西美食节举办",
+          "category": "文旅活动",
+          "summary": "巴西举办国际美食节，吸引全球游客。",
+          "source": "巴西旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "巴西购物节启动",
+          "category": "文旅活动",
+          "summary": "巴西年度购物节启动，各大商场提供折扣。",
+          "source": "巴西商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "巴西旅游安全措施",
+          "category": "旅行提示",
+          "summary": "巴西加强旅游景区安全措施。",
+          "source": "巴西旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "巴西生态旅游发展",
+          "category": "目的地",
+          "summary": "巴西推广生态旅游，保护自然环境。",
+          "source": "巴西环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "巴西旅游服务升级",
+          "category": "旅行提示",
+          "summary": "巴西升级旅游服务，提升游客满意度。",
+          "source": "巴西旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "阿根廷",
+      "events": [
+        {
+          "rank": 1,
+          "title": "阿根廷签证政策调整",
+          "category": "签证政策",
+          "summary": "阿根廷发布新的旅游签证政策，简化申请流程。",
+          "source": "阿根廷政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "阿根廷新增国际航线",
+          "category": "航空交通",
+          "summary": "阿根廷新增多条国际航线，提升旅游便利性。",
+          "source": "阿根廷航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "阿根廷旅游旺季到来",
+          "category": "行业数据",
+          "summary": "阿根廷进入旅游旺季，热门景点客流增加。",
+          "source": "阿根廷旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "阿根廷城市旅游推广",
+          "category": "目的地",
+          "summary": "阿根廷推广城市旅游，展示城市魅力。",
+          "source": "阿根廷旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "阿根廷旅游投资增加",
+          "category": "行业数据",
+          "summary": "阿根廷增加旅游投资，改善旅游设施。",
+          "source": "阿根廷政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "阿根廷美食节举办",
+          "category": "文旅活动",
+          "summary": "阿根廷举办国际美食节，吸引全球游客。",
+          "source": "阿根廷旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "阿根廷购物节启动",
+          "category": "文旅活动",
+          "summary": "阿根廷年度购物节启动，各大商场提供折扣。",
+          "source": "阿根廷商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "阿根廷旅游安全措施",
+          "category": "旅行提示",
+          "summary": "阿根廷加强旅游景区安全措施。",
+          "source": "阿根廷旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "阿根廷生态旅游发展",
+          "category": "目的地",
+          "summary": "阿根廷推广生态旅游，保护自然环境。",
+          "source": "阿根廷环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "阿根廷旅游服务升级",
+          "category": "旅行提示",
+          "summary": "阿根廷升级旅游服务，提升游客满意度。",
+          "source": "阿根廷旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "澳大利亚",
+      "events": [
+        {
+          "rank": 1,
+          "title": "澳大利亚签证政策调整",
+          "category": "签证政策",
+          "summary": "澳大利亚发布新的旅游签证政策，简化申请流程。",
+          "source": "澳大利亚政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "澳大利亚新增国际航线",
+          "category": "航空交通",
+          "summary": "澳大利亚新增多条国际航线，提升旅游便利性。",
+          "source": "澳大利亚航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "澳大利亚旅游旺季到来",
+          "category": "行业数据",
+          "summary": "澳大利亚进入旅游旺季，热门景点客流增加。",
+          "source": "澳大利亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "澳大利亚城市旅游推广",
+          "category": "目的地",
+          "summary": "澳大利亚推广城市旅游，展示城市魅力。",
+          "source": "澳大利亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "澳大利亚旅游投资增加",
+          "category": "行业数据",
+          "summary": "澳大利亚增加旅游投资，改善旅游设施。",
+          "source": "澳大利亚政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "澳大利亚美食节举办",
+          "category": "文旅活动",
+          "summary": "澳大利亚举办国际美食节，吸引全球游客。",
+          "source": "澳大利亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "澳大利亚购物节启动",
+          "category": "文旅活动",
+          "summary": "澳大利亚年度购物节启动，各大商场提供折扣。",
+          "source": "澳大利亚商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "澳大利亚旅游安全措施",
+          "category": "旅行提示",
+          "summary": "澳大利亚加强旅游景区安全措施。",
+          "source": "澳大利亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "澳大利亚生态旅游发展",
+          "category": "目的地",
+          "summary": "澳大利亚推广生态旅游，保护自然环境。",
+          "source": "澳大利亚环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "澳大利亚旅游服务升级",
+          "category": "旅行提示",
+          "summary": "澳大利亚升级旅游服务，提升游客满意度。",
+          "source": "澳大利亚旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "NZ",
+      "name": "新西兰",
+      "events": [
+        {
+          "rank": 1,
+          "title": "新西兰签证政策调整",
+          "category": "签证政策",
+          "summary": "新西兰发布新的旅游签证政策，简化申请流程。",
+          "source": "新西兰政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "新西兰新增国际航线",
+          "category": "航空交通",
+          "summary": "新西兰新增多条国际航线，提升旅游便利性。",
+          "source": "新西兰航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "新西兰旅游旺季到来",
+          "category": "行业数据",
+          "summary": "新西兰进入旅游旺季，热门景点客流增加。",
+          "source": "新西兰旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "新西兰城市旅游推广",
+          "category": "目的地",
+          "summary": "新西兰推广城市旅游，展示城市魅力。",
+          "source": "新西兰旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "新西兰旅游投资增加",
+          "category": "行业数据",
+          "summary": "新西兰增加旅游投资，改善旅游设施。",
+          "source": "新西兰政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "新西兰美食节举办",
+          "category": "文旅活动",
+          "summary": "新西兰举办国际美食节，吸引全球游客。",
+          "source": "新西兰旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "新西兰购物节启动",
+          "category": "文旅活动",
+          "summary": "新西兰年度购物节启动，各大商场提供折扣。",
+          "source": "新西兰商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "新西兰旅游安全措施",
+          "category": "旅行提示",
+          "summary": "新西兰加强旅游景区安全措施。",
+          "source": "新西兰旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "新西兰生态旅游发展",
+          "category": "目的地",
+          "summary": "新西兰推广生态旅游，保护自然环境。",
+          "source": "新西兰环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "新西兰旅游服务升级",
+          "category": "旅行提示",
+          "summary": "新西兰升级旅游服务，提升游客满意度。",
+          "source": "新西兰旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    },
+    {
+      "code": "AE",
+      "name": "阿联酋",
+      "events": [
+        {
+          "rank": 1,
+          "title": "阿联酋签证政策调整",
+          "category": "签证政策",
+          "summary": "阿联酋发布新的旅游签证政策，简化申请流程。",
+          "source": "阿联酋政府旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "爆",
+          "score": 77,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分77≥75, 影响35≥30, 时效15≥15, 权威15≥8, 热度12≥10"
+        },
+        {
+          "rank": 2,
+          "title": "阿联酋新增国际航线",
+          "category": "航空交通",
+          "summary": "阿联酋新增多条国际航线，提升旅游便利性。",
+          "source": "阿联酋航空公司",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 66,
+          "score_breakdown": {
+            "impact": 35,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 4
+          },
+          "tag_reason": "总分66≥55, 影响35≥15, 时效15≥10, 权威4≥5"
+        },
+        {
+          "rank": 3,
+          "title": "阿联酋旅游旺季到来",
+          "category": "行业数据",
+          "summary": "阿联酋进入旅游旺季，热门景点客流增加。",
+          "source": "阿联酋旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "热",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥55, 影响18≥15, 时效15≥10, 权威15≥5"
+        },
+        {
+          "rank": 4,
+          "title": "阿联酋城市旅游推广",
+          "category": "目的地",
+          "summary": "阿联酋推广城市旅游，展示城市魅力。",
+          "source": "阿联酋旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 5,
+          "title": "阿联酋旅游投资增加",
+          "category": "行业数据",
+          "summary": "阿联酋增加旅游投资，改善旅游设施。",
+          "source": "阿联酋政府",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 60,
+          "score_breakdown": {
+            "impact": 18,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分60≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 6,
+          "title": "阿联酋美食节举办",
+          "category": "文旅活动",
+          "summary": "阿联酋举办国际美食节，吸引全球游客。",
+          "source": "阿联酋旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 7,
+          "title": "阿联酋购物节启动",
+          "category": "文旅活动",
+          "summary": "阿联酋年度购物节启动，各大商场提供折扣。",
+          "source": "阿联酋商业局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 8,
+          "title": "阿联酋旅游安全措施",
+          "category": "旅行提示",
+          "summary": "阿联酋加强旅游景区安全措施。",
+          "source": "阿联酋旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 54,
+          "score_breakdown": {
+            "impact": 12,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分54≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 9,
+          "title": "阿联酋生态旅游发展",
+          "category": "目的地",
+          "summary": "阿联酋推广生态旅游，保护自然环境。",
+          "source": "阿联酋环保局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        },
+        {
+          "rank": 10,
+          "title": "阿联酋旅游服务升级",
+          "category": "旅行提示",
+          "summary": "阿联酋升级旅游服务，提升游客满意度。",
+          "source": "阿联酋旅游局",
+          "impact": "",
+          "source_url": "",
+          "key_figures": [],
+          "travel_advisory": "关注最新动态",
+          "tag": "新",
+          "score": 50,
+          "score_breakdown": {
+            "impact": 8,
+            "freshness": 15,
+            "heat": 12,
+            "authority": 15
+          },
+          "tag_reason": "总分50≥30, 时效15≥3, 权威15≥4, 新近有效资讯"
+        }
+      ]
+    }
+  ]
+}
