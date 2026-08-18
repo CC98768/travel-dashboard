@@ -222,14 +222,21 @@ def fetch_google_news(country, query, max_per_source=50):
     entries = []
     url = f"https://news.google.com/rss/search?q={quote(query)}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
     try:
-        feed = feedparser.parse(url, request_headers=HEADERS)
-        if feed.bozo and not feed.entries:
-            log.warning(f"RSS解析失败: {country}")
+        all_feed_entries = []
+        for rss_url in urls:
+            try:
+                feed = feedparser.parse(rss_url, request_headers=HEADERS)
+                if feed.entries:
+                    all_feed_entries.extend(feed.entries[:max_per_source])
+                time.sleep(0.3)
+            except:
+                pass
+        if not all_feed_entries:
             return []
         
         cutoff = datetime.now(timezone.utc) - timedelta(days=30)
         
-        for entry in feed.entries[:max_per_source]:
+        for entry in all_feed_entries:
             pub = None
             if hasattr(entry, 'published_parsed') and entry.published_parsed:
                 pub = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
