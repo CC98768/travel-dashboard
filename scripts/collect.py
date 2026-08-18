@@ -7,6 +7,7 @@ Google News RSS 中文信源 + 原文抓取 + 数字提取 + 真实分析
 import json, os, re, time, logging
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote
 from difflib import SequenceMatcher
 
 try:
@@ -207,7 +208,7 @@ def gen_advisory_from_content(title, summary, full_text, cat):
 
 def fetch_google_news(country, query, max_per_source=15):
     entries = []
-    url = f"https://news.google.com/rss/search?q={query}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
     try:
         feed = feedparser.parse(url, request_headers=HEADERS)
         if feed.bozo and not feed.entries:
