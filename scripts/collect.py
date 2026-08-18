@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-全球旅游热点看板 - 多源数据采集器 v2.0
-修复：国家匹配（利用源上下文）、分类均衡、去重
+全球旅游热点看板 - 多源数据采集器 v3.0
+Google News RSS 中文信源 + 原文抓取 + 数字提取 + 真实分析
 """
 
 import json, os, re, time, logging
@@ -14,7 +14,7 @@ try:
     import requests
     from bs4 import BeautifulSoup
 except ImportError as e:
-    print(f"❌ 缺少依赖: {e}\n请运行: pip install -r requirements.txt")
+    print(f"缺少依赖: {e}")
     exit(1)
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
@@ -25,363 +25,311 @@ HISTORY_FILE = DATA_DIR / "history.json"
 TODAY_FILE = DATA_DIR / "today.json"
 
 COUNTRIES_25 = [
-    "中国","日本","韩国","泰国","新加坡","越南","马来西亚","印度",
-    "菲律宾","印度尼西亚","法国","意大利","西班牙","英国","德国",
-    "希腊","土耳其","瑞士","俄罗斯","美国","加拿大","墨西哥",
-    "巴西","澳大利亚","新西兰"
+    ("中国","China 旅游 出入境"),
+    ("日本","日本 観光 旅行"),
+    ("韩国","韩国 旅游 Korea tourism"),
+    ("泰国","泰国 旅游 Thailand tourism"),
+    ("新加坡","新加坡 旅游 Singapore tourism"),
+    ("越南","越南 旅游 Vietnam tourism"),
+    ("马来西亚","马来西亚 旅游 Malaysia tourism"),
+    ("印度","印度 旅游 India tourism"),
+    ("菲律宾","菲律宾 旅游 Philippines tourism"),
+    ("印度尼西亚","印尼 巴厘岛 旅游 Indonesia Bali"),
+    ("法国","法国 旅游 France tourism"),
+    ("意大利","意大利 旅游 Italy tourism"),
+    ("西班牙","西班牙 旅游 Spain tourism"),
+    ("英国","英国 旅游 UK Britain tourism"),
+    ("德国","德国 旅游 Germany tourism"),
+    ("希腊","希腊 旅游 Greece tourism"),
+    ("土耳其","土耳其 旅游 Turkey tourism"),
+    ("瑞士","瑞士 旅游 Switzerland tourism"),
+    ("俄罗斯","俄罗斯 旅游 Russia tourism"),
+    ("美国","美国 旅游 USA travel"),
+    ("加拿大","加拿大 旅游 Canada tourism"),
+    ("墨西哥","墨西哥 旅游 Mexico tourism"),
+    ("巴西","巴西 旅游 Brazil tourism"),
+    ("澳大利亚","澳大利亚 旅游 Australia travel"),
+    ("新西兰","新西兰 旅游 New Zealand travel"),
 ]
-
-COUNTRY_EN = {
-    "中国":"China","日本":"Japan","韩国":"South Korea","泰国":"Thailand",
-    "新加坡":"Singapore","越南":"Vietnam","马来西亚":"Malaysia","印度":"India",
-    "菲律宾":"Philippines","印度尼西亚":"Indonesia","法国":"France",
-    "意大利":"Italy","西班牙":"Spain","英国":"UK","德国":"Germany",
-    "希腊":"Greece","土耳其":"Turkey","瑞士":"Switzerland","俄罗斯":"Russia",
-    "美国":"USA","加拿大":"Canada","墨西哥":"Mexico","巴西":"Brazil",
-    "澳大利亚":"Australia","新西兰":"New Zealand"
-}
 
 CATEGORIES = ["航线交通","出入境政策","本地生活","旅游趋势","景点活动","文娱信息"]
 SC_EXPECTED = {"航线交通":2,"出入境政策":2,"本地生活":1,"旅游趋势":2,"景点活动":2,"文娱信息":1}
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; TravelDashboard/1.0)"
-}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; TravelDashboard/3.0)"}
 
 # =============================================
-# 信源定义
+# 分类判断
 # =============================================
 
-# RSS 源 + 预设国家（用于国家匹配）
-RSS_SOURCES = [
-    {"name":"Skift","url":"https://skift.com/feed/","lang":"en","country_hint":None},
-    {"name":"TTG Asia","url":"https://www.ttgasia.com/feed","lang":"en","country_hint":None},
-    {"name":"Travel Weekly","url":"https://www.travelweekly.com/RSS/All-Travel-News","lang":"en","country_hint":None},
-    {"name":"Lonely Planet","url":"https://www.lonelyplanet.com/feed","lang":"en","country_hint":None},
-    {"name":"The Points Guy","url":"https://thepointsguy.com/feed/","lang":"en","country_hint":None},
-    {"name":"Simple Flying","url":"https://simpleflying.com/feed/","lang":"en","country_hint":None},
-    {"name":"One Mile at a Time","url":"https://onemileatatime.com/feed/","lang":"en","country_hint":None},
-    {"name":"Reddit r/travel","url":"https://www.reddit.com/r/travel/.rss","lang":"en","country_hint":None},
-    {"name":"Reddit r/ChinaTravel","url":"https://www.reddit.com/r/ChinaTravel/.rss","lang":"en","country_hint":"中国"},
-    {"name":"Reddit r/JapanTravel","url":"https://www.reddit.com/r/JapanTravel/.rss","lang":"en","country_hint":"日本"},
-    {"name":"Reddit r/ThailandTourism","url":"https://www.reddit.com/r/ThailandTourism/.rss","lang":"en","country_hint":"泰国"},
-    {"name":"Reddit r/solotravel","url":"https://www.reddit.com/r/solotravel/.rss","lang":"en","country_hint":None},
-]
+def classify(title, summary=""):
+    text = (title + " " + summary).lower()
+    kw_map = {
+        "航线交通": ['flight','airline','route','航线','航班','airport','机场','aviation','航空','直飞','open','新航线','airfare','ticket','boarding'],
+        "出入境政策": ['visa','免签','签证','入境','border','passport','immigration','海关','通关','e-visa','落地签','permit','custom'],
+        "本地生活": ['hotel','酒店','restaurant','餐饮','支付','payment','transport','交通','夜市','market','shopping','购物','住宿'],
+        "景点活动": ['attraction','景区','museum','博物馆','temple','寺庙','park','公园','hiking','徒步','tour','游览','开放',' reopening'],
+        "文娱信息": ['festival','节','concert','演唱会','event','活动','exhibition','展览','show','演出','celebration','文化','art','艺术'],
+    }
+    scores = {}
+    for cat, kws in kw_map.items():
+        scores[cat] = sum(1 for kw in kws if kw in text)
+    scores["旅游趋势"] = max(0, 3 - max(scores.values()))  # default fallback
+    return max(scores, key=scores.get)
 
-# 各国官方信源URL映射
-OFFICIAL_SOURCES = {
-    "中国":[
-        {"name":"中国政府网","url":"https://www.gov.cn/zhengce/","type":"出入境政策"},
-        {"name":"文化和旅游部","url":"https://www.mct.gov.cn/whzx/whyw/","type":"旅游趋势"},
-    ],
-    "日本":[
-        {"name":"JNTO","url":"https://www.jnto.go.jp/news/","type":"旅游趋势"},
-    ],
-    "韩国":[
-        {"name":"韩国观光公社","url":"https://www.visitkorea.or.kr/","type":"旅游趋势"},
-    ],
-    "泰国":[
-        {"name":"泰国旅游局TAT","url":"https://www.tat.or.th/","type":"旅游趋势"},
-        {"name":"泰国电子签","url":"https://thaievisa.go.th/","type":"出入境政策"},
-    ],
-    "新加坡":[
-        {"name":"新加坡旅游局STB","url":"https://www.stb.gov.sg/","type":"旅游趋势"},
-        {"name":"新加坡ICA","url":"https://www.ica.gov.sg/","type":"出入境政策"},
-    ],
-    "越南":[
-        {"name":"越南旅游局","url":"https://www.vietnam.travel/","type":"旅游趋势"},
-    ],
-    "马来西亚":[
-        {"name":"马来西亚旅游局","url":"https://www.tourism.gov.my/","type":"旅游趋势"},
-    ],
-    "印度":[
-        {"name":"印度旅游局","url":"https://www.incredibleindia.gov.in/","type":"旅游趋势"},
-        {"name":"印度签证","url":"https://indianvisaonline.gov.in/","type":"出入境政策"},
-    ],
-    "菲律宾":[
-        {"name":"菲律宾旅游局","url":"https://www.tourism.gov.ph/","type":"旅游趋势"},
-    ],
-    "印度尼西亚":[
-        {"name":"印尼旅游部","url":"https://www.indonesia.travel/","type":"旅游趋势"},
-    ],
-    "法国":[
-        {"name":"法国旅游局","url":"https://www.france.fr/","type":"旅游趋势"},
-    ],
-    "意大利":[
-        {"name":"ENIT","url":"https://www.enit.it/","type":"旅游趋势"},
-    ],
-    "西班牙":[
-        {"name":"Turespaña","url":"https://www.spain.info/","type":"旅游趋势"},
-    ],
-    "英国":[
-        {"name":"VisitBritain","url":"https://www.visitbritain.com/","type":"旅游趋势"},
-        {"name":"UK Visas","url":"https://www.gov.uk/browse/visas-immigration","type":"出入境政策"},
-    ],
-    "德国":[
-        {"name":"DZT","url":"https://www.germany.travel/","type":"旅游趋势"},
-    ],
-    "希腊":[
-        {"name":"希腊旅游部","url":"https://www.mintour.gov.gr/","type":"旅游趋势"},
-    ],
-    "土耳其":[
-        {"name":"土耳其电子签","url":"https://www.evisa.gov.tr/","type":"出入境政策"},
-    ],
-    "瑞士":[
-        {"name":"MySwitzerland","url":"https://www.myswitzerland.com/","type":"旅游趋势"},
-    ],
-    "美国":[
-        {"name":"美国国务院","url":"https://travel.state.gov/","type":"出入境政策"},
-    ],
-    "加拿大":[
-        {"name":"Destination Canada","url":"https://www.canada.ca/en/immigration-refugees-citizenship.html","type":"出入境政策"},
-    ],
-    "澳大利亚":[
-        {"name":"Australia.com","url":"https://www.australia.com/","type":"旅游趋势"},
-        {"name":"澳洲内政部","url":"https://immi.homeaffairs.gov.au/","type":"出入境政策"},
-    ],
-    "新西兰":[
-        {"name":"NZ移民局","url":"https://www.immigration.govt.nz/","type":"出入境政策"},
-    ],
-}
 
 # =============================================
-# 采集函数
+# 从原文提取数字
 # =============================================
 
-def fetch_rss(source, days_back=7):
+def extract_figures_from_text(text):
+    figures = []
+    # Percentages
+    pcts = re.findall(r'[\d.]+%', text)
+    figures.extend(pcts[:2])
+    # Money
+    money = re.findall(r'[\d,]+(?:\.\d+)?[亿美元欧镑日元韩元泰铢澳元加元]', text)
+    figures.extend(money[:2])
+    # Passenger numbers
+    pax = re.findall(r'[\d.]+[万千百]?[人次]', text)
+    figures.extend(pax[:2])
+    # Growth numbers
+    growth = re.findall(r'(?:增长|增加|上升|提升|下降|减少|缩减)[\d.]+[%百分之]*', text[:300])
+    figures.extend(growth[:2])
+    # Dates
+    dates = re.findall(r'\d{4}年\d{1,2}月(?:\d{1,2}日)?', text)
+    figures.extend(dates[:2])
+    # Generic large numbers with units
+    nums = re.findall(r'[\d,]+(?:万|亿|百万)', text)
+    figures.extend(nums[:2])
+    
+    # Deduplicate and limit
+    seen = set()
+    unique = []
+    for f in figures:
+        if f not in seen:
+            seen.add(f)
+            unique.append(f)
+    return unique[:5] if unique else ['详见原文']
+
+
+# =============================================
+# 从原文生成影响分析
+# =============================================
+
+def gen_impact_from_content(title, summary, full_text, cat):
+    # Try to extract the core message
+    text = (title + " " + summary + " " + full_text).lower()
+    
+    # Pattern-based impact analysis
+    if cat == "航线交通":
+        if any(kw in text for kw in ['new','新增','开通','恢复','resume','launch']):
+            return '新航线/新运力投入运营，旅客出行选择增加，关注初期促销票价'
+        if any(kw in text for kw in ['取消','停飞','cancel','suspend','delay']):
+            return '航线调整影响旅客出行计划，建议尽早改签或选择替代方案'
+        if any(kw in text for kw in ['sale','促销','discount','优惠','低价']):
+            return '票价优惠降低出行成本，适合灵活日期的旅客抓住窗口期'
+        return '航空运力变化影响出行成本和便利性，建议比价后预订'
+    
+    elif cat == "出入境政策":
+        if any(kw in text for kw in ['visa-free','免签','exempt','waive']):
+            return '免签政策降低出行门槛，预计带动相关目的地客流显著增长'
+        if any(kw in text for kw in ['restrict','限制','ban','禁令','收紧']):
+            return '政策收紧增加出行复杂度，需提前确认最新要求并留足办理时间'
+        if any(kw in text for kw in ['extend','延长','扩大','expand']):
+            return '政策放宽利好跨境出行，商务和旅游往来更加便利'
+        return '出入境政策调整，出行前务必确认最新要求'
+    
+    elif cat == "本地生活":
+        if any(kw in text for kw in ['new','新','open','开业','推出','launch']):
+            return '新设施/新服务提升当地旅游体验，值得纳入行程规划'
+        if any(kw in text for kw in ['price','涨价','上涨','increase','rise']):
+            return '当地消费成本上升，建议提前做好预算规划'
+        return '当地生活服务变化，出行前了解最新情况'
+    
+    elif cat == "旅游趋势":
+        numbers = re.findall(r'[\d.]+%', text)
+        if numbers:
+            return f'数据显示旅游市场变化明显（{numbers[0]}），旅客可根据趋势调整出行计划'
+        return '旅游市场动态值得关注，影响目的地选择和出行时机'
+    
+    elif cat == "景点活动":
+        if any(kw in text for kw in ['reopen','重新开放','升级','upgrade','renovat']):
+            return '景区升级后体验提升，但需确认预约要求和最新开放信息'
+        if any(kw in text for kw in ['limit','限流','预约','reservation','capacity']):
+            return '限流措施保障游览品质，务必提前预约避免扑空'
+        return '景点/活动信息更新，建议提前确认开放时间和门票政策'
+    
+    elif cat == "文娱信息":
+        if any(kw in text for kw in ['ticket','票','booking','预订']):
+            return '热门活动票务紧张，建议尽早购票并确认退改政策'
+        return '文化娱乐活动丰富目的地体验，可纳入行程但需提前规划'
+    
+    return '关注最新动态，出行前核实相关信息'
+
+
+# =============================================
+# 从原文生成出行提示
+# =============================================
+
+def gen_advisory_from_content(title, summary, full_text, cat):
+    text = (title + " " + summary + " " + full_text).lower()
+    
+    advisories = []
+    
+    # Check for time-sensitive info
+    dates = re.findall(r'(\d{4}年\d{1,2}月\d{1,2}日|\d{1,2}月\d{1,2}日|\d{1,2}月)', text)
+    if dates:
+        advisories.append(f'注意关键时间节点：{dates[0]}')
+    
+    # Category-specific
+    if cat == "航线交通":
+        if 'sale' in text or '促销' in text:
+            advisories.append('促销票限时限量，确认行程后尽快下单')
+        advisories.append('关注航司官网获取最新航班动态')
+    elif cat == "出入境政策":
+        advisories.append('政策可能随时调整，出发前48小时再次确认')
+        advisories.append('确保护照有效期不少于6个月')
+    elif cat == "景点活动":
+        if '预约' in text or 'reservation' in text:
+            advisories.append('需提前在线预约，现场可能不售票')
+        advisories.append('关注景区官方渠道获取最新开放信息')
+    elif cat == "文娱信息":
+        advisories.append('热门场次建议提前2-4周购票')
+    else:
+        advisories.append('出行前关注目的地官方旅游信息')
+    
+    return '；'.join(advisories[:3]) if advisories else '出行前核实最新信息'
+
+
+# =============================================
+# 抓取 Google News RSS
+# =============================================
+
+def fetch_google_news(country, query, max_per_source=15):
     entries = []
-    cutoff = datetime.now(timezone.utc) - timedelta(days=days_back)
+    url = f"https://news.google.com/rss/search?q={query}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
     try:
-        feed = feedparser.parse(source["url"], request_headers=HEADERS)
+        feed = feedparser.parse(url, request_headers=HEADERS)
         if feed.bozo and not feed.entries:
-            log.warning(f"RSS解析失败: {source['name']}")
+            log.warning(f"RSS解析失败: {country}")
             return []
-        for entry in feed.entries[:80]:
+        
+        cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+        
+        for entry in feed.entries[:max_per_source]:
             pub = None
-            if hasattr(entry,'published_parsed') and entry.published_parsed:
+            if hasattr(entry, 'published_parsed') and entry.published_parsed:
                 pub = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-            elif hasattr(entry,'updated_parsed') and entry.updated_parsed:
-                pub = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
             if pub and pub < cutoff:
                 continue
-            title = entry.get('title','').strip()
-            summary = entry.get('summary', entry.get('description','')).strip()
-            if '<' in summary:
-                summary = BeautifulSoup(summary,'lxml').get_text()[:200]
+            
+            title = entry.get('title', '').strip()
+            summary_html = entry.get('summary', entry.get('description', '')).strip()
+            if '<' in summary_html:
+                try:
+                    summary = BeautifulSoup(summary_html, 'lxml').get_text()[:200]
+                except:
+                    summary = summary_html[:200]
+            else:
+                summary = summary_html[:200]
+            
             if not title:
                 continue
+            
             entries.append({
                 "raw_title": title,
-                "raw_summary": summary[:200],
-                "source_name": source["name"],
-                "source_url": entry.get('link', source['url']),
+                "raw_summary": summary,
+                "source_name": entry.get('source', {}).get('title', 'Google News'),
+                "source_url": entry.get('link', ''),
                 "published": pub.isoformat() if pub else None,
-                "lang": source.get("lang","en"),
-                "country_hint": source.get("country_hint"),
+                "country_hint": country,
             })
-        log.info(f"✅ {source['name']}: {len(entries)} 条")
+        
+        if entries:
+            log.info(f"  {country}: {len(entries)} 条")
     except Exception as e:
-        log.error(f"❌ {source['name']}: {e}")
+        log.error(f"  {country}: {e}")
     return entries
 
 
-def scrape_official(country, src_info):
-    entries = []
-    url = src_info["url"]
+# =============================================
+# 抓取原文提取详情
+# =============================================
+
+def fetch_article_details(url, timeout=10):
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, 'lxml')
-        for a_tag in soup.find_all('a', href=True)[:80]:
-            href = a_tag['href']
-            text = a_tag.get_text(strip=True)
-            if not text or len(text) < 6:
-                continue
-            if any(kw in href.lower() for kw in ['/news','/press','/media','/article','/update']):
-                full = href if href.startswith('http') else url.rstrip('/') + '/' + href.lstrip('/')
-                entries.append({
-                    "raw_title": text[:80],
-                    "raw_summary": f"[{src_info['name']}] {text[:60]}",
-                    "source_name": src_info["name"],
-                    "source_url": full,
-                    "published": None,
-                    "lang": "zh" if country=="中国" else "en",
-                    "country_hint": country,
-                    "source_type": src_info.get("type","旅游趋势"),
-                })
-        if entries:
-            log.info(f"✅ {src_info['name']}: {len(entries)} 条")
-    except Exception as e:
-        log.error(f" {src_info['name']}: {e}")
-    return entries
+        for tag in soup(['script', 'style', 'nav', 'header', 'footer', 'aside']):
+            tag.decompose()
+        text = soup.get_text(separator=' ', strip=True)[:2000]
+        return text
+    except:
+        return ""
 
+
+# =============================================
+# 去重
+# =============================================
 
 def dedup_similar(entries, threshold=0.65):
-    if not entries: return []
+    if not entries:
+        return []
     unique = [entries[0]]
     for e in entries[1:]:
-        t = e.get("raw_title","").lower()
-        if not any(SequenceMatcher(None, t, u.get("raw_title","").lower()).ratio() > threshold for u in unique):
+        t = e.get("raw_title", "").lower()
+        if not any(SequenceMatcher(None, t, u.get("raw_title", "").lower()).ratio() > threshold for u in unique):
             unique.append(e)
     return unique
 
 
 def dedup_vs_history(entries, history):
     hist_titles = set()
-    for dd in history.get("dates",{}).values():
-        for it in dd.get("items",[]):
-            hist_titles.add(it.get("title","").lower())
+    for dd in history.get("dates", {}).values():
+        for it in dd.get("items", []):
+            hist_titles.add(it.get("title", "").lower())
     result = []
     for e in entries:
-        t = e.get("raw_title","").lower()
+        t = e.get("raw_title", "").lower()
         if not any(SequenceMatcher(None, t, ht).ratio() > 0.7 for ht in hist_titles):
             result.append(e)
     return result
 
 
 # =============================================
-# 改进的分类函数（v2：更精准的关键词 + 兜底逻辑）
-# =============================================
-
-def classify(title, summary=""):
-    """v2: 改进分类，避免全部落入旅游趋势"""
-    text = (title + " " + summary).lower()
-
-    # 航线交通（优先级高）
-    if any(kw in text for kw in ['flight','airline','route','航线','航班','airport','机场','aviation','航空','直飞','direct flight','boarding','check-in','luggage','baggage','seat','mile','point']):
-        return "航线交通"
-
-    # 出入境政策
-    if any(kw in text for kw in ['visa','签证','immigration','移民','passport','护照','border','边检','entry','exit','出入境','免签','visa-free','evisa','落地签','customs','海关','quarantine','检疫','work permit','residency']):
-        return "出入境政策"
-
-    # 文娱信息
-    if any(kw in text for kw in ['concert','演唱会','music festival','音乐节','theater','theatre','film festival','电影节','cultural','文化','art','艺术','show','演出','performance','表演','nightlife','entertainment','opera','ballet','exhibition','gallery','museum','heritage','unesco']):
-        return "文娱信息"
-
-    # 景点活动
-    if any(kw in text for kw in ['attraction','景点','park','公园','beach','海滩','resort','度假村','island','岛','mountain','山','hiking','trekking','safari','theme park','cruise','tour ','activity','adventure','scuba','snorkel','diving','ski','snow','hot spring']):
-        return "景点活动"
-
-    # 本地生活
-    if any(kw in text for kw in ['exchange rate','汇率','payment','支付','currency','货币','cost','物价','safety','安全','transport','交通','taxi','uber','grab','weather','天气','health','健康','vaccine','food','restaurant','hotel','accommodation','accommodation','lodging']):
-        return "本地生活"
-
-    # 旅游趋势（兜底）
-    if any(kw in text for kw in ['tourism','旅游','tourist','游客','visitor','arrival','visitor number','travel data','market','增长','growth','record','数据','统计','demand','booking','reservation','travel trend','overtourism','sustainable travel','eco-tourism']):
-        return "旅游趋势"
-
-    # 最后兜底：根据来源类型猜测
-    # 如果包含 airline/flight/point/mile → 航线
-    if any(kw in text for kw in ['point','mile','reward','credit card','loyalty','upgrade','business class','first class','economy']):
-        return "航线交通"
-    # 如果包含 hotel/resort/stay → 本地生活
-    if any(kw in text for kw in ['hotel','resort','stay','lodge','hostel','airbnb','booking']):
-        return "本地生活"
-    # 如果包含 destination/city/place → 景点活动
-    if any(kw in text for kw in ['destination','city','place','visit','explore','discover','hidden gem','must-see','best of','top ']):
-        return "景点活动"
-
-    return "旅游趋势"
-
-
-# =============================================
-# 改进的国家匹配（v2：利用源上下文）
-# =============================================
-
-def match_country(entry):
-    """v2: 优先使用 source 上下文（subreddit名），再匹配内容"""
-    # 优先：源自带的国家提示
-    if entry.get("country_hint"):
-        return entry["country_hint"]
-
-    # 从 source_name 推断（Reddit subreddit 名包含国家）
-    src = entry.get("source_name","").lower()
-    if "chinatravel" in src: return "中国"
-    if "japantravel" in src: return "日本"
-    if "thailandtourism" in src or "thailand" in src: return "泰国"
-    if "solotravel" in src or "backpacking" in src or "r/travel" in src:
-        # 这些是通用旅行社区，需要从标题匹配国家
-        pass
-
-    # 从标题和摘要匹配
-    text = (entry.get("raw_title","")+" "+entry.get("raw_summary","")).lower()
-    kw = {
-        "中国":["china","chinese","beijing","shanghai","中国","北京","上海","guangzhou","shenzhen","chengdu"],
-        "日本":["japan","japanese","tokyo","osaka","日本","东京","大阪","kyoto","hokkaido","okinawa"],
-        "韩国":["korea","korean","seoul","韩国","首尔","busan","jeju"],
-        "泰国":["thailand","thai","bangkok","泰国","曼谷","phuket","chiang mai","pattaya"],
-        "新加坡":["singapore","新加坡","changi"],
-        "越南":["vietnam","vietnamese","hanoi","越南","河内","ho chi minh","danang","hanoi"],
-        "马来西亚":["malaysia","malaysian","kl ","马来西亚","吉隆坡","kuala lumpur","penang"],
-        "印度":["india","indian","delhi","mumbai","印度","新德里","bangalore","goa"],
-        "菲律宾":["philippines","filipino","manila","菲律宾","马尼拉","cebu","boracay"],
-        "印度尼西亚":["indonesia","bali","印尼","巴厘岛","jakarta","yogyakarta"],
-        "法国":["france","french","paris","法国","巴黎","nice","lyon","provence","normandy"],
-        "意大利":["italy","italian","rome","milan","意大利","罗马","florence","venice","tuscany","amalfi"],
-        "西班牙":["spain","spanish","madrid","barcelona","西班牙","seville","granada","ibiza","mallorca"],
-        "英国":["uk","britain","british","london","英国","伦敦","scotland","wales","edinburgh","manchester"],
-        "德国":["germany","german","berlin","munich","德国","柏林","hamburg","cologne","bavaria"],
-        "希腊":["greece","greek","athens","希腊","雅典","santorini","mykonos","crete"],
-        "土耳其":["turkey","turkish","istanbul","土耳其","伊斯坦布尔","cappadocia","antalya","ephesus"],
-        "瑞士":["switzerland","swiss","zurich","瑞士","geneva","interlaken","bern","lucerne","zermatt"],
-        "俄罗斯":["russia","russian","moscow","俄罗斯","莫斯科","st petersburg","saint petersburg","sochi"],
-        "美国":["usa","us ","america","american","united states","美国","纽约","new york","los angeles","san francisco","miami","las vegas","hawaii","alaska"],
-        "加拿大":["canada","canadian","toronto","加拿大","vancouver","montreal","quebec","calgary","banff"],
-        "墨西哥":["mexico","mexican","墨西哥","cancun","mexico city","tulum","oaxaca","playa del carmen"],
-        "巴西":["brazil","brazilian","巴西","rio","sao paulo","amazon","salvador"],
-        "澳大利亚":["australia","australian","sydney","melbourne","澳大利亚","悉尼","brisbane","perth","great barrier reef","tasmania","uluru"],
-        "新西兰":["new zealand","auckland","新西兰","queenstown","wellington","christchurch","milford sound","rotorua"],
-    }
-    best, best_s = None, 0
-    for c, kws in kw.items():
-        s = sum(1 for k in kws if k in text)
-        if s > best_s: best_s, best = s, c
-    return best
-
-
-# =============================================
-# 标签 & 配额
+# 标签分配
 # =============================================
 
 def assign_tags(items, country):
-    for i in items: i["tag"] = "新"
+    for i in items:
+        i["tag"] = "新"
     idx = hash(country) % len(CATEGORIES)
     boom_cat = CATEGORIES[idx]
-    bc = [i for i in items if i["sub_category"]==boom_cat]
-    if bc: bc[0]["tag"] = "爆"
+    bc = [i for i in items if i["sub_category"] == boom_cat]
+    if bc:
+        bc[0]["tag"] = "爆"
     hot_n = 0
     for off in range(1, len(CATEGORIES)):
-        if hot_n >= 2: break
-        hc = CATEGORIES[(idx+off)%len(CATEGORIES)]
-        hcd = [i for i in items if i["sub_category"]==hc and i["tag"]=="新"]
-        if hcd: hcd[0]["tag"]="热"; hot_n+=1
+        if hot_n >= 2:
+            break
+        hc = CATEGORIES[(idx + off) % len(CATEGORIES)]
+        hcd = [i for i in items if i["sub_category"] == hc and i["tag"] == "新"]
+        if hcd:
+            hcd[0]["tag"] = "热"
+            hot_n += 1
 
-
-def gen_impact(cat):
-    m={"航线交通":"出行选择增加，关注票价变化","出入境政策":"签证政策调整，提前确认要求",
-       "本地生活":"当地变化，出行前准备","旅游趋势":"市场动态，关注热度",
-       "景点活动":"景点更新，提前规划","文娱信息":"活动丰富，可纳入行程"}
-    return m.get(cat,"关注最新动态")
-
-def gen_advisory(cat):
-    m={"航线交通":"关注航班动态","出入境政策":"确认签证要求","本地生活":"了解当地情况",
-       "旅游趋势":"关注目的地热度","景点活动":"提前预订门票","文娱信息":"提前购票"}
-    return m.get(cat,"出行前核实")
-
-def extract_figures(entry):
-    text = entry.get("raw_title","")+" "+entry.get("raw_summary","")
-    figs = re.findall(r'[\d,]+(?:\.\d+)?%?[\亿美元欧镑日元韩元泰铢]', text)
-    if not figs: figs = re.findall(r'\d{4}年\d{1,2}月|\d{1,2}月\d{1,2}日', text)
-    return figs[:3] if figs else ["详见原文"]
 
 def select_quota(items):
     sel, rem = [], list(items)
     for cat, cnt in SC_EXPECTED.items():
-        ci = [i for i in rem if i["sub_category"]==cat]
+        ci = [i for i in rem if i["sub_category"] == cat]
         sel.extend(ci[:cnt])
-        for i in ci[:cnt]: rem.remove(i)
-    if len(sel)<10: sel.extend(rem[:10-len(sel)])
+        for i in ci[:cnt]:
+            if i in rem:
+                rem.remove(i)
+    if len(sel) < 10:
+        sel.extend(rem[:10 - len(sel)])
     return sel[:10]
 
 
@@ -390,121 +338,103 @@ def select_quota(items):
 # =============================================
 
 def collect_all():
-    all_e = []
-    log.info("📡 RSS源采集...")
-    for s in RSS_SOURCES:
-        all_e.extend(fetch_rss(s))
-        time.sleep(0.8)
-    log.info("🏛️ 官网采集...")
-    for country, sources in OFFICIAL_SOURCES.items():
-        for src in sources:
-            all_e.extend(scrape_official(country, src))
-            time.sleep(0.5)
-    log.info(f"📊 总计: {len(all_e)} 条原始")
-    all_e = dedup_similar(all_e)
-    log.info(f"📊 去重后: {len(all_e)} 条")
-    return all_e
+    all_entries = []
+    for country, query in COUNTRIES_25:
+        entries = fetch_google_news(country, query)
+        all_entries.extend(entries)
+        time.sleep(0.5)
+    log.info(f"  RSS总计: {len(all_entries)} 条原始")
+    all_entries = dedup_similar(all_entries)
+    log.info(f"  去重后: {len(all_entries)} 条")
+    return all_entries
 
 
 def build_daily(entries, history):
     today = datetime.now().strftime("%Y-%m-%d")
-    ws = (datetime.now()-timedelta(days=6)).strftime("%Y-%m-%d")
+    ws = (datetime.now() - timedelta(days=6)).strftime("%Y-%m-%d")
+    
     entries = dedup_vs_history(entries, history)
-    log.info(f"📊 与历史去重: {len(entries)} 条")
+    log.info(f"  与历史去重: {len(entries)} 条")
 
-    by_c = {c:[] for c in COUNTRIES_25}
-    unmatched = []
+    by_c = {c[0]: [] for c in COUNTRIES_25}
 
     for e in entries:
-        country = match_country(e)
+        country = e.get("country_hint", "")
         if country and country in by_c:
-            cat = classify(e["raw_title"], e.get("raw_summary",""))
+            cat = classify(e["raw_title"], e.get("raw_summary", ""))
+            
+            # 尝试抓取原文获取详细信息
+            full_text = ""
+            if e.get("source_url") and e["source_url"] != "#":
+                full_text = fetch_article_details(e["source_url"])
+                time.sleep(0.3)
+            
+            # 从原文提取具体数字
+            search_text = e["raw_summary"] + " " + full_text
+            key_figures = extract_figures_from_text(search_text)
+            
+            # 基于实际内容生成影响分析
+            impact = gen_impact_from_content(e["raw_title"], e["raw_summary"], full_text, cat)
+            
+            # 基于实际内容生成出行提示
+            advisory = gen_advisory_from_content(e["raw_title"], e["raw_summary"], full_text, cat)
+            
             by_c[country].append({
                 "title": e["raw_title"][:80],
                 "category": "旅游利好要闻",
                 "sub_category": cat,
-                "summary": e.get("raw_summary","")[:100],
+                "summary": e.get("raw_summary", "")[:150],
                 "source": e["source_name"],
-                "impact": gen_impact(cat),
-                "source_url": e.get("source_url","#"),
-                "key_figures": extract_figures(e),
-                "travel_advisory": gen_advisory(cat),
+                "impact": impact,
+                "source_url": e.get("source_url", "#"),
+                "key_figures": key_figures,
+                "travel_advisory": advisory,
                 "tag": "新",
                 "country": country,
             })
-        else:
-            unmatched.append(e)
 
-    log.info(f"📊 未匹配国家: {len(unmatched)} 条")
-
-    # 将未匹配的条目分配到需要补充的国家
-    # 按类别统计哪些国家缺哪些类别
-    for e in unmatched:
-        cat = classify(e["raw_title"], e.get("raw_summary",""))
-        # 找到最缺该类目的国家
-        best_country = None
-        best_score = -1
-        for c in COUNTRIES_25:
-            existing_cats = [i["sub_category"] for i in by_c[c]]
-            need = SC_EXPECTED.get(cat, 0) - existing_cats.count(cat)
-            total_need = sum(max(0, SC_EXPECTED.get(sc,0) - existing_cats.count(sc)) for sc in CATEGORIES)
-            if total_need > best_score:
-                best_score = total_need
-                best_country = c
-        if best_country:
-            by_c[best_country].append({
-                "title": e["raw_title"][:80],
-                "category": "旅游利好要闻",
-                "sub_category": cat,
-                "summary": e.get("raw_summary","")[:100],
-                "source": e["source_name"],
-                "impact": gen_impact(cat),
-                "source_url": e.get("source_url","#"),
-                "key_figures": extract_figures(e),
-                "travel_advisory": gen_advisory(cat),
-                "tag": "新",
-                "country": best_country,
-            })
-
-    # 每国补齐到10条
+    # 每国选10条（不够10条的保留实际数量，不填充垃圾）
     all_items = []
     for c in COUNTRIES_25:
-        ci = by_c[c]
+        country_name = c[0]
+        ci = by_c.get(country_name, [])
         if len(ci) >= 10:
             sel = select_quota(ci)
         else:
-            sel = list(ci)
-            # 数据不足时不填充垃圾，保留实际采集到的条目
-            pass
-        assign_tags(sel[:10], c)
-        all_items.extend(sel[:10])
+            sel = ci  # 保留实际数量
+        assign_tags(sel, country_name)
+        all_items.extend(sel)
 
-    # 校验分类分布
     sc_cnt = {}
-    for i in all_items: sc_cnt[i["sub_category"]] = sc_cnt.get(i["sub_category"],0)+1
-    log.info(f"📊 最终分类: {sc_cnt}")
+    for i in all_items:
+        sc_cnt[i["sub_category"]] = sc_cnt.get(i["sub_category"], 0) + 1
+    log.info(f"  最终分类: {sc_cnt}")
 
-    tag_s = {"爆":0,"热":0,"新":0}
-    for i in all_items: tag_s[i["tag"]] += 1
+    tag_s = {"爆": 0, "热": 0, "新": 0}
+    for i in all_items:
+        tag_s[i["tag"]] += 1
 
-    return {"today":today,"window":f"{ws} ~ {today}","dates":{today:{"total_items":len(all_items),"tag_summary":tag_s,"items":all_items}}}
+    return {"today": today, "window": f"{ws} ~ {today}", "dates": {today: {"total_items": len(all_items), "tag_summary": tag_s, "items": all_items}}}
 
 
 def main():
-    log.info(" 全球旅游热点看板 v2 - 采集开始")
+    log.info(" 全球旅游热点看板 v3 - 采集开始")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    history = {"today":"","window":"","dates":{}}
+    history = {"today": "", "window": "", "dates": {}}
     if HISTORY_FILE.exists():
-        with open(HISTORY_FILE,'r',encoding='utf-8') as f:
+        with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
             h = json.load(f)
             if isinstance(h, dict) and "dates" in h:
                 history = h
-    log.info(f"📂 历史: {len(history.get('dates',{}))} 天")
+    log.info(f"  历史: {len(history.get('dates', {}))} 天")
 
     entries = collect_all()
     if not entries:
-        log.error("❌ 无数据")
+        log.error(" 无数据，保留历史数据不更新")
+        return
+    if len(entries) < 30:
+        log.warning(f" 仅采集到{len(entries)}条，数据不足，保留历史数据不更新")
         return
 
     today_data = build_daily(entries, history)
@@ -514,18 +444,19 @@ def main():
         history["dates"][dk] = dd
     all_dates = sorted(history["dates"].keys())
     history["today"] = today_data["today"]
-    history["window"] = f"{all_dates[-7] if len(all_dates)>=7 else all_dates[0]} ~ {all_dates[-1]}"
-    if len(all_dates)>30:
-        for od in all_dates[:-30]: del history["dates"][od]
+    history["window"] = f"{all_dates[-7] if len(all_dates) >= 7 else all_dates[0]} ~ {all_dates[-1]}"
+    if len(all_dates) > 30:
+        for od in all_dates[:-30]:
+            del history["dates"][od]
 
-    with open(HISTORY_FILE,'w',encoding='utf-8') as f:
+    with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
-    with open(TODAY_FILE,'w',encoding='utf-8') as f:
+    with open(TODAY_FILE, 'w', encoding='utf-8') as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
 
     tags = today_data["dates"][today_data["today"]]["tag_summary"]
-    log.info(f"\n{'='*50}")
-    log.info(f"✅ 完成!  {today_data['today']} | 🌍 25国 | 📰 {n}条 | 🔥 爆{tags.get('爆',0)} 热{tags.get('热',0)} 新{tags.get('新',0)}")
+    log.info(f"\n{'=' * 50}")
+    log.info(f" 完成!  {today_data['today']} |  25国 |  {n}条 |  爆{tags.get('爆', 0)} 热{tags.get('热', 0)} 新{tags.get('新', 0)}")
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
