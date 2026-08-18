@@ -208,7 +208,7 @@ def gen_advisory_from_content(title, summary, full_text, cat):
 
 def fetch_google_news(country, query, max_per_source=30):
     entries = []
-    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=en-US&gl=US&ceid=US:en"
+    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
     try:
         feed = feedparser.parse(url, request_headers=HEADERS)
         if feed.bozo and not feed.entries:
@@ -434,7 +434,7 @@ def main():
     if not entries:
         log.error(" 无数据，保留历史数据不更新")
         return
-    if len(entries) < 20:
+    if len(entries) < 15:
         log.warning(f" 仅采集到{len(entries)}条，数据不足，保留历史数据不更新")
         return
 
