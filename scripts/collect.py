@@ -206,7 +206,7 @@ def gen_advisory_from_content(title, summary, full_text, cat):
 # 抓取 Google News RSS
 # =============================================
 
-def fetch_google_news(country, query, max_per_source=30):
+def fetch_google_news(country, query, max_per_source=50):
     entries = []
     url = f"https://news.google.com/rss/search?q={quote(query)}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
     try:
@@ -215,7 +215,7 @@ def fetch_google_news(country, query, max_per_source=30):
             log.warning(f"RSS解析失败: {country}")
             return []
         
-        cutoff = datetime.now(timezone.utc) - timedelta(days=14)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=30)
         
         for entry in feed.entries[:max_per_source]:
             pub = None
@@ -434,7 +434,7 @@ def main():
     if not entries:
         log.error(" 无数据，保留历史数据不更新")
         return
-    if len(entries) < 15:
+    if len(entries) < 10:
         log.warning(f" 仅采集到{len(entries)}条，数据不足，保留历史数据不更新")
         return
 
