@@ -64,17 +64,29 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; TravelDashboard/3.0)"}
 
 def classify(title, summary=""):
     text = (title + " " + summary).lower()
-    kw_map = {
-        "航线交通": ['flight','airline','route','航线','航班','airport','机场','aviation','航空','直飞','open','新航线','airfare','ticket','boarding'],
-        "出入境政策": ['visa','免签','签证','入境','border','passport','immigration','海关','通关','e-visa','落地签','permit','custom'],
-        "本地生活": ['hotel','酒店','restaurant','餐饮','支付','payment','transport','交通','夜市','market','shopping','购物','住宿'],
-        "景点活动": ['attraction','景区','museum','博物馆','temple','寺庙','park','公园','hiking','徒步','tour','游览','开放',' reopening'],
-        "文娱信息": ['festival','节','concert','演唱会','event','活动','exhibition','展览','show','演出','celebration','文化','art','艺术'],
+    # Direct keyword matching with lower thresholds
+    flight_kw = ['flight','airline','route','航线','航班','airport','机场','aviation','航空','直飞','airfare','ticket','fly','flew','flight','open','boeing','airbus','qantas','airasia']
+    visa_kw = ['visa','免签','签证','入境','border','passport','immigration','海关','通关','e-visa','落地签','permit','custom','entry','exit','permit','ban','restrict']
+    life_kw = ['hotel','酒店','restaurant','餐饮','支付','payment','transport','交通','夜市','market','shopping','购物','住宿','hostel','mrt','subway','uber','grab','taxi','bus','train']
+    spot_kw = ['attraction','景区','museum','博物馆','temple','寺庙','park','公园','hiking','徒步','tour','游览','开放','beach','island','mountain','river','lake','garden','park','resort','diving','snorkel','surf']
+    event_kw = ['festival','节','concert','演唱会','event','活动','exhibition','展览','show','演出','celebration','文化','art','艺术','carnival','parade','firework','fair','competition','race','marathon']
+    
+    scores = {
+        "航线交通": sum(1 for kw in flight_kw if kw in text),
+        "出入境政策": sum(1 for kw in visa_kw if kw in text),
+        "本地生活": sum(1 for kw in life_kw if kw in text),
+        "景点活动": sum(1 for kw in spot_kw if kw in text),
+        "文娱信息": sum(1 for kw in event_kw if kw in text),
+        "旅游趋势": 0,
     }
-    scores = {}
-    for cat, kws in kw_map.items():
-        scores[cat] = sum(1 for kw in kws if kw in text)
-    scores["旅游趋势"] = max(0, 3 - max(scores.values()))  # default fallback
+    
+    max_score = max(scores.values())
+    if max_score == 0:
+        return "旅游趋势"
+    # If multiple categories tie, prefer non-trend categories
+    best = [k for k, v in scores.items() if v == max_score and k != "旅游趋势"]
+    if best:
+        return best[0]
     return max(scores, key=scores.get)
 
 
@@ -425,6 +437,13 @@ def main():
     history = {"today": "", "window": "", "dates": {}}
     if HISTORY_FILE.exists():
         with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
+            h = json.load(f)
+            if isinstance(h, dict) and "dates" in h:
+                history = h
+    # Also load travel_daily.json as history fallback
+    alt_history = Path(__file__).parent.parent / "travel_daily.json"
+    if not history.get("dates") and alt_history.exists():
+        with open(alt_history, 'r', encoding='utf-8') as f:
             h = json.load(f)
             if isinstance(h, dict) and "dates" in h:
                 history = h
