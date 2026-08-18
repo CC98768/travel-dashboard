@@ -206,16 +206,16 @@ def gen_advisory_from_content(title, summary, full_text, cat):
 # 抓取 Google News RSS
 # =============================================
 
-def fetch_google_news(country, query, max_per_source=15):
+def fetch_google_news(country, query, max_per_source=30):
     entries = []
-    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=en-US&gl=US&ceid=US:en"
     try:
         feed = feedparser.parse(url, request_headers=HEADERS)
         if feed.bozo and not feed.entries:
             log.warning(f"RSS解析失败: {country}")
             return []
         
-        cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=14)
         
         for entry in feed.entries[:max_per_source]:
             pub = None
@@ -434,7 +434,7 @@ def main():
     if not entries:
         log.error(" 无数据，保留历史数据不更新")
         return
-    if len(entries) < 30:
+    if len(entries) < 20:
         log.warning(f" 仅采集到{len(entries)}条，数据不足，保留历史数据不更新")
         return
 
