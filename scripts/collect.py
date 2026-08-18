@@ -54,15 +54,18 @@ HEADERS = {
 
 # RSS 源 + 预设国家（用于国家匹配）
 RSS_SOURCES = [
+    {"name":"Skift","url":"https://skift.com/feed/","lang":"en","country_hint":None},
+    {"name":"TTG Asia","url":"https://www.ttgasia.com/feed","lang":"en","country_hint":None},
+    {"name":"Travel Weekly","url":"https://www.travelweekly.com/RSS/All-Travel-News","lang":"en","country_hint":None},
+    {"name":"Lonely Planet","url":"https://www.lonelyplanet.com/feed","lang":"en","country_hint":None},
+    {"name":"The Points Guy","url":"https://thepointsguy.com/feed/","lang":"en","country_hint":None},
+    {"name":"Simple Flying","url":"https://simpleflying.com/feed/","lang":"en","country_hint":None},
+    {"name":"One Mile at a Time","url":"https://onemileatatime.com/feed/","lang":"en","country_hint":None},
     {"name":"Reddit r/travel","url":"https://www.reddit.com/r/travel/.rss","lang":"en","country_hint":None},
-    {"name":"Reddit r/solotravel","url":"https://www.reddit.com/r/solotravel/.rss","lang":"en","country_hint":None},
-    {"name":"Reddit r/backpacking","url":"https://www.reddit.com/r/backpacking/.rss","lang":"en","country_hint":None},
     {"name":"Reddit r/ChinaTravel","url":"https://www.reddit.com/r/ChinaTravel/.rss","lang":"en","country_hint":"中国"},
     {"name":"Reddit r/JapanTravel","url":"https://www.reddit.com/r/JapanTravel/.rss","lang":"en","country_hint":"日本"},
     {"name":"Reddit r/ThailandTourism","url":"https://www.reddit.com/r/ThailandTourism/.rss","lang":"en","country_hint":"泰国"},
-    {"name":"Skift","url":"https://skift.com/feed/","lang":"en","country_hint":None},
-    {"name":"The Points Guy","url":"https://thepointsguy.com/feed/","lang":"en","country_hint":None},
-    {"name":"One Mile at a Time","url":"https://onemileatatime.com/feed/","lang":"en","country_hint":None},
+    {"name":"Reddit r/solotravel","url":"https://www.reddit.com/r/solotravel/.rss","lang":"en","country_hint":None},
 ]
 
 # 各国官方信源URL映射
@@ -471,22 +474,8 @@ def build_daily(entries, history):
             sel = select_quota(ci)
         else:
             sel = list(ci)
-            # 用Google搜索兜底条目填充
-            en_name = COUNTRY_EN.get(c, c)
-            while len(sel) < 10:
-                sel.append({
-                    "title": f"{en_name}旅游动态更新",
-                    "category": "旅游利好要闻",
-                    "sub_category": "旅游趋势",
-                    "summary": f"持续关注{en_name}最新旅游动态和出行政策变化",
-                    "source": "综合整理",
-                    "impact": "出行前请核实目的地最新政策",
-                    "source_url": f"https://www.google.com/search?q={en_name}+travel+news+2026",
-                    "key_figures": [],
-                    "travel_advisory": "出行前核实政策",
-                    "tag": "新",
-                    "country": c,
-                })
+            # 数据不足时不填充垃圾，保留实际采集到的条目
+            pass
         assign_tags(sel[:10], c)
         all_items.extend(sel[:10])
 
