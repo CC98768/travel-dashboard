@@ -1,0 +1,3588 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>全球旅游热点看板 · 2026-08-17</title>
+<style>
+:root{--p:#2563eb;--pl:#dbeafe;--bg:#f1f5f9;--c:#fff;--t:#0f172a;--t2:#475569;--t3:#94a3b8;--b:#e2e8f0;--r:10px;--s:0 1px 3px rgba(0,0,0,.06);--sm:0 4px 12px rgba(0,0,0,.08)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--t);line-height:1.6;padding:20px}
+.w{max-width:1000px;margin:0 auto}
+.hd{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+.hd h1{font-size:20px;font-weight:700}.sub{font-size:12px;color:var(--t2);margin-top:2px}
+.badge{display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:#d1fae5;color:#065f46}
+.badge .dot{width:6px;height:6px;border-radius:50%;background:#10b981}
+.cal-wrap{background:var(--c);border-radius:var(--r);padding:14px 16px;margin-bottom:16px;box-shadow:var(--s);border:1px solid var(--b)}
+.cal-title{font-size:13px;font-weight:600;color:var(--t2);margin-bottom:10px}
+.cal-strip{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.cal-day{min-width:52px;padding:8px 6px;border-radius:8px;text-align:center;cursor:pointer;border:1.5px solid var(--b);transition:.15s;user-select:none;flex-shrink:0}
+.cal-day:hover{border-color:var(--p);background:var(--pl)}
+.cal-day.active{background:var(--p);color:#fff;border-color:var(--p)}
+.cal-day.today{border-color:#10b981;border-width:2px}
+.cal-day .dow{font-size:10px;color:var(--t3);margin-bottom:2px}
+.cal-day.active .dow{color:rgba(255,255,255,.8)}
+.cal-day .dn{font-size:16px;font-weight:700}
+.cal-day .dc{font-size:9px;color:var(--t3);margin-top:1px}
+.cal-day.active .dc{color:rgba(255,255,255,.8)}
+.sg{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:16px}
+.st{background:var(--c);border-radius:var(--r);padding:14px;text-align:center;box-shadow:var(--s);border:1px solid var(--b)}
+.st .v{font-size:24px;font-weight:700;color:var(--p)}.st .l{font-size:11px;color:var(--t2);margin-top:2px}
+.st.boom .v{color:#ef4444}.st.hot .v{color:#f97316}.st.new .v{color:#10b981}
+.si{width:100%;padding:8px 12px;border:1px solid var(--b);border-radius:8px;font-size:13px;outline:none;margin-bottom:10px}
+.si:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
+.ch{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.cp{padding:5px 12px;border-radius:20px;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:12px;transition:.15s;user-select:none}
+.cp:hover{border-color:var(--p)}.cp.on{background:var(--pl);border-color:var(--p);color:var(--p);font-weight:600}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;padding:8px 12px;background:#f8fafc;border-radius:8px;border:1px solid var(--b)}
+.legend-item{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--t2)}
+.legend-dot{width:8px;height:8px;border-radius:50%}
+.cl{display:flex;flex-direction:column;gap:8px}
+.cc{background:var(--c);border-radius:var(--r);border:1px solid var(--b);box-shadow:var(--s);overflow:hidden;transition:.2s}
+.cc:hover{box-shadow:var(--sm)}
+.chd{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;cursor:pointer;user-select:none}
+.chd:hover{background:#f8fafc}.chd .left{display:flex;align-items:center;gap:10px}
+.cf{font-size:22px;line-height:1}.cn{font-size:14px;font-weight:600}
+.ct{font-size:11px;color:var(--t2);background:var(--bg);padding:2px 8px;border-radius:10px}
+.ar{font-size:12px;color:var(--t3);transition:transform .2s}.cc.open .ar{transform:rotate(180deg)}
+.cb{max-height:0;overflow:hidden;transition:max-height .3s ease}.cc.open .cb{max-height:10000px}
+.ev{padding:12px 16px;border-top:1px solid #f1f5f9;display:flex;gap:12px;cursor:pointer;transition:.15s;position:relative}
+.ev:first-child{border-top:none}.ev:hover{background:#f8fafc}
+.er{width:28px;height:28px;min-width:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;flex-shrink:0;margin-top:2px}
+.r1{background:linear-gradient(135deg,#f59e0b,#f97316)}.r2{background:linear-gradient(135deg,#94a3b8,#64748b)}.r3{background:linear-gradient(135deg,#d97706,#b45309)}.rn{background:var(--p)}
+.eb{flex:1;min-width:0}.et{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:4px}
+.tg{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:6px}
+.tc{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500}
+.tc-sc{background:#fef3c7;color:#92400e}
+.es{font-size:12px;color:var(--t2);line-height:1.7;margin-bottom:6px}
+.ei{font-size:11px;color:var(--p);background:var(--pl);padding:5px 10px;border-radius:6px;margin-bottom:6px;display:inline-block}
+.esr{font-size:10px;color:var(--t3)}
+.ev-tag{position:absolute;top:0;left:0;padding:2px 8px;font-size:10px;font-weight:700;color:#fff;border-radius:0 0 8px 0;z-index:1;line-height:1.4}
+.ev-tag.boom{background:linear-gradient(135deg,#ef4444,#dc2626)}
+.ev-tag.hot{background:linear-gradient(135deg,#f97316,#ea580c)}
+.ev-tag.new{background:linear-gradient(135deg,#10b981,#059669)}
+.src-link{font-size:10px;color:var(--p);text-decoration:none;margin-left:6px}
+.src-link:hover{text-decoration:underline}
+.mo{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(15,23,42,.5);z-index:1000;justify-content:center;align-items:flex-start;padding:40px 16px;overflow-y:auto;backdrop-filter:blur(4px)}.mo.show{display:flex}
+.mc{background:var(--c);border-radius:14px;max-width:640px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.15);overflow:hidden;animation:su .2s ease}
+@keyframes su{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.mt{padding:20px 24px 16px;border-bottom:1px solid var(--b);position:relative}
+.mx{position:absolute;top:14px;right:16px;width:30px;height:30px;border-radius:50%;border:none;background:var(--bg);cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;color:var(--t2)}.mx:hover{background:var(--b)}
+.mrr{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.mr{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff}
+.mtl{font-size:18px;font-weight:700;line-height:1.4}
+.mb{padding:20px 24px}.ms{margin-bottom:18px}.ms:last-child{margin-bottom:0}
+.msl{font-size:12px;font-weight:600;color:var(--t3);margin-bottom:8px}
+.msc{font-size:14px;color:var(--t);line-height:1.8}
+.kf{padding:8px 12px;background:var(--pl);border-radius:8px;font-size:13px;color:#1e40af;font-weight:500;margin-bottom:6px}
+.mib{padding:12px 14px;background:#f0fdf4;border-radius:8px;border-left:3px solid #10b981;font-size:13px;line-height:1.7;color:#166534}
+.ma{padding:10px 14px;border-radius:8px;font-size:13px;display:flex;align-items:center;gap:8px}
+.ma.info{background:#eff6ff;color:#1e40af;border:1px solid #bfdbfe}
+.mf{padding:14px 24px;border-top:1px solid var(--b);display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:11px;color:var(--t3);flex-wrap:wrap}
+.ft{text-align:center;padding:14px;font-size:11px;color:var(--t3);border-top:1px solid var(--b);margin-top:8px}
+@media(max-width:600px){.sg{grid-template-columns:repeat(2,1fr)}.cal-day{min-width:44px}}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="hd"><div><h1>🌍 全球出入境旅游热点看板</h1><div class="sub">📅 数据窗口：2026-08-17 ~ 2026-08-17 ｜ RSS+官网多源自动采集 ｜ 25国×10条</div></div><div class="badge"><span class="dot"></span>实时看板</div></div>
+<div class="cal-wrap"><div class="cal-title">📅 历史记录日历（点击切换日期）</div><div class="cal-strip" id="calstrip"></div></div>
+<div class="sg"><div class="st"><div class="v" id="sc">-</div><div class="l">覆盖国家/地区</div></div><div class="st"><div class="v" id="sn">-</div><div class="l">当日要闻</div></div><div class="st boom"><div class="v" id="sb">-</div><div class="l">🔥 爆款</div></div><div class="st hot"><div class="v" id="sh">-</div><div class="l">📈 热门</div></div><div class="st new"><div class="v" id="sx">-</div><div class="l">✨ 最新</div></div></div>
+<div class="legend"><div class="legend-item"><div class="legend-dot" style="background:#6366f1"></div>航线交通</div><div class="legend-item"><div class="legend-dot" style="background:#ec4899"></div>出入境政策</div><div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>本地生活</div><div class="legend-item"><div class="legend-dot" style="background:#10b981"></div>旅游趋势</div><div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>景点活动</div><div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div>文娱信息</div></div>
+<input class="si" id="si" placeholder="🔍 搜索标题、摘要、国家…" oninput="render()">
+<div class="ch" id="chips"></div>
+<div class="cl" id="clist"></div>
+<div class="ft">数据来源：RSS+官网多源自动采集 ｜ GitHub Actions 每日更新 ｜ 更新时间：2026-08-17 ｜ 仅供参考，出行前请核实最新政策</div>
+</div>
+<div class="mo" id="mo" onclick="if(event.target===this)closeModal()"><div class="mc"><div class="mt"><button class="mx" onclick="closeModal()">✕</button><div class="mrr"><div class="mr" id="mr"></div><div><div class="mtl" id="mtl"></div></div></div></div><div class="mb"><div class="ms"><div class="msl">📝 摘要</div><div class="msc" id="msum"></div></div><div class="ms"><div class="msl">📊 关键数据</div><div id="mkf"></div></div><div class="ms"><div class="msl">💡 影响分析</div><div class="mib" id="mimp"></div></div><div class="ms"><div class="msl">📌 出行提示</div><div class="ma info" id="madv"></div></div></div><div class="mf"><span id="msrc"></span><a id="msl" href="#" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:6px 12px;background:var(--bg);border-radius:8px;font-size:12px;color:#2563eb;text-decoration:none;border:1px solid var(--b)">🔗 查看信源</a></div></div></div>
+<script>
+var ALL_DATA={
+  "today": "2026-08-17",
+  "window": "2026-08-17 ~ 2026-08-17",
+  "dates": {
+    "2026-08-17": {
+      "total_items": 250,
+      "tag_summary": {
+        "爆": 25,
+        "热": 50,
+        "新": 175
+      },
+      "items": [
+        {
+          "title": "Solo traveling in Armenia and I’m mentally exhausted — how do I make the last tw",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "I’m currently solo traveling in Armenia, and I feel bad saying this, but I’m really struggling to en",
+          "source": "Reddit r/travel",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vq6nix/solo_traveling_in_armenia_and_im_mentally/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "爆",
+          "country": "中国"
+        },
+        {
+          "title": "Guatemala Tips",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "hi, i am travelling with my partner to Guatemala for the first time, we are going for 6 days in sept",
+          "source": "Reddit r/travel",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vqjae4/guatemala_tips/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "热",
+          "country": "中国"
+        },
+        {
+          "title": "Special offers on TPG's favorite travel tools and services",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Discover exclusive travel deals and discounts through TPG, including savings on Clear+, Point.me, Ju",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/deals/tpg-special-offers/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "China旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注China最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=China+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "中国"
+        },
+        {
+          "title": "China旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注China最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=China+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "China旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注China最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=China+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "China旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注China最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=China+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "China旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注China最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=China+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "China旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注China最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=China+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "China旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注China最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=China+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "å ±éçºè¡¨ã»ãç¥ãã",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "[JNTO] å ±éçºè¡¨ã»ãç¥ãã",
+          "source": "JNTO",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.jnto.go.jp/news/news/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "å ±éçºè¡¨",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[JNTO] å ±éçºè¡¨",
+          "source": "JNTO",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.jnto.go.jp/news/news/press/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "爆",
+          "country": "日本"
+        },
+        {
+          "title": "JNTOããã®ãç¥ãã",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[JNTO] JNTOããã®ãç¥ãã",
+          "source": "JNTO",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.jnto.go.jp/news/news/info/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "åºå±ã»åå èåé",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "[JNTO] åºå±ã»åå èåé",
+          "source": "JNTO",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.jnto.go.jp/news/news/expo-seminar/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "热",
+          "country": "日本"
+        },
+        {
+          "title": "è³å©å£ä½ã»ä¼å¡ããã®ãã¥ã¼ã¹",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "[JNTO] è³å©å£ä½ã»ä¼å¡ããã®ãã¥ã¼ã¹",
+          "source": "JNTO",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.jnto.go.jp/news/news/members/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "å°åã®çæ§ã¸ã®ãç¥ãã",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "[JNTO] å°åã®çæ§ã¸ã®ãç¥ãã",
+          "source": "JNTO",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.jnto.go.jp/news/projects/regional-support/news.html",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "The best credit card welcome bonuses of August 2026",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Make sure these elevated and limited-time credit card offers are on your radar this month, or you co",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/limited-time-card-offers/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "Japan旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Japan最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Japan+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "Japan旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Japan最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Japan+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "日本"
+        },
+        {
+          "title": "Japan旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Japan最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Japan+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "2 Weeks in South Korea",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "      Areas Visited: Seoul, Busan, Suwon, Nami Island, DMZ Wow!! South Korea blew me away. I have ve",
+          "source": "Reddit r/travel",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vpw86h/2_weeks_in_south_korea/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "爆",
+          "country": "韩国"
+        },
+        {
+          "title": "I realized 2-3 days is my happy spot for travel.",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "I used to book 1-3 month long trips when I was younger. Once I started working, all trips were usual",
+          "source": "Reddit r/travel",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vpc1bx/i_realized_23_days_is_my_happy_spot_for_travel/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "热",
+          "country": "韩国"
+        },
+        {
+          "title": "Considering canceling your credit card? Here's why you might want to \"downgrade\"",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Cancel, downgrade or product change? What should you do with your credit cards when you don't want t",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/cancel-or-downgrade-credit-card/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "韩国"
+        },
+        {
+          "title": "South Korea旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "持续关注South Korea最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=South Korea+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "South Korea旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注South Korea最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=South Korea+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "South Korea旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注South Korea最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=South Korea+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "South Korea旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注South Korea最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=South Korea+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "South Korea旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注South Korea最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=South Korea+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "South Korea旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注South Korea最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=South Korea+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "South Korea旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注South Korea最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=South Korea+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "ททท. จัดบริการรถรับ–ส่ง พานักท่องเที่ยวสัมผัสคุณค่าของงานประณีตศิลป์ชั้นสูงของไท",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "[泰国旅游局TAT] ททท. จัดบริการรถรับ–ส่ง พานักท่องเที่ยวสัมผัสคุณค่าของงานประ",
+          "source": "泰国旅游局TAT",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://thai.tourismthailand.org/Articles/koh-kerd",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "热",
+          "country": "泰国"
+        },
+        {
+          "title": "กรีนซีซั่นนี้...อีสานมีมากกว่าที่เคยรู้จัก13 ส.ค. 2569",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "[泰国旅游局TAT] กรีนซีซั่นนี้...อีสานมีมากกว่าที่เคยรู้จัก13 ส.ค. 2569",
+          "source": "泰国旅游局TAT",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://thai.tourismthailand.org/Articles/green-season-isan",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "To Vietnam, until we meet again!",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "      It had probably been just about a month since I visited Thailand, and somehow I was already mi",
+          "source": "Reddit r/travel",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vq0kkv/to_vietnam_until_we_meet_again/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "爆",
+          "country": "泰国"
+        },
+        {
+          "title": "ททท. สนับสนุน “Weibo Gala 2026 : Weibo Cultural Communication Night” ผสานพลังสื่",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "[泰国旅游局TAT] ททท. สนับสนุน “Weibo Gala 2026 : Weibo Cultural Communicatio",
+          "source": "泰国旅游局TAT",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://www.tatnewsthai.org/article-infos/6376",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "热",
+          "country": "泰国"
+        },
+        {
+          "title": "ปักหมุด 12 จุดเช็กอิน ฟินไปกับลิซ่า ตามเก็บครบพบทุกความรู้สึก11 ก.พ. 2569",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[泰国旅游局TAT] ปักหมุด 12 จุดเช็กอิน ฟินไปกับลิซ่า ตามเก็บครบพบทุกความรู้สึ",
+          "source": "泰国旅游局TAT",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://thai.tourismthailand.org/Articles/feel-all-the-feelings-12-routes",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "ข่าวสารและกิจกรรม",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[泰国旅游局TAT] ข่าวสารและกิจกรรม",
+          "source": "泰国旅游局TAT",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.tat.or.th/th/public-relations/news-activities",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "ดูข้อมูลเพิ่มเติม",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "[泰国旅游局TAT] ดูข้อมูลเพิ่มเติม",
+          "source": "泰国旅游局TAT",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.tat.or.th/th/public-relations/news-activities",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "กระทรวงการท่องเที่ยวและกีฬา โดย ททท. ชวนสัมผัสเส้นทาง “เกาะเกิดศิลป์ แผ่นดินสยาม",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "[泰国旅游局TAT] กระทรวงการท่องเที่ยวและกีฬา โดย ททท. ชวนสัมผัสเส้นทาง “เกาะเ",
+          "source": "泰国旅游局TAT",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.tatnewsthai.org/article-infos/6377",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "ททท. สำนักงานเซี่ยงไฮ้ จับมือ Lann Space เปิดตัว Thailand Wellness Retreat ทริปท",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[泰国旅游局TAT] ททท. สำนักงานเซี่ยงไฮ้ จับมือ Lann Space เปิดตัว Thailand We",
+          "source": "泰国旅游局TAT",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.tatnewsthai.org/article-infos/6375",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "ททท. ชวนสัมผัสพลังแห่งศรัทธา ร่วมงาน \"ห่มผ้าหลวงปู่ทวด ครั้งที่ 13 ปี 2569\" เสริ",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[泰国旅游局TAT] ททท. ชวนสัมผัสพลังแห่งศรัทธา ร่วมงาน \"ห่มผ้าหลวงปู่ทวด ครั้ง",
+          "source": "泰国旅游局TAT",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.tatnewsthai.org/article-infos/6374",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "Delta plans major Asia growth, confirms Singapore flights are coming: 'We're goi",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "Delta Air Lines hopes to resume service to Singapore's Changi Airport (SIN) as part of a build-up of",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/news/delta-air-lines-singapore-return-asia-plans/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "新加坡"
+        },
+        {
+          "title": "Delta Plans Seattle To Singapore A350 Flights, Carrier’s Third Longest Route",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "We know that Delta has huge growth aspirations across the Pacific, particularly to Asia. It&#8217;s ",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/news/delta-singapore-flights/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "3 days in Copenhagen",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "      I just came back from 3 days in Copenhagen. It is a really chill city, with friendly people an",
+          "source": "Reddit r/travel",
+          "impact": "当地变化，出行前准备",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vpfhof/3_days_in_copenhagen/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "了解当地情况",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "12 August 2026Maintenance works scheduled for the main Merlion statue  at Merlio",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[新加坡旅游局STB] 12 August 2026Maintenance works scheduled for the main Merli",
+          "source": "新加坡旅游局STB",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.stb.gov.sg/about-stb/media-publications/media-centre/maintenance-works-scheduled-for-the-main-merlion-statue--at-merlion-park/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "爆",
+          "country": "新加坡"
+        },
+        {
+          "title": "7 July 2026Singapore Tourism Awards 2026 Honours 24 Outstanding Individuals and ",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[新加坡旅游局STB] 7 July 2026Singapore Tourism Awards 2026 Honours 24 Outstand",
+          "source": "新加坡旅游局STB",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.stb.gov.sg/about-stb/media-publications/media-centre/singapore-tourism-awards-2026-honours-24-outstanding-individuals-and-organisations-driving-tourism-excellence/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "Long-Term Visit Pass",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "[新加坡ICA] Long-Term Visit Pass",
+          "source": "新加坡ICA",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://www.ica.gov.sg/reside/LTVP/update-particulars",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "热",
+          "country": "新加坡"
+        },
+        {
+          "title": "New Singapore KrisFlyer Spontaneous Escapes List: Save 30% On These Awards",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "Singapore Airlines offers its monthly KrisFlyer Spontaneous Escapes promo, whereby you can receive a",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/deals/singapore-krisflyer-spontaneous-escapes/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "11 August 2026Singapore Tourism Board and Grab Launch Campaign to Discover Singa",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "[新加坡旅游局STB] 11 August 2026Singapore Tourism Board and Grab Launch Campai",
+          "source": "新加坡旅游局STB",
+          "impact": "当地变化，出行前准备",
+          "source_url": "https://www.stb.gov.sg/about-stb/media-publications/media-centre/singapore-tourism-board-and-grab-launch-campaign-to-discover-singapore-s-precincts-and-do-more-after-dark/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "了解当地情况",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "Read all latest news",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[新加坡旅游局STB] Read all latest news",
+          "source": "新加坡旅游局STB",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.stb.gov.sg/about-stb/media-publications/media-centre/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "Newsroom",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[新加坡ICA] Newsroom",
+          "source": "新加坡ICA",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.ica.gov.sg/news-and-publications/newsroom",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "10hr layover in Malaysia",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "I have an upcoming vietnam trip with a 10hr Malaysia layover. Im planning to actually do something a",
+          "source": "Reddit r/travel",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vqjr7p/10hr_layover_in_malaysia/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "Airbnb-CarTrawler Partnership Details 1 Month In: Scoop",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "Airbnb&apos;s car rental business would be more of a win if it did the hard work to establish direct",
+          "source": "Skift",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://skift.com/2026/08/15/airbnb-cartrawler-partnership-details-1-month-in-scoop/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "热",
+          "country": "越南"
+        },
+        {
+          "title": "My top travel credit cards for 2026",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "From beginner-friendly picks to premium cards with lounge access, these are the travel credit cards ",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/top-credit-cards-for-travel/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "Vietnam旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Vietnam最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Vietnam+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "Vietnam旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Vietnam最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Vietnam+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "Vietnam旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Vietnam最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Vietnam+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "Vietnam旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Vietnam最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Vietnam+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "越南"
+        },
+        {
+          "title": "Vietnam旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Vietnam最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Vietnam+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "Vietnam旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Vietnam最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Vietnam+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "越南"
+        },
+        {
+          "title": "Vietnam旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Vietnam最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Vietnam+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "Going to Malaysia made me realise how good I have it.",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Just got back from two weeks in Malaysia across the country (mainly in the cities) and I've been sit",
+          "source": "Reddit r/travel",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vqjlj5/going_to_malaysia_made_me_realise_how_good_i_have/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "News& Media",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[马来西亚旅游局] News& Media",
+          "source": "马来西亚旅游局",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.tourism.gov.my/media",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "Media Release",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[马来西亚旅游局] Media Release",
+          "source": "马来西亚旅游局",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.tourism.gov.my/media",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "News From Trade Friends",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "[马来西亚旅游局] News From Trade Friends",
+          "source": "马来西亚旅游局",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.tourism.gov.my/news/trade",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "The credit card checklist that saves me hundreds on date nights",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "I check my credit card benefits and offers before every date night. Here’s how this simple checklist",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/date-night-credit-card-checklist/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "Malaysia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Malaysia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Malaysia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "马来西亚"
+        },
+        {
+          "title": "Malaysia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Malaysia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Malaysia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "Malaysia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Malaysia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Malaysia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "马来西亚"
+        },
+        {
+          "title": "Malaysia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Malaysia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Malaysia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "马来西亚"
+        },
+        {
+          "title": "Malaysia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Malaysia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Malaysia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "Astana (Nur-Sultan) – Kazakhstan",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "      Hello, here are a few photos from my trip to Central Asia, which naturally began in Astana, th",
+          "source": "Reddit r/travel",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vpr6kk/astana_nursultan_kazakhstan/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "爆",
+          "country": "印度"
+        },
+        {
+          "title": "Inside Expedia’s Silicon Valley Bid for AI Talent",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "Expedia is taking its AI recruitment fight to the heart of Silicon Valley, with a new San Jose hub f",
+          "source": "Skift",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://skift.com/2026/08/14/inside-expedias-silicon-valley-bid-for-ai-talent/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "Which United credit card is right for you? Comparing the Explorer, Quest, Club a",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Not sure which United credit card to get? Compare the Explorer, Quest, Club and Business cards to fi",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/which-united-credit-card-is-right-for-you/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "India旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注India最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=India+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "印度"
+        },
+        {
+          "title": "India旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注India最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=India+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "India旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注India最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=India+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "印度"
+        },
+        {
+          "title": "India旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注India最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=India+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "India旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注India最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=India+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "India旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注India最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=India+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "India旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注India最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=India+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "Inverness - Loch Ness monster, Macbeth, a Jacobite battlefield and of course the",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "      Picture the capital of the beautiful Scottish highlands-you stroll along the River Ness mindin",
+          "source": "Reddit r/travel",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vpx8ur/inverness_loch_ness_monster_macbeth_a_jacobite/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Saudi OTA Almosafer on Track for Year-End IPO Despite Iran War Disruption",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Almosafer’s growth story now runs on domestic demand. That’s a bet on Makkah, the Red Sea, and Qiddi",
+          "source": "Skift",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://skift.com/2026/08/14/saudi-ota-almosafer-on-track-for-year-end-ipo-despite-iran-war-disruption/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "热",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Chase Sapphire Reserve bonus: Earn 100,000 valuable points",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "The Chase Sapphire Reserve is currently offering 100,000 Ultimate Rewards points. Here's what to kno",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/chase-sapphire-reserve-current-offer/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Philippines旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Philippines最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Philippines+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Philippines旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Philippines最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Philippines+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Philippines旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Philippines最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Philippines+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Philippines旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Philippines最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Philippines+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Philippines旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Philippines最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Philippines+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Philippines旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Philippines最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Philippines+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Philippines旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Philippines最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Philippines+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "Is World Of Hyatt Explorist Status Worth It? Benefits & How To Earn It",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "World of Hyatt is my favorite hotel loyalty program, and I find top-tier Globalist status to be incr",
+          "source": "One Mile at a Time",
+          "impact": "当地变化，出行前准备",
+          "source_url": "https://onemileatatime.com/guides/world-of-hyatt-explorist/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "了解当地情况",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "How Net Unit Growth Ate the Hotel Industry",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "The roughly 200 brands across the big hotel groups make more sense as an answer to a quarterly growt",
+          "source": "Skift",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://skift.com/2026/08/14/how-net-unit-growth-ate-the-hotel-industry/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "爆",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "The wait is over: Blade flights are now bookable using Bilt Cash",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Bilt members can now redeem up to $350 in Bilt Cash for Blade helicopter flights twice per year. Her",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/news/bilt-cash-blade-flights/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "Indonesia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "持续关注Indonesia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Indonesia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "Indonesia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Indonesia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Indonesia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "Indonesia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Indonesia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Indonesia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "Indonesia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Indonesia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Indonesia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "Indonesia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Indonesia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Indonesia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "Indonesia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Indonesia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Indonesia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "Indonesia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Indonesia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Indonesia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "Delta to launch Paris flights from Austin, a major boost for its Texas focus cit",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "Delta Air Lines is planning to bring its first long-haul service to Austin, Texas, its fast-growing ",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/news/delta-air-lines-new-service-austin-paris/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "爆",
+          "country": "法国"
+        },
+        {
+          "title": "No Surprise: Delta Launching Austin To Paris A330neo Flights In Summer 2027",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "A couple of days ago, we learned how Delta Air Lines revealed plans to launch transatlantic flights ",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/news/delta-austin-paris-flights/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "法国"
+        },
+        {
+          "title": "Passeports, visas et douanes",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[法国旅游局] Passeports, visas et douanes",
+          "source": "法国旅游局",
+          "impact": "签证政策调整，提前确认要求",
+          "source_url": "https://www.france.fr/fr/article/douanes-et-visas/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "确认签证要求",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "La Distinction Palace en France",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[法国旅游局] La Distinction Palace en France",
+          "source": "法国旅游局",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.france.fr/fr/article/distinction-palace-france/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "热",
+          "country": "法国"
+        },
+        {
+          "title": "Organiser son séjour en France en fonction de l’affluence",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[法国旅游局] Organiser son séjour en France en fonction de l’affluence",
+          "source": "法国旅游局",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.france.fr/fr/article/organiser-son-s%C3%A9jour-en-france-en-fonction-de-l-affluence/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "Weekly Review: August 15, 2026",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "I hope everyone is having a nice weekend so far! I’m “grounded” for a few more weeks, but at least m",
+          "source": "One Mile at a Time",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://onemileatatime.com/weekly-review/2026-08-15/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "Chase Ink Business Cards Comparison: Which Chase Business Credit Card Is Best?",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "While there are lots of&#160;excellent business credit cards&#160;out there, I&#8217;d argue that Ch",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/guides/chase-business-card/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "Air France La Premiere Routes: Which Flights Have The New 777 First Class?",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "Air France first class (marketed as &#8221;La Premiere&#8221;) is regarded as one of the world&#8217",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/guides/air-france-la-premiere-routes/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "Les labels touristiques à connaître",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[法国旅游局] Les labels touristiques à connaître",
+          "source": "法国旅游局",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.france.fr/fr/article/labels-touristiques-reference/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "Vignette Crit’Air, zones ZFE : comment ça marche ?",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "[法国旅游局] Vignette Crit’Air, zones ZFE : comment ça marche ?",
+          "source": "法国旅游局",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.france.fr/fr/article/vignette-critair-ca-marche/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "Coolest/ most unique bars in Rome for siesta",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "I’m about a 15 minute walk south of the Coliseum. Looking for some cool or unique spots to go to. Ho",
+          "source": "Reddit r/travel",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vqnn3t/coolest_most_unique_bars_in_rome_for_siesta/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "热",
+          "country": "意大利"
+        },
+        {
+          "title": "The State of Travel Is Getting Harder to Control",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "Sarah Kopit and Seth Borko unpack two forces reshaping travel: the creator economy’s impact on hotel",
+          "source": "Skift",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://skift.com/2026/08/14/the-state-of-travel-is-getting-harder-to-control/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "爆",
+          "country": "意大利"
+        },
+        {
+          "title": "Secret Delta VIP Select Service: What This $500+ Airport Package Gets You",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Most people don&#8217;t know this (since the airline doesn&#8217;t publicize it in any way), but Del",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/guides/delta-vip-select/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "意大利"
+        },
+        {
+          "title": "Italy旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Italy最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Italy+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "Italy旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Italy最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Italy+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "Italy旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Italy最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Italy+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "Italy旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Italy最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Italy+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "Italy旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Italy最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Italy+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "Italy旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Italy最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Italy+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "Italy旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Italy最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Italy+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "My backpack got stolen in Barcelona and I feel so dumm",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Last night I was watching the magical fountains at Montjuic and I left my backpack on the floor to l",
+          "source": "Reddit r/travel",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vqjx2y/my_backpack_got_stolen_in_barcelona_and_i_feel_so/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "爆",
+          "country": "西班牙"
+        },
+        {
+          "title": "8 days trip to Alicante, Spain in July 2026",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "      My short 8 day trip to Alicante, Spain. Went there to mainly spend time with friends and catch",
+          "source": "Reddit r/travel",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vpc2k3/8_days_trip_to_alicante_spain_in_july_2026/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "Newsletter",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "[Turespaña] Newsletter",
+          "source": "Turespaña",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://aplicaciones.tourspain.es/CRM.HospedajeFormularios/Newsletter/NewsletterIngles.aspx",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "Spain旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Spain最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Spain+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "西班牙"
+        },
+        {
+          "title": "Spain旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Spain最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Spain+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "Spain旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Spain最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Spain+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "西班牙"
+        },
+        {
+          "title": "Spain旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Spain最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Spain+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "Spain旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Spain最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Spain+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "Spain旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Spain最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Spain+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "Spain旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Spain最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Spain+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "Credit card transfer bonuses (August): 70% to IHG, 40% to Turkish Airlines, 30% ",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "Here's a look at all the current transfer bonuses involving major credit cards and airline and hotel",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "I paid $3 for the best eclipse view on Earth — and it was from a plane",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "I booked a flight for 14,000 Avios plus 2.50 British pounds (about $3) in taxes and fees, and watche",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/news/best-eclipse-view-from-plane/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "英国"
+        },
+        {
+          "title": "Review: Lufthansa Allegris Business Class Boeing 787 (AUS-FRA)",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "For the first sector of my Four Seasons Yacht via Turkmenistan and Saudi Arabia adventure, I flew Lu",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/reviews/lufthansa-allegris-business-class-787/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "Uber Cuts Uber One Rewards From 6% To 5%, Frames It As Good News",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "In todays episode of travel companies gaslighting customers, Uber has decided to reduce the rewards ",
+          "source": "One Mile at a Time",
+          "impact": "当地变化，出行前准备",
+          "source_url": "https://onemileatatime.com/news/uber-cuts-uber-one-rewards-good-news/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "了解当地情况",
+          "tag": "爆",
+          "country": "英国"
+        },
+        {
+          "title": "UK旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注UK最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=UK+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "UK旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注UK最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=UK+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "UK旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注UK最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=UK+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "英国"
+        },
+        {
+          "title": "UK旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注UK最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=UK+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "UK旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注UK最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=UK+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "UK旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注UK最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=UK+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "Vietnam Airlines Boeing 787 Suffers Botched Takeoff In Munich: Runway Overrun, T",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "A Vietnam Airlines Boeing 787 had an accident today while taking off on a long haul flight from Germ",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/news/vietnam-airlines-boeing-787-botched-takeoff-munich/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "德国"
+        },
+        {
+          "title": "Minor Delays Plan for $1 Billion Hotel REIT",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "Minor International is postponing its plan to float a real estate investment trust (REIT) with some ",
+          "source": "Skift",
+          "impact": "当地变化，出行前准备",
+          "source_url": "https://skift.com/2026/08/13/minor-delays-plan-for-1-billion-hotel-reit/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "了解当地情况",
+          "tag": "爆",
+          "country": "德国"
+        },
+        {
+          "title": "Which Airlines Offer A “Business Class Plus” Product? A Growing Trend…",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "We&#8217;ve seen a trend whereby an increasing number of airlines are offering what I like to call a",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/guides/business-class-plus/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "Germany旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Germany最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Germany+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "德国"
+        },
+        {
+          "title": "Germany旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Germany最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Germany+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "Germany旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Germany最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Germany+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "Germany旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Germany最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Germany+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "Germany旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Germany最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Germany+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "Germany旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Germany最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Germany+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "Germany旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Germany最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Germany+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "Greek island hopping",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "      In the start of July ai did Greek island hopping with ferry this year. Great experience. Serif",
+          "source": "Reddit r/travel",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vprpqj/greek_island_hopping/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "热",
+          "country": "希腊"
+        },
+        {
+          "title": "Just did the dumbest thing today 🙃",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Completely forgot I had checked in a suitcase for my flight to Greece, landed and walked straight ou",
+          "source": "Reddit r/travel",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vq67lh/just_did_the_dumbest_thing_today/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "希腊"
+        },
+        {
+          "title": "EC261: European Union Flight Delay & Cancelation Compensation Explained",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "The European Union has the most consumer friendly policies when it comes to what passengers are enti",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/guides/ec261-europe-flight-compensation/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "Greece旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Greece最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Greece+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "希腊"
+        },
+        {
+          "title": "Greece旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Greece最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Greece+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "Greece旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Greece最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Greece+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "Greece旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Greece最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Greece+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "Greece旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Greece最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Greece+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "Greece旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Greece最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Greece+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "Greece旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Greece最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Greece+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "Uzbekistan, Tajikistan, Turkey. August 2026",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "      I spent 1 week in Uzbekistan, did a day trip to Istanbul during my long layover and also a day",
+          "source": "Reddit r/travel",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vprny8/uzbekistan_tajikistan_turkey_august_2026/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "热",
+          "country": "土耳其"
+        },
+        {
+          "title": "Travel Creators Follow the Money to Shorter Trips",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Travelers are more interested in shorter, closer trips. Creators are adjusting their content to matc",
+          "source": "Skift",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://skift.com/2026/08/13/content-creators-domestic-travel-trends/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "Turkey旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Turkey最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Turkey+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "Turkey旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Turkey最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Turkey+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "Turkey旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Turkey最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Turkey+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "Turkey旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Turkey最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Turkey+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "土耳其"
+        },
+        {
+          "title": "Turkey旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Turkey最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Turkey+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "Turkey旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Turkey最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Turkey+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "土耳其"
+        },
+        {
+          "title": "Turkey旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Turkey最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Turkey+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "Turkey旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Turkey最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Turkey+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "Furka pass Switzerland",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "      Any car or motorcycle enthusiast should add this to their bucket list     submitted by    /u/w",
+          "source": "Reddit r/travel",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vq8b4f/furka_pass_switzerland/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "Everything you need to know about authorized credit card users",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Adding an authorized user to your credit card account can be a great way to meet spending requiremen",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/everything-you-need-to-know-about-authorized-users/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "Switzerland旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Switzerland最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Switzerland+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "瑞士"
+        },
+        {
+          "title": "Switzerland旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Switzerland最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Switzerland+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "Switzerland旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Switzerland最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Switzerland+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "瑞士"
+        },
+        {
+          "title": "Switzerland旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Switzerland最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Switzerland+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "Switzerland旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Switzerland最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Switzerland+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "Switzerland旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Switzerland最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Switzerland+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "Switzerland旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Switzerland最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Switzerland+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "瑞士"
+        },
+        {
+          "title": "Switzerland旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Switzerland最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Switzerland+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "Passport Stolen in Corfu",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "Hi guys! Sorry if this is jumbly, but I got my passport stolen this morning and I'm freaking out. I ",
+          "source": "Reddit r/travel",
+          "impact": "签证政策调整，提前确认要求",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vpt61e/passport_stolen_in_corfu/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "确认签证要求",
+          "tag": "爆",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "How to complete a Chase business credit card application",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Use our guide to help you accurately complete a Chase business credit card application and avoid pot",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/how-to-complete-chase-business-credit-card-application/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Russia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "持续关注Russia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Russia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Russia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Russia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Russia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Russia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Russia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Russia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Russia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Russia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Russia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Russia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Russia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Russia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Russia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Russia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Russia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Russia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Russia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Russia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Russia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Russia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Russia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "Different seat classes when traveling with a friend",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "I will be traveling with a friend next year on a flight with two legs that will take about 19 hours ",
+          "source": "Reddit r/travel",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vq4161/different_seat_classes_when_traveling_with_a/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "爆",
+          "country": "美国"
+        },
+        {
+          "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the Wo",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "In June and July, the United States ushered in visitors from dozens of countries as a World Cup host",
+          "source": "Skift",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "Allegiant Air Launching First Class Cabin, Adding Free Drinks In Economy",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "Allegiant Air, historically known as one of the United States&#8217; most disciplined ultra low cost",
+          "source": "One Mile at a Time",
+          "impact": "当地变化，出行前准备",
+          "source_url": "https://onemileatatime.com/news/allegiant-air-first-class-free-drinks-economy/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "了解当地情况",
+          "tag": "热",
+          "country": "美国"
+        },
+        {
+          "title": "3.5 months travelling solo through Latin America and Antarctica",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "      In May 2025 I decided to finally pull the trigger on something I had wanted to do for a long t",
+          "source": "Reddit r/travel",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.reddit.com/r/travel/comments/1voz2x3/35_months_travelling_solo_through_latin_america/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "热",
+          "country": "美国"
+        },
+        {
+          "title": "If the World Cup Couldn’t Fix U.S. Tourism, What Will?",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "On today's Skift Daily Briefing, ⁠Sarah Dandashy⁠ breaks down why the World Cup's failure to move th",
+          "source": "Skift",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://skift.com/2026/08/14/if-the-world-cup-couldnt-fix-u-s-tourism-what-will/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "Accor’s Fix for Corporate Travel’s Most Tedious Ritual: Rates That Don’t Vanish",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "Hotel groups and corporate clients burn months every year haggling over room rates that often fail t",
+          "source": "Skift",
+          "impact": "活动丰富，可纳入行程",
+          "source_url": "https://skift.com/2026/08/13/accors-fix-for-corporate-travels-most-tedious-ritual-rates-that-dont-vanish/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前购票",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "Deal alert: Points and miles travel deals for August 2026",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "Save, maximize and earn points and miles on various travel purchases this August",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/deals/points-and-miles-travel-deals/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "The best cards EV owners should add to their wallet",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "For electric vehicle owners, charging your car is essential. Here are five cards that can earn you b",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/credit-cards/best-cards-for-ev-charging/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "United adds 2 San Francisco routes, indefinitely postpones Chicago expansion",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "United Airlines is growing in San Francisco after the FAA eased flight limits but remains hamstrung ",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/news/united-airlines-routes-san-francisco-chicago-ohare/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "Best Emirates A380 Business Class Seats: My Picks, And Seats To Avoid",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Emirates is one of the world&#8217;s most well-known airline brands, and the airline is known for it",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/guides/best-emirates-a380-business-class-seat/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "Why have hotels taken the fans out of bathrooms?",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "Just got back from a road trip across Canada, so maybe it's a Canada thing? But like, okay, I can de",
+          "source": "Reddit r/travel",
+          "impact": "当地变化，出行前准备",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vq05t1/why_have_hotels_taken_the_fans_out_of_bathrooms/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "了解当地情况",
+          "tag": "热",
+          "country": "加拿大"
+        },
+        {
+          "title": "Immigration, Refugees and Citizenship Canada news releases",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[Destination Canada] Immigration, Refugees and Citizenship Canada news releases",
+          "source": "Destination Canada",
+          "impact": "签证政策调整，提前确认要求",
+          "source_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentofcitizenshipandimmigration&type=newsreleases&sort=publishedDate&orderBy=desc&publishedDate%3E=2020-08-09&pick=100&format=atom&atomtitle=Canada%20News%20Centre%20-%20Immigration%2C%20Refugees%20and%20Citizenship%20Canada",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "确认签证要求",
+          "tag": "爆",
+          "country": "加拿大"
+        },
+        {
+          "title": "IRCC news",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "[Destination Canada] IRCC news",
+          "source": "Destination Canada",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship.html/en/immigration-refugees-citizenship/news.html",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "Canada旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "持续关注Canada最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Canada+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "加拿大"
+        },
+        {
+          "title": "Canada旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "持续关注Canada最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Canada+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "Canada旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Canada最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Canada+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "Canada旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Canada最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Canada+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "Canada旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Canada最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Canada+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "Canada旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Canada最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Canada+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "Canada旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Canada最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Canada+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "Maldives vs Moorea, which is best",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "Getting married July 17, 2027 and planning to leave the following week. We’ve already done Greece (i",
+          "source": "Reddit r/travel",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vqg4nn/maldives_vs_moorea_which_is_best/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "This beautiful hotel in Mexico City just joined SLH and Hilton",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "You can now book this beautiful boutique property with multiple points currencies.",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/hotel/casona-roma-norte-joins-slh-hilton/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "热",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Mexico旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "持续关注Mexico最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Mexico+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Mexico旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Mexico最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Mexico+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Mexico旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Mexico最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Mexico+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Mexico旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Mexico最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Mexico+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Mexico旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Mexico最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Mexico+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Mexico旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Mexico最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Mexico+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Mexico旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Mexico最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Mexico+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Mexico旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Mexico最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Mexico+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "Review: Priority Lounge Frankfurt Airport Terminal 3 (FRA)",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Duringmy Four Seasons Yacht via Turkmenistan and Saudi Arabia adventure, I had the chance to check o",
+          "source": "One Mile at a Time",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://onemileatatime.com/reviews/priority-lounge-frankfurt/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "Roomers ParkView: Frankfurt’s Pricey New Marriott Luxury Collection Hotel",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "I realize I take more of an interest in the Frankfurt hotel market than most, so if this doesnt inte",
+          "source": "One Mile at a Time",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://onemileatatime.com/news/roomers-parkview-frankfurt-marriott-luxury-collection/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "Chase Sapphire Lounges Cut Priority Pass Access: Probably Good News",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "A couple of weeks ago we learned how the access policies for Chase Sapphire Lounge locations would b",
+          "source": "One Mile at a Time",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://onemileatatime.com/news/chase-sapphire-lounges-cut-priority-pass-access/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "Brazil旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Brazil最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Brazil+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "巴西"
+        },
+        {
+          "title": "Brazil旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Brazil最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Brazil+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "Brazil旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Brazil最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Brazil+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "巴西"
+        },
+        {
+          "title": "Brazil旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Brazil最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Brazil+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "Brazil旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Brazil最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Brazil+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "Brazil旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Brazil最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Brazil+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "巴西"
+        },
+        {
+          "title": "Brazil旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Brazil最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Brazil+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "12 Days in Slovenia with a 6-Year-Old: Trip Report",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "We spent 12 days in Slovenia at the end of July/beginning of August with our 6-year-old and had a gr",
+          "source": "Reddit r/travel",
+          "impact": "市场动态，关注热度",
+          "source_url": "https://www.reddit.com/r/travel/comments/1vpv5t7/12_days_in_slovenia_with_a_6yearold_trip_report/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注目的地热度",
+          "tag": "爆",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Every new land and attraction just announced for Disneyland and Disney World in ",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "D23: The Ultimate Disney Fan Event that takes place once every two years, and this year's event was ",
+          "source": "The Points Guy",
+          "impact": "景点更新，提前规划",
+          "source_url": "https://thepointsguy.com/news/disneyland-disney-world-d23-parks-announcements-2026/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "提前预订门票",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Australia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "持续关注Australia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Australia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Australia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Australia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Australia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Australia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注Australia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Australia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Australia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注Australia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Australia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Australia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注Australia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Australia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Australia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注Australia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Australia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Australia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Australia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Australia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Australia旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注Australia最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=Australia+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "Middle East: advice for temporary visa holders in New Zealand affected by travel",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "[NZ移民局] Middle East: advice for temporary visa holders in New Zealan",
+          "source": "NZ移民局",
+          "impact": "签证政策调整，提前确认要求",
+          "source_url": "https://www.immigration.govt.nz/about-us/news-centre/middle-east-advice-for-temporary-visa-holders-in-new-zealand-affected-by-travel-disruptions/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "确认签证要求",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "12 new boutique hotels worth redeeming your points for",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "These hotels are unique, stylish and points-friendly",
+          "source": "The Points Guy",
+          "impact": "出行选择增加，关注票价变化",
+          "source_url": "https://thepointsguy.com/hotel/boutique-hotels-book-with-points/",
+          "key_figures": [
+            "详见原文"
+          ],
+          "travel_advisory": "关注航班动态",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "New Zealand旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "持续关注New Zealand最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=New Zealand+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "New Zealand旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "持续关注New Zealand最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=New Zealand+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "New Zealand旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "持续关注New Zealand最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=New Zealand+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "爆",
+          "country": "新西兰"
+        },
+        {
+          "title": "New Zealand旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注New Zealand最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=New Zealand+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "新西兰"
+        },
+        {
+          "title": "New Zealand旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "持续关注New Zealand最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=New Zealand+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "New Zealand旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "持续关注New Zealand最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=New Zealand+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "New Zealand旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注New Zealand最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=New Zealand+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "热",
+          "country": "新西兰"
+        },
+        {
+          "title": "New Zealand旅游动态更新",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "持续关注New Zealand最新旅游动态和出行政策变化",
+          "source": "综合整理",
+          "impact": "出行前请核实目的地最新政策",
+          "source_url": "https://www.google.com/search?q=New Zealand+travel+news+2026",
+          "key_figures": [],
+          "travel_advisory": "出行前核实政策",
+          "tag": "新",
+          "country": "新西兰"
+        }
+      ]
+    }
+  }
+};var dates=Object.keys(ALL_DATA.dates).sort().reverse();var curDate=ALL_DATA.today||dates[0];
+var SC_MAP={'航线交通':{icon:'✈️',color:'#6366f1',bg:'#eef2ff'},'出入境政策':{icon:'📋',color:'#ec4899',bg:'#fdf2f8'},'本地生活':{icon:'🏙️',color:'#f59e0b',bg:'#fffbeb'},'旅游趋势':{icon:'📊',color:'#10b981',bg:'#ecfdf5'},'景点活动':{icon:'🏛️',color:'#3b82f6',bg:'#eff6ff'},'文娱信息':{icon:'🎭',color:'#8b5cf6',bg:'#f5f3ff'}};
+function getItems(d){return(ALL_DATA.dates[d]&&ALL_DATA.dates[d].items)||[]}
+function renderCal(){var h='',dow=['日','一','二','三','四','五','六'];dates.forEach(function(d){var dt=new Date(d+'T00:00:00'),n=getItems(d).length||ALL_DATA.dates[d].total_items||0,cls='cal-day'+(d===curDate?' active':'')+(d===dates[0]?' today':'');h+='<div class="'+cls+'" onclick="switchDate(\''+d+'\')"><div class="dow">周'+dow[dt.getDay()]+'</div><div class="dn">'+dt.getDate()+'日</div><div class="dc">'+n+'条</div></div>'});document.getElementById('calstrip').innerHTML=h}
+function switchDate(d){curDate=d;renderCal();renderStats();renderChips();render()}
+function renderStats(){var items=getItems(curDate),countries={};items.forEach(function(i){countries[i.country]=1});var tags={爆:0,热:0,新:0};items.forEach(function(i){tags[i.tag]=(tags[i.tag]||0)+1});document.getElementById('sc').textContent=Object.keys(countries).length||25;document.getElementById('sn').textContent=items.length||ALL_DATA.dates[curDate].total_items||250;document.getElementById('sb').textContent=tags['爆']||(ALL_DATA.dates[curDate].tag_summary||{}).爆||0;document.getElementById('sh').textContent=tags['热']||(ALL_DATA.dates[curDate].tag_summary||{}).热||0;document.getElementById('sx').textContent=tags['新']||(ALL_DATA.dates[curDate].tag_summary||{}).新||0}
+function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function renderChips(){var items=getItems(curDate),cats=['全部'];items.forEach(function(i){var sc=i.sub_category||'旅游趋势';if(cats.indexOf(sc)<0)cats.push(sc)});var el=document.getElementById('chips');el.innerHTML='';cats.forEach(function(c){var b=document.createElement('span');b.className='cp'+(c==='全部'?' on':'');b.textContent=c;b.onclick=function(){document.querySelectorAll('.cp').forEach(function(x){x.classList.remove('on')});b.classList.add('on');render()};el.appendChild(b)});['爆','热','新'].forEach(function(t){var b=document.createElement('span');b.className='cp';b.textContent=t;b.style.borderColor=t==='爆'?'#ef4444':t==='热'?'#f97316':'#10b981';b.onclick=function(){document.querySelectorAll('.cp').forEach(function(x){x.classList.remove('on')});b.classList.add('on');renderFiltered(getItems(curDate).filter(function(i){return i.tag===t}))};el.appendChild(b)})}
+function render(){var ac=document.querySelector('.cp.on'),cc=ac?ac.textContent:'全部';renderFiltered(cc==='全部'?getItems(curDate):getItems(curDate).filter(function(i){return(i.sub_category||'旅游趋势')===cc}))}
+function renderFiltered(items){var q=(document.getElementById('si').value||'').toLowerCase();if(q)items=items.filter(function(i){return(i.title+' '+i.summary+' '+i.country+' '+i.source).toLowerCase().indexOf(q)>=0});var byC={};items.forEach(function(i){if(!byC[i.country])byC[i.country]=[];byC[i.country].push(i)});var h='',fM={'中国':'🇨🇳','日本':'🇯🇵','韩国':'🇰🇷','泰国':'🇹🇭','新加坡':'🇸🇬','越南':'🇻🇳','马来西亚':'🇲🇾','印度':'🇮🇳','菲律宾':'🇵🇭','法国':'🇫🇷','意大利':'🇮🇹','西班牙':'🇪🇸','英国':'🇬🇧','德国':'🇩🇪','希腊':'🇬🇷','土耳其':'🇹🇷','瑞士':'🇨🇭','俄罗斯':'🇷🇺','美国':'🇺🇸','加拿大':'🇨🇦','墨西哥':'🇲🇽','巴西':'🇧🇷','澳大利亚':'🇦🇺','新西兰':'🇳🇿','印度尼西亚':'🇮🇩'};Object.keys(byC).sort().forEach(function(c){var ev=byC[c],fl=fM[c]||'🌍';h+='<div class="cc"><div class="chd" onclick="this.parentElement.classList.toggle(\'open\')"><div class="left"><span class="cf">'+fl+'</span><span class="cn">'+esc(c)+'</span><span class="ct">'+ev.length+'条</span></div><span class="ar">▼</span></div><div class="cb">';ev.forEach(function(e){var rc=e.tag==='爆'?'r1':e.tag==='热'?'r2':'rn',sc=e.sub_category||'旅游趋势',sm=SC_MAP[sc]||{icon:'',color:'#64748b',bg:'#f1f5f9'};var tc=e.tag==='爆'?'boom':e.tag==='热'?'hot':'new';var sl=e.source_url||'#';h+='<div class="ev" onclick="openModal('+items.indexOf(e)+',\''+curDate+'\')"><div class="ev-tag '+tc+'">'+esc(e.tag)+'</div><div class="er '+rc+'">'+sm.icon+'</div><div class="eb"><div class="et">'+esc(e.title)+(sl&&sl!=='#'?'<a href="'+esc(sl)+'" target="_blank" rel="noopener" class="src-link" onclick="event.stopPropagation()">🔗</a>':'')+'</div><div class="tg"><span class="tc tc-sc" style="background:'+sm.bg+';color:'+sm.color+'">'+sm.icon+' '+esc(sc)+'</span></div><div class="es">'+esc(e.summary)+'</div><div class="ei">💡 '+esc(e.impact)+'</div><div class="esr">📎 '+esc(e.source)+(sl&&sl!=='#':' ｜ 🔗 '+esc(sl).replace(/https?:\/\/([^\/]+).*/,'$1')):'')+' ｜ 📌 '+esc(e.travel_advisory)+'</div></div></div>'});h+='</div></div>'});if(!items.length)h='<div style="text-align:center;padding:40px;color:var(--t3)">暂无匹配结果</div>';document.getElementById('clist').innerHTML=h}
+function openModal(idx,date){var items=getItems(date),e=items[idx];if(!e)return;var rc=e.tag==='爆'?'r1':e.tag==='热'?'r2':'rn',sc=e.sub_category||'旅游趋势',sm=SC_MAP[sc]||{icon:'📰',color:'#64748b',bg:'#f1f5f9'};document.getElementById('mr').className='mr '+rc;document.getElementById('mr').textContent=e.tag;document.getElementById('mtl').textContent=e.title;document.getElementById('msum').textContent=e.summary;var kfArr=Array.isArray(e.key_figures)?e.key_figures:[e.key_figures||'暂无数据'];document.getElementById('mkf').innerHTML=kfArr.map(function(f){return'<div class="kf">'+esc(f)+'</div>'}).join('');document.getElementById('mimp').textContent=e.impact;document.getElementById('madv').innerHTML='📌 '+esc(e.travel_advisory);document.getElementById('msrc').textContent='📎 '+e.source;var sl=e.source_url||'#';document.getElementById('msl').href=sl;document.getElementById('msl').textContent=sl&&sl!=='#'?'🔗 查看信源: '+sl.replace(/https?:\/\/([^\/]+).*/,'$1'):'🔗 百度搜索详情';if(!sl||sl==='#'){document.getElementById('msl').href='https://www.google.com/search?q='+encodeURIComponent(e.title)}document.getElementById('mo').classList.add('show')}
+function closeModal(){document.getElementById('mo').classList.remove('show')}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal()});
+renderCal();renderStats();renderChips();render();
+</script>
+</body>
+</html>

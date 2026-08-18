@@ -1,0 +1,8 @@
+# 数据采集结果
+data/history.json
+data/today.json
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store

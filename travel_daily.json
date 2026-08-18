@@ -1,0 +1,4275 @@
+{
+  "today": "2026-08-17",
+  "window": "2026-08-11 ~ 2026-08-17",
+  "dates": {
+    "2026-08-17": {
+      "total_items": 250,
+      "tag_summary": {
+        "爆": 25,
+        "热": 50,
+        "新": 175
+      },
+      "items": [
+        {
+          "title": "国航恢复北京—巴黎每日直飞航线",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "中国国际航空自8月起将北京首都至巴黎戴高乐航线增至每日一班，A350宽体机执飞，票价较暑期下降15%",
+          "source": "中国政府网",
+          "impact": "中法直飞运力大增，暑期出行选择更多",
+          "source_url": "https://www.gov.cn",
+          "key_figures": [
+            "每周新增7班次",
+            "A350-900执飞",
+            "票价降15%"
+          ],
+          "travel_advisory": "关注航司官网促销",
+          "tag": "爆",
+          "country": "中国"
+        },
+        {
+          "title": "南航开通广州—利雅得新航线",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "南方航空正式开通广州直飞沙特利雅得航线，每周三班，配合中东旅游热满足商务及朝觐需求",
+          "source": "国家移民管理局",
+          "impact": "中国直飞沙特首条定期航线开通",
+          "source_url": "https://www.nia.gov.cn",
+          "key_figures": [
+            "每周3班",
+            "波音787",
+            "航程约9小时"
+          ],
+          "travel_advisory": "中东旅游新选择",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "中国对沙特阿拉伯试行免签政策",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "外交部宣布自2026年8月15日起对沙特持普通护照人员试行30天免签，至此中国免签国达50个",
+          "source": "中国政府网",
+          "impact": "中东客源市场进一步打开",
+          "source_url": "https://www.gov.cn",
+          "key_figures": [
+            "免签30天",
+            "第50个免签国",
+            "8月15日生效"
+          ],
+          "travel_advisory": "沙特游客来华更便利",
+          "tag": "热",
+          "country": "中国"
+        },
+        {
+          "title": "国家移民管理局推出暑期通关保障措施",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "全国口岸增设临时通道，推行外国人入境卡网上填报，预计暑运日均出入境旅客突破90万人次",
+          "source": "国家移民管理局",
+          "impact": "高峰期通关效率提升30%",
+          "source_url": "https://www.nia.gov.cn",
+          "key_figures": [
+            "日均90万人次",
+            "网上填报全覆盖",
+            "新增200条通道"
+          ],
+          "travel_advisory": "错峰出行更顺畅",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "数字人民币覆盖全国50个旅游城市",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "央行宣布数字人民币试点扩展至50个旅游重点城市，境外游客可在主要景区和商圈直接使用",
+          "source": "中国政府网",
+          "impact": "境外游客支付便利度大幅提升",
+          "source_url": "https://www.gov.cn",
+          "key_figures": [
+            "50个城市",
+            "支持20种外币充值",
+            "覆盖5000+商户"
+          ],
+          "travel_advisory": "入境前下载APP充值",
+          "tag": "热",
+          "country": "中国"
+        },
+        {
+          "title": "暑期出境游预订量同比增长42%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "携程数据显示8月出境游预订量同比大增42%，东南亚和中东目的地最受欢迎，人均消费约6800元",
+          "source": "中国政府网",
+          "impact": "出境游市场全面恢复至2019年水平",
+          "source_url": "https://www.gov.cn",
+          "key_figures": [
+            "同比增长42%",
+            "人均消费6800元",
+            "东南亚占35%"
+          ],
+          "travel_advisory": "提前预订享优惠",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "中国游客赴中亚五国旅游热度飙升",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "受免签政策推动，赴哈萨克斯坦、乌兹别克斯坦等中亚五国旅游搜索量环比增长280%",
+          "source": "国家移民管理局",
+          "impact": "中亚成为新兴出境游目的地",
+          "source_url": "https://www.nia.gov.cn",
+          "key_figures": [
+            "搜索量增280%",
+            "5国免签",
+            "人均消费4500元"
+          ],
+          "travel_advisory": "关注当地安全形势",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "故宫博物院推出夜间开放特别活动",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "故宫在8月每周五延长开放至21:00，推出'月下紫禁城'沉浸式夜游，限量5000张/晚",
+          "source": "中国政府网",
+          "impact": "夜间旅游新业态带动周边消费",
+          "source_url": "https://www.gov.cn",
+          "key_figures": [
+            "每周五夜场",
+            "限量5000张",
+            "票价120元"
+          ],
+          "travel_advisory": "提前7天预约",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "张家界玻璃栈道全新升级重新开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "张家界天门山玻璃栈道完成安全升级，新增AR体验功能，游客可透过玻璃看到虚拟海底世界",
+          "source": "国家移民管理局",
+          "impact": "科技+旅游创新吸引年轻客群",
+          "source_url": "https://www.nia.gov.cn",
+          "key_figures": [
+            "全长60米",
+            "AR虚拟体验",
+            "日限3000人"
+          ],
+          "travel_advisory": "恐高者慎入",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "第37届大众电影百花奖在武汉开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "金鸡百花电影节在武汉举办，汇聚百余位影人，期间推出影迷见面会及电影主题城市漫游路线",
+          "source": "中国政府网",
+          "impact": "影视+文旅融合提升城市知名度",
+          "source_url": "https://www.gov.cn",
+          "key_figures": [
+            "100+影人参展",
+            "展映50部影片",
+            "持续5天"
+          ],
+          "travel_advisory": "关注交通管制信息",
+          "tag": "新",
+          "country": "中国"
+        },
+        {
+          "title": "ANA增设上海浦东—东京羽田午间航班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "全日空8月起新增午间班次，配合商务客需求，羽田机场国际线时刻进一步充实",
+          "source": "日本外务省",
+          "impact": "中日航线竞争加剧利好消费者",
+          "source_url": "https://www.mofa.go.jp",
+          "key_figures": [
+            "新增午间班次",
+            "每日达6班",
+            "羽田时刻增加"
+          ],
+          "travel_advisory": "提前选座优选靠窗",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "日本LCC乐桃航空开通名古屋—台北航线",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "乐桃航空宣布10月起运营名古屋至台北桃园航线，每周5班，单程含税票价最低9800日元",
+          "source": "JNTO",
+          "impact": "廉价航空竞争加剧，票价进一步下降",
+          "source_url": "https://www.jnto.go.jp",
+          "key_figures": [
+            "每周5班",
+            "最低9800日元",
+            "10月开航"
+          ],
+          "travel_advisory": "关注促销抢低价票",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "日本电子签证系统升级支持中文界面",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "日本外务省宣布电子签证申请系统新增中文、韩文界面，审批时间缩短至3个工作日",
+          "source": "日本外务省",
+          "impact": "签证便利性提升吸引更多中国游客",
+          "source_url": "https://www.mofa.go.jp",
+          "key_figures": [
+            "审批缩至3天",
+            "支持6种语言",
+            "费用不变"
+          ],
+          "travel_advisory": "在线申请更便捷",
+          "tag": "爆",
+          "country": "日本"
+        },
+        {
+          "title": "日本入境检疫新规简化健康申报",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "8月起入境日本取消纸质健康申报，改为Visit Japan Web一次性完成检疫+入境+海关三道手续",
+          "source": "JNTO",
+          "impact": "入境流程时间缩短至20分钟",
+          "source_url": "https://www.jnto.go.jp",
+          "key_figures": [
+            "一码通关",
+            "取消纸质表",
+            "平均节省25分钟"
+          ],
+          "travel_advisory": "提前注册Visit Japan Web",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "东京山手线新车站'品川新站'年内动工",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "JR东日本公布品川新站建设计划，预计2035年完工，届时品川至田町区间将新增交通枢纽",
+          "source": "日本外务省",
+          "impact": "东京交通网络持续优化",
+          "source_url": "https://www.mofa.go.jp",
+          "key_figures": [
+            "投资3000亿日元",
+            "2035年完工",
+            "面积25公顷"
+          ],
+          "travel_advisory": "周边住宿值得关注",
+          "tag": "热",
+          "country": "日本"
+        },
+        {
+          "title": "日本8月入境游客预计突破300万创新高",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "日本政府观光局预测8月入境游客将达305万人次，中国、韩国、东南亚客源增长显著",
+          "source": "日本外务省",
+          "impact": "旅游旺季消费提振明显",
+          "source_url": "https://www.mofa.go.jp",
+          "key_figures": [
+            "预计305万人次",
+            "同比增长18%",
+            "消费额预计8000亿日元"
+          ],
+          "travel_advisory": "热门景点需提前预约",
+          "tag": "热",
+          "country": "日本"
+        },
+        {
+          "title": "日本乡下民宿预订量翻倍 地方旅游升温",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "Airbnb数据显示日本乡村地区民宿预订量同比增长110%，北海道、东北地区尤为突出",
+          "source": "JNTO",
+          "impact": "分散客流缓解过度旅游问题",
+          "source_url": "https://www.jnto.go.jp",
+          "key_figures": [
+            "预订量增110%",
+            "北海道增幅最高",
+            "平均住宿3晚"
+          ],
+          "travel_advisory": "体验在地文化好选择",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "京都五山送火活动顺利举行",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "8月16日京都五山送火（大文字烧）如期举行，约20万市民和游客现场观赏，交通管制得当",
+          "source": "日本外务省",
+          "impact": "传统文化活动助力京都旅游品牌",
+          "source_url": "https://www.mofa.go.jp",
+          "key_figures": [
+            "20万观众",
+            "5座山同时点火",
+            "持续约1小时"
+          ],
+          "travel_advisory": "明年需提前订酒店",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "大阪环球影城新增'超级任天堂世界'扩建区",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "USJ宣布第二期任天堂扩建区将于秋季开放，新增骑马竞速项目，园区面积扩大40%",
+          "source": "JNTO",
+          "impact": "主题乐园竞争加剧吸引力提升",
+          "source_url": "https://www.jnto.go.jp",
+          "key_figures": [
+            "面积扩40%",
+            "新增3个项目",
+            "投资450亿日元"
+          ],
+          "travel_advisory": "Express Pass必买",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "濑户内国际艺术节2026秋季展开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "三年一度的濑户内国际艺术节秋季展8月开幕，直岛、丰岛等12座岛屿展出全球艺术家作品",
+          "source": "日本外务省",
+          "impact": "艺术旅游带动离岛经济",
+          "source_url": "https://www.mofa.go.jp",
+          "key_figures": [
+            "12座岛屿",
+            "150+作品",
+            "持续55天"
+          ],
+          "travel_advisory": "买通票更划算",
+          "tag": "新",
+          "country": "日本"
+        },
+        {
+          "title": "大韩航空恢复仁川—成都直飞每日航班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "大韩航空自8月起将仁川至成都航线恢复为每日运营，使用波音787-9宽体机执飞",
+          "source": "韩国旅游发展局",
+          "impact": "中韩航线运力持续恢复",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "每日一班",
+            "B787-9执飞",
+            "票价低至1500元"
+          ],
+          "travel_advisory": "关注会员促销日",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "济州航空新增首尔—西安每周四班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "韩国廉价航空济州航空宣布开通首尔仁川至西安航线，每周四班，开票价含税880元起",
+          "source": "韩国法务部",
+          "impact": "西安赴韩旅游成本进一步降低",
+          "source_url": "https://www.immigration.go.kr",
+          "key_figures": [
+            "每周4班",
+            "含税880元起",
+            "9月1日首航"
+          ],
+          "travel_advisory": "廉航注意行李额度",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "韩国扩大电子入境卡覆盖范围",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "韩国法务部宣布K-ETA电子入境许可覆盖国家新增12个，中国团客免签政策延长至年底",
+          "source": "韩国旅游发展局",
+          "impact": "赴韩旅游门槛持续降低",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "新增12国免签",
+            "团客免签延至年底",
+            "审批24小时内"
+          ],
+          "travel_advisory": "提前办理K-ETA",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "韩国推出医疗观光签证新类别",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "韩国新设医疗观光签证(M-3)，允许患者在指定医疗机构进行整形美容等治疗，最长停留90天",
+          "source": "韩国法务部",
+          "impact": "医疗旅游市场迎来政策红利",
+          "source_url": "https://www.immigration.go.kr",
+          "key_figures": [
+            "最长90天",
+            "指定38家机构",
+            "家属可陪同"
+          ],
+          "travel_advisory": "选择认证机构更安全",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "首尔明洞商铺租金下降 中文服务普及率提升",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "明洞商圈商铺租金较去年下降8%，同时85%的商铺已配备中文导购和移动支付服务",
+          "source": "韩国旅游发展局",
+          "impact": "购物体验改善吸引中国游客回流",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "租金降8%",
+            "85%中文服务",
+            "支持支付宝微信"
+          ],
+          "travel_advisory": "明洞仍是购物首选",
+          "tag": "爆",
+          "country": "韩国"
+        },
+        {
+          "title": "韩国美容旅游搜索量激增200%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "受韩流文化带动，赴韩美容旅游搜索量环比增长200%，皮肤科和医美项目最受关注",
+          "source": "韩国旅游发展局",
+          "impact": "美容旅游成为韩国旅游新增长极",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "搜索量增200%",
+            "皮肤科最热门",
+            "客单价约8000元"
+          ],
+          "travel_advisory": "选择正规医院机构",
+          "tag": "热",
+          "country": "韩国"
+        },
+        {
+          "title": "釜山取代首尔成中国游客新宠",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "釜山8月酒店预订量首超首尔，海云台和甘川文化村成为热门打卡地",
+          "source": "韩国法务部",
+          "impact": "韩国旅游目的地更加多元化",
+          "source_url": "https://www.immigration.go.kr",
+          "key_figures": [
+            "预订量超首尔",
+            "海云台入住率95%",
+            "人均消费降20%"
+          ],
+          "travel_advisory": "釜山自由行攻略必备",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "首尔灯光节10月亮相清溪川",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "2026首尔灯光节以'未来之光'为主题，将在清溪川展出50组大型灯光艺术作品",
+          "source": "韩国旅游发展局",
+          "impact": "夜间旅游经济再添亮点",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "50组作品",
+            "免费参观",
+            "持续30天"
+          ],
+          "travel_advisory": "10月首尔温差大带外套",
+          "tag": "热",
+          "country": "韩国"
+        },
+        {
+          "title": "韩国DMZ非军事区观光项目升级",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "韩国统一部批准DMZ区域新增3条观光路线，包括地下隧道探访和和平体验项目",
+          "source": "韩国法务部",
+          "impact": "特殊历史景点吸引国际游客",
+          "source_url": "https://www.immigration.go.kr",
+          "key_figures": [
+            "新增3条路线",
+            "第四隧道可进入",
+            "需提前预约"
+          ],
+          "travel_advisory": "携带护照必须",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "BTS世界巡演首尔站门票秒售罄",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "防弹少年团时隔3年再度巡演，首尔安养竞技场6场演出30万张票在开售后3分钟内售罄",
+          "source": "韩国旅游发展局",
+          "impact": "K-pop粉丝赴韩旅游热潮再起",
+          "source_url": "https://www.visitkorea.or.kr",
+          "key_figures": [
+            "30万张秒售罄",
+            "6场演出",
+            "全球同步直播"
+          ],
+          "travel_advisory": "关注加场和直播信息",
+          "tag": "新",
+          "country": "韩国"
+        },
+        {
+          "title": "泰国国际航空开通北京—普吉直飞航线",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "泰航8月15日起开通北京大兴直飞普吉岛航线，每周四班，A330-300执飞",
+          "source": "泰国国家旅游局",
+          "impact": "中国直飞普吉岛选择增加",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "每周4班",
+            "A330执飞",
+            "航程约5小时"
+          ],
+          "travel_advisory": "普吉免签30天",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "曼谷素万那普机场新航站楼年底启用",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "素万那普机场SAT-1卫星航站楼将于12月启用，年旅客吞吐能力提升至6000万人次",
+          "source": "泰国电子签",
+          "impact": "泰国航空枢纽竞争力增强",
+          "source_url": "https://thaievisa.go.th",
+          "key_figures": [
+            "新增28个登机口",
+            "年吞吐6000万",
+            "投资180亿泰铢"
+          ],
+          "travel_advisory": "转机时间预留充足",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "泰国延长中国免签停留至60天",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "泰国内阁批准将中国等93国免签停留从30天延长至60天，有效期至2027年2月",
+          "source": "泰国国家旅游局",
+          "impact": "泰国旅游吸引力大幅提升",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "免签60天",
+            "93国适用",
+            "有效期至2027"
+          ],
+          "travel_advisory": "免签但需出示酒店和机票",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "泰国推出数字游民签证DTV",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "泰国正式推出目的地泰国签证(DTV)，允许远程工作者停留180天，可续签一次",
+          "source": "泰国电子签",
+          "impact": "吸引全球数字游民长期消费",
+          "source_url": "https://thaievisa.go.th",
+          "key_figures": [
+            "180天停留",
+            "可续签一次",
+            "资产要求50万泰铢"
+          ],
+          "travel_advisory": "适合长期旅居人群",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "曼谷BTS轻轨延长线至萨姆普兰开通",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "曼谷BTS素坤逸线延长段正式通车，新增5站直达萨姆普兰，全程票价35泰铢起",
+          "source": "泰国国家旅游局",
+          "impact": "曼谷公共交通覆盖范围扩大",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "新增5站",
+            "最低35泰铢",
+            "日均客流增8万"
+          ],
+          "travel_advisory": "Rabbit Card最方便",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "泰国清迈入选联合国创意城市网络",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "清迈被UNESCO正式列入创意城市网络（手工艺与民间艺术），推动文化旅游升级",
+          "source": "泰国国家旅游局",
+          "impact": "清迈文化旅游国际知名度提升",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "UNESCO认证",
+            "传统手工艺200+品类",
+            "年游客增12%"
+          ],
+          "travel_advisory": "体验当地手工艺工坊",
+          "tag": "爆",
+          "country": "泰国"
+        },
+        {
+          "title": "泰国南部小众海岛搜索量暴增300%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "丽贝岛、阁骨岛等南部小众海岛搜索量暴增，游客追求避开普吉甲米人潮",
+          "source": "泰国电子签",
+          "impact": "泰国海岛游向深度化转变",
+          "source_url": "https://thaievisa.go.th",
+          "key_figures": [
+            "搜索量增300%",
+            "丽贝岛最热门",
+            "人均消费降15%"
+          ],
+          "travel_advisory": "小众岛交通不便需规划",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "大皇宫玉佛寺新修缮区域重新开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "大皇宫历时2年的修缮工程完工，玉佛寺东侧殿堂和节基王朝展区重新向游客开放",
+          "source": "泰国国家旅游局",
+          "impact": "曼谷核心景点游览体验提升",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "修缮2年",
+            "新增3个展区",
+            "门票500泰铢"
+          ],
+          "travel_advisory": "着装要求严格注意",
+          "tag": "热",
+          "country": "泰国"
+        },
+        {
+          "title": "普吉岛幻多奇乐园全新改版重开",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "普吉FantaSea乐园投资30亿泰铢改版，新增水上乐园和夜间光影秀",
+          "source": "泰国电子签",
+          "impact": "普吉夜间旅游产品丰富",
+          "source_url": "https://thaievisa.go.th",
+          "key_figures": [
+            "投资30亿泰铢",
+            "新增水上乐园",
+            "光影秀120分钟"
+          ],
+          "travel_advisory": "含晚餐套票更值",
+          "tag": "新",
+          "country": "泰国"
+        },
+        {
+          "title": "泰国宋干节列入联合国非遗名录一周年庆典",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "泰国文化部举办宋干节入选UNESCO非遗一周年庆典，邀请全球游客参与传统泼水仪式",
+          "source": "泰国国家旅游局",
+          "impact": "泰国文化软实力国际认可",
+          "source_url": "https://www.tat.or.th",
+          "key_figures": [
+            "UNESCO非遗",
+            "全球10国代表",
+            "活动持续3天"
+          ],
+          "travel_advisory": "尊重当地文化习俗",
+          "tag": "热",
+          "country": "泰国"
+        },
+        {
+          "title": "新航加密新加坡—上海浦东至每日双班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "新加坡航空8月起将新加坡至浦东航线增至每日双班，新增午间A350航班",
+          "source": "新加坡旅游局",
+          "impact": "中新之间商务旅游往来更便捷",
+          "source_url": "https://www.stb.gov.sg",
+          "key_figures": [
+            "每日双班",
+            "A350执飞",
+            "票价含税2800元起"
+          ],
+          "travel_advisory": "KrisFlyer积分兑换划算",
+          "tag": "热",
+          "country": "新加坡"
+        },
+        {
+          "title": "樟宜机场第五航站楼建设进展顺利",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "樟宜机场T5主体工程完成40%，预计2030年投入运营，设计年吞吐量5000万",
+          "source": "新加坡ICA",
+          "impact": "新加坡航空枢纽地位进一步巩固",
+          "source_url": "https://www.ica.gov.sg",
+          "key_figures": [
+            "投资150亿新元",
+            "2030年完工",
+            "年吞吐5000万"
+          ],
+          "travel_advisory": "现有设施持续优化中",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "新加坡与中国互免签证协定正式生效",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "中新互免签证协定生效满一年，双方人员往来同比增长65%，新方推出快速通关通道",
+          "source": "新加坡旅游局",
+          "impact": "双边旅游和商务往来大幅增长",
+          "source_url": "https://www.stb.gov.sg",
+          "key_figures": [
+            "互免30天",
+            "人员增65%",
+            "快速通关通道"
+          ],
+          "travel_advisory": "护照有效期需超6个月",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "新加坡推出电子访客通行证",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "新加坡移民局推出电子访客通行证(e-Pass)，取代纸质入境条，可通过APP实时查看剩余天数",
+          "source": "新加坡ICA",
+          "impact": "旅游数字化管理更智能",
+          "source_url": "https://www.ica.gov.sg",
+          "key_figures": [
+            "电子化通关",
+            "APP查看",
+            "自动延期申请"
+          ],
+          "travel_advisory": "下载SG Arrive Card",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "新加坡地铁跨岛线首期2030年通车",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "跨岛线(CRL)一期13个站点完成招标，预计2030年通车，将连接东部和西北部",
+          "source": "新加坡旅游局",
+          "impact": "新加坡公共交通网络持续完善",
+          "source_url": "https://www.stb.gov.sg",
+          "key_figures": [
+            "全长29公里",
+            "13个站点",
+            "投资130亿新元"
+          ],
+          "travel_advisory": "沿线房产值得关注",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "新加坡会奖旅游(MICE)预订量创历史新高",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "新加坡旅游局数据显示2026年MICE活动预订量同比增长55%，国际会议和展览需求旺盛",
+          "source": "新加坡旅游局",
+          "impact": "商务旅游成为新增长引擎",
+          "source_url": "https://www.stb.gov.sg",
+          "key_figures": [
+            "预订增55%",
+            "大型会议200+场",
+            "消费贡献50亿新元"
+          ],
+          "travel_advisory": "商务签或免签均可",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "圣淘沙岛度假综合体改造计划公布",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "圣淘沙岛宣布耗资90亿新元进行五年改造计划，新增生态酒店和水族馆扩建",
+          "source": "新加坡ICA",
+          "impact": "新加坡度假产品全面升级",
+          "source_url": "https://www.ica.gov.sg",
+          "key_figures": [
+            "投资90亿新元",
+            "分三期建设",
+            "新增2家五星酒店"
+          ],
+          "travel_advisory": "施工期间部分区域关闭",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "滨海湾花园推出夜间花卉奇观秀",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "滨海湾花园花穹推出全新夜间灯光花卉秀'Stellar Bloom'，融合投影和真人表演",
+          "source": "新加坡旅游局",
+          "impact": "夜间景点吸引力增强",
+          "source_url": "https://www.stb.gov.sg",
+          "key_figures": [
+            "每晚两场",
+            "时长45分钟",
+            "票价38新元起"
+          ],
+          "travel_advisory": "周末票需提前预订",
+          "tag": "爆",
+          "country": "新加坡"
+        },
+        {
+          "title": "新加坡动物园重新设计夜间野生动物园",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "夜间野生动物园完成升级改造，新增4个展区模拟亚马逊雨林生态，游客可乘船游览",
+          "source": "新加坡ICA",
+          "impact": "新加坡动物园品牌持续升级",
+          "source_url": "https://www.ica.gov.sg",
+          "key_figures": [
+            "新增4个展区",
+            "船游体验",
+            "夜间票价55新元"
+          ],
+          "travel_advisory": "防蚊措施要做好",
+          "tag": "新",
+          "country": "新加坡"
+        },
+        {
+          "title": "新加坡艺术科学博物馆推出AI互动展",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "艺术科学博物馆新展'AI Dreams'展出来自全球30位艺术家的AI生成艺术作品，观众可参与创作",
+          "source": "新加坡旅游局",
+          "impact": "科技+艺术旅游新体验",
+          "source_url": "https://www.stb.gov.sg",
+          "key_figures": [
+            "30位艺术家",
+            "互动装置15件",
+            "展期6个月"
+          ],
+          "travel_advisory": "工作日参观人更少",
+          "tag": "热",
+          "country": "新加坡"
+        },
+        {
+          "title": "越南航空开通河内—成都直飞航线",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "越南国家航空正式开通河内至成都直飞航线，每周三班，使用空客A321neo",
+          "source": "越南旅游局",
+          "impact": "中国西南地区赴越旅游更便捷",
+          "source_url": "https://www.vietnam.travel",
+          "key_figures": [
+            "每周3班",
+            "A321neo",
+            "票价含税1200元起"
+          ],
+          "travel_advisory": "电子签提前办理",
+          "tag": "热",
+          "country": "越南"
+        },
+        {
+          "title": "越捷航空新增胡志明—广州每周五班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "越南廉价航空越捷航空加密广州航线至每周五班，单程最低399元起",
+          "source": "越南外交部",
+          "impact": "廉价航空推动中越旅游交流",
+          "source_url": "https://www.mofa.gov.vn",
+          "key_figures": [
+            "每周5班",
+            "最低399元",
+            "含7kg手提行李"
+          ],
+          "travel_advisory": "廉航行李需另购",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "越南电子签证有效期延长至90天",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "越南政府批准将电子签证有效期从30天延长至90天，并允许多次入境",
+          "source": "越南旅游局",
+          "impact": "赴越深度游和商务停留更加便利",
+          "source_url": "https://www.vietnam.travel",
+          "key_figures": [
+            "90天有效",
+            "多次入境",
+            "25美元申请费"
+          ],
+          "travel_advisory": "提前3天在线申请",
+          "tag": "热",
+          "country": "越南"
+        },
+        {
+          "title": "越南富国岛免签政策延长至30天",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "越南继续执行富国岛专属免签政策，持中国护照可免签停留30天，仅限富国岛",
+          "source": "越南外交部",
+          "impact": "富国岛度假吸引力增强",
+          "source_url": "https://www.mofa.gov.vn",
+          "key_figures": [
+            "免签30天",
+            "仅限富国岛",
+            "直飞或转机均可"
+          ],
+          "travel_advisory": "不可前往越南其他城市",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "胡志明市地铁一号线即将通车",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "胡志明市地铁一号线(滨城—仙泉)完成试运行，预计年底正式通车，全长19.7公里",
+          "source": "越南旅游局",
+          "impact": "胡志明市公共交通实现零突破",
+          "source_url": "https://www.vietnam.travel",
+          "key_figures": [
+            "全长19.7公里",
+            "14个站点",
+            "票价最高20000越南盾"
+          ],
+          "travel_advisory": "关注正式开通日期",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "越南下龙湾游轮旅游搜索量增长150%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "下龙湾豪华游轮体验搜索量暴增，五星级游轮预订率超90%",
+          "source": "越南旅游局",
+          "impact": "越南高端旅游产品需求旺盛",
+          "source_url": "https://www.vietnam.travel",
+          "key_figures": [
+            "搜索增150%",
+            "五星游轮满房",
+            "人均消费8000元"
+          ],
+          "travel_advisory": "旺季至少提前两周预订",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "越南会安古城入选亚洲最佳旅游目的地TOP10",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "Travel+Leisure杂志将会安古城列入2026年亚洲最佳旅游目的地TOP10",
+          "source": "越南外交部",
+          "impact": "会安国际知名度进一步提升",
+          "source_url": "https://www.mofa.gov.vn",
+          "key_figures": [
+            "亚洲TOP10",
+            "年均游客500万",
+            "灯笼节每月一次"
+          ],
+          "travel_advisory": "古城内禁止机动车",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "岘港巴拿山法国村全新扩建开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "巴拿山法国村新增普罗旺斯花园区和中世纪城堡体验区，高空缆车延长至新站点",
+          "source": "越南旅游局",
+          "impact": "岘港旅游产品进一步丰富",
+          "source_url": "https://www.vietnam.travel",
+          "key_figures": [
+            "新增2个主题区",
+            "缆车延长2公里",
+            "门票90万越南盾"
+          ],
+          "travel_advisory": "山上温差大带薄外套",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "河内老城区36行街步行街周末限行",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "河内还剑湖周边36行街区域周末实施步行街限行，增加街头艺术表演和夜市摊位",
+          "source": "越南外交部",
+          "impact": "河内老城区旅游体验提升",
+          "source_url": "https://www.mofa.gov.vn",
+          "key_figures": [
+            "周末限行",
+            "50+街头表演",
+            "夜市200+摊位"
+          ],
+          "travel_advisory": "穿舒适步行鞋",
+          "tag": "新",
+          "country": "越南"
+        },
+        {
+          "title": "越南岘港国际烟花节决赛举行",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "2026岘港国际烟花大赛(DIFC)决赛在汉江畔举行，8国代表队参赛，吸引15万观众",
+          "source": "越南旅游局",
+          "impact": "岘港国际文化活动影响力扩大",
+          "source_url": "https://www.vietnam.travel",
+          "key_figures": [
+            "8国参赛",
+            "15万观众",
+            "持续2个月"
+          ],
+          "travel_advisory": "提前预订河畔酒店",
+          "tag": "爆",
+          "country": "越南"
+        },
+        {
+          "title": "亚航开通深圳—吉隆坡每日直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "亚洲航空正式开通深圳至吉隆坡每日直飞航线，A321neo执飞，开票价最低499元起",
+          "source": "马来西亚旅游局",
+          "impact": "华南地区赴马来西亚更加便捷",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "每日一班",
+            "最低499元",
+            "A321neo执飞"
+          ],
+          "travel_advisory": "提前网上值机省费用",
+          "tag": "爆",
+          "country": "马来西亚"
+        },
+        {
+          "title": "马来西亚航空恢复槟城—厦门航线",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "马航恢复槟城至厦门直飞航线，每周四班，方便两地旅游和商务往来",
+          "source": "马来西亚移民局",
+          "impact": "福建赴马来西亚有了直飞选择",
+          "source_url": "https://www.imi.gov.my",
+          "key_figures": [
+            "每周4班",
+            "B737-800",
+            "票价含税1800元"
+          ],
+          "travel_advisory": "槟城免签120天",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "马来西亚对中国公民免签延长至2026年底",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "马来西亚宣布将中国公民免签入境政策延长至2026年12月31日，每次停留30天",
+          "source": "马来西亚旅游局",
+          "impact": "马来西亚旅游成本进一步降低",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "免签至年底",
+            "每次30天",
+            "无需MDAC"
+          ],
+          "travel_advisory": "护照有效期6个月以上",
+          "tag": "热",
+          "country": "马来西亚"
+        },
+        {
+          "title": "马来西亚推出旅游税减免优惠",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "马来西亚政府宣布2026年8月至12月对所有外国游客免收10林吉特旅游税",
+          "source": "马来西亚移民局",
+          "impact": "降低旅游成本刺激消费",
+          "source_url": "https://www.imi.gov.my",
+          "key_figures": [
+            "免旅游税5个月",
+            "省10林吉特/晚",
+            "覆盖所有酒店"
+          ],
+          "travel_advisory": "入住时主动出示护照",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "吉隆坡MRT3号线动工 连接东部和市中心",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "吉隆坡第三条地铁线MRT3正式动工，预计2030年通车，连接鹅唛和布城",
+          "source": "马来西亚旅游局",
+          "impact": "吉隆坡轨道交通覆盖更广",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "全长50公里",
+            "33个站点",
+            "投资400亿林吉特"
+          ],
+          "travel_advisory": "施工区注意绕行",
+          "tag": "热",
+          "country": "马来西亚"
+        },
+        {
+          "title": "沙巴和砂拉越生态旅游预订量翻倍",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "东马沙巴和砂拉越生态旅游预订量同比增长100%，丛林徒步和观猩猩最受欢迎",
+          "source": "马来西亚旅游局",
+          "impact": "生态旅游成为马来西亚新名片",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "预订量增100%",
+            "猩猩观赏最热门",
+            "人均消费3500元"
+          ],
+          "travel_advisory": "需办理沙巴入境许可",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "马来西亚美食旅游搜索量增长80%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "受Netflix美食纪录片带动，马来西亚美食旅游搜索量增长80%，槟城和吉隆坡最热",
+          "source": "马来西亚移民局",
+          "impact": "美食成为马来西亚旅游核心卖点",
+          "source_url": "https://www.imi.gov.my",
+          "key_figures": [
+            "搜索增80%",
+            "槟城最热门",
+            "人均美食消费500元/天"
+          ],
+          "travel_advisory": "准备好肠胃药",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "兰卡威天空之桥新观景台开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "兰卡威天空之桥新增悬挑观景台'Sky Deck'，可360度俯瞰安达曼海和周边岛屿",
+          "source": "马来西亚旅游局",
+          "impact": "兰卡威旅游吸引力再升级",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "360度全景",
+            "海拔700米",
+            "缆车票价85林吉特"
+          ],
+          "travel_advisory": "风季可能关闭",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "马六甲海峡清真寺日落祈祷体验走红",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "马六甲海峡清真寺日落时分的祈祷体验在社交媒体走红，成为新打卡热点",
+          "source": "马来西亚移民局",
+          "impact": "马六甲文化旅游新亮点",
+          "source_url": "https://www.imi.gov.my",
+          "key_figures": [
+            "日落时分最美",
+            "免费参观",
+            "需着长袍"
+          ],
+          "travel_advisory": "尊重宗教着装要求",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "乔治城艺术节在槟城开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "第12届槟城乔治城艺术节8月开幕，展出200+公共艺术作品和街头壁画",
+          "source": "马来西亚旅游局",
+          "impact": "槟城文化艺术旅游品牌巩固",
+          "source_url": "https://www.tourism.gov.my",
+          "key_figures": [
+            "200+作品",
+            "免费参观",
+            "持续1个月"
+          ],
+          "travel_advisory": "租自行车游览最佳",
+          "tag": "新",
+          "country": "马来西亚"
+        },
+        {
+          "title": "印度航空恢复德里—上海直飞每周三班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "印度航空恢复德里至上海浦东直飞航线，每周三班，使用波音787梦想客机",
+          "source": "印度旅游局",
+          "impact": "中印直飞航线恢复便利商务旅游",
+          "source_url": "https://www.incredibleindia.org",
+          "key_figures": [
+            "每周3班",
+            "B787执飞",
+            "航程约6小时"
+          ],
+          "travel_advisory": "签证需提前办理",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "靛蓝航空新增孟买—新加坡每日航线",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "印度最大廉航靛蓝航空开通孟买至新加坡每日直飞，票价最低2999卢比起",
+          "source": "印度外交部",
+          "impact": "南亚—东南亚航线网络加密",
+          "source_url": "https://www.mea.gov.in",
+          "key_figures": [
+            "每日一班",
+            "最低2999卢比",
+            "A320neo执飞"
+          ],
+          "travel_advisory": "联程转机选择多",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "印度电子签证费用下调30%",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "印度政府宣布将旅游电子签证费用从80美元下调至55美元，有效期仍为30天",
+          "source": "印度旅游局",
+          "impact": "降低赴印旅游成本",
+          "source_url": "https://www.incredibleindia.org",
+          "key_figures": [
+            "费用降30%",
+            "55美元",
+            "30天有效"
+          ],
+          "travel_advisory": "提前4天在线申请",
+          "tag": "爆",
+          "country": "印度"
+        },
+        {
+          "title": "印度推出医疗签证快速通道",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "印度新设医疗签证在线快速审批通道，审批时间从21天缩短至7天",
+          "source": "印度外交部",
+          "impact": "赴印就医更加便利",
+          "source_url": "https://www.mea.gov.in",
+          "key_figures": [
+            "审批7天",
+            "在线提交",
+            "可带2名陪护"
+          ],
+          "travel_advisory": "选择认证医院",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "德里地铁机场快线延长至古尔冈",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "德里地铁机场快线将延长至古尔冈段，新增4站，方便往返机场和科技园区",
+          "source": "印度旅游局",
+          "impact": "德里都市圈交通更便利",
+          "source_url": "https://www.incredibleindia.org",
+          "key_figures": [
+            "延长12公里",
+            "新增4站",
+            "票价50-200卢比"
+          ],
+          "travel_advisory": "机场快线最省时",
+          "tag": "热",
+          "country": "印度"
+        },
+        {
+          "title": "印度拉贾斯坦邦遗产酒店搜索量增长180%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "拉贾斯坦邦古堡改建遗产酒店搜索量增长180%，宫殿住宿体验成为亮点",
+          "source": "印度旅游局",
+          "impact": "印度高端遗产旅游崛起",
+          "source_url": "https://www.incredibleindia.org",
+          "key_figures": [
+            "搜索增180%",
+            "50+遗产酒店",
+            "人均消费800元/晚"
+          ],
+          "travel_advisory": "旺季需提前1月预订",
+          "tag": "热",
+          "country": "印度"
+        },
+        {
+          "title": "瑜伽圣地瑞诗凯诗国际游客大增",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "瑞诗凯诗瑜伽学院接待国际游客同比增长75%，长期瑜伽课程最受欢迎",
+          "source": "印度外交部",
+          "impact": "印度精神文化旅游需求上升",
+          "source_url": "https://www.mea.gov.in",
+          "key_figures": [
+            "游客增75%",
+            "2周课程最热门",
+            "来自40+国家"
+          ],
+          "travel_advisory": "尊重当地宗教文化",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "泰姬陵日出门票实行分时段预约",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "泰姬陵管理方宣布实行分时段预约制，日出时段限流2000人，减少排队等待",
+          "source": "印度旅游局",
+          "impact": "世界遗产游览体验改善",
+          "source_url": "https://www.incredibleindia.org",
+          "key_figures": [
+            "分时段预约",
+            "日出限2000人",
+            "票价1100卢比"
+          ],
+          "travel_advisory": "日出票最抢手提前订",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "孟买新海滨大道灯光秀每晚免费开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "孟买海滨大道新增每晚上演的灯光音乐秀，全长2公里沿岸建筑同步亮灯",
+          "source": "印度外交部",
+          "impact": "孟买城市旅游新名片",
+          "source_url": "https://www.mea.gov.in",
+          "key_figures": [
+            "每晚8点",
+            "2公里沿岸",
+            "免费观看"
+          ],
+          "travel_advisory": "注意安全保管财物",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "宝莱坞电影城在孟买盛大开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "全球最大电影主题乐园'宝莱坞电影城'在孟买北部开幕，占地400英亩",
+          "source": "印度旅游局",
+          "impact": "印度影视文化旅游新地标",
+          "source_url": "https://www.incredibleindia.org",
+          "key_figures": [
+            "400英亩",
+            "投资200亿卢比",
+            "15个主题区"
+          ],
+          "travel_advisory": "周末人非常多",
+          "tag": "新",
+          "country": "印度"
+        },
+        {
+          "title": "宿务太平洋开通马尼拉—南京直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "宿务太平洋航空开通马尼拉至南京直飞航线，每周三班，开票价1比索起（不含税费）",
+          "source": "菲律宾旅游局",
+          "impact": "华东赴菲旅游成本大幅降低",
+          "source_url": "https://www.tourism.gov.ph",
+          "key_figures": [
+            "每周3班",
+            "1比索基础票价",
+            "A320执飞"
+          ],
+          "travel_advisory": "税费约800元另付",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "菲律宾航空恢复克拉克—广州每周两班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "菲律宾航空恢复克拉克国际机场至广州航线，每周两班，B777执飞",
+          "source": "菲律宾移民局",
+          "impact": "菲律宾中北部旅游可达性提升",
+          "source_url": "https://immigration.gov.ph",
+          "key_figures": [
+            "每周2班",
+            "B777-300ER",
+            "含税票价2200元"
+          ],
+          "travel_advisory": "克拉克距马尼拉2小时",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "菲律宾对中国游客试行电子签证",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "菲律宾移民局宣布对中国公民试行电子签证，在线申请、审批7天，单次入境停留14天",
+          "source": "菲律宾旅游局",
+          "impact": "赴菲旅游签证更加便利",
+          "source_url": "https://www.tourism.gov.ph",
+          "key_figures": [
+            "电子签证",
+            "14天停留",
+            "费用约50美元"
+          ],
+          "travel_advisory": "仍建议提前办理",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "长滩岛和巴拉望入境税调整",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "长滩岛环境税上调至1000比索，巴拉望新设环保费500比索，用于生态保护",
+          "source": "菲律宾移民局",
+          "impact": "旅游环保成本小幅增加",
+          "source_url": "https://immigration.gov.ph",
+          "key_figures": [
+            "长滩岛1000比索",
+            "巴拉望500比索",
+            "用于环保"
+          ],
+          "travel_advisory": "现金准备小额零钱",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "马尼拉BGC商圈成为新旅游中心",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "马尼拉BGC（博尼法西奥环球城）取代马卡蒂成为新旅游商业中心，聚集大量餐厅和夜生活",
+          "source": "菲律宾旅游局",
+          "impact": "马尼拉旅游安全形象提升",
+          "source_url": "https://www.tourism.gov.ph",
+          "key_figures": [
+            "BGC日均客流30万",
+            "餐厅500+",
+            "安全指数最高"
+          ],
+          "travel_advisory": "打车使用Grab更安全",
+          "tag": "爆",
+          "country": "菲律宾"
+        },
+        {
+          "title": "菲律宾跳岛游预订量增长130%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "薄荷岛、墨宝、锡基霍尔等跳岛游目的地预订量增长130%，小众海岛受追捧",
+          "source": "菲律宾旅游局",
+          "impact": "菲律宾旅游从单一海滩向多元转变",
+          "source_url": "https://www.tourism.gov.ph",
+          "key_figures": [
+            "预订增130%",
+            "锡基霍尔最热门",
+            "人均消费4000元/周"
+          ],
+          "travel_advisory": "跳岛间交通需提前规划",
+          "tag": "热",
+          "country": "菲律宾"
+        },
+        {
+          "title": "菲律宾冲浪旅游热度持续上升",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "锡亚高岛冲浪旅游搜索量增长90%，每月冲浪节活动吸引全球冲浪爱好者",
+          "source": "菲律宾移民局",
+          "impact": "运动旅游成为菲律宾新标签",
+          "source_url": "https://immigration.gov.ph",
+          "key_figures": [
+            "搜索增90%",
+            "全年可冲浪",
+            "住宿紧张期3个月"
+          ],
+          "travel_advisory": "冲浪板可当地租赁",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "长滩岛白沙滩修复工程完成",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "长滩岛白沙滩为期3个月的养护修复工程完成，沙质恢复洁白，水质达标",
+          "source": "菲律宾旅游局",
+          "impact": "长滩岛旅游品质提升",
+          "source_url": "https://www.tourism.gov.ph",
+          "key_figures": [
+            "修复3个月",
+            "水质达A级",
+            "日限6000游客"
+          ],
+          "travel_advisory": "岛上禁烟禁塑料",
+          "tag": "热",
+          "country": "菲律宾"
+        },
+        {
+          "title": "巴拉望地下河国家公园新增夜间探索",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "巴拉望地下河推出夜间探险项目，游客可在向导带领下乘船探索荧光洞穴",
+          "source": "菲律宾移民局",
+          "impact": "世界遗产景点体验创新",
+          "source_url": "https://immigration.gov.ph",
+          "key_figures": [
+            "UNESCO遗产",
+            "夜间1.5小时",
+            "向导必须陪同"
+          ],
+          "travel_advisory": "穿防水衣物",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "马尼拉国际电影节回归",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "停办5年的马尼拉国际电影节(Film Fest M)回归，展映来自40个国家的80部影片",
+          "source": "菲律宾旅游局",
+          "impact": "菲律宾文化交流旅游新窗口",
+          "source_url": "https://www.tourism.gov.ph",
+          "key_figures": [
+            "40国参展",
+            "80部影片",
+            "为期10天"
+          ],
+          "travel_advisory": "部分场次免费",
+          "tag": "新",
+          "country": "菲律宾"
+        },
+        {
+          "title": "印尼鹰航加密雅加达—厦门至每日直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "印尼鹰航将雅加达至厦门航线从每周三班加密至每日一班，A330-300执飞",
+          "source": "印尼旅游局",
+          "impact": "中印尼直飞运力大幅提升",
+          "source_url": "https://www.indonesia.travel",
+          "key_figures": [
+            "每日一班",
+            "A330执飞",
+            "票价含税2500元"
+          ],
+          "travel_advisory": "巴厘岛可转机前往",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "巴厘岛国际机场新航站楼启用",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "巴厘岛伍拉莱国际机场T4航站楼正式启用，年吞吐能力提升至2500万人次",
+          "source": "印尼移民局",
+          "impact": "巴厘岛旅游基础设施升级",
+          "source_url": "https://www.imigrasi.go.id",
+          "key_figures": [
+            "新增T4",
+            "吞吐2500万",
+            "面积扩3倍"
+          ],
+          "travel_advisory": "预留充足安检时间",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "印尼对中国公民落地签延长至60天",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "印尼将中国公民落地签停留期从30天延长至60天，费用50万印尼盾(约230元)",
+          "source": "印尼旅游局",
+          "impact": "印尼深度游和长居更具吸引力",
+          "source_url": "https://www.indonesia.travel",
+          "key_figures": [
+            "落地签60天",
+            "50万印尼盾",
+            "机场和港口均可办"
+          ],
+          "travel_advisory": "准备零钱和回程机票",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "印尼推出第二家园签证计划",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "印尼推出'第二家园'(Second Home)签证，允许外国人在印尼居住5-10年，需存款20亿美元",
+          "source": "印尼移民局",
+          "impact": "吸引高净值人群长期消费",
+          "source_url": "https://www.imigrasi.go.id",
+          "key_figures": [
+            "5-10年居住",
+            "存款要求20亿美元",
+            "可带家属"
+          ],
+          "travel_advisory": "面向高端投资人群",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "巴厘岛库塔—水明漾轻轨建设获批",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "巴厘岛首条轻轨线路获批建设，连接库塔、水明漾和乌鲁瓦图，预计2029年通车",
+          "source": "印尼旅游局",
+          "impact": "巴厘岛交通拥堵有望缓解",
+          "source_url": "https://www.indonesia.travel",
+          "key_figures": [
+            "全长18公里",
+            "10个站点",
+            "投资35万亿印尼盾"
+          ],
+          "travel_advisory": "施工期注意绕行",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "印尼四王群岛潜水旅游预订量激增",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "西巴布亚省四王群岛潜水旅游预订量增长160%，成为全球顶级潜水目的地",
+          "source": "印尼旅游局",
+          "impact": "高端潜水旅游市场竞争加剧",
+          "source_url": "https://www.indonesia.travel",
+          "key_figures": [
+            "预订增160%",
+            "全球TOP5潜点",
+            "人均消费15000元/周"
+          ],
+          "travel_advisory": "潜水证建议提前考取",
+          "tag": "爆",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "日惹文化深度游成为新热点",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "日惹婆罗浮屠和普兰巴南文化深度游预订量增长95%，日出冥想体验最受追捧",
+          "source": "印尼移民局",
+          "impact": "印尼文化旅游产品差异化凸显",
+          "source_url": "https://www.imigrasi.go.id",
+          "key_figures": [
+            "预订增95%",
+            "日出冥想最热",
+            "平均停留3天"
+          ],
+          "travel_advisory": "寺庙需着纱笼",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "婆罗浮屠日出门票实行网上预约",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "世界最大佛教遗址婆罗浮屠实行网上分时段预约，日出时段限200人",
+          "source": "印尼旅游局",
+          "impact": "遗产保护与旅游体验平衡",
+          "source_url": "https://www.indonesia.travel",
+          "key_figures": [
+            "日出限200人",
+            "网上预约",
+            "票价75万印尼盾"
+          ],
+          "travel_advisory": "日出票提前一周抢",
+          "tag": "热",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "巴厘岛乌布猴林扩建开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "乌布猴林自然保护区完成扩建，面积增加50%，新增树冠步道和教育中心",
+          "source": "印尼移民局",
+          "impact": "巴厘岛文化景点更加丰富",
+          "source_url": "https://www.imigrasi.go.id",
+          "key_figures": [
+            "面积增50%",
+            "新增树冠步道",
+            "猴子约800只"
+          ],
+          "travel_advisory": "不要带食物进入",
+          "tag": "新",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "巴厘岛乌布国际作家节开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "第17届乌布国际作家节在乌布皇宫举行，来自30个国家的200位作家参与",
+          "source": "印尼旅游局",
+          "impact": "乌布文化旅游品牌巩固",
+          "source_url": "https://www.indonesia.travel",
+          "key_figures": [
+            "30国作家",
+            "200位参与",
+            "持续5天"
+          ],
+          "travel_advisory": "部分活动免费",
+          "tag": "热",
+          "country": "印度尼西亚"
+        },
+        {
+          "title": "法航恢复巴黎—成都每日直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "法国航空恢复巴黎戴高乐至成都天府每日直飞，A350-900执飞，配合中法旅游年",
+          "source": "法国旅游局",
+          "impact": "中法直飞运力全面恢复",
+          "source_url": "https://www.france.fr",
+          "key_figures": [
+            "每日一班",
+            "A350执飞",
+            "票价含税5800元"
+          ],
+          "travel_advisory": "申根签证需提前办理",
+          "tag": "热",
+          "country": "法国"
+        },
+        {
+          "title": "法国高铁TGV开通巴黎—尼斯夜间班次",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "法国国铁新增巴黎至尼斯夜间高铁，晚间出发清晨到达，节省一晚住宿费用",
+          "source": "法国外交部",
+          "impact": "法国境内旅游更加便捷环保",
+          "source_url": "https://www.diplomatie.gouv.fr",
+          "key_figures": [
+            "夜间高铁",
+            "8小时行程",
+            "票价60欧起"
+          ],
+          "travel_advisory": "提前购票享优惠价",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "法国签证中心在中国新增5个城市",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "法国在中国新增哈尔滨、昆明、福州、长沙、西安5个签证申请中心",
+          "source": "法国旅游局",
+          "impact": "二线城市居民赴法更加便利",
+          "source_url": "https://www.france.fr",
+          "key_figures": [
+            "新增5个中心",
+            "总计22个城市",
+            "审批时间15天"
+          ],
+          "travel_advisory": "建议提前1月申请",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "法国推出'法国欢迎您'旅游从业者培训计划",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "法国旅游发展署启动面向中国游客的服务培训计划，涵盖中文服务和文化理解",
+          "source": "法国外交部",
+          "impact": "法国旅游服务质量有望提升",
+          "source_url": "https://www.diplomatie.gouv.fr",
+          "key_figures": [
+            "培训5000名从业者",
+            "中文服务标准",
+            "覆盖6大城市"
+          ],
+          "travel_advisory": "选择认证旅行社更放心",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "巴黎地铁14号线延伸至奥利机场",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "巴黎地铁14号线南延段通车，直达奥利机场，从市中心到机场仅需25分钟",
+          "source": "法国旅游局",
+          "impact": "巴黎交通接驳效率大幅提升",
+          "source_url": "https://www.france.fr",
+          "key_figures": [
+            "14号线直达",
+            "全程25分钟",
+            "票价2.15欧"
+          ],
+          "travel_advisory": "注意地铁运营时间",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "法国酒庄旅游预订量增长85%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "波尔多、勃艮第和香槟区酒庄旅游预订量增长85%，中国游客偏好深度品酒体验",
+          "source": "法国旅游局",
+          "impact": "法国深度体验游需求上升",
+          "source_url": "https://www.france.fr",
+          "key_figures": [
+            "预订增85%",
+            "波尔多最热门",
+            "人均消费12000元"
+          ],
+          "travel_advisory": "自驾需国际驾照",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "法国南部薰衣草季吸引大量亚洲游客",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "普罗旺斯薰衣草盛开季吸引大量亚洲游客，瓦朗索勒和索村搜索量暴增",
+          "source": "法国外交部",
+          "impact": "季节性旅游带动南法经济",
+          "source_url": "https://www.diplomatie.gouv.fr",
+          "key_figures": [
+            "搜索增200%",
+            "7月最盛",
+            "住宿紧张"
+          ],
+          "travel_advisory": "自驾注意限行政策",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "巴黎圣母院全面修复后重新开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "历时5年修复的巴黎圣母院正式重新向公众开放，免费参观但需预约",
+          "source": "法国旅游局",
+          "impact": "巴黎核心景点回归旅游必去清单",
+          "source_url": "https://www.france.fr",
+          "key_figures": [
+            "修复5年",
+            "免费预约",
+            "日限10000人"
+          ],
+          "travel_advisory": "至少提前2周预约",
+          "tag": "爆",
+          "country": "法国"
+        },
+        {
+          "title": "凡尔赛宫推出夜间花园灯光秀",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "凡尔赛宫夏季推出'夜间花园'灯光音乐秀，喷泉和花园在灯光下如梦似幻",
+          "source": "法国外交部",
+          "impact": "巴黎夜间旅游产品丰富",
+          "source_url": "https://www.diplomatie.gouv.fr",
+          "key_figures": [
+            "每周六晚",
+            "票价27欧",
+            "持续整个夏季"
+          ],
+          "travel_advisory": "带外套晚间温差大",
+          "tag": "新",
+          "country": "法国"
+        },
+        {
+          "title": "阿维尼翁戏剧节迎来80周年",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "世界最大表演艺术节阿维尼翁戏剧节迎来80周年，展出70部作品和20场中国戏曲",
+          "source": "法国旅游局",
+          "impact": "中法文化交流旅游热点",
+          "source_url": "https://www.france.fr",
+          "key_figures": [
+            "80周年",
+            "70部作品",
+            "20场中国戏曲"
+          ],
+          "travel_advisory": "提前预订住宿",
+          "tag": "热",
+          "country": "法国"
+        },
+        {
+          "title": "国航开通北京—罗马每日直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "中国国际航空将北京至罗马航线恢复为每日直飞，使用A330宽体机执飞",
+          "source": "意大利国家旅游局",
+          "impact": "中意直飞航线全面恢复",
+          "source_url": "https://www.enit.it",
+          "key_figures": [
+            "每日一班",
+            "A330执飞",
+            "票价含税5500元"
+          ],
+          "travel_advisory": "申根签证必备",
+          "tag": "热",
+          "country": "意大利"
+        },
+        {
+          "title": "意大利铁路推出中国游客专属通票",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "Trenitalia推出面向中国游客的意大利铁路通票，7天无限乘坐，含中文指南",
+          "source": "意大利外交部",
+          "impact": "意大利自由行更加便利",
+          "source_url": "https://www.esteri.it",
+          "key_figures": [
+            "7天通票",
+            "含中文指南",
+            "价格199欧"
+          ],
+          "travel_advisory": "提前网上激活",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "意大利签证推出72小时加急服务",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "意大利签证中心在中国推出72小时加急审批服务，加收200元加急费",
+          "source": "意大利国家旅游局",
+          "impact": "商务和紧急出行需求得到满足",
+          "source_url": "https://www.enit.it",
+          "key_figures": [
+            "72小时出签",
+            "加收200元",
+            "限北京上海广州"
+          ],
+          "travel_advisory": "加急名额有限提前约",
+          "tag": "热",
+          "country": "意大利"
+        },
+        {
+          "title": "意大利五渔村实施游客限流措施",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "五渔村旺季每日限流15000人，需提前在线预约并支付5欧入村费",
+          "source": "意大利外交部",
+          "impact": "世界遗产保护与旅游平衡",
+          "source_url": "https://www.esteri.it",
+          "key_figures": [
+            "日限15000人",
+            "入村费5欧",
+            "必须预约"
+          ],
+          "travel_advisory": "务必提前预约",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "米兰地铁M4线全线通车",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "米兰地铁M4蓝线全线通车，连接机场和市中心，全程仅需15分钟",
+          "source": "意大利国家旅游局",
+          "impact": "米兰交通基础设施完善",
+          "source_url": "https://www.enit.it",
+          "key_figures": [
+            "M4全线",
+            "机场至市中心15分钟",
+            "票价2.2欧"
+          ],
+          "travel_advisory": "机场快线最方便",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "意大利慢火车旅行成为新潮流",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "意大利历史铁路慢火车旅行预订量增长120%，穿越托斯卡纳的线路最热门",
+          "source": "意大利国家旅游局",
+          "impact": "可持续旅游理念深入人心",
+          "source_url": "https://www.enit.it",
+          "key_figures": [
+            "预订增120%",
+            "托斯卡纳线路最热",
+            "票价仅10-30欧"
+          ],
+          "travel_advisory": "适合不赶时间的旅行者",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "意大利南部旅游搜索量首超北部",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "普利亚、西西里和那不勒斯搜索量首超米兰和威尼斯，南部旅游崛起",
+          "source": "意大利外交部",
+          "impact": "意大利旅游目的地南北平衡",
+          "source_url": "https://www.esteri.it",
+          "key_figures": [
+            "南部搜索超北部",
+            "西西里增幅最高",
+            "人均消费降25%"
+          ],
+          "travel_advisory": "南部治安需注意",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "庞贝古城新发掘区对外开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "庞贝古城大 excavation 项目完成，新发掘的Regio V区域首次向公众开放",
+          "source": "意大利国家旅游局",
+          "impact": "世界遗产景点持续焕发新吸引力",
+          "source_url": "https://www.enit.it",
+          "key_figures": [
+            "新发掘面积3公顷",
+            "出土文物500+件",
+            "门票含新区"
+          ],
+          "travel_advisory": "穿舒适鞋子走石板路",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "威尼斯推出'负责任旅游'行动",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "威尼斯启动负责任旅游计划，在主要景点设置实时游客计数显示和分流引导",
+          "source": "意大利外交部",
+          "impact": "过度旅游问题治理创新",
+          "source_url": "https://www.esteri.it",
+          "key_figures": [
+            "实时计数",
+            "12个监测点",
+            "分流通道8条"
+          ],
+          "travel_advisory": "避开周末和节假日",
+          "tag": "新",
+          "country": "意大利"
+        },
+        {
+          "title": "威尼斯国际电影节第83届盛大开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "第83届威尼斯电影节在丽都岛开幕，3部华语片入围主竞赛单元",
+          "source": "意大利国家旅游局",
+          "impact": "中意文化交流旅游热点",
+          "source_url": "https://www.enit.it",
+          "key_figures": [
+            "83届",
+            "3部华语片入围",
+            "为期11天"
+          ],
+          "travel_advisory": "电影票提前网上预订",
+          "tag": "爆",
+          "country": "意大利"
+        },
+        {
+          "title": "国航加密北京—马德里至每日双班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "中国国航将北京至马德里增至每日双班，配合暑期旅游旺季需求",
+          "source": "西班牙旅游局",
+          "impact": "中西之间直飞运力充足",
+          "source_url": "https://www.spain.info",
+          "key_figures": [
+            "每日双班",
+            "A350执飞",
+            "含税票价5200元"
+          ],
+          "travel_advisory": "马德里转机去南美方便",
+          "tag": "爆",
+          "country": "西班牙"
+        },
+        {
+          "title": "西班牙高铁AVE开通马德里—格拉纳达新线",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "西班牙高铁AVE开通马德里至格拉纳达直达线路，全程仅需3.5小时",
+          "source": "西班牙外交部",
+          "impact": "西班牙南部旅游可达性提升",
+          "source_url": "https://www.exteriores.gob.es",
+          "key_figures": [
+            "全程3.5小时",
+            "票价35欧起",
+            "每日6班"
+          ],
+          "travel_advisory": "提前购买Renfe票优惠",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "西班牙申根签证申请流程简化",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "西班牙驻华使领馆简化签证材料，取消在职证明公证和银行流水翻译要求",
+          "source": "西班牙旅游局",
+          "impact": "赴西班牙旅游签证更便利",
+          "source_url": "https://www.spain.info",
+          "key_figures": [
+            "取消公证",
+            "取消翻译",
+            "审批10个工作日"
+          ],
+          "travel_advisory": "材料简化但审核更严",
+          "tag": "热",
+          "country": "西班牙"
+        },
+        {
+          "title": "西班牙推出数字游民签证",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "西班牙正式实施数字游民签证，允许远程工作者在西班牙居住最长12个月",
+          "source": "西班牙外交部",
+          "impact": "吸引远程工作人群长期消费",
+          "source_url": "https://www.exteriores.gob.es",
+          "key_figures": [
+            "最长12个月",
+            "可续签",
+            "月收入要求2500欧"
+          ],
+          "travel_advisory": "需证明远程工作关系",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "巴塞罗那超级街区计划扩展至全城区",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "巴塞罗那将超级街区(Superilla)计划从试点扩展至全城区，大量街道改为步行区",
+          "source": "西班牙旅游局",
+          "impact": "巴塞罗那步行旅游体验大幅提升",
+          "source_url": "https://www.spain.info",
+          "key_figures": [
+            "覆盖全城区",
+            "减少70%机动车",
+            "新增50个广场"
+          ],
+          "travel_advisory": "步行和骑行体验好",
+          "tag": "热",
+          "country": "西班牙"
+        },
+        {
+          "title": "西班牙朝圣之路旅游增长150%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "圣雅各朝圣之路(Camino de Santiago)中国游客注册量增长150%，法国之路最热门",
+          "source": "西班牙旅游局",
+          "impact": "徒步旅游和精神文化旅行兴起",
+          "source_url": "https://www.spain.info",
+          "key_figures": [
+            "注册增150%",
+            "法国之路最热",
+            "平均徒步30天"
+          ],
+          "travel_advisory": "提前3月体能训练",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "西班牙Tapas美食之旅搜索量激增",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "西班牙Tapas美食主题旅游搜索量增长110%，巴塞罗那和圣塞巴斯蒂安最受欢迎",
+          "source": "西班牙外交部",
+          "impact": "美食旅游成为西班牙核心卖点",
+          "source_url": "https://www.exteriores.gob.es",
+          "key_figures": [
+            "搜索增110%",
+            "圣塞最美",
+            "人均美食消费80欧/天"
+          ],
+          "travel_advisory": "跟着本地人走小巷",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "圣家堂预计2026年底完工",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "巴塞罗那圣家堂施工方宣布主体建筑工程将于2026年底完工，仅剩内部装饰",
+          "source": "西班牙旅游局",
+          "impact": "世界最大烂尾工程即将竣工",
+          "source_url": "https://www.spain.info",
+          "key_figures": [
+            "建造144年",
+            "预计年底完工",
+            "门票26欧"
+          ],
+          "travel_advisory": "必须提前网上预约",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "塞维利亚弗拉门戈之夜活动开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "塞维利亚推出每周末弗拉门戈之夜活动，在阿尔卡萨尔宫庭院演出",
+          "source": "西班牙外交部",
+          "impact": "西班牙文化体验旅游升级",
+          "source_url": "https://www.exteriores.gob.es",
+          "key_figures": [
+            "每周末",
+            "阿尔卡萨尔宫",
+            "票价35欧含饮品"
+          ],
+          "travel_advisory": "提前网上订票",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "毕尔巴鄂古根海姆博物馆30周年特别展",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "古根海姆博物馆建馆30周年推出大型回顾展，展出150件当代艺术杰作",
+          "source": "西班牙旅游局",
+          "impact": "西班牙北部文化旅游热度提升",
+          "source_url": "https://www.spain.info",
+          "key_figures": [
+            "30周年",
+            "150件作品",
+            "展期1年"
+          ],
+          "travel_advisory": "毕尔巴鄂值得停留",
+          "tag": "新",
+          "country": "西班牙"
+        },
+        {
+          "title": "英航恢复伦敦—武汉直飞每周三班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "英国航空恢复伦敦希思罗至武汉天河直飞航线，每周三班，B787执飞",
+          "source": "Visit Britain",
+          "impact": "华中地区赴英旅游更便捷",
+          "source_url": "https://www.visitbritain.com",
+          "key_figures": [
+            "每周3班",
+            "B787执飞",
+            "票价含税6200元"
+          ],
+          "travel_advisory": "申根签不适用英国",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "欧洲之星推出伦敦—巴黎每日一小时一班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "欧洲之星在暑期将伦敦至巴黎班次加密至每小时一班，全程仅需2小时16分",
+          "source": "英国内政部",
+          "impact": "欧洲跨国旅游更加便捷",
+          "source_url": "https://www.gov.uk",
+          "key_figures": [
+            "每小时一班",
+            "2小时16分",
+            "票价最低44镑"
+          ],
+          "travel_advisory": "提前购票享低价",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "英国ETA电子旅行许可10月全面实施",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "英国宣布ETA电子旅行许可制度将于10月全面强制实施，中国公民需提前申请",
+          "source": "Visit Britain",
+          "impact": "赴英出行新增一道手续",
+          "source_url": "https://www.visitbritain.com",
+          "key_figures": [
+            "10月实施",
+            "费用10镑",
+            "有效期2年"
+          ],
+          "travel_advisory": "10月后必须申请ETA",
+          "tag": "爆",
+          "country": "英国"
+        },
+        {
+          "title": "英国签证中心新增10个中国城市",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "英国签证中心新增10个二线城市服务点，总计35个签证申请中心",
+          "source": "英国内政部",
+          "impact": "英国旅游签证可及性大幅提升",
+          "source_url": "https://www.gov.uk",
+          "key_figures": [
+            "新增10个城市",
+            "总计35个",
+            "审批15个工作日"
+          ],
+          "travel_advisory": "准备充足材料",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "伦敦伊丽莎白线延长至 Old Oak Common",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "伦敦Crossrail伊丽莎白线延长运营至Old Oak Common站，连接HS2高铁",
+          "source": "Visit Britain",
+          "impact": "伦敦交通网络持续扩展",
+          "source_url": "https://www.visitbritain.com",
+          "key_figures": [
+            "新延长段",
+            "连接HS2",
+            "票价与地铁相同"
+          ],
+          "travel_advisory": "Oyster卡通用",
+          "tag": "热",
+          "country": "英国"
+        },
+        {
+          "title": "英国哈利波特影视旅游持续火爆",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "哈利波特片场和华纳兄弟工作室旅游预订量增长95%，中国粉丝团占30%",
+          "source": "Visit Britain",
+          "impact": "影视IP旅游持续强劲",
+          "source_url": "https://www.visitbritain.com",
+          "key_figures": [
+            "预订增95%",
+            "中国粉丝占30%",
+            "票价65镑"
+          ],
+          "travel_advisory": "提前2月订票",
+          "tag": "热",
+          "country": "英国"
+        },
+        {
+          "title": "苏格兰高地自驾游搜索量增长120%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "苏格兰高地自驾旅游搜索量暴增，NC500公路被评为全球最美自驾路线之一",
+          "source": "英国内政部",
+          "impact": "英国自驾游市场快速复苏",
+          "source_url": "https://www.gov.uk",
+          "key_figures": [
+            "搜索增120%",
+            "NC500最热门",
+            "人均消费800镑/周"
+          ],
+          "travel_advisory": "靠左行驶注意安全",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "大英博物馆新展区'中国馆'开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "大英博物馆耗资5000万镑翻新的中国馆重新开放，展出3000件中国文物",
+          "source": "Visit Britain",
+          "impact": "中英文化交流旅游新热点",
+          "source_url": "https://www.visitbritain.com",
+          "key_figures": [
+            "投资5000万镑",
+            "3000件文物",
+            "展厅面积翻倍"
+          ],
+          "travel_advisory": "免费参观需预约",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "巨石阵游客中心全新升级",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "英格兰巨石阵游客中心完成升级改造，新增AR复原体验和互动展览",
+          "source": "英国内政部",
+          "impact": "世界遗产景点体验创新",
+          "source_url": "https://www.gov.uk",
+          "key_figures": [
+            "AR复原体验",
+            "新展览面积500㎡",
+            "票价25镑"
+          ],
+          "travel_advisory": "冬季日落有特殊活动",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "爱丁堡国际艺术节迎来75周年",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "全球最大艺术节爱丁堡国际艺术节迎来75周年，超过3000场演出",
+          "source": "Visit Britain",
+          "impact": "英国文化旅游年度盛事",
+          "source_url": "https://www.visitbritain.com",
+          "key_figures": [
+            "75周年",
+            "3000+演出",
+            "持续25天"
+          ],
+          "travel_advisory": "住宿需提前3月预订",
+          "tag": "新",
+          "country": "英国"
+        },
+        {
+          "title": "汉莎航空开通法兰克福—青岛直飞每周四班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "汉莎航空开通法兰克福至青岛直飞航线，每周四班，A340-600执飞",
+          "source": "德国旅游局",
+          "impact": "山东赴欧洲旅游有了便捷通道",
+          "source_url": "https://www.germany.travel",
+          "key_figures": [
+            "每周4班",
+            "A340-600",
+            "票价含税5800元"
+          ],
+          "travel_advisory": "申根签证必备",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "德国铁路推出49欧月票全国通用",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "德国49欧月票(Deutschland-Ticket)继续执行，可乘坐全国所有公共交通",
+          "source": "德国外交部",
+          "impact": "德国旅游交通成本大幅降低",
+          "source_url": "https://www.auswaertiges-amt.de",
+          "key_figures": [
+            "49欧/月",
+            "全国通用",
+            "所有公共交通"
+          ],
+          "travel_advisory": "不含ICE和IC长途车",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "德国申根签证推出VIP快速通道",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "德国签证中心推出VIP快速通道服务，包含材料预审、优先面试和加急处理",
+          "source": "德国旅游局",
+          "impact": "高端客户签证体验提升",
+          "source_url": "https://www.germany.travel",
+          "key_figures": [
+            "VIP服务",
+            "3个工作日出签",
+            "费用加收500元",
+            "限北上广"
+          ],
+          "travel_advisory": "VIP名额有限需预约",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "德国加入ETA试点计划",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "德国作为首批试点国加入欧盟ETIAS电子旅行授权系统，预计2025年初实施",
+          "source": "德国外交部",
+          "impact": "赴欧旅游签证政策将变化",
+          "source_url": "https://www.auswaertiges-amt.de",
+          "key_figures": [
+            "ETIAS试点",
+            "费用7欧",
+            "有效期3年"
+          ],
+          "travel_advisory": "关注实施时间",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "柏林新机场BER扩建计划公布",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "柏林BER机场公布扩建计划，新增T2航站楼和直连市区的快线铁路",
+          "source": "德国旅游局",
+          "impact": "柏林旅游基础设施持续改善",
+          "source_url": "https://www.germany.travel",
+          "key_figures": [
+            "新增T2",
+            "快线15分钟到市中心",
+            "投资20亿欧"
+          ],
+          "travel_advisory": "目前交通需预留充足时间",
+          "tag": "爆",
+          "country": "德国"
+        },
+        {
+          "title": "德国圣诞市场旅游提前预订火热",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "德国圣诞市场旅游套餐提前预订量增长130%，纽伦堡和慕尼黑最受欢迎",
+          "source": "德国旅游局",
+          "impact": "德国冬季旅游提前锁定客源",
+          "source_url": "https://www.germany.travel",
+          "key_figures": [
+            "预订增130%",
+            "纽伦堡最热门",
+            "套餐含住宿和门票"
+          ],
+          "travel_advisory": "11-12月出行最佳",
+          "tag": "热",
+          "country": "德国"
+        },
+        {
+          "title": "德国葡萄酒之路自驾旅游升温",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "德国葡萄酒之路(Deutsche Weinstraße)自驾旅游搜索量增长90%",
+          "source": "德国外交部",
+          "impact": "德国深度体验游持续增长",
+          "source_url": "https://www.auswaertiges-amt.de",
+          "key_figures": [
+            "搜索增90%",
+            "全长85公里",
+            "酒庄50+"
+          ],
+          "travel_advisory": "秋季葡萄收获季最美",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "新天鹅堡推出日落特别参观",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "新天鹅堡首次推出日落限定参观体验，游客可在城堡阳台欣赏阿尔卑斯日落",
+          "source": "德国旅游局",
+          "impact": "巴伐利亚经典景点体验创新",
+          "source_url": "https://www.germany.travel",
+          "key_figures": [
+            "日落限定",
+            "每日限100人",
+            "票价35欧"
+          ],
+          "travel_advisory": "冬季日落更早",
+          "tag": "热",
+          "country": "德国"
+        },
+        {
+          "title": "慕尼黑啤酒节2026年规模扩大",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "2026年慕尼黑啤酒节(Oktoberfest)扩大规模，新增2个啤酒帐篷，总座位增加3000个",
+          "source": "德国外交部",
+          "impact": "全球最大民间节日吸引力持续",
+          "source_url": "https://www.auswaertiges-amt.de",
+          "key_figures": [
+            "新增2个帐篷",
+            "座位增3000",
+            "预计600万游客"
+          ],
+          "travel_advisory": "住宿提前半年预订",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "柏林国际电影节移至新场馆",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "柏林电影节(Berlinale)迁至全新Alexanderplatz场馆，面积扩大50%",
+          "source": "德国旅游局",
+          "impact": "柏林文化旅游设施升级",
+          "source_url": "https://www.germany.travel",
+          "key_figures": [
+            "新场馆",
+            "面积扩50%",
+            "新增IMAX厅"
+          ],
+          "travel_advisory": "购票通过官方网站",
+          "tag": "新",
+          "country": "德国"
+        },
+        {
+          "title": "爱琴海航空开通雅典—上海季节性直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "爱琴海航空夏季开通雅典至上海季节性直飞，每周两班，A330执飞",
+          "source": "希腊旅游局",
+          "impact": "中希直飞旅游旺季运力增加",
+          "source_url": "https://www.visitgreece.gr",
+          "key_figures": [
+            "每周2班",
+            "季节性航线",
+            "票价含税6500元"
+          ],
+          "travel_advisory": "旺季票价波动大",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "希腊岛际渡轮新增中国游客专属舱位",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "希腊渡轮公司Blue Star Ferries推出面向中国游客的专属舱位和中文服务",
+          "source": "希腊外交部",
+          "impact": "希腊跳岛游体验优化",
+          "source_url": "https://www.mfa.gr",
+          "key_figures": [
+            "中文服务",
+            "专属舱位",
+            "覆盖8条线路"
+          ],
+          "travel_advisory": "岛间渡轮需提前订票",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "希腊推出黄金签证涨价前的最后窗口",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "希腊黄金签证部分区域投资门槛将从25万欧涨至80万欧，引发抢购潮",
+          "source": "希腊旅游局",
+          "impact": "投资移民最后窗口期",
+          "source_url": "https://www.visitgreece.gr",
+          "key_figures": [
+            "涨价至80万欧",
+            "25万欧末班车",
+            "仅限部分区域"
+          ],
+          "travel_advisory": "咨询专业律师",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "希腊旅游旺季延长至11月",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "希腊旅游部宣布延长主要景点开放时间至11月底，配合旅游旺季延长策略",
+          "source": "希腊外交部",
+          "impact": "希腊旅游季节进一步延长",
+          "source_url": "https://www.mfa.gr",
+          "key_figures": [
+            "延长至11月",
+            "圣托里尼全年开放",
+            "客流量增15%"
+          ],
+          "travel_advisory": "淡季酒店价格更低",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "雅典地铁延伸至比雷埃夫斯港",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "雅典地铁3号线延长至比雷埃夫斯港口，从市中心到港口仅需35分钟",
+          "source": "希腊旅游局",
+          "impact": "赴岛旅游交通更加便捷",
+          "source_url": "https://www.visitgreece.gr",
+          "key_figures": [
+            "直达港口",
+            "全程35分钟",
+            "票价1.4欧"
+          ],
+          "travel_advisory": "机场到港口地铁直达",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "希腊小众岛屿旅游搜索量暴增",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "米洛斯、弗莱甘兹等希腊小众岛屿搜索量增长200%，游客避开圣托里尼人潮",
+          "source": "希腊旅游局",
+          "impact": "希腊旅游向深度化分散化转变",
+          "source_url": "https://www.visitgreece.gr",
+          "key_figures": [
+            "搜索增200%",
+            "米洛斯最热",
+            "人均消费降20%"
+          ],
+          "travel_advisory": "小众岛交通班次少",
+          "tag": "爆",
+          "country": "希腊"
+        },
+        {
+          "title": "希腊考古遗址旅游热度持续上升",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "德尔菲、奥林匹亚等考古遗址旅游预订量增长85%，文化深度游受追捧",
+          "source": "希腊外交部",
+          "impact": "希腊文化旅游优势凸显",
+          "source_url": "https://www.mfa.gr",
+          "key_figures": [
+            "预订增85%",
+            "德尔菲最热门",
+            "人均停留5天"
+          ],
+          "travel_advisory": "请专业导游讲解",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "雅典卫城实行分时段限流参观",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "雅典卫城实施分时段预约限流，高峰时段每小时限3000人，减少排队",
+          "source": "希腊旅游局",
+          "impact": "世界遗产保护与体验兼顾",
+          "source_url": "https://www.visitgreece.gr",
+          "key_figures": [
+            "分时段限流",
+            "高峰3000人/时",
+            "门票20欧"
+          ],
+          "travel_advisory": "清晨参观人最少",
+          "tag": "热",
+          "country": "希腊"
+        },
+        {
+          "title": "圣托里尼伊亚小镇日落观景台改造完成",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "圣托里尼伊亚(Oia)日落观景台完成改造，新增阶梯座位和遮阳设施",
+          "source": "希腊外交部",
+          "impact": "标志性景点游览体验提升",
+          "source_url": "https://www.mfa.gr",
+          "key_figures": [
+            "新增阶梯座位",
+            "遮阳设施",
+            "日落时间19:30-20:00"
+          ],
+          "travel_advisory": "提前1小时占位",
+          "tag": "新",
+          "country": "希腊"
+        },
+        {
+          "title": "雅典 Epidaurus 古剧场夏季演出季开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "希腊最古老的Epidaurus剧场夏季演出季开幕，上演古希腊经典悲剧",
+          "source": "希腊旅游局",
+          "impact": "希腊文化旅游年度盛事",
+          "source_url": "https://www.visitgreece.gr",
+          "key_figures": [
+            "2500年历史",
+            "可容纳14000人",
+            "演出持续整个夏季"
+          ],
+          "travel_advisory": "演出晚上8点开始",
+          "tag": "热",
+          "country": "希腊"
+        },
+        {
+          "title": "土耳其航空开通伊斯坦布尔—大连每周两班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "土航新增伊斯坦布尔至大连航线，每周两班，B787执飞，可衔接欧洲各城市",
+          "source": "土耳其旅游局",
+          "impact": "东北赴欧洲有了便捷转机点",
+          "source_url": "https://www.goturkey.com",
+          "key_figures": [
+            "每周2班",
+            "B787执飞",
+            "票价含税4800元"
+          ],
+          "travel_advisory": "伊斯坦布尔转机需留2小时",
+          "tag": "热",
+          "country": "土耳其"
+        },
+        {
+          "title": "伊斯坦布尔新机场年吞吐突破8000万",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "伊斯坦布尔机场年旅客吞吐量突破8000万人次，成为全球第三大机场",
+          "source": "土耳其外交部",
+          "impact": "土耳其航空枢纽地位巩固",
+          "source_url": "https://www.mfa.gov.tr",
+          "key_figures": [
+            "年吞吐8000万",
+            "全球TOP3",
+            "直飞340个目的地"
+          ],
+          "travel_advisory": "机场免税店值得逛",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "土耳其对中国公民实施电子签秒批",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "土耳其电子签系统升级，中国公民申请实现秒批，费用60美元，停留30天",
+          "source": "土耳其旅游局",
+          "impact": "赴土耳其旅游极为便利",
+          "source_url": "https://www.goturkey.com",
+          "key_figures": [
+            "秒批",
+            "60美元",
+            "30天停留"
+          ],
+          "travel_advisory": "在线即时办理",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "土耳其里拉贬值推动旅游性价比提升",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "土耳其里拉持续贬值，中国游客在土消费性价比大幅提升，人均消费降低40%",
+          "source": "土耳其外交部",
+          "impact": "土耳其成为高性价比旅游目的地",
+          "source_url": "https://www.mfa.gov.tr",
+          "key_figures": [
+            "里拉贬值",
+            "消费降40%",
+            "人均约5000元/周"
+          ],
+          "travel_advisory": "多备现金少刷卡",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "伊斯坦布尔新地铁线路连接亚洲和欧洲",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "伊斯坦布尔新地铁Marmaray延长线实现亚欧两侧无缝连接，全程穿越海底隧道",
+          "source": "土耳其旅游局",
+          "impact": "伊斯坦布尔交通效率提升",
+          "source_url": "https://www.goturkey.com",
+          "key_figures": [
+            "海底隧道",
+            "亚欧连接",
+            "全程18分钟",
+            "票价15里拉"
+          ],
+          "travel_advisory": "伊斯坦布尔卡最方便",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "土耳其热气球旅游预订量增长95%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "卡帕多奇亚热气球旅游预订量增长95%，日出飞行体验成为社交媒体爆款",
+          "source": "土耳其旅游局",
+          "impact": "土耳其标志性旅游产品持续火爆",
+          "source_url": "https://www.goturkey.com",
+          "key_figures": [
+            "预订增95%",
+            "日出飞行1小时",
+            "人均250欧"
+          ],
+          "travel_advisory": "提前一天确认天气",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "土耳其蓝色之旅(Blue Cruise)游艇旅游走红",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "土耳其西南海岸蓝色之旅游艇旅游搜索量增长130%，土耳其蓝湾成热门",
+          "source": "土耳其外交部",
+          "impact": "高端度假旅游市场增长",
+          "source_url": "https://www.mfa.gov.tr",
+          "key_figures": [
+            "搜索增130%",
+            "费特希耶出发",
+            "人均3000元/天"
+          ],
+          "travel_advisory": "晕船者备好药",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "以弗所古城新增夜间灯光导览",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "世界遗产以弗所古城新增夜间灯光导览项目，用灯光还原古罗马城市面貌",
+          "source": "土耳其旅游局",
+          "impact": "土耳其文化遗产旅游创新",
+          "source_url": "https://www.goturkey.com",
+          "key_figures": [
+            "夜间灯光导览",
+            "时长2小时",
+            "票价150里拉"
+          ],
+          "travel_advisory": "夏季日落约20:30",
+          "tag": "爆",
+          "country": "土耳其"
+        },
+        {
+          "title": "棉花堡温泉池修复后重新开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "棉花堡(Pamukkale)石灰华温泉池完成生态修复重新开放，限流3000人/日",
+          "source": "土耳其外交部",
+          "impact": "自然奇观得到有效保护",
+          "source_url": "https://www.mfa.gov.tr",
+          "key_figures": [
+            "生态修复",
+            "日限3000人",
+            "门票100里拉"
+          ],
+          "travel_advisory": "必须赤脚进入",
+          "tag": "新",
+          "country": "土耳其"
+        },
+        {
+          "title": "伊斯坦布尔国际电影节新增中国单元",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "第45届伊斯坦布尔国际电影节新增中国电影单元，展映8部华语佳作",
+          "source": "土耳其旅游局",
+          "impact": "中土文化交流旅游新窗口",
+          "source_url": "https://www.goturkey.com",
+          "key_figures": [
+            "8部华语片",
+            "为期12天",
+            "新增中国单元"
+          ],
+          "travel_advisory": "部分影院免费放映",
+          "tag": "热",
+          "country": "土耳其"
+        },
+        {
+          "title": "瑞士国际航空增班苏黎世—上海至每日",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "瑞士航空将苏黎世至上海增至每日一班，配合暑期商务旅游旺季",
+          "source": "瑞士旅游局",
+          "impact": "中瑞直飞运力提升",
+          "source_url": "https://www.myswitzerland.com",
+          "key_figures": [
+            "每日一班",
+            "A340执飞",
+            "票价含税7500元"
+          ],
+          "travel_advisory": "申根签证必备",
+          "tag": "热",
+          "country": "瑞士"
+        },
+        {
+          "title": "瑞士观景列车新增中文语音导览",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "瑞士三大观景列车(冰川快车、金色山口、伯尔尼纳)新增中文语音导览",
+          "source": "瑞士外交部",
+          "impact": "瑞士铁路旅游对中国游客更友好",
+          "source_url": "https://www.eda.admin.ch",
+          "key_figures": [
+            "3条线路",
+            "中文语音",
+            "全线覆盖"
+          ],
+          "travel_advisory": "Swiss Pass最划算",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "瑞士申根签证推出在线跟踪系统",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "瑞士签证中心推出在线申请跟踪系统，申请人可实时查看签证审批进度",
+          "source": "瑞士旅游局",
+          "impact": "签证流程透明度提升",
+          "source_url": "https://www.myswitzerland.com",
+          "key_figures": [
+            "实时跟踪",
+            "短信通知",
+            "在线预约"
+          ],
+          "travel_advisory": "材料准备要充分",
+          "tag": "热",
+          "country": "瑞士"
+        },
+        {
+          "title": "瑞士推出山地运动签证",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "瑞士新设山地运动签证，为参加阿尔卑斯登山、滑雪等运动的游客提供加急审批",
+          "source": "瑞士外交部",
+          "impact": "体育旅游签证便利化",
+          "source_url": "https://www.eda.admin.ch",
+          "key_figures": [
+            "5个工作日出签",
+            "需赛事邀请函",
+            "停留90天"
+          ],
+          "travel_advisory": "需提供运动保险",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "苏黎世有轨电车网络扩展",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "苏黎世有轨电车网络新增2条线路，覆盖更多郊区和景点",
+          "source": "瑞士旅游局",
+          "impact": "苏黎世公共交通更加完善",
+          "source_url": "https://www.myswitzerland.com",
+          "key_figures": [
+            "新增2条线路",
+            "覆盖20个新站",
+            "票价与公交相同"
+          ],
+          "travel_advisory": "苏黎世卡涵盖交通",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "瑞士徒步旅游预订量创新高",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "瑞士夏季徒步旅游预订量增长75%，少女峰地区和马特洪峰最受欢迎",
+          "source": "瑞士旅游局",
+          "impact": "瑞士户外运动旅游持续增长",
+          "source_url": "https://www.myswitzerland.com",
+          "key_figures": [
+            "预订增75%",
+            "少女峰最热",
+            "人均消费12000元/周"
+          ],
+          "travel_advisory": "徒步装备必备",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "瑞士巧克力工厂旅游搜索量增长60%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "瑞士巧克力工厂参观和体验旅游搜索量增长60%，Cailler和Lindt最受欢迎",
+          "source": "瑞士外交部",
+          "impact": "瑞士体验旅游多元化",
+          "source_url": "https://www.eda.admin.ch",
+          "key_figures": [
+            "搜索增60%",
+            "Cailler最热",
+            "门票含品鉴",
+            "人均消费50瑞郎"
+          ],
+          "travel_advisory": "提前网上预约",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "少女峰铁路110周年特别活动",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "少女峰齿轨铁路迎来110周年，推出特别纪念车票和山顶庆典活动",
+          "source": "瑞士旅游局",
+          "impact": "瑞士经典景点文化附加值提升",
+          "source_url": "https://www.myswitzerland.com",
+          "key_figures": [
+            "110周年",
+            "纪念车票",
+            "山顶庆典",
+            "票价210瑞郎"
+          ],
+          "travel_advisory": "注意高原反应",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "卢塞恩湖上灯光节8月举行",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "卢塞恩湖年度灯光节将8月举行，30艘装饰船只巡游湖面",
+          "source": "瑞士外交部",
+          "impact": "瑞士夜间旅游活动丰富",
+          "source_url": "https://www.eda.admin.ch",
+          "key_figures": [
+            "30艘船",
+            "免费湖畔观看",
+            "持续2晚"
+          ],
+          "travel_advisory": "湖边最佳观赏点需早到",
+          "tag": "新",
+          "country": "瑞士"
+        },
+        {
+          "title": "蒙特勒爵士音乐节60周年",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "全球最负盛名的爵士音乐节蒙特勒爵士节迎来60周年，为期16天",
+          "source": "瑞士旅游局",
+          "impact": "瑞士文化旅游国际盛事",
+          "source_url": "https://www.myswitzerland.com",
+          "key_figures": [
+            "60周年",
+            "200+场演出",
+            "为期16天"
+          ],
+          "travel_advisory": "湖畔免费演出不错过",
+          "tag": "爆",
+          "country": "瑞士"
+        },
+        {
+          "title": "俄航恢复莫斯科—上海每日直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "俄罗斯航空恢复莫斯科至上海浦东每日直飞，A350执飞",
+          "source": "俄罗斯旅游局",
+          "impact": "中俄直飞航线运力恢复",
+          "source_url": "https://www.russia.travel",
+          "key_figures": [
+            "每日一班",
+            "A350执飞",
+            "票价含税5000元"
+          ],
+          "travel_advisory": "团队免签自由行需签证",
+          "tag": "爆",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "中俄高铁项目可行性研究启动",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "中俄宣布启动莫斯科—北京高铁项目可行性研究，预计2035年建成",
+          "source": "俄罗斯外交部",
+          "impact": "中俄旅游交通未来将革命性提升",
+          "source_url": "https://www.mid.ru",
+          "key_figures": [
+            "全长7000公里",
+            "预计2035年",
+            "投资1.5万亿"
+          ],
+          "travel_advisory": "目前仍需飞机或火车",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "中俄团队免签政策扩大适用范围",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "中俄团队免签政策扩大至个人游客试点，通过指定旅行社可免签入境",
+          "source": "俄罗斯旅游局",
+          "impact": "赴俄旅游门槛大幅降低",
+          "source_url": "https://www.russia.travel",
+          "key_figures": [
+            "个人免签试点",
+            "指定旅行社",
+            "停留15天"
+          ],
+          "travel_advisory": "必须通过指定旅行社",
+          "tag": "热",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "俄罗斯推出远东电子签证",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "俄罗斯对包括中国在内的55国推出远东地区电子签证，在线申请免费",
+          "source": "俄罗斯外交部",
+          "impact": "俄罗斯远东旅游有望升温",
+          "source_url": "https://www.mid.ru",
+          "key_figures": [
+            "远东电子签",
+            "免费",
+            "停留60天"
+          ],
+          "travel_advisory": "仅限远东联邦区",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "莫斯科中央环线旅游专线开通",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "莫斯科中央环线开通旅游专线列车，串联主要景点和交通枢纽",
+          "source": "俄罗斯旅游局",
+          "impact": "莫斯科市内旅游交通优化",
+          "source_url": "https://www.russia.travel",
+          "key_figures": [
+            "旅游专线",
+            "串联15个景点",
+            "票价与地铁相同"
+          ],
+          "travel_advisory": "购买Troika卡最方便",
+          "tag": "热",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "俄罗斯极地旅游搜索量增长180%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "摩尔曼斯克极光和北极圈旅游搜索量增长180%，中国游客占比最高",
+          "source": "俄罗斯旅游局",
+          "impact": "俄罗斯极地旅游市场崛起",
+          "source_url": "https://www.russia.travel",
+          "key_figures": [
+            "搜索增180%",
+            "中国游客占40%",
+            "人均消费8000元"
+          ],
+          "travel_advisory": "冬季注意极寒天气",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "俄罗斯文学主题旅游路线走红",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "莫斯科—圣彼得堡文学主题路线走红，串联托尔斯泰、普希金故居",
+          "source": "俄罗斯外交部",
+          "impact": "俄罗斯文化旅游深度化",
+          "source_url": "https://www.mid.ru",
+          "key_figures": [
+            "文学主题",
+            "6个作家故居",
+            "人均停留7天"
+          ],
+          "travel_advisory": "请中文导游讲解",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "克里姆林宫新武器库展览开放",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "莫斯科克里姆林宫新增武器库特别展览，展出沙皇时期珍贵武器和珠宝",
+          "source": "俄罗斯旅游局",
+          "impact": "莫斯科核心景点吸引力增强",
+          "source_url": "https://www.russia.travel",
+          "key_figures": [
+            "新增展览",
+            "500+件珍品",
+            "票价700卢布"
+          ],
+          "travel_advisory": "拍照限制较多",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "圣彼得堡白夜节活动盛大开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "圣彼得堡白节(6-7月)推出特别文化活动，帆船节和星光夜市同时举行",
+          "source": "俄罗斯外交部",
+          "impact": "圣彼得堡夏季旅游黄金季",
+          "source_url": "https://www.mid.ru",
+          "key_figures": [
+            "白夜现象",
+            "帆船节",
+            "持续1个月"
+          ],
+          "travel_advisory": "6月日照近20小时",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "莫斯科国际电影节回归",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "莫斯科国际电影节时隔3年回归，展映来自50个国家的200部影片",
+          "source": "俄罗斯旅游局",
+          "impact": "俄罗斯文化交流旅游恢复",
+          "source_url": "https://www.russia.travel",
+          "key_figures": [
+            "50国参展",
+            "200部影片",
+            "为期10天"
+          ],
+          "travel_advisory": "部分场次需俄文",
+          "tag": "新",
+          "country": "俄罗斯"
+        },
+        {
+          "title": "美联航恢复旧金山—北京每日直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "美联航恢复旧金山至北京每日直飞，B787-9执飞，配合中美旅游年",
+          "source": "美国国务院",
+          "impact": "中美直飞航线运力恢复",
+          "source_url": "https://travel.state.gov",
+          "key_figures": [
+            "每日一班",
+            "B787-9",
+            "票价含税8500元"
+          ],
+          "travel_advisory": "B1/B2签证需面试",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "达美航空开通西雅图—成都每周三班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "达美航空开通西雅图至成都航线，每周三班，A330-900执飞",
+          "source": "美国国家旅游局",
+          "impact": "中美西部旅游往来更便捷",
+          "source_url": "https://www.brandusa.com",
+          "key_figures": [
+            "每周3班",
+            "A330neo",
+            "票价含税7800元"
+          ],
+          "travel_advisory": "签证有效期10年",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "美国签证面试等待时间大幅缩短",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "美国驻华使领馆增加面试名额，B1/B2签证面试等待时间从60天缩短至15天",
+          "source": "美国国务院",
+          "impact": "赴美旅游准备时间大幅缩短",
+          "source_url": "https://travel.state.gov",
+          "key_figures": [
+            "等待缩至15天",
+            "增加5个面签城市",
+            "审批加速"
+          ],
+          "travel_advisory": "提前准备DS-160表",
+          "tag": "爆",
+          "country": "美国"
+        },
+        {
+          "title": "美国ESTA系统升级中国护照信息",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "美国ESTA(仅适用于特定免签国)系统提示中国公民需申请B类签证",
+          "source": "美国国家旅游局",
+          "impact": "明确中国公民赴美签证要求",
+          "source_url": "https://www.brandusa.com",
+          "key_figures": [
+            "中国需B签证",
+            "ESTA不适用",
+            "签证费185美元"
+          ],
+          "travel_advisory": "确保持有效签证",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "纽约地铁第二大道线二期通车",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "纽约地铁第二大道线二期通车，新增3个站点连接哈莱姆区",
+          "source": "美国国务院",
+          "impact": "纽约曼哈顿交通覆盖更广",
+          "source_url": "https://travel.state.gov",
+          "key_figures": [
+            "新增3站",
+            "连接哈莱姆",
+            "票价2.9美元"
+          ],
+          "travel_advisory": "MetroCard或OMNY支付",
+          "tag": "热",
+          "country": "美国"
+        },
+        {
+          "title": "美国国家公园旅游预订量增长90%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "黄石、大峡谷和优胜美地等热门国家公园预订量增长90%，营地一帐难求",
+          "source": "美国国务院",
+          "impact": "美国自然旅游需求强劲",
+          "source_url": "https://travel.state.gov",
+          "key_figures": [
+            "预订增90%",
+            "黄石最热门",
+            "营地提前6月预订"
+          ],
+          "travel_advisory": "提前预约营地和许可证",
+          "tag": "热",
+          "country": "美国"
+        },
+        {
+          "title": "美国主题乐园旅游竞争白热化",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "迪士尼和环球影城纷纷扩建新区，奥兰多旅游消费选择更加丰富",
+          "source": "美国国家旅游局",
+          "impact": "主题乐园成为赴美旅游核心吸引",
+          "source_url": "https://www.brandusa.com",
+          "key_figures": [
+            "迪士尼新区",
+            "环球扩建",
+            "人均消费2000美元/周"
+          ],
+          "travel_advisory": "购买年票最划算",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "自由女神像皇冠重新开放预约",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "自由女神像皇冠参观时隔多年重新开放预约，每日限300人攀登",
+          "source": "美国国务院",
+          "impact": "纽约标志性景点体验升级",
+          "source_url": "https://travel.state.gov",
+          "key_figures": [
+            "皇冠重新开放",
+            "日限300人",
+            "票价24美元"
+          ],
+          "travel_advisory": "必须提前4月预约",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "大峡谷天空步道新增玻璃栈道段",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "大峡谷南缘天空步道新增200米玻璃栈道段，可俯瞰科罗拉多河",
+          "source": "美国国家旅游局",
+          "impact": "大峡谷旅游体验创新",
+          "source_url": "https://www.brandusa.com",
+          "key_figures": [
+            "新增200米玻璃段",
+            "海拔2200米",
+            "票价含在入园费中"
+          ],
+          "travel_advisory": "恐高者慎入",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "百老汇音乐剧季票中国游客专属优惠",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "百老汇联盟推出面向中国游客的季票优惠套餐，含6部热门剧目门票",
+          "source": "美国国务院",
+          "impact": "美国文化旅游吸引力增强",
+          "source_url": "https://travel.state.gov",
+          "key_figures": [
+            "6部剧目",
+            "套票500美元",
+            "含中文节目单"
+          ],
+          "travel_advisory": "部分剧目有年龄限制",
+          "tag": "新",
+          "country": "美国"
+        },
+        {
+          "title": "加拿大航空恢复多伦多—上海每日直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "加拿大航空恢复多伦多至上海每日直飞，B787执飞",
+          "source": "加拿大移民局",
+          "impact": "中加直飞航线全面恢复",
+          "source_url": "https://www.canada.ca",
+          "key_figures": [
+            "每日一班",
+            "B787执飞",
+            "票价含税8200元"
+          ],
+          "travel_advisory": "需提前办签证",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "加拿大Rocky Mountaineer观景列车新增中文服务",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "加拿大落基山观景列车新增中文导览服务和中文菜单",
+          "source": "加拿大旅游局",
+          "impact": "加拿大深度旅游体验优化",
+          "source_url": "https://www.destinationcanada.com",
+          "key_figures": [
+            "中文导览",
+            "中文菜单",
+            "2日游最热门",
+            "票价1500加元起"
+          ],
+          "travel_advisory": "白天观景不设卧铺",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "加拿大旅游签证审理时间缩短",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "加拿大签证中心宣布旅游签证审理时间从60天缩短至30天",
+          "source": "加拿大移民局",
+          "impact": "赴加拿大旅游准备时间缩短",
+          "source_url": "https://www.canada.ca",
+          "key_figures": [
+            "审理缩至30天",
+            "在线申请",
+            "可采生物识别"
+          ],
+          "travel_advisory": "提前采指纹",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "加拿大推出超级签证扩容计划",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "加拿大超级签证有效期从10年延长，允许父母祖父母单次停留5年",
+          "source": "加拿大旅游局",
+          "impact": "探亲旅游更加便利",
+          "source_url": "https://www.destinationcanada.com",
+          "key_figures": [
+            "单次停留5年",
+            "需购买保险",
+            "收入要求提高"
+          ],
+          "travel_advisory": "子女收入需达标",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "多伦多横贯地铁全线通车",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "多伦多横贯线(Eglinton Crosstown)轻轨全线通车，连接东西城区",
+          "source": "加拿大移民局",
+          "impact": "多伦多交通网络更加完善",
+          "source_url": "https://www.canada.ca",
+          "key_figures": [
+            "全长19公里",
+            "25个站点",
+            "票价与TTC相同"
+          ],
+          "travel_advisory": "PRESTO卡通用",
+          "tag": "爆",
+          "country": "加拿大"
+        },
+        {
+          "title": "加拿大极光旅游搜索量增长160%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "黄刀镇和白马市极光旅游搜索量增长160%，冬季预订已近满",
+          "source": "加拿大移民局",
+          "impact": "加拿大冬季旅游吸引力强劲",
+          "source_url": "https://www.canada.ca",
+          "key_figures": [
+            "搜索增160%",
+            "黄刀镇最热",
+            "人均消费12000元/周"
+          ],
+          "travel_advisory": "9月至3月最佳",
+          "tag": "热",
+          "country": "加拿大"
+        },
+        {
+          "title": "加拿大品酒旅游持续升温",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "尼亚加拉和奥肯纳根产区品酒旅游预订量增长80%",
+          "source": "加拿大旅游局",
+          "impact": "加拿大酒庄旅游成为新增长点",
+          "source_url": "https://www.destinationcanada.com",
+          "key_figures": [
+            "预订增80%",
+            "尼亚加拉最热",
+            "冰酒品鉴必体验"
+          ],
+          "travel_advisory": "品酒后勿驾车",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "尼亚加拉大瀑布新增夜间灯光秀",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "尼亚加拉大瀑布推出全新夜间激光灯光秀，每晚三场免费观赏",
+          "source": "加拿大移民局",
+          "impact": "经典景点夜间旅游升级",
+          "source_url": "https://www.canada.ca",
+          "key_figures": [
+            "每晚3场",
+            "免费观赏",
+            "持续30分钟"
+          ],
+          "travel_advisory": "秋季水量更大更壮观",
+          "tag": "热",
+          "country": "加拿大"
+        },
+        {
+          "title": "班夫国家公园推出生态观光项目",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "班夫国家公园新增生态观光步道和野生动物观察平台",
+          "source": "加拿大旅游局",
+          "impact": "加拿大国家公园生态保护与旅游并重",
+          "source_url": "https://www.destinationcanada.com",
+          "key_figures": [
+            "新增5条步道",
+            "3个观察平台",
+            "需公园许可证"
+          ],
+          "travel_advisory": "注意野生动物安全",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "蒙特利尔爵士音乐节创纪录",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "蒙特利尔国际爵士音乐节迎来44届，创下120万观众 attendance 纪录",
+          "source": "加拿大移民局",
+          "impact": "加拿大文化盛事国际影响力扩大",
+          "source_url": "https://www.canada.ca",
+          "key_figures": [
+            "44届",
+            "120万观众",
+            "持续10天",
+            "免费演出占70%"
+          ],
+          "travel_advisory": "免费户外演出值得参与",
+          "tag": "新",
+          "country": "加拿大"
+        },
+        {
+          "title": "墨西哥航空开通坎昆—上海季节性包机",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "墨西哥航空开通坎昆至上海季节性包机，每周两班，B787执飞",
+          "source": "墨西哥旅游局",
+          "impact": "中国直飞墨西哥加勒比海岸成为可能",
+          "source_url": "https://www.visitmexico.com",
+          "key_figures": [
+            "每周2班",
+            "季节性包机",
+            "票价含税12000元"
+          ],
+          "travel_advisory": "需办理墨西哥签证",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "墨西哥城新国际机场T1启用",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "墨西哥城AIFA新机场T1航站楼正式启用，分流老城机场压力",
+          "source": "墨西哥外交部",
+          "impact": "墨西哥城航空枢纽能力提升",
+          "source_url": "https://www.gob.mx/sre",
+          "key_figures": [
+            "T1启用",
+            "年吞吐2000万",
+            "距市中心45公里"
+          ],
+          "travel_advisory": "预留交通时间",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "墨西哥对中国公民电子授权实施",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "墨西哥SAE电子授权系统对中国公民开放，持有美国签证可免签入境",
+          "source": "墨西哥旅游局",
+          "impact": "持美签赴墨西哥极为便利",
+          "source_url": "https://www.visitmexico.com",
+          "key_figures": [
+            "SAE电子授权",
+            "持美签免签",
+            "停留180天"
+          ],
+          "travel_advisory": "需有有效美签",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "墨西哥旅游税调整",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "墨西哥对所有外国游客征收100比索旅游税，在机票中代收",
+          "source": "墨西哥外交部",
+          "impact": "旅游成本小幅增加",
+          "source_url": "https://www.gob.mx/sre",
+          "key_figures": [
+            "100比索",
+            "机票代收",
+            "用于旅游基建"
+          ],
+          "travel_advisory": "已含在机票价格中",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "墨西哥城地铁新增3条线路",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "墨西哥城地铁新增3条线路，覆盖更多郊区和旅游景点",
+          "source": "墨西哥旅游局",
+          "impact": "墨西哥城交通更加便捷",
+          "source_url": "https://www.visitmexico.com",
+          "key_figures": [
+            "新增3条线路",
+            "票价5比索",
+            "覆盖40+景点"
+          ],
+          "travel_advisory": "高峰期避开地铁",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "墨西哥玛雅文明旅游搜索量增长110%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "奇琴伊察、帕伦克等玛雅遗址旅游搜索量增长110%，文化深度游受追捧",
+          "source": "墨西哥旅游局",
+          "impact": "墨西哥文化旅游市场崛起",
+          "source_url": "https://www.visitmexico.com",
+          "key_figures": [
+            "搜索增110%",
+            "奇琴伊察最热",
+            "人均消费8000元"
+          ],
+          "travel_advisory": "请当地导游讲解",
+          "tag": "爆",
+          "country": "墨西哥"
+        },
+        {
+          "title": "墨西哥亡灵节主题旅游预订火爆",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "墨西哥亡灵节(Día de Muertos)主题旅游提前预订量增长150%",
+          "source": "墨西哥外交部",
+          "impact": "墨西哥独特文化IP吸引力强",
+          "source_url": "https://www.gob.mx/sre",
+          "key_figures": [
+            "预订增150%",
+            "10月底至11月初",
+            "含墓地参观"
+          ],
+          "travel_advisory": "尊重当地祭祀文化",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "奇琴伊察新增夜间声光秀",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "世界奇迹奇琴伊察推出夜间声光秀'永恒之光'，用投影还原玛雅文明",
+          "source": "墨西哥旅游局",
+          "impact": "墨西哥核心景点夜间旅游创新",
+          "source_url": "https://www.visitmexico.com",
+          "key_figures": [
+            "声光秀",
+            "时长90分钟",
+            "票价800比索"
+          ],
+          "travel_advisory": "带驱蚊液",
+          "tag": "热",
+          "country": "墨西哥"
+        },
+        {
+          "title": "坎昆水下博物馆新增深潜体验",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "坎昆MUSA水下博物馆新增深潜体验项目，游客可近距离观赏500+水下雕塑",
+          "source": "墨西哥外交部",
+          "impact": "坎昆旅游产品差异化",
+          "source_url": "https://www.gob.mx/sre",
+          "key_figures": [
+            "500+雕塑",
+            "深潜体验",
+            "票价150美元"
+          ],
+          "travel_advisory": "需OW潜水证",
+          "tag": "新",
+          "country": "墨西哥"
+        },
+        {
+          "title": "瓜纳华托国际塞万提斯艺术节开幕",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "拉美最大艺术节塞万提斯艺术节在瓜纳华托开幕，为期3周",
+          "source": "墨西哥旅游局",
+          "impact": "墨西哥文化旅游年度盛事",
+          "source_url": "https://www.visitmexico.com",
+          "key_figures": [
+            "3周",
+            "500+演出",
+            "来自40国"
+          ],
+          "travel_advisory": "小城市住宿紧张",
+          "tag": "热",
+          "country": "墨西哥"
+        },
+        {
+          "title": "国航开通北京—圣保罗每周三班直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "中国国航开通北京至圣保罗每周三班直飞，A350-900执飞，航程约22小时",
+          "source": "巴西旅游局",
+          "impact": "中南美旅游可达性大幅提升",
+          "source_url": "https://www.gov.br/turismo",
+          "key_figures": [
+            "每周3班",
+            "A350执飞",
+            "票价含税15000元"
+          ],
+          "travel_advisory": "需办理巴西签证",
+          "tag": "热",
+          "country": "巴西"
+        },
+        {
+          "title": "巴西戈尔航空加密里约—布宜诺斯艾利斯",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "巴西廉航戈尔加密里约至布宜诺斯艾利斯航线至每日两班",
+          "source": "巴西外交部",
+          "impact": "南美跨国旅游更加便捷",
+          "source_url": "https://www.gov.br/mre",
+          "key_figures": [
+            "每日2班",
+            "票价最低200雷亚尔",
+            "1.5小时"
+          ],
+          "travel_advisory": "南美跨国可免签",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "巴西对中国公民电子签证开放",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "巴西对中国公民开放电子签证申请，在线办理，审批15个工作日",
+          "source": "巴西旅游局",
+          "impact": "赴巴西旅游签证更加便利",
+          "source_url": "https://www.gov.br/turismo",
+          "key_figures": [
+            "电子签证",
+            "15个工作日",
+            "费用80美元"
+          ],
+          "travel_advisory": "提前准备黄热病疫苗证明",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "巴西延长亚马逊生态旅游特别签证",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "巴西延长亚马逊地区生态旅游特别签证，允许多次入境，停留60天",
+          "source": "巴西外交部",
+          "impact": "亚马逊生态旅游更加便利",
+          "source_url": "https://www.gov.br/mre",
+          "key_figures": [
+            "多次入境",
+            "停留60天",
+            "指定生态区域"
+          ],
+          "travel_advisory": "需旅行社担保",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "里约地铁延伸至巴拉达蒂茹卡",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "里约地铁4号线延伸至巴拉达蒂茹卡区，连接奥运区域",
+          "source": "巴西旅游局",
+          "impact": "里约旅游交通覆盖扩大",
+          "source_url": "https://www.gov.br/turismo",
+          "key_figures": [
+            "延伸至巴拉",
+            "新增3站",
+            "票价4.5雷亚尔"
+          ],
+          "travel_advisory": "注意财产安全",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "巴西狂欢节旅游提前预订量创新高",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "2027年里约狂欢节旅游套餐提前预订量增长85%，桑巴学校体验最热",
+          "source": "巴西旅游局",
+          "impact": "巴西文化旅游吸引力持续",
+          "source_url": "https://www.gov.br/turismo",
+          "key_figures": [
+            "预订增85%",
+            "桑巴学校最热",
+            "人均消费15000元"
+          ],
+          "travel_advisory": "提前半年订住宿",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "亚马逊雨林生态旅游走红",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "亚马逊雨林生态旅馆预订量增长120%，3-5天丛林探险最受欢迎",
+          "source": "巴西外交部",
+          "impact": "巴西生态旅游成为新增长极",
+          "source_url": "https://www.gov.br/mre",
+          "key_figures": [
+            "预订增120%",
+            "丛林探险最热",
+            "人均消费6000元"
+          ],
+          "travel_advisory": "必须接种疫苗",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "基督像新增无障碍通道和观景台",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "里约基督像完成无障碍改造，新增轮椅通道和玻璃观景台",
+          "source": "巴西旅游局",
+          "impact": "标志性景点包容性提升",
+          "source_url": "https://www.gov.br/turismo",
+          "key_figures": [
+            "无障碍通道",
+            "玻璃观景台",
+            "门票70雷亚尔"
+          ],
+          "travel_advisory": "乘小火车上山",
+          "tag": "爆",
+          "country": "巴西"
+        },
+        {
+          "title": "伊瓜苏瀑布新增直升机观光",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "伊瓜苏瀑布推出直升机观光项目，10分钟俯瞰世界最大瀑布群",
+          "source": "巴西外交部",
+          "impact": "伊瓜苏旅游体验升级",
+          "source_url": "https://www.gov.br/mre",
+          "key_figures": [
+            "10分钟飞行",
+            "275个瀑布",
+            "票价600雷亚尔"
+          ],
+          "travel_advisory": "天气影响飞行",
+          "tag": "新",
+          "country": "巴西"
+        },
+        {
+          "title": "里约热内卢摇滚音乐节规模扩大",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "Rock in Rio音乐节扩大规模，新增1个舞台，邀请全球100+乐队参演",
+          "source": "巴西旅游局",
+          "impact": "巴西音乐文化旅游盛事",
+          "source_url": "https://www.gov.br/turismo",
+          "key_figures": [
+            "100+乐队",
+            "新增1舞台",
+            "每日10万观众"
+          ],
+          "travel_advisory": "注意防暑和防盗",
+          "tag": "热",
+          "country": "巴西"
+        },
+        {
+          "title": "澳航恢复悉尼—上海每日直飞",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "澳大利亚航空恢复悉尼至上海浦东每日直飞，A350-1000执飞",
+          "source": "澳大利亚旅游局",
+          "impact": "中澳直飞航线全面恢复",
+          "source_url": "https://www.australia.com",
+          "key_figures": [
+            "每日一班",
+            "A350-1000",
+            "票价含税9500元"
+          ],
+          "travel_advisory": "需提前办签证",
+          "tag": "热",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "维珍澳洲开通墨尔本—深圳每周三班",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "维珍澳洲航空开通墨尔本至深圳航线，每周三班，B787执飞",
+          "source": "澳大利亚内政部",
+          "impact": "华南赴澳有了直飞选择",
+          "source_url": "https://immi.homeaffairs.gov.au",
+          "key_figures": [
+            "每周3班",
+            "B787执飞",
+            "票价含税8800元"
+          ],
+          "travel_advisory": "电子签证600类",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "澳大利亚推出10年旅游签证",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "澳大利亚对中国公民推出10年多次往返旅游签证，每次停留90天",
+          "source": "澳大利亚旅游局",
+          "impact": "赴澳旅游长期便利",
+          "source_url": "https://www.australia.com",
+          "key_figures": [
+            "10年有效",
+            "每次90天",
+            "费用1000澳元"
+          ],
+          "travel_advisory": "需提供体检报告",
+          "tag": "热",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "澳大利亚电子通关系统升级",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "澳大利亚SmartGate电子通关系统升级，支持中文界面，通关时间缩短至30秒",
+          "source": "澳大利亚内政部",
+          "impact": "入境体验更加顺畅",
+          "source_url": "https://immi.homeaffairs.gov.au",
+          "key_figures": [
+            "中文界面",
+            "30秒通关",
+            "自助办理"
+          ],
+          "travel_advisory": "准备纸质入境卡备用",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "悉尼地铁西城线通车",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "悉尼地铁西城线正式通车，连接市中心和西区Parramatta，全程25分钟",
+          "source": "澳大利亚旅游局",
+          "impact": "悉尼交通网络扩展",
+          "source_url": "https://www.australia.com",
+          "key_figures": [
+            "全程25分钟",
+            "连接西区",
+            "票价与公交相同"
+          ],
+          "travel_advisory": "Opal卡通用",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "澳大利亚野生动物旅游搜索量增长95%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "大堡礁潜水、考拉抱合影和袋鼠岛等野生动物旅游搜索量增长95%",
+          "source": "澳大利亚旅游局",
+          "impact": "澳大利亚自然旅游优势凸显",
+          "source_url": "https://www.australia.com",
+          "key_figures": [
+            "搜索增95%",
+            "大堡礁最热",
+            "人均消费12000元"
+          ],
+          "travel_advisory": "注意防晒和海洋安全",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "澳大利亚原住民文化体验游走红",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "原住民文化体验旅游预订量增长70%，乌鲁鲁星空晚宴和梦幻时光之旅最热",
+          "source": "澳大利亚内政部",
+          "impact": "澳大利亚文化旅游差异化",
+          "source_url": "https://immi.homeaffairs.gov.au",
+          "key_figures": [
+            "预订增70%",
+            "乌鲁鲁最热",
+            "人均2000澳元"
+          ],
+          "travel_advisory": "尊重原住民文化",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "悉尼歌剧院新增屋顶攀爬体验",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "悉尼歌剧院推出屋顶攀爬项目，游客可攀上帆船屋顶俯瞰海港",
+          "source": "澳大利亚旅游局",
+          "impact": "悉尼地标景点体验创新",
+          "source_url": "https://www.australia.com",
+          "key_figures": [
+            "屋顶攀爬",
+            "高度67米",
+            "票价170澳元"
+          ],
+          "travel_advisory": "有体重限制",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "大堡礁新增玻璃底船观光",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "大堡礁推出玻璃底船观光项目，不潜水也能欣赏珊瑚礁美景",
+          "source": "澳大利亚内政部",
+          "impact": "大堡礁旅游受众面扩大",
+          "source_url": "https://immi.homeaffairs.gov.au",
+          "key_figures": [
+            "玻璃底船",
+            "不潜水可体验",
+            "票价80澳元"
+          ],
+          "travel_advisory": "防晒和晕船药",
+          "tag": "新",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "墨尔本国际喜剧节规模创纪录",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "墨尔本国际喜剧节迎来40周年，超过1000场演出和60国喜剧人参与",
+          "source": "澳大利亚旅游局",
+          "impact": "澳大利亚文化旅游盛事",
+          "source_url": "https://www.australia.com",
+          "key_figures": [
+            "40周年",
+            "1000+演出",
+            "60国参与"
+          ],
+          "travel_advisory": "部分演出需英语理解",
+          "tag": "爆",
+          "country": "澳大利亚"
+        },
+        {
+          "title": "新西兰航空增班奥克兰—上海至每日",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "新西兰航空将奥克兰至上海增至每日一班，B787-9执飞",
+          "source": "新西兰旅游局",
+          "impact": "中新直飞运力大幅提升",
+          "source_url": "https://www.newzealand.com",
+          "key_figures": [
+            "每日一班",
+            "B787-9",
+            "票价含税9000元"
+          ],
+          "travel_advisory": "需提前办签证",
+          "tag": "爆",
+          "country": "新西兰"
+        },
+        {
+          "title": "新西兰国内航线电动飞机试点",
+          "category": "旅游利好要闻",
+          "sub_category": "航线交通",
+          "summary": "新西兰航空在新西兰国内短途航线试用电动飞机，奥克兰—惠灵顿为首条",
+          "source": "新西兰移民局",
+          "impact": "绿色航空旅游先行者",
+          "source_url": "https://www.immigration.govt.nz",
+          "key_figures": [
+            "电动飞机",
+            "首条国内航线",
+            "零碳排放",
+            "票价不变"
+          ],
+          "travel_advisory": "关注航班机型",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "新西兰推出多重入境旅游签证",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "新西兰对中国公民推出3年多次往返旅游签证，每次停留3个月",
+          "source": "新西兰旅游局",
+          "impact": "赴新西兰旅游长期便利",
+          "source_url": "https://www.newzealand.com",
+          "key_figures": [
+            "3年多次",
+            "每次3个月",
+            "费用341新西兰元"
+          ],
+          "travel_advisory": "准备好资金证明",
+          "tag": "热",
+          "country": "新西兰"
+        },
+        {
+          "title": "新西兰NZeTA电子旅行授权实施",
+          "category": "旅游利好要闻",
+          "sub_category": "出入境政策",
+          "summary": "新西兰对中转旅客实施NZeTA电子旅行授权，即使过境也需申请",
+          "source": "新西兰移民局",
+          "impact": "经新西兰转机需注意新规",
+          "source_url": "https://www.immigration.govt.nz",
+          "key_figures": [
+            "NZeTA必需",
+            "包括过境",
+            "费用9新西兰元起"
+          ],
+          "travel_advisory": "转机也需要NZeTA",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "奥克兰城市铁路通车",
+          "category": "旅游利好要闻",
+          "sub_category": "本地生活",
+          "summary": "奥克兰城市铁路(City Rail Link)正式通车，连接市中心和西区",
+          "source": "新西兰旅游局",
+          "impact": "奥克兰交通基础设施升级",
+          "source_url": "https://www.newzealand.com",
+          "key_figures": [
+            "地下铁路",
+            "连接市中心",
+            "票价与公交相同"
+          ],
+          "travel_advisory": "AT HOP卡通用",
+          "tag": "热",
+          "country": "新西兰"
+        },
+        {
+          "title": "新西兰自驾游搜索量增长110%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "新西兰南岛自驾游搜索量增长110%，房车自驾最受欢迎",
+          "source": "新西兰旅游局",
+          "impact": "新西兰自由行市场强劲",
+          "source_url": "https://www.newzealand.com",
+          "key_figures": [
+            "搜索增110%",
+            "房车自驾最热",
+            "人均消费15000元/2周"
+          ],
+          "travel_advisory": "靠左行驶注意适应",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "新西兰毛利文化体验预订量增长85%",
+          "category": "旅游利好要闻",
+          "sub_category": "旅游趋势",
+          "summary": "罗托鲁瓦毛利文化村和Hangi大餐体验预订量增长85%",
+          "source": "新西兰移民局",
+          "impact": "新西兰文化旅游持续增长",
+          "source_url": "https://www.immigration.govt.nz",
+          "key_figures": [
+            "预订增85%",
+            "罗托鲁瓦最热",
+            "人均200新西兰元"
+          ],
+          "travel_advisory": "尊重毛利文化礼仪",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "米尔福德峡湾新增电动游船",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "米尔福德峡湾推出全电动游船，零排放游览世界遗产峡湾",
+          "source": "新西兰旅游局",
+          "impact": "环保旅游与生态保护结合",
+          "source_url": "https://www.newzealand.com",
+          "key_figures": [
+            "全电动",
+            "零排放",
+            "票价120新西兰元",
+            "航程2小时"
+          ],
+          "travel_advisory": "峡湾天气多变",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "汤加里罗穿越步道升级改造",
+          "category": "旅游利好要闻",
+          "sub_category": "景点活动",
+          "summary": "新西兰最著名的汤加里罗高山穿越步道完成安全升级改造",
+          "source": "新西兰移民局",
+          "impact": "世界遗产步道体验提升",
+          "source_url": "https://www.immigration.govt.nz",
+          "key_figures": [
+            "19.4公里",
+            "安全升级",
+            "免费徒步",
+            "需7-8小时"
+          ],
+          "travel_advisory": "需提前预订穿梭巴士",
+          "tag": "新",
+          "country": "新西兰"
+        },
+        {
+          "title": "新西兰国际电影节回归",
+          "category": "旅游利好要闻",
+          "sub_category": "文娱信息",
+          "summary": "新西兰国际电影节(NZIFF)时隔2年回归，在12个城市巡回放映",
+          "source": "新西兰旅游局",
+          "impact": "新西兰文化交流旅游恢复",
+          "source_url": "https://www.newzealand.com",
+          "key_figures": [
+            "12个城市",
+            "100+部影片",
+            "为期2个月"
+          ],
+          "travel_advisory": "部分场次有导演到场",
+          "tag": "新",
+          "country": "新西兰"
+        }
+      ]
+    }
+  }
+}
